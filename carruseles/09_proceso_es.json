@@ -1,0 +1,147 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "09_proceso_es",
+ "idioma": "es",
+ "negocio": "Disseny Web PM",
+ "dominio": "dissenywebpm.com",
+ "pastilla": "5 pasos",
+ "portada": "Así trabajo, // *paso a paso*",
+ "gancho": {
+  "pastilla": "Así trabajo",
+  "texto": "De tu WhatsApp // *a tu web*",
+  "maqueta": {
+   "tipo": "chat",
+   "globos": [
+    {
+     "de": "cliente",
+     "texto": "Hola, tengo una peluquería y quiero una web."
+    },
+    {
+     "de": "negocio",
+     "texto": "¡Hola! Cuéntame un poco y en 48 h te enseño una demo, gratis."
+    }
+   ]
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Me escribes // *por WhatsApp*",
+   "nota": "Sin reuniones largas: me cuentas tu negocio.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, tengo una peluquería y quiero una web."
+     },
+     {
+      "de": "negocio",
+      "texto": "¡Hola! Cuéntame un poco y en 48 h te enseño una demo, gratis."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "En 48 h, // *una demo gratis*",
+   "nota": "La ves antes de pagar nada. Sin compromiso.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Peluquería en Girona",
+    "subtitulo": "Corte, color y peinados.",
+    "menu": [
+     "Servicios",
+     "Precios",
+     "Contacto"
+    ],
+    "foto": 3,
+    "negocio": "Peluquería Fulanito",
+    "dominio": "peluqueriafulanito.com",
+    "boton": "Pide hora por WhatsApp",
+    "senala": "todo"
+   }
+  },
+  {
+   "titulo": "La ajustamos // *a tu gusto*",
+   "nota": "Me pasas textos y fotos, y yo los pongo.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Me gusta. ¿Podemos poner las fotos del local?"
+     },
+     {
+      "de": "cliente",
+      "fotos": true
+     },
+     {
+      "de": "negocio",
+      "texto": "Claro, ya están puestas."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "La publico, // *todo incluido*",
+   "nota": "No tienes que preocuparte de nada técnico.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Incluido",
+    "filas": [
+     [
+      "Dominio a tu nombre",
+      "",
+      "ok"
+     ],
+     [
+      "Alojamiento",
+      "",
+      "ok"
+     ],
+     [
+      "Mantenimiento básico",
+      "",
+      "ok"
+     ],
+     [
+      "Copia del código guardada",
+      "",
+      "ok"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "¿Cambios? // *Me escribes*",
+   "nota": "Los cambios los hago yo, sin que toques nada.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "¿Puedes cambiar el horario de agosto?"
+     },
+     {
+      "de": "negocio",
+      "texto": "Hecho. Ya está en la web."
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Pídeme tu demo, gratis en 48 h",
+ "guardar": "Guárdatelo para cuando te decidas",
+ "guion": [
+  "Así trabajo, de tu primer WhatsApp a tu web publicada.",
+  "Me escribes por WhatsApp y me cuentas tu negocio.",
+  "En 48 horas te enseño una demo, gratis. La ves antes de pagar nada.",
+  "La ajustamos a tu gusto: me pasas textos y fotos y yo los pongo.",
+  "La publico con todo incluido: dominio a tu nombre, alojamiento y mantenimiento básico.",
+  "Y si quieres cambiar algo, me escribes y lo hago yo.",
+  "Pídeme tu demo gratis. Escríbeme por WhatsApp."
+ ]
+}

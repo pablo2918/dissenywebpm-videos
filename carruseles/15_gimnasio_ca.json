@@ -1,0 +1,146 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "15_gimnasio_ca",
+ "idioma": "ca",
+ "negocio": "Gimnàs Fulanito",
+ "dominio": "gimnasfulanito.com",
+ "pastilla": "Gimnasos",
+ "portada": "Abans d'apuntar-se // *mira això*",
+ "gancho": {
+  "pastilla": "Gimnasos",
+  "texto": "Quant costa la teva quota? // *La teva web no ho diu.*",
+  "maqueta": {
+   "tipo": "lista",
+   "titulo": "Tarifes",
+   "filas": [
+    [
+     "Mensual",
+     "Pregunta a recepció",
+     "mal"
+    ],
+    [
+     "Trimestral",
+     "Pregunta a recepció",
+     "mal"
+    ],
+    [
+     "Matrícula",
+     "Pregunta a recepció",
+     "mal"
+    ]
+   ],
+   "casillas": false,
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Quant costa // *la quota*",
+   "nota": "Sense preu, compara amb el que sí que el posa.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Tarifes",
+    "filas": [
+     [
+      "Mensual",
+      "39 €/mes",
+      "bien"
+     ],
+     [
+      "Trimestral",
+      "105 €",
+      "bien"
+     ],
+     [
+      "Matrícula",
+      "Pregunta a recepció",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Horari // *de classes*",
+   "nota": "Que vegi si li encaixa abans de venir.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Classes d'avui",
+    "filas": [
+     [
+      "Spinning",
+      "7:30",
+      "bien"
+     ],
+     [
+      "Pilates",
+      "10:00",
+      "bien"
+     ],
+     [
+      "Funcional",
+      "19:00",
+      "bien"
+     ],
+     [
+      "Ioga",
+      "20:30",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Les instal·lacions, // *en fotos*",
+   "nota": "Els vestidors també compten.",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "El gimnàs",
+    "etiquetas": [
+     "Sala",
+     "Classes",
+     "Vestidors"
+    ],
+    "pie": "Fotos del teu gimnàs, no de catàleg"
+   }
+  },
+  {
+   "titulo": "Una classe // *de prova*",
+   "nota": "Provar treu la por d'apuntar-se.",
+   "maqueta": {
+    "tipo": "movil_boton",
+    "titular": "Gimnàs Fulanito",
+    "texto": "Prova una classe gratis abans d'apuntar-te.",
+    "boton": "Reserva la classe de prova"
+   }
+  },
+  {
+   "titulo": "On és // *i si hi ha pàrquing*",
+   "nota": "A les 7 del matí, el pàrquing importa.",
+   "maqueta": {
+    "tipo": "zonas",
+    "titulo": "On som",
+    "zonas": [
+     "Carrer Major, 12",
+     "Girona",
+     "Pàrquing gratuït"
+    ]
+   }
+  }
+ ],
+ "cierre": "Et faig la demo de la web del teu gimnàs, gratis en 48 h",
+ "guardar": "Desa-te'l i mira la teva web",
+ "guion": [
+  "Quant costa la teva quota? Si la teva web no ho diu, qui busca gimnàs compara amb el que sí que ho diu.",
+  "La quota, amb preu. I si hi ha matrícula, també.",
+  "L'horari de les classes, per veure si li encaixa.",
+  "Fotos de les instal·lacions. També dels vestidors.",
+  "Una classe de prova, que es reservi amb un toc.",
+  "I on ets, i si hi ha pàrquing.",
+  "Et faig la demo de la web del teu gimnàs gratis en 48 hores. Escriu-me per WhatsApp."
+ ]
+}

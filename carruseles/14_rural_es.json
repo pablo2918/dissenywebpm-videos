@@ -1,0 +1,149 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "14_rural_es",
+ "idioma": "es",
+ "negocio": "Mas Fulanito",
+ "dominio": "masfulanito.com",
+ "pastilla": "5 cosas",
+ "portada": "Reservas directas // *para tu casa rural*",
+ "gancho": {
+  "pastilla": "Casa rural",
+  "texto": "Cada reserva por Booking // *te cuesta una comisión*",
+  "maqueta": {
+   "tipo": "lista",
+   "titulo": "Reserva por plataforma",
+   "filas": [
+    [
+     "Precio de la estancia",
+     "240 €",
+     "bien"
+    ],
+    [
+     "Comisión",
+     "Se descuenta",
+     "mal"
+    ],
+    [
+     "Lo que cobras tú",
+     "Menos",
+     "bien"
+    ]
+   ],
+   "casillas": false,
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Un botón para // *reservar directo*",
+   "nota": "Quien repite puede reservar directamente contigo.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Masía con piscina cerca de Girona",
+    "subtitulo": "6 habitaciones, ideal para familias y grupos.",
+    "menu": [
+     "La casa",
+     "Entorno",
+     "Contacto"
+    ],
+    "foto": 2,
+    "boton": "Reserva directa por WhatsApp",
+    "senala": "boton"
+   }
+  },
+  {
+   "titulo": "Fotos // *de verdad*",
+   "nota": "Que vea cada rincón antes de llegar.",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "La casa",
+    "etiquetas": [
+     "Habitaciones",
+     "Piscina",
+     "Comedor"
+    ],
+    "pie": "Fotos de tu casa, no de catálogo"
+   }
+  },
+  {
+   "titulo": "Qué incluye // *el precio*",
+   "nota": "Lo que no está claro se convierte en preguntas.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Incluido",
+    "filas": [
+     [
+      "Desayuno",
+      "",
+      "ok"
+     ],
+     [
+      "Piscina",
+      "",
+      "ok"
+     ],
+     [
+      "Wifi",
+      "",
+      "ok"
+     ],
+     [
+      "Mascotas",
+      "No admitidas",
+      "mal"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "Qué hay // *cerca*",
+   "nota": "Les ayudas a planear el viaje, y a elegirte.",
+   "maqueta": {
+    "tipo": "zonas",
+    "titulo": "A pocos minutos",
+    "zonas": [
+     "Girona",
+     "Banyoles",
+     "Costa Brava",
+     "Rutas en bici"
+    ]
+   }
+  },
+  {
+   "titulo": "Qué dicen // *otros huéspedes*",
+   "nota": "Y que vea que contestas a cada huésped.",
+   "maqueta": {
+    "tipo": "resenas",
+    "respuesta_titulo": "Respuesta del propietario",
+    "resenas": [
+     {
+      "nombre": "Anna R.",
+      "estrellas": 5,
+      "texto": "Casa preciosa y muy tranquila. Volveremos.",
+      "respuesta": "¡Gracias, Anna! Os esperamos en primavera."
+     },
+     {
+      "nombre": "Marc T.",
+      "estrellas": 5,
+      "texto": "Ideal para ir con niños."
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Te hago la demo de la web de tu casa rural, gratis en 48 h",
+ "guardar": "Guárdatelo para antes de la temporada",
+ "guion": [
+  "Cada reserva que te llega por Booking te cuesta una comisión. Con tu propia web, parte de esas reservas pueden llegarte directas.",
+  "Un botón para reservar directo contigo, por WhatsApp.",
+  "Fotos de verdad, de cada rincón de la casa.",
+  "Qué incluye el precio, y qué no.",
+  "Qué hay cerca, para planear el viaje.",
+  "Y qué dicen otros huéspedes.",
+  "Te hago la demo de la web de tu casa rural gratis en 48 horas. Escríbeme por WhatsApp."
+ ]
+}

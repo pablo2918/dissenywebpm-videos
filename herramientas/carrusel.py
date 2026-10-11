@@ -140,7 +140,10 @@ def ajusta_titulo(texto, peso, maximo, minimo, ancho, alto_max, max_lineas, d, m
                         [(x.upper() if mayus else x, 0, 0) for x, _, _ in pal])
         alto = len(lin) * tam * interlinea
         # palabra corta colgando sola (salvo que el salto sea a proposito)
-        huerfana = any(len(l) == 1 and len(l[0][0]) <= 4 and i not in forzadas
+        # (un salto a proposito solo se respeta si deja la palabra al final:
+        # «SI ABRES / HOY» si; «TU CARTA, / SIN / «CONSULTAR»» no)
+        huerfana = any(len(l) == 1 and len(l[0][0]) <= 4
+                       and not (i in forzadas and i == len(lin) - 1)
                        for i, l in enumerate(lin) if i)
         if len(lin) <= max_lineas and alto <= alto_max and anchos_ok and not huerfana:
             return font, lin, tam
@@ -313,6 +316,14 @@ def icono_whatsapp(d, cx, cy, r, fondo=VERDE):
     d.poly([(cx - r * .55, cy + r * .35), (cx - r * .7, cy + r * .75), (cx - r * .25, cy + r * .55)], fill=BLANCO)
 
 
+def cabe_fila(d, et, val, peso_et, peso_val, tam_et, tam_val, ancho, hueco=36):
+    """Reduce los dos cuerpos de letra hasta que etiqueta y valor caben en la fila."""
+    while tam_et > 18 and d.tl(et, f(peso_et, tam_et)) + (d.tl(val, f(peso_val, tam_val)) if val else 0) + hueco > ancho:
+        tam_et -= 1
+        tam_val = max(16, tam_val - 1)
+    return f(peso_et, tam_et), f(peso_val, tam_val)
+
+
 # ---------------------------------------------------------------- maquetas
 # Cada maqueta dibuja dentro de la caja de trabajo de la tarjeta y recibe
 # sus textos del JSON (asi cada idioma lleva los suyos).
@@ -333,8 +344,9 @@ def m_ficha(base, d, box, m, ctx):
         fy = y + i * alto
         cy = fy + alto / 2
         d.ellipse((x0, cy - 16, x0 + 32, cy + 16), fill=FONDO_FILA, outline=LINEA, width=2)
-        d.text((x0 + 52, cy), et, f("SemiBold", 31), AZUL, anchor="lm")
-        d.text((x1, cy), val, f("Medium", 29), ROJO if mal else GRIS, anchor="rm")
+        fe, fv = cabe_fila(d, et, val, "SemiBold", "Medium", 31, 29, x1 - x0 - 52)
+        d.text((x0 + 52, cy), et, fe, AZUL, anchor="lm")
+        d.text((x1, cy), val, fv, ROJO if mal else GRIS, anchor="rm")
         if mal:
             senala(d, (x0 - 6, cy - alto / 2 + 10, x1 + 6, cy + alto / 2 - 10))
         elif i < len(filas) - 1:
@@ -356,9 +368,9 @@ def m_lista(base, d, box, m, ctx):
         if m.get("casillas"):
             casilla(d, x0, cy - 17, estado != "mal")
             tx = x0 + 58
-        d.text((tx, cy), et, f("SemiBold", 34), AZUL, anchor="lm")
-        d.text((x1, cy), val, f("Medium" if estado != "bien" else "Bold", 32),
-               ROJO if estado == "mal" else (AZUL if estado == "bien" else GRIS), anchor="rm")
+        fe, fv = cabe_fila(d, et, val, "SemiBold", "Medium" if estado != "bien" else "Bold", 34, 32, x1 - tx)
+        d.text((tx, cy), et, fe, AZUL, anchor="lm")
+        d.text((x1, cy), val, fv, ROJO if estado == "mal" else (AZUL if estado == "bien" else GRIS), anchor="rm")
         if estado == "mal":
             senala(d, (x0 - 6, cy - alto / 2 + 12, x1 + 6, cy + alto / 2 - 12))
         elif i < len(filas) - 1:
@@ -535,7 +547,7 @@ def m_chat(base, d, box, m, ctx):
     d.rect((sx0, sy0 + 110, sx1, sy1), fill=(236, 229, 221))
     d.rect((sx0, sy1 - 40, sx1, sy1), fill=(236, 229, 221), r=36)
     y = sy0 + 134
-    ft = f("Medium", 22)
+    ft = f("Medium", 26)
     for g in m["globos"]:
         mio = g["de"] == "cliente"
         if g.get("fotos"):
@@ -545,15 +557,15 @@ def m_chat(base, d, box, m, ctx):
                 pega_foto(base, (gx + k * (gw + 8), y), gw, gh, k + 1, 12)
             y += gh + 14
             continue
-        lineas = parte(g["texto"], ft, 290, d)
+        lineas = parte(g["texto"], ft, 300, d)
         gw = max(d.tl(l, ft) for l in lineas) + 30
-        gh = 26 + 30 * len(lineas)
+        gh = 28 + 34 * len(lineas)
         gx = sx1 - 18 - gw if mio else sx0 + 18
         d.rect((gx, y, gx + gw, y + gh), fill=(217, 253, 211) if mio else BLANCO, r=14)
         ly = y + 12
         for l in lineas:
-            d.text((gx + 15, ly), l, ft, AZUL)
-            ly += 30
+            d.text((gx + 16, ly), l, ft, AZUL)
+            ly += 34
         y += gh + 14
 
 
@@ -581,9 +593,9 @@ def etiqueta_mal(d, x, y, txt, ancla="l"):
 def m_web(base, d, box, m, ctx):
     """Primera pantalla de una web en el navegador. `senala` marca una pieza."""
     x0, y0, x1, y1 = box
-    bx0, by0, bx1, by1 = _navegador(d, box, ctx["dominio"])
+    bx0, by0, bx1, by1 = _navegador(d, box, m.get("dominio", ctx["dominio"]))
     y = by0 + 22
-    d.text((bx0 + 26, y + 14), ctx["negocio"], f("ExtraBold", 21), AZUL, anchor="lm")
+    d.text((bx0 + 26, y + 14), m.get("negocio", ctx["negocio"]), f("ExtraBold", 21), AZUL, anchor="lm")
     mx = bx1 - 26
     for it in reversed(m.get("menu", [])):
         ft = f("Medium", 17)

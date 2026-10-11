@@ -1,0 +1,146 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "15_gimnasio_es",
+ "idioma": "es",
+ "negocio": "Gimnasio Fulanito",
+ "dominio": "gimnasiofulanito.com",
+ "pastilla": "Gimnasios",
+ "portada": "Antes de apuntarse // *mira esto*",
+ "gancho": {
+  "pastilla": "Gimnasios",
+  "texto": "¿Cuánto cuesta tu cuota? // *Tu web no lo dice.*",
+  "maqueta": {
+   "tipo": "lista",
+   "titulo": "Tarifas",
+   "filas": [
+    [
+     "Mensual",
+     "Pregunta en recepción",
+     "mal"
+    ],
+    [
+     "Trimestral",
+     "Pregunta en recepción",
+     "mal"
+    ],
+    [
+     "Matrícula",
+     "Pregunta en recepción",
+     "mal"
+    ]
+   ],
+   "casillas": false,
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Cuánto cuesta // *la cuota*",
+   "nota": "Sin precio, compara con el que sí lo pone.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Tarifas",
+    "filas": [
+     [
+      "Mensual",
+      "39 €/mes",
+      "bien"
+     ],
+     [
+      "Trimestral",
+      "105 €",
+      "bien"
+     ],
+     [
+      "Matrícula",
+      "Pregunta en recepción",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Horario // *de clases*",
+   "nota": "Que vea si le encaja antes de venir.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Clases de hoy",
+    "filas": [
+     [
+      "Spinning",
+      "7:30",
+      "bien"
+     ],
+     [
+      "Pilates",
+      "10:00",
+      "bien"
+     ],
+     [
+      "Funcional",
+      "19:00",
+      "bien"
+     ],
+     [
+      "Yoga",
+      "20:30",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Las instalaciones, // *en fotos*",
+   "nota": "Los vestuarios también cuentan.",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "El gimnasio",
+    "etiquetas": [
+     "Sala",
+     "Clases",
+     "Vestuarios"
+    ],
+    "pie": "Fotos de tu gimnasio, no de catálogo"
+   }
+  },
+  {
+   "titulo": "Una clase // *de prueba*",
+   "nota": "Probar quita el miedo a apuntarse.",
+   "maqueta": {
+    "tipo": "movil_boton",
+    "titular": "Gimnasio Fulanito",
+    "texto": "Prueba una clase gratis antes de apuntarte.",
+    "boton": "Reserva tu clase de prueba"
+   }
+  },
+  {
+   "titulo": "Dónde está // *y si hay parking*",
+   "nota": "A las 7 de la mañana, el parking importa.",
+   "maqueta": {
+    "tipo": "zonas",
+    "titulo": "Dónde estamos",
+    "zonas": [
+     "Carrer Major, 12",
+     "Girona",
+     "Parking gratis"
+    ]
+   }
+  }
+ ],
+ "cierre": "Te hago la demo de la web de tu gimnasio, gratis en 48 h",
+ "guardar": "Guárdatelo y mira tu web",
+ "guion": [
+  "¿Cuánto cuesta tu cuota? Si tu web no lo dice, quien busca gimnasio compara con el que sí lo dice.",
+  "La cuota, con precio. Y si hay matrícula, también.",
+  "El horario de las clases, para ver si le encaja.",
+  "Fotos de las instalaciones. También de los vestuarios.",
+  "Una clase de prueba, que se reserve en un toque.",
+  "Y dónde estás, y si hay parking.",
+  "Te hago la demo de la web de tu gimnasio gratis en 48 horas. Escríbeme por WhatsApp."
+ ]
+}

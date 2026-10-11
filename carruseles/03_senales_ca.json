@@ -1,0 +1,144 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "03_senales_ca",
+ "idioma": "ca",
+ "negocio": "El teu negoci",
+ "dominio": "elteunegoci.com",
+ "pastilla": "5 senyals",
+ "portada": "La teva web et porta clients, // *o només hi és?*",
+ "gancho": {
+  "pastilla": "Fes la prova",
+  "texto": "La teva web et porta clients? // *Fes la prova*",
+  "maqueta": {
+   "tipo": "chat",
+   "globos": [
+    {
+     "de": "cliente",
+     "texto": "Obriu els dissabtes?"
+    },
+    {
+     "de": "cliente",
+     "texto": "Feu pressupostos?"
+    },
+    {
+     "de": "cliente",
+     "texto": "On puc aparcar?"
+    }
+   ]
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Ningú et diu // *«et vaig veure a la web»*",
+   "nota": "Si la web no surt en aquesta resposta, no està treballant.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "negocio",
+      "texto": "Com ens has conegut?"
+     },
+     {
+      "de": "cliente",
+      "texto": "M'ho va dir una amiga."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Et pregunten // *el mateix cada dia*",
+   "nota": "Cada pregunta repetida és una cosa que la teva web no respon.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Obriu els dissabtes?"
+     },
+     {
+      "de": "cliente",
+      "texto": "Feu pressupostos?"
+     },
+     {
+      "de": "cliente",
+      "texto": "On puc aparcar?"
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "No saps // *quanta gent hi entra*",
+   "nota": "El que no es mesura, no es pot millorar.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Visites aquest mes",
+    "filas": [
+     [
+      "Visites",
+      "No ho sé",
+      "mal"
+     ],
+     [
+      "Des de Google",
+      "No ho sé",
+      "mal"
+     ],
+     [
+      "WhatsApps des de la web",
+      "No ho sé",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "L'última vegada // *que la vas tocar*",
+   "nota": "Una web aturada dona imatge de negoci aturat.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "La teva web",
+    "filas": [
+     [
+      "Última actualització",
+      "2019",
+      "mal"
+     ],
+     [
+      "Preus",
+      "De fa anys",
+      "mal"
+     ],
+     [
+      "Fotos",
+      "Del local antic",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Ni un WhatsApp // *des de la web*",
+   "nota": "Si ningú t'escriu des d'ella, li falta alguna cosa.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": []
+   }
+  }
+ ],
+ "cierre": "Si t'ha passat alguna, et faig una demo gratis en 48 h",
+ "guardar": "Desa-te'l i repassa-ho amb calma",
+ "guion": [
+  "La teva web et porta clients, o només hi és? Si et passa una d'aquestes cinc coses, només hi és.",
+  "U: ningú et diu «et vaig veure a la web».",
+  "Dos: et pregunten el mateix cada dia.",
+  "Tres: no saps quanta gent hi entra.",
+  "Quatre: fa anys que ningú la toca.",
+  "I cinc: no t'arriba ni un WhatsApp des d'ella.",
+  "Si t'ha passat alguna, et faig una demo gratis en 48 hores. Escriu-me per WhatsApp."
+ ]
+}

@@ -25,7 +25,14 @@ hojas de revisión en `.tmp/revision/` que hay que **mirar** antes de entregar.
 
 | Tema | Negocio de ejemplo |
 |---|---|
+| 03_senales · ¿Tu web te trae clientes, o solo está ahí? | — |
+| 09_proceso · Así trabajo, paso a paso | Disseny Web PM |
+| 12_clinica · Nadie elige dentista a ciegas | Clínica Dental Fulanito |
 | 13_reformas · Si haces reformas, enseña esto | Reformas Fulanito |
+| 14_rural · Reservas directas para tu casa rural | Mas Fulanito |
+| 15_gimnasio · Antes de apuntarse, mira esto | Gimnasio Fulanito |
+| 17_asesoria · Tu web dice lo mismo que todas | Asesoría Fulanito |
+| 18_estetica · Tu carta, sin «consultar» | Centro de Estética Fulanita |
 | 23_busca · Lo que mira un cliente antes de llamarte | Peluquería Fulanito |
 | 28_bienvenidos · Si tu web empieza con «Bienvenidos» | Can Fulanito |
 | 29_movil · Abre tu web en el móvil | Fisioterapia Fulanito |

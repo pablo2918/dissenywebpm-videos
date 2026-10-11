@@ -1,0 +1,159 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "18_estetica_ca",
+ "idioma": "ca",
+ "negocio": "Centre d'Estètica Fulanita",
+ "dominio": "esteticafulanita.com",
+ "pastilla": "5 claus",
+ "portada": "La teva carta, // *sense «consultar»*",
+ "gancho": {
+  "pastilla": "Estètica",
+  "texto": "Si la teva carta posa // *«consultar»*",
+  "maqueta": {
+   "tipo": "lista",
+   "titulo": "Serveis",
+   "filas": [
+    [
+     "Manicura",
+     "Consultar",
+     "mal"
+    ],
+    [
+     "Higiene facial",
+     "Consultar",
+     "mal"
+    ],
+    [
+     "Depilació làser",
+     "Consultar",
+     "mal"
+    ]
+   ],
+   "casillas": false,
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "El nom, // *que s'entengui*",
+   "nota": "Si ha de buscar què és, no ho reserva.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Serveis",
+    "filas": [
+     [
+      "Manicura semipermanent",
+      "",
+      "ok"
+     ],
+     [
+      "Higiene facial",
+      "",
+      "ok"
+     ],
+     [
+      "Depilació làser",
+      "",
+      "ok"
+     ],
+     [
+      "Tractament Ultra Glow Pro",
+      "Què és?",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "El preu, // *sense «consultar»*",
+   "nota": "Un preu clar estalvia la pregunta i el dubte.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Preus",
+    "filas": [
+     [
+      "Manicura",
+      "25 €",
+      "bien"
+     ],
+     [
+      "Higiene facial",
+      "45 €",
+      "bien"
+     ],
+     [
+      "Depilació làser",
+      "Consultar",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Quant // *dura*",
+   "nota": "Així sap si li cap a l'hora de dinar.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Durada",
+    "filas": [
+     [
+      "Manicura",
+      "45 min",
+      "bien"
+     ],
+     [
+      "Higiene facial",
+      "60 min",
+      "bien"
+     ],
+     [
+      "Depilació làser",
+      "Sense indicar",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Com queda, // *en fotos*",
+   "nota": "Una foto del resultat ho explica millor que un paràgraf.",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "Resultats",
+    "etiquetas": [
+     "Manicura",
+     "Facial",
+     "Celles"
+    ],
+    "pie": "Fotos de la teva feina, no de catàleg"
+   }
+  },
+  {
+   "titulo": "I reservar // *amb un toc*",
+   "nota": "Des de la carta, sense buscar el telèfon.",
+   "maqueta": {
+    "tipo": "movil_boton",
+    "titular": "Centre d'Estètica Fulanita",
+    "texto": "Manicura, facial i depilació a Girona.",
+    "boton": "Reserva per WhatsApp"
+   }
+  }
+ ],
+ "cierre": "Et faig la demo de la teva carta de serveis, gratis en 48 h",
+ "guardar": "Desa-te'l i repassa la teva carta",
+ "guion": [
+  "Si a la teva carta de serveis posa «consultar», li demanes a la teva clienta un pas més. Així ha d'estar cada servei.",
+  "Un nom que s'entengui. Si ha de buscar què és, no ho reserva.",
+  "El preu, sense «consultar».",
+  "Quant dura, perquè sàpiga si li cap.",
+  "Com queda, en fotos de la teva feina.",
+  "I reservar amb un toc, per WhatsApp.",
+  "Et faig la demo de la teva carta de serveis gratis en 48 hores. Escriu-me per WhatsApp."
+ ]
+}

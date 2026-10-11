@@ -1,0 +1,153 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "12_clinica_ca",
+ "idioma": "ca",
+ "negocio": "Clínica Dental Fulanito",
+ "dominio": "clinicafulanito.com",
+ "pastilla": "5 coses",
+ "portada": "El que mira // *el teu pacient*",
+ "gancho": {
+  "pastilla": "Clínica dental",
+  "texto": "Ningú tria dentista // *a cegues*",
+  "maqueta": {
+   "tipo": "ficha",
+   "valoracion": "4,7",
+   "filas": [
+    [
+     "Equip",
+     "Sense fotos",
+     true
+    ],
+    [
+     "Horari",
+     "Dl–Dv 9:00–20:00",
+     false
+    ],
+    [
+     "Telèfon",
+     "972 00 00 00",
+     false
+    ]
+   ],
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Qui // *t'atendrà*",
+   "nota": "Conèixer la cara de qui t'atén treu la por.",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "El nostre equip",
+    "etiquetas": [
+     "Dra. Fulanita",
+     "Higienista",
+     "Recepció"
+    ],
+    "pie": "Cares reals, no de catàleg"
+   }
+  },
+  {
+   "titulo": "Quins tractaments // *fas*",
+   "nota": "Una pàgina per tractament, explicat sense paraules estranyes.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Tractaments",
+    "filas": [
+     [
+      "Implants",
+      "",
+      "ok"
+     ],
+     [
+      "Ortodòncia",
+      "",
+      "ok"
+     ],
+     [
+      "Neteja",
+      "",
+      "ok"
+     ],
+     [
+      "Blanquejament",
+      "",
+      "ok"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "Quant costa // *la primera visita*",
+   "nota": "Saber el preu d'entrada dona l'empenta per demanar cita.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Preus",
+    "filas": [
+     [
+      "Primera visita",
+      "Consultar",
+      "mal"
+     ],
+     [
+      "Neteja",
+      "des de 50 €",
+      "bien"
+     ],
+     [
+      "Revisió",
+      "des de 30 €",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Què diuen // *altres pacients*",
+   "nota": "El que diuen altres pacients convenç més que el que dius tu.",
+   "maqueta": {
+    "tipo": "resenas",
+    "respuesta_titulo": "Resposta del propietari",
+    "resenas": [
+     {
+      "nombre": "Marta G.",
+      "estrellas": 5,
+      "texto": "Em van treure la por al dentista. Molt amables."
+     },
+     {
+      "nombre": "Pere S.",
+      "estrellas": 4,
+      "texto": "Bon tracte, tot i que vaig haver d'esperar.",
+      "respuesta": "Gràcies, Pere. Ja hem ajustat l'agenda."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Demanar cita // *sense trucar*",
+   "nota": "Que pugui demanar cita encara que la clínica estigui tancada.",
+   "maqueta": {
+    "tipo": "movil_boton",
+    "titular": "Clínica Dental Fulanito",
+    "texto": "Implants, ortodòncia i neteges a Girona.",
+    "boton": "Demana cita per WhatsApp"
+   }
+  }
+ ],
+ "cierre": "Et faig la demo de la web de la teva clínica, gratis en 48 h",
+ "guardar": "Desa-te'l i mira la teva web amb ulls de pacient",
+ "guion": [
+  "Ningú tria dentista a cegues. Abans de demanar cita, el teu pacient vol veure això.",
+  "Qui l'atendrà. Cares reals, no de catàleg.",
+  "Quins tractaments fas, explicats sense paraules estranyes.",
+  "Quant costa, com a mínim, la primera visita.",
+  "Què diuen altres pacients.",
+  "I demanar cita sense trucar, encara que la clínica estigui tancada.",
+  "Et faig la demo de la web de la teva clínica gratis en 48 hores. Escriu-me per WhatsApp."
+ ]
+}

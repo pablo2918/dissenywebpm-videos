@@ -46,6 +46,10 @@ hi ho the""".split())
 def _coste(trozo):
     n = len(trozo)
     c = 1 + {1: 10, 2: 3}.get(n, 0)
+    # No cortar dentro de una cita «...».
+    txt = " ".join(p["texto"] for p in trozo)
+    if txt.count("«") > txt.count("»"):
+        c += 8
     # Un subtitulo que dura menos de 0,7 s no da tiempo a leerlo.
     if trozo[-1]["fin"] - trozo[0]["inicio"] < 0.7:
         c += 5
@@ -67,7 +71,10 @@ def _parte_frase(fr):
         return [fr]
     mejor = [(0, [])] + [None] * len(fr)
     for i in range(1, len(fr) + 1):
-        for k in range(1, 6):
+        # una cita «...» de hasta 7 palabras puede ir entera en un bloque
+        for k in range(1, 8):
+            if k > 5 and not (fr[i - k]["texto"].startswith("«") and fr[i - 1]["texto"].rstrip(".,;:?!").endswith("»")):
+                continue
             if i - k >= 0 and mejor[i - k] is not None:
                 c = mejor[i - k][0] + _coste(fr[i - k:i])
                 if mejor[i] is None or c < mejor[i][0]:

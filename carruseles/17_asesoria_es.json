@@ -1,0 +1,148 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "17_asesoria_es",
+ "idioma": "es",
+ "negocio": "Asesoría Fulanito",
+ "dominio": "asesoriafulanito.com",
+ "pastilla": "Asesorías",
+ "portada": "Tu web dice lo mismo // *que todas*",
+ "gancho": {
+  "pastilla": "Asesorías",
+  "texto": "«Somos un equipo // *de profesionales»*",
+  "maqueta": {
+   "tipo": "web",
+   "titulo": "Somos un equipo de profesionales",
+   "subtitulo": "con amplia experiencia en el sector.",
+   "menu": [
+    "Inicio",
+    "Nosotros",
+    "Contacto"
+   ],
+   "foto": 4,
+   "senala": "titulo",
+   "mal": "Como todas",
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "A quién // *ayudas*",
+   "nota": "Que el autónomo vea que es para él.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Gestoría para autónomos y pymes de Girona",
+    "subtitulo": "Impuestos, contabilidad y nóminas, sin quebraderos de cabeza.",
+    "menu": [
+     "Servicios",
+     "Equipo",
+     "Contacto"
+    ],
+    "foto": 4,
+    "senala": "titulo"
+   }
+  },
+  {
+   "titulo": "Qué haces // *por él*",
+   "nota": "Con sus palabras: «me llevas los trimestres».",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Qué te llevamos",
+    "filas": [
+     [
+      "Impuestos trimestrales",
+      "",
+      "ok"
+     ],
+     [
+      "Contabilidad",
+      "",
+      "ok"
+     ],
+     [
+      "Nóminas",
+      "",
+      "ok"
+     ],
+     [
+      "Altas y bajas",
+      "",
+      "ok"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "Cómo // *trabajáis*",
+   "nota": "Saber cómo funciona quita miedo a cambiar de gestoría.",
+   "maqueta": {
+    "tipo": "pasos",
+    "titulo": "Cómo trabajamos",
+    "pasos": [
+     [
+      "Primera llamada",
+      "Vemos qué necesitas"
+     ],
+     [
+      "Presupuesto",
+      "Cuota mensual cerrada"
+     ],
+     [
+      "Documentación",
+      "Nos la mandas por WhatsApp o email"
+     ],
+     [
+      "Seguimiento",
+      "Te avisamos de cada plazo"
+     ]
+    ],
+    "senalado": 1
+   }
+  },
+  {
+   "titulo": "Quién // *hay detrás*",
+   "nota": "Con una gestoría se confía en personas.",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "El equipo",
+    "etiquetas": [
+     "Anna",
+     "Jordi",
+     "Marta"
+    ],
+    "pie": "Caras reales, no de catálogo"
+   }
+  },
+  {
+   "titulo": "Una primera // *consulta fácil*",
+   "nota": "Un mensaje es más fácil que una cita en el despacho.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, soy autónomo y quiero cambiar de gestoría. ¿Cuánto cobráis?"
+     },
+     {
+      "de": "negocio",
+      "texto": "Hola, depende de tu caso. ¿Te va bien una llamada de 10 minutos mañana?"
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Te hago la demo de la web de tu asesoría, gratis en 48 h",
+ "guardar": "Guárdatelo y relee tu web",
+ "guion": [
+  "Si tu web dice «somos un equipo de profesionales con amplia experiencia», no te diferencia. Lo dice casi todo el mundo.",
+  "Di a quién ayudas: autónomos, pymes, comercios.",
+  "Qué haces por él, con sus palabras.",
+  "Cómo trabajáis, paso a paso.",
+  "Quién hay detrás, con caras reales.",
+  "Y una primera consulta fácil, por WhatsApp.",
+  "Te hago la demo de la web de tu asesoría gratis en 48 horas. Escríbeme por WhatsApp."
+ ]
+}

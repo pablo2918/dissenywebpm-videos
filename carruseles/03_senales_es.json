@@ -1,0 +1,144 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "03_senales_es",
+ "idioma": "es",
+ "negocio": "Tu negocio",
+ "dominio": "tunegocio.com",
+ "pastilla": "5 señales",
+ "portada": "¿Tu web te trae clientes, // *o solo está ahí?*",
+ "gancho": {
+  "pastilla": "Haz la prueba",
+  "texto": "¿Tu web te trae clientes? // *Haz la prueba*",
+  "maqueta": {
+   "tipo": "chat",
+   "globos": [
+    {
+     "de": "cliente",
+     "texto": "¿Abrís los sábados?"
+    },
+    {
+     "de": "cliente",
+     "texto": "¿Hacéis presupuestos?"
+    },
+    {
+     "de": "cliente",
+     "texto": "¿Dónde puedo aparcar?"
+    }
+   ]
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Nadie te dice // *«te vi en la web»*",
+   "nota": "Si la web no sale en esa respuesta, no está trabajando.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "negocio",
+      "texto": "¿Cómo nos has conocido?"
+     },
+     {
+      "de": "cliente",
+      "texto": "Me lo dijo una amiga."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Te preguntan // *lo mismo cada día*",
+   "nota": "Cada pregunta repetida es algo que tu web no responde.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "¿Abrís los sábados?"
+     },
+     {
+      "de": "cliente",
+      "texto": "¿Hacéis presupuestos?"
+     },
+     {
+      "de": "cliente",
+      "texto": "¿Dónde puedo aparcar?"
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "No sabes // *cuánta gente entra*",
+   "nota": "Lo que no se mide, no se puede mejorar.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Visitas este mes",
+    "filas": [
+     [
+      "Visitas",
+      "No lo sé",
+      "mal"
+     ],
+     [
+      "Desde Google",
+      "No lo sé",
+      "mal"
+     ],
+     [
+      "WhatsApps desde la web",
+      "No lo sé",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "La última vez // *que la tocaste*",
+   "nota": "Una web parada da imagen de negocio parado.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Tu web",
+    "filas": [
+     [
+      "Última actualización",
+      "2019",
+      "mal"
+     ],
+     [
+      "Precios",
+      "De hace años",
+      "mal"
+     ],
+     [
+      "Fotos",
+      "Del local antiguo",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Ni un WhatsApp // *desde la web*",
+   "nota": "Si nadie te escribe desde ella, algo le falta.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": []
+   }
+  }
+ ],
+ "cierre": "Si te ha pasado alguna, te hago una demo gratis en 48 h",
+ "guardar": "Guárdatelo y repásalo con calma",
+ "guion": [
+  "¿Tu web te trae clientes, o solo está ahí? Si te pasa una de estas cinco cosas, solo está ahí.",
+  "Uno: nadie te dice «te vi en la web».",
+  "Dos: te preguntan lo mismo cada día.",
+  "Tres: no sabes cuánta gente entra.",
+  "Cuatro: hace años que nadie la toca.",
+  "Y cinco: no te llega ni un WhatsApp desde ella.",
+  "Si te ha pasado alguna, te hago una demo gratis en 48 horas. Escríbeme por WhatsApp."
+ ]
+}

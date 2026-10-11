@@ -32,8 +32,11 @@ Instagram no es tu web · 08 por qué no te piden hora · 10 se nota que tu web 
 vieja · 20 pregunta esto antes de pagar · 22 web hecha con prisa · 25 demo en
 48 h · 26 tarjeta NFC · 27 publicar en Maps. El 19 (¿de quién es tu web?) está
 aparcado: va contra su modelo.
-Hechos aquí: 13 reformas · 23 lo que mira un cliente · 28 «Bienvenidos» ·
-29 web en el móvil · 30 taller · 31 tienda de barrio.
+Hechos aquí: 03 señales · 09 así trabajo · 12 clínica · 13 reformas · 14 casa
+rural · 15 gimnasio · 17 asesoría · 18 estética · 23 lo que mira un cliente ·
+28 «Bienvenidos» · 29 web en el móvil · 30 taller · 31 tienda de barrio.
+Con esto, la lista de ideas de `ideas_carruseles.md` está agotada. Descartadas:
+21 (va contra su modelo) y 24 (se pisa con su 01). Temas nuevos: proponer antes.
 Ojo: 23 se parece a 08/01 y 29 a 10 → publicarlos separados en el tiempo.
 
 ## Herramientas (python3; Pillow, numpy)

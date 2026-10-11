@@ -1,0 +1,147 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "09_proceso_ca",
+ "idioma": "ca",
+ "negocio": "Disseny Web PM",
+ "dominio": "dissenywebpm.com",
+ "pastilla": "5 passos",
+ "portada": "Així treballo, // *pas a pas*",
+ "gancho": {
+  "pastilla": "Així treballo",
+  "texto": "Del teu WhatsApp // *a la teva web*",
+  "maqueta": {
+   "tipo": "chat",
+   "globos": [
+    {
+     "de": "cliente",
+     "texto": "Hola, tinc una perruqueria i vull una web."
+    },
+    {
+     "de": "negocio",
+     "texto": "Hola! Explica'm una mica i en 48 h t'ensenyo una demo, gratis."
+    }
+   ]
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "M'escrius // *per WhatsApp*",
+   "nota": "Sense reunions llargues: m'expliques el teu negoci.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, tinc una perruqueria i vull una web."
+     },
+     {
+      "de": "negocio",
+      "texto": "Hola! Explica'm una mica i en 48 h t'ensenyo una demo, gratis."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "En 48 h, // *una demo gratis*",
+   "nota": "La veus abans de pagar res. Sense compromís.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Perruqueria a Girona",
+    "subtitulo": "Tall, color i pentinats.",
+    "menu": [
+     "Serveis",
+     "Preus",
+     "Contacte"
+    ],
+    "foto": 3,
+    "negocio": "Perruqueria Fulanito",
+    "dominio": "perruqueriafulanito.com",
+    "boton": "Demana hora per WhatsApp",
+    "senala": "todo"
+   }
+  },
+  {
+   "titulo": "L'ajustem // *al teu gust*",
+   "nota": "Em passes textos i fotos, i jo els poso.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "M'agrada. Podem posar les fotos del local?"
+     },
+     {
+      "de": "cliente",
+      "fotos": true
+     },
+     {
+      "de": "negocio",
+      "texto": "I tant, ja hi són."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "La publico, // *tot inclòs*",
+   "nota": "No t'has de preocupar de res tècnic.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Inclòs",
+    "filas": [
+     [
+      "Domini al teu nom",
+      "",
+      "ok"
+     ],
+     [
+      "Allotjament",
+      "",
+      "ok"
+     ],
+     [
+      "Manteniment bàsic",
+      "",
+      "ok"
+     ],
+     [
+      "Còpia del codi guardada",
+      "",
+      "ok"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "Canvis? // *M'escrius*",
+   "nota": "Els canvis els faig jo, sense que toquis res.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Pots canviar l'horari d'agost?"
+     },
+     {
+      "de": "negocio",
+      "texto": "Fet. Ja és a la web."
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Demana'm la teva demo, gratis en 48 h",
+ "guardar": "Desa-te'l per quan et decideixis",
+ "guion": [
+  "Així treballo, del teu primer WhatsApp a la teva web publicada.",
+  "M'escrius per WhatsApp i m'expliques el teu negoci.",
+  "En 48 hores t'ensenyo una demo, gratis. La veus abans de pagar res.",
+  "L'ajustem al teu gust: em passes textos i fotos i jo els poso.",
+  "La publico amb tot inclòs: domini al teu nom, allotjament i manteniment bàsic.",
+  "I si vols canviar alguna cosa, m'escrius i ho faig jo.",
+  "Demana'm la teva demo gratis. Escriu-me per WhatsApp."
+ ]
+}

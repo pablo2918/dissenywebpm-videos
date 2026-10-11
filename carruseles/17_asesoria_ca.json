@@ -1,0 +1,148 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "17_asesoria_ca",
+ "idioma": "ca",
+ "negocio": "Assessoria Fulanito",
+ "dominio": "assessoriafulanito.com",
+ "pastilla": "Assessories",
+ "portada": "La teva web diu el mateix // *que totes*",
+ "gancho": {
+  "pastilla": "Assessories",
+  "texto": "«Som un equip // *de professionals»*",
+  "maqueta": {
+   "tipo": "web",
+   "titulo": "Som un equip de professionals",
+   "subtitulo": "amb àmplia experiència al sector.",
+   "menu": [
+    "Inici",
+    "Nosaltres",
+    "Contacte"
+   ],
+   "foto": 4,
+   "senala": "titulo",
+   "mal": "Com totes",
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "A qui // *ajudes*",
+   "nota": "Que l'autònom vegi que és per a ell.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Gestoria per a autònoms i pimes de Girona",
+    "subtitulo": "Impostos, comptabilitat i nòmines, sense maldecaps.",
+    "menu": [
+     "Serveis",
+     "Equip",
+     "Contacte"
+    ],
+    "foto": 4,
+    "senala": "titulo"
+   }
+  },
+  {
+   "titulo": "Què fas // *per ell*",
+   "nota": "Amb les seves paraules: «em portes els trimestres».",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Què et portem",
+    "filas": [
+     [
+      "Impostos trimestrals",
+      "",
+      "ok"
+     ],
+     [
+      "Comptabilitat",
+      "",
+      "ok"
+     ],
+     [
+      "Nòmines",
+      "",
+      "ok"
+     ],
+     [
+      "Altes i baixes",
+      "",
+      "ok"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "Com // *treballeu*",
+   "nota": "Saber com funciona treu la por a canviar de gestoria.",
+   "maqueta": {
+    "tipo": "pasos",
+    "titulo": "Com treballem",
+    "pasos": [
+     [
+      "Primera trucada",
+      "Mirem què necessites"
+     ],
+     [
+      "Pressupost",
+      "Quota mensual tancada"
+     ],
+     [
+      "Documentació",
+      "Ens l'envies per WhatsApp o correu"
+     ],
+     [
+      "Seguiment",
+      "T'avisem de cada termini"
+     ]
+    ],
+    "senalado": 1
+   }
+  },
+  {
+   "titulo": "Qui hi ha // *darrere*",
+   "nota": "Amb una gestoria es confia en persones.",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "L'equip",
+    "etiquetas": [
+     "Anna",
+     "Jordi",
+     "Marta"
+    ],
+    "pie": "Cares reals, no de catàleg"
+   }
+  },
+  {
+   "titulo": "Una primera // *consulta fàcil*",
+   "nota": "Un missatge és més fàcil que una cita al despatx.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, sóc autònom i vull canviar de gestoria. Quant cobreu?"
+     },
+     {
+      "de": "negocio",
+      "texto": "Hola, depèn del teu cas. Et va bé una trucada de 10 minuts demà?"
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Et faig la demo de la web de la teva assessoria, gratis en 48 h",
+ "guardar": "Desa-te'l i rellegeix la teva web",
+ "guion": [
+  "Si la teva web diu «som un equip de professionals amb àmplia experiència», no et diferencia. Ho diu gairebé tothom.",
+  "Digues a qui ajudes: autònoms, pimes, comerços.",
+  "Què fas per ell, amb les seves paraules.",
+  "Com treballeu, pas a pas.",
+  "Qui hi ha darrere, amb cares reals.",
+  "I una primera consulta fàcil, per WhatsApp.",
+  "Et faig la demo de la web de la teva assessoria gratis en 48 hores. Escriu-me per WhatsApp."
+ ]
+}
