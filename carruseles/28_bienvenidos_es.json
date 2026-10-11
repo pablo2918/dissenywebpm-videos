@@ -1,0 +1,132 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "id": "28_bienvenidos_es",
+ "idioma": "es",
+ "negocio": "Can Fulanito",
+ "dominio": "canfulanito.com",
+ "pastilla": "Error típico",
+ "portada": "Tu web empieza con // *«Bienvenidos»*",
+ "desliza": "Desliza →",
+ "de": "de 5",
+ "gancho": {
+  "pastilla": "¿Te suena?",
+  "texto": "Si tu web empieza con *«Bienvenidos»*",
+  "maqueta": {
+   "tipo": "web",
+   "titulo": "Bienvenidos a nuestra web",
+   "subtitulo": "Somos una empresa con años de experiencia en el sector.",
+   "menu": [
+    "Inicio",
+    "Nosotros",
+    "Contacto"
+   ],
+   "foto": 0,
+   "senala": "titulo",
+   "mal": "No dice nada",
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Qué haces, // *en una frase*",
+   "nota": "Si lo entiende de un vistazo, sigue mirando.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Cocina catalana de mercado",
+    "subtitulo": "Menú de mediodía y carta de temporada.",
+    "menu": [
+     "Carta",
+     "Reservas",
+     "Contacto"
+    ],
+    "foto": 0,
+    "senala": "titulo"
+   }
+  },
+  {
+   "titulo": "Dónde estás, // *a la vista*",
+   "nota": "Que sepa al momento si le pilla cerca.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Cocina catalana de mercado",
+    "subtitulo": "Menú de mediodía y carta de temporada.",
+    "menu": [
+     "Carta",
+     "Reservas",
+     "Contacto"
+    ],
+    "foto": 0,
+    "lugar": "En el centro de Girona",
+    "senala": "lugar"
+   }
+  },
+  {
+   "titulo": "Una prueba // *de que eres bueno*",
+   "nota": "Las estrellas convencen más que «somos los mejores».",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Cocina catalana de mercado",
+    "subtitulo": "Menú de mediodía y carta de temporada.",
+    "menu": [
+     "Carta",
+     "Reservas",
+     "Contacto"
+    ],
+    "foto": 0,
+    "lugar": "En el centro de Girona",
+    "valoracion": "4,7 · 230 reseñas",
+    "senala": "valoracion"
+   }
+  },
+  {
+   "titulo": "Un botón // *que se vea*",
+   "nota": "Reservar a un toque, sin buscar el teléfono.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Cocina catalana de mercado",
+    "subtitulo": "Menú de mediodía y carta de temporada.",
+    "menu": [
+     "Carta",
+     "Reservas",
+     "Contacto"
+    ],
+    "foto": 0,
+    "lugar": "En el centro de Girona",
+    "valoracion": "4,7 · 230 reseñas",
+    "boton": "Reserva por WhatsApp",
+    "senala": "boton"
+   }
+  },
+  {
+   "titulo": "Y todo, // *sin bajar*",
+   "nota": "Si tiene que bajar para encontrarlo, ya no lo ve.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Cocina catalana de mercado",
+    "subtitulo": "Menú de mediodía y carta de temporada.",
+    "menu": [
+     "Carta",
+     "Reservas",
+     "Contacto"
+    ],
+    "foto": 0,
+    "lugar": "En el centro de Girona",
+    "valoracion": "4,7 · 230 reseñas",
+    "boton": "Reserva por WhatsApp",
+    "senala": "todo"
+   }
+  }
+ ],
+ "cierre": "Te hago la demo de tu primera pantalla, gratis en 48 h",
+ "guardar": "Guárdatelo y mira tu web",
+ "cta": "Escríbeme por WhatsApp",
+ "guion": [
+  "Si tu web empieza con «Bienvenidos a nuestra web», tu cliente no sabe ni qué haces.",
+  "Primero, di qué haces en una frase.",
+  "Después, dónde estás. Que sepa si le pilla cerca.",
+  "Una prueba de que eres bueno: tus estrellas de Google.",
+  "Un botón de WhatsApp que se vea.",
+  "Y todo esto, en la primera pantalla. Sin tener que bajar.",
+  "Te hago la demo de tu web gratis en 48 horas. Escríbeme por WhatsApp."
+ ]
+}

@@ -41,7 +41,7 @@ _fuentes = {}
 
 
 def f(peso, tam):
-    k = (peso, tam)
+    k = (peso, tam, S)
     if k not in _fuentes:
         _fuentes[k] = ImageFont.truetype(str(RAIZ / "fuentes" / f"Montserrat-{peso}.otf"), int(tam * S))
     return _fuentes[k]
@@ -549,9 +549,201 @@ def m_chat(base, d, box, m, ctx):
         y += gh + 14
 
 
+def _navegador(d, box, dominio):
+    x0, y0, x1, y1 = box
+    d.rect(box, fill=BLANCO, outline=LINEA, r=18, width=2)
+    d.rect((x0, y0, x1, y0 + 46), fill=FONDO_FILA, r=18)
+    d.rect((x0, y0 + 30, x1, y0 + 46), fill=FONDO_FILA)
+    for i, c in enumerate(((255, 95, 87), (254, 188, 46), (40, 200, 64))):
+        d.ellipse((x0 + 18 + i * 22, y0 + 16, x0 + 32 + i * 22, y0 + 30), fill=c)
+    d.rect((x0 + 110, y0 + 10, x1 - 30, y0 + 36), fill=BLANCO, r=13)
+    d.text((x0 + 128, y0 + 23), dominio, f("Medium", 17), GRIS, anchor="lm")
+    return (x0, y0 + 46, x1, y1)
+
+
+def etiqueta_mal(d, x, y, txt, ancla="l"):
+    ft = f("Bold", 24)
+    tw = d.tl(txt, ft) + 40
+    if ancla == "r":
+        x -= tw
+    d.rect((x, y, x + tw, y + 46), fill=ROJO, r=23)
+    d.text((x + tw / 2, y + 23), txt, ft, BLANCO, anchor="mm")
+
+
+def m_web(base, d, box, m, ctx):
+    """Primera pantalla de una web en el navegador. `senala` marca una pieza."""
+    x0, y0, x1, y1 = box
+    bx0, by0, bx1, by1 = _navegador(d, box, ctx["dominio"])
+    y = by0 + 22
+    d.text((bx0 + 26, y + 14), ctx["negocio"], f("ExtraBold", 21), AZUL, anchor="lm")
+    mx = bx1 - 26
+    for it in reversed(m.get("menu", [])):
+        ft = f("Medium", 17)
+        d.text((mx, y + 14), it, ft, GRIS, anchor="rm")
+        mx -= d.tl(it, ft) + 24
+    d.line((bx0, y + 42, bx1, y + 42), LINEA, 2)
+    hx0, hy0 = bx0 + 30, y + 74
+    col = (bx1 - bx0) * 0.56
+    fw = bx1 - (bx0 + col) - 26
+    pega_foto(base, (bx0 + col, hy0 - 6), fw, by1 - hy0 - 22, m.get("foto", 0), 16)
+    ancho = col - 52
+    cajas = {}
+    ft = f("ExtraBold", m.get("tam_titulo", 40))
+    ty = hy0
+    lin = parte(m["titulo"], ft, ancho, d)
+    for l in lin:
+        d.text((hx0, ty), l, ft, AZUL)
+        ty += m.get("tam_titulo", 40) * 1.15
+    cajas["titulo"] = (hx0 - 4, hy0 - 6, hx0 + max(d.tl(l, ft) for l in lin) + 4, ty)
+    ty += 12
+    fs = f("Medium", 21)
+    sy = ty
+    for l in parte(m["subtitulo"], fs, ancho, d):
+        d.text((hx0, ty), l, fs, GRIS)
+        ty += 29
+    cajas["subtitulo"] = (hx0 - 4, sy - 4, hx0 + ancho, ty)
+    if m.get("lugar"):
+        ty += 14
+        d.ellipse((hx0, ty + 2, hx0 + 20, ty + 22), fill=ROJO)
+        d.ellipse((hx0 + 6, ty + 8, hx0 + 14, ty + 16), fill=BLANCO)
+        fl = f("Bold", 22)
+        d.text((hx0 + 30, ty + 12), m["lugar"], fl, AZUL, anchor="lm")
+        cajas["lugar"] = (hx0 - 4, ty - 4, hx0 + 34 + d.tl(m["lugar"], fl), ty + 28)
+        ty += 30
+    if m.get("valoracion"):
+        ty += 16
+        estrellas(d, hx0, ty, 5, 22)
+        fv = f("SemiBold", 20)
+        d.text((hx0 + 140, ty + 11), m["valoracion"], fv, AZUL, anchor="lm")
+        cajas["valoracion"] = (hx0 - 4, ty - 6, hx0 + 144 + d.tl(m["valoracion"], fv), ty + 30)
+        ty += 30
+    if m.get("boton"):
+        ty += 22
+        fb = f("Bold", 21)
+        bw = d.tl(m["boton"], fb) + 80
+        caja = (hx0, ty, hx0 + bw, ty + 52)
+        d.rect(caja, fill=VERDE, r=26)
+        icono_whatsapp(d, hx0 + 30, ty + 26, 13, fondo=(30, 140, 78))
+        d.text((hx0 + 52, ty + 26), m["boton"], fb, BLANCO, anchor="lm")
+        cajas["boton"] = caja
+    cajas["todo"] = (hx0 - 12, hy0 - 14, hx0 + ancho + 8, (cajas["boton"][3] if "boton" in cajas else ty) + 10)
+    if m.get("senala") in cajas:
+        senala(d, cajas[m["senala"]], 12)
+    if m.get("mal"):
+        etiqueta_mal(d, hx0, cajas["todo"][3] + 16, m["mal"])
+
+
+def m_movil(base, d, box, m, ctx):
+    """Movil grande con un fallo tipico de web no pensada para movil."""
+    x0, y0, x1, y1 = box
+    # movil de tamano fijo: si la caja es mas baja, se corta por abajo
+    alto = max(y1 - y0, 820)
+    pw = 430
+    px0 = (x0 + x1) / 2 - pw / 2
+    sx0, sy0, sx1, sy1 = telefono(d, (px0, y0 - 4, px0 + pw, y0 + alto + 4))
+    sw = sx1 - sx0
+    # barra de direccion
+    d.rect((sx0 + 16, sy0 + 50, sx1 - 16, sy0 + 82), fill=FONDO_FILA, r=16)
+    d.text((sx0 + 32, sy0 + 66), ctx["dominio"], f("Medium", 15), GRIS, anchor="lm")
+    y = sy0 + 100
+    v = m["variante"]
+    if v == "zoom":
+        # web de ordenador encogida: todo diminuto
+        d.text((sx0 + 20, y), ctx["negocio"], f("Bold", 11), AZUL)
+        d.text((sx1 - 20, y), m.get("menu_txt", ""), f("Medium", 7), GRIS, anchor="ra")
+        y += 24
+        pega_foto(base, (sx0 + 20, y), sw * 0.5, 120, 1, 6)
+        for k in range(9):
+            d.rect((sx0 + 30 + sw * 0.5, y + 6 + k * 13, sx1 - 24 - (k % 3) * 18, y + 11 + k * 13), fill=LINEA, r=2)
+        y += 140
+        for k in range(16):
+            d.rect((sx0 + 20, y + k * 14, sx1 - 20 - (k % 4) * 30, y + 5 + k * 14), fill=LINEA, r=2)
+        # gesto de pellizco
+        cx, cy = (sx0 + sx1) / 2, y + 90
+        for dx in (-38, 38):
+            d.ellipse((cx + dx - 26, cy - 26, cx + dx + 26, cy + 26), fill=(255, 236, 170), outline=AMARILLO, width=4)
+        d.line((cx - 10, cy, cx + 10, cy), AMARILLO, 4)
+        etiqueta_mal(d, (sx0 + sx1) / 2 - d.tl(m["etiqueta"], f("Bold", 24)) / 2 - 20, cy + 46, m["etiqueta"])
+    elif v == "telefono":
+        pega_foto(base, (sx0 + 16, y), sw - 32, 200, 4, 14)
+        y += 222
+        d.text((sx0 + 22, y), ctx["negocio"], f("ExtraBold", 26), AZUL)
+        y += 44
+        d.text((sx0 + 22, y), m["texto"], f("Medium", 20), GRIS)
+        y += 46
+        ft = f("Medium", 24)
+        d.text((sx0 + 22, y), m["telefono"], ft, (70, 76, 90))
+        tw = d.tl(m["telefono"], ft)
+        caja = (sx0 + 16, y - 8, sx0 + 30 + tw, y + 34)
+        senala(d, caja, 10)
+        cx, cy = sx0 + 30 + tw * 0.6, y + 14
+        d.ellipse((cx - 30, cy - 30, cx + 30, cy + 30), outline=ROJO, width=4)
+        etiqueta_mal(d, sx0 + 16, y + 70, m["etiqueta"])
+    elif v == "blanco":
+        d.rect((sx0 + 16, sy0 + 86, sx0 + 16 + (sw - 32) * 0.18, sy0 + 92), fill=(60, 130, 240), r=3)
+        cx, cy = (sx0 + sx1) / 2, sy0 + 260
+        d.ellipse((cx - 44, cy - 44, cx + 44, cy + 44), outline=LINEA, width=9)
+        d.d.arc([(cx - 44) * S, (cy - 44) * S, (cx + 44) * S, (cy + 44) * S], 200, 300, fill=GRIS_CLARO, width=int(9 * S))
+        etiqueta_mal(d, cx - d.tl(m["etiqueta"], f("Bold", 24)) / 2 - 20, cy + 80, m["etiqueta"])
+    elif v == "juntos":
+        d.text((sx0 + 22, y), ctx["negocio"], f("ExtraBold", 24), AZUL)
+        y += 50
+        ft = f("Medium", 16)
+        for k, it in enumerate(m["enlaces"]):
+            d.text((sx0 + 24, y + k * 22), it, ft, (40, 90, 200))
+        dedo = y + 2 * 22 + 8
+        d.ellipse((sx0 + 40, dedo - 32, sx0 + 104, dedo + 32), fill=(255, 220, 190), outline=(230, 170, 140), width=3)
+        senala(d, (sx0 + 18, y + 22 - 4, sx0 + 200, y + 4 * 22 + 4), 8)
+        y += len(m["enlaces"]) * 22 + 30
+        for k in range(10):
+            d.rect((sx0 + 22, y + k * 16, sx1 - 22 - (k % 3) * 40, y + 6 + k * 16), fill=LINEA, r=3)
+        etiqueta_mal(d, sx0 + 18, y - 14, m["etiqueta"])
+    elif v == "formulario":
+        d.text((sx0 + 22, y), m["titulo"], f("ExtraBold", 24), AZUL)
+        y += 48
+        ft = f("Medium", 17)
+        for campo in m["campos"]:
+            d.text((sx0 + 22, y), campo, ft, GRIS)
+            y += 24
+            alto = 90 if campo == m["campos"][-1] else 40
+            d.rect((sx0 + 22, y, sx1 - 22, y + alto), outline=LINEA, r=8, width=2)
+            y += alto + 14
+        d.rect((sx0 + 22, y, sx0 + 150, y + 44), fill=(200, 205, 215), r=8)
+        d.text((sx0 + 86, y + 22), m["enviar"], f("Bold", 17), BLANCO, anchor="mm")
+        etiqueta_mal(d, sx1 - 18, sy0 + 92, m["etiqueta"], ancla="r")
+
+
 MAQUETAS = {"ficha": m_ficha, "lista": m_lista, "galeria": m_galeria, "resenas": m_resenas,
             "movil_boton": m_movil_boton, "antes_despues": m_antes_despues,
-            "zonas": m_zonas, "pasos": m_pasos, "chat": m_chat}
+            "zonas": m_zonas, "pasos": m_pasos, "chat": m_chat,
+            "web": m_web, "movil": m_movil}
+
+
+def con_escala(base, box, k, fn, m, ctx):
+    """Dibuja una maqueta como si la caja midiera box/k y la amplia (k>1) o
+    reduce (k<1) entera: textos, fotos y margenes mantienen su proporcion."""
+    global S
+    x0, y0, x1, y1 = box
+    bw, bh = x1 - x0, y1 - y0
+    sub = Image.new("RGB", (int(bw * S), int(bh * S)), BLANCO)
+    s0 = S
+    S = s0 * k
+    try:
+        fn(sub, D(sub), (0, 0, bw / k, bh / k), m, ctx)
+    finally:
+        S = s0
+    base.paste(sub, (int(x0 * S), int(y0 * S)))
+
+
+def dibuja_maqueta(base, box, m, ctx, entero=False):
+    fn = MAQUETAS[m["tipo"]]
+    if m["tipo"] == "movil":
+        # en el gancho se ve el movil entero; en las laminas, grande y cortado
+        con_escala(base, box, (box[3] - box[1]) / 820 if entero else m.get("k", 1.0), fn, m, ctx)
+    elif m.get("k"):
+        con_escala(base, box, m["k"], fn, m, ctx)
+    else:
+        fn(base, D(base), box, m, ctx)
 
 
 # ---------------------------------------------------------------- laminas
@@ -587,7 +779,7 @@ def contenido(c, n, lam):
     tarjeta(im, caja)
     d = D(im)
     m = lam["maqueta"]
-    MAQUETAS[m["tipo"]](im, d, (caja[0] + 46, caja[1] + 46, caja[2] - 46, caja[3] - 46), m, c)
+    dibuja_maqueta(im, (caja[0] + 46, caja[1] + 46, caja[2] - 46, caja[3] - 46), m, c)
     d = D(im)
     fnota = f("Bold", 30)
     lineas = equilibra(lam["nota"], fnota, W - 2 * 100 - 64, d)
@@ -629,6 +821,27 @@ def cierre(c):
     return im
 
 
+def gancho(c):
+    """Pantalla de gancho del video (1080x1920): frase grande + el problema
+    dibujado. Es lo primero que se ve y hace de miniatura."""
+    g = c["gancho"]
+    GW, GH = 1080, 1920
+    im = Image.new("RGB", (GW * S, GH * S), AZUL)
+    d = D(im)
+    fp = f("ExtraBold", 38)
+    pw = d.tl(g["pastilla"].upper(), fp) + 70
+    y = 210
+    d.rect((80, y, 80 + pw, y + 78), fill=AMARILLO, r=39)
+    d.text((80 + 35, y + 40), g["pastilla"].upper(), fp, AZUL, anchor="lm")
+    font, lin, tam = ajusta_titulo(g["texto"], "Black", 124, 70, GW - 160, 560, 4, d, interlinea=1.04)
+    y_fin = escribe_titulo(d, 80, y + 118, font, lin, tam, BLANCO, interlinea=1.04)
+    caja = (80, y_fin + 56, GW - 80, 1560)
+    tarjeta(im, caja)
+    d = D(im)
+    dibuja_maqueta(im, (caja[0] + 40, caja[1] + 40, caja[2] - 40, caja[3] - 40), g["maqueta"], c)
+    return im, (GW, GH)
+
+
 def main():
     ruta = Path(sys.argv[1])
     c = json.loads(ruta.read_text(encoding="utf-8"))
@@ -637,6 +850,12 @@ def main():
     for i, lam in enumerate(c["laminas"], 1):
         guarda(contenido(c, i, lam), dest / f"{i + 1}_{i:02d}.png")
     guarda(cierre(c), dest / "7_cierre.png")
+    if c.get("gancho"):
+        im, tam = gancho(c)
+        # solo para el video: va aparte para no subirla por error al carrusel
+        g = RAIZ / "salida" / "ganchos" / f"{c['id']}.png"
+        g.parent.mkdir(parents=True, exist_ok=True)
+        im.resize(tam, Image.LANCZOS).save(g, optimize=True)
     print(f"-> {dest}")
 
 

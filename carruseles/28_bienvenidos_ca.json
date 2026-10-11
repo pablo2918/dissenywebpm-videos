@@ -1,0 +1,132 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "id": "28_bienvenidos_ca",
+ "idioma": "ca",
+ "negocio": "Can Fulanito",
+ "dominio": "canfulanito.com",
+ "pastilla": "Error típic",
+ "portada": "La teva web comença amb // *«Benvinguts»*",
+ "desliza": "Llisca →",
+ "de": "de 5",
+ "gancho": {
+  "pastilla": "Et sona?",
+  "texto": "Si la teva web comença amb *«Benvinguts»*",
+  "maqueta": {
+   "tipo": "web",
+   "titulo": "Benvinguts a la nostra web",
+   "subtitulo": "Som una empresa amb anys d'experiència al sector.",
+   "menu": [
+    "Inici",
+    "Nosaltres",
+    "Contacte"
+   ],
+   "foto": 0,
+   "senala": "titulo",
+   "mal": "No diu res",
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Què fas, // *en una frase*",
+   "nota": "Si ho entén d'un cop d'ull, continua mirant.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Cuina catalana de mercat",
+    "subtitulo": "Menú de migdia i carta de temporada.",
+    "menu": [
+     "Carta",
+     "Reserves",
+     "Contacte"
+    ],
+    "foto": 0,
+    "senala": "titulo"
+   }
+  },
+  {
+   "titulo": "On ets, // *a la vista*",
+   "nota": "Que sàpiga de seguida si li queda a prop.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Cuina catalana de mercat",
+    "subtitulo": "Menú de migdia i carta de temporada.",
+    "menu": [
+     "Carta",
+     "Reserves",
+     "Contacte"
+    ],
+    "foto": 0,
+    "lugar": "Al centre de Girona",
+    "senala": "lugar"
+   }
+  },
+  {
+   "titulo": "Una prova // *que ets bo*",
+   "nota": "Les estrelles convencen més que «som els millors».",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Cuina catalana de mercat",
+    "subtitulo": "Menú de migdia i carta de temporada.",
+    "menu": [
+     "Carta",
+     "Reserves",
+     "Contacte"
+    ],
+    "foto": 0,
+    "lugar": "Al centre de Girona",
+    "valoracion": "4,7 · 230 ressenyes",
+    "senala": "valoracion"
+   }
+  },
+  {
+   "titulo": "Un botó // *que es vegi*",
+   "nota": "Reservar amb un toc, sense buscar el telèfon.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Cuina catalana de mercat",
+    "subtitulo": "Menú de migdia i carta de temporada.",
+    "menu": [
+     "Carta",
+     "Reserves",
+     "Contacte"
+    ],
+    "foto": 0,
+    "lugar": "Al centre de Girona",
+    "valoracion": "4,7 · 230 ressenyes",
+    "boton": "Reserva per WhatsApp",
+    "senala": "boton"
+   }
+  },
+  {
+   "titulo": "I tot, // *sense baixar*",
+   "nota": "Si ha de baixar per trobar-ho, ja no ho veu.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Cuina catalana de mercat",
+    "subtitulo": "Menú de migdia i carta de temporada.",
+    "menu": [
+     "Carta",
+     "Reserves",
+     "Contacte"
+    ],
+    "foto": 0,
+    "lugar": "Al centre de Girona",
+    "valoracion": "4,7 · 230 ressenyes",
+    "boton": "Reserva per WhatsApp",
+    "senala": "todo"
+   }
+  }
+ ],
+ "cierre": "Et faig la demo de la teva primera pantalla, gratis en 48 h",
+ "guardar": "Desa-te'l i mira la teva web",
+ "cta": "Escriu-me per WhatsApp",
+ "guion": [
+  "Si la teva web comença amb «Benvinguts a la nostra web», el teu client no sap ni què fas.",
+  "Primer, digues què fas en una frase.",
+  "Després, on ets. Que sàpiga si li queda a prop.",
+  "Una prova que ets bo: les teves estrelles de Google.",
+  "Un botó de WhatsApp que es vegi.",
+  "I tot això, a la primera pantalla. Sense haver de baixar.",
+  "Et faig la demo de la teva web gratis en 48 hores. Escriu-me per WhatsApp."
+ ]
+}

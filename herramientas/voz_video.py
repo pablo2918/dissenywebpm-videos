@@ -23,6 +23,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 W, H, FPS = 1080, 1920, 30
 AZUL = (9, 15, 32)
+AMARILLO = (251, 190, 1)
 # Lamina 4:5 reducida al 80 %, dejando sitio debajo para los subtitulos.
 LAM_W, LAM_H, LAM_Y, RADIO = 864, 1080, 190, 28
 # Zona de subtitulos: entre la lamina y el 20 % inferior (margen 430 px),
@@ -31,7 +32,7 @@ SUB_TOP, SUB_BOT, SUB_LADO = LAM_Y + LAM_H + 24, H - 430, 160
 TAM_SUB, TAM_MIN = 76, 52
 COLA = 1.6               # segundos de cierre en silencio al final
 RAIZ = Path(__file__).resolve().parent.parent
-FUENTE = RAIZ / "fuentes" / "Montserrat-ExtraBold.otf"
+FUENTE = RAIZ / "fuentes" / "Montserrat-Black.otf"
 if not FUENTE.exists():
     FUENTE = Path("/usr/share/fonts/julietaula-montserrat-fonts/Montserrat-ExtraBold.otf")
 
@@ -121,7 +122,11 @@ def lamina(ruta):
     return im, m.resize((LAM_W, LAM_H), Image.LANCZOS)
 
 
-def fotograma(lam, sub):
+def fotograma(lam, sub, activa=-1, completo=False):
+    """`completo`: la lamina ocupa toda la pantalla (pantalla de gancho).
+    `activa`: indice de la palabra que se esta diciendo (sale en amarillo)."""
+    if completo:
+        return lam[0].copy()
     im = Image.new("RGB", (W, H), AZUL)
     x = (W - LAM_W) // 2
     # Filete fino para que las laminas azules no se fundan con el fondo.
@@ -131,11 +136,23 @@ def fotograma(lam, sub):
     if sub:
         d = ImageDraw.Draw(im)
         f, lin, paso, tam = ajusta_sub(sub, d)
-        borde = max(4, tam // 13)
+        borde = max(5, tam // 10)
         y = SUB_TOP + ((SUB_BOT - SUB_TOP) - paso * len(lin)) // 2
+        esp = d.textlength(" ", font=f)
+        k = 0
         for l in lin:
-            d.text((W // 2, y), l, font=f, fill="white", anchor="mt",
-                   stroke_width=borde, stroke_fill="black")
+            x = W / 2 - d.textlength(l, font=f) / 2
+            for w in l.split():
+                color = AMARILLO if k == activa else "white"
+                # sombra suave debajo y contorno negro grueso: se lee sobre cualquier fondo
+                # todas las palabras sobre la misma linea base
+                base = y + f.getmetrics()[0]
+                d.text((x, base + 6), w, font=f, fill=(0, 0, 0), anchor="ls",
+                       stroke_width=borde, stroke_fill=(0, 0, 0))
+                d.text((x, base), w, font=f, fill=color, anchor="ls",
+                       stroke_width=borde, stroke_fill="black")
+                x += d.textlength(w, font=f) + esp
+                k += 1
             y += paso
     return im
 
@@ -157,11 +174,19 @@ def main():
     wav = base.with_suffix(".wav")
     tramos, palabras = datos["tramos"], datos["palabras"]
     carpeta = Path(a.carpeta)
-    nombres = a.laminas.split(",") if a.laminas else \
-        [p.stem for p in sorted(carpeta.glob("*.png"))]
+    gancho = RAIZ / "salida" / "ganchos" / f"{carpeta.name}.png"
+    if a.laminas:
+        nombres = a.laminas.split(",")
+    elif gancho.exists():
+        # el gancho (pantalla completa) sustituye a la portada en el video
+        nombres = ["0_gancho"] + [p.stem for p in sorted(carpeta.glob("*.png")) if p.stem != "1_portada"]
+    else:
+        nombres = [p.stem for p in sorted(carpeta.glob("*.png"))]
     if len(nombres) != len(tramos):
         sys.exit(f"Hay {len(tramos)} tramos y {len(nombres)} laminas: usa --laminas.")
-    lams = [lamina(carpeta / f"{n}.png") for n in nombres]
+    lams = [(Image.open(gancho).convert("RGB").resize((W, H), Image.LANCZOS), None)
+            if n == "0_gancho" else lamina(carpeta / f"{n}.png") for n in nombres]
+    completos = {i for i, n in enumerate(nombres) if n == "0_gancho"}
     if datos.get("simulado"):
         print("AVISO: la voz es SIMULADA (muda). Este video es solo de prueba.")
 
@@ -169,8 +194,8 @@ def main():
     # Lamina de cada frame.
     ini_tramo = [0] + [a_frame(t["inicio"]) for t in tramos[1:]]
     # Subtitulo de cada frame.
-    bl = bloques(palabras)
-    subs = []
+    bl = bloques([p for p in palabras if p["tramo"] not in completos])
+    subs = []      # (inicio, fin, texto, [inicios de cada palabra])
     for i, b in enumerate(bl):
         ini = a_frame(b[0]["inicio"])
         sig = bl[i + 1] if i + 1 < len(bl) else None
@@ -180,9 +205,10 @@ def main():
             fin = a_frame(b[-1]["fin"] + 0.35)
             if sig:
                 fin = min(fin, a_frame(sig[0]["inicio"]))
-        subs.append((ini, fin, " ".join(p["texto"] for p in b)))
+        subs.append((ini, fin, " ".join(p["texto"] for p in b), [a_frame(p["inicio"]) for p in b]))
 
-    cortes = sorted({0, total, *ini_tramo, *[s[0] for s in subs], *[s[1] for s in subs]})
+    cortes = sorted({0, total, *ini_tramo, *[s[0] for s in subs], *[s[1] for s in subs],
+                     *[t for s in subs for t in s[3]]})
     cortes = [c for c in cortes if 0 <= c <= total]
 
     tmp = Path(tempfile.mkdtemp(prefix="vozvideo_"))
@@ -191,11 +217,13 @@ def main():
         if c1 <= c0:
             continue
         li = max(i for i, s in enumerate(ini_tramo) if s <= c0)
-        texto = next((s[2] for s in subs if s[0] <= c0 < s[1]), None)
-        clave = (li, texto)
+        sub = next((s for s in subs if s[0] <= c0 < s[1]), None)
+        texto = sub[2] if sub else None
+        activa = max((k for k, t in enumerate(sub[3]) if t <= c0), default=-1) if sub else -1
+        clave = (li, texto, activa)
         if clave not in cache:
             ruta = tmp / f"f{len(cache):03d}.png"
-            fotograma(lams[li], texto).save(ruta)
+            fotograma(lams[li], texto, activa, li in completos).save(ruta)
             cache[clave] = ruta
         lista.append((cache[clave], (c1 - c0) / FPS))
 

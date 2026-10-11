@@ -1,0 +1,100 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "id": "29_movil_ca",
+ "idioma": "ca",
+ "negocio": "Fisioteràpia Fulanito",
+ "dominio": "fisiofulanito.com",
+ "pastilla": "Fes la prova",
+ "portada": "Obre la teva web // *al mòbil*",
+ "desliza": "Llisca →",
+ "de": "de 5",
+ "gancho": {
+  "pastilla": "Fes la prova",
+  "texto": "Agafa el mòbil i obre *la teva web. Ara.*",
+  "maqueta": {
+   "tipo": "movil",
+   "variante": "zoom",
+   "etiqueta": "Cal fer zoom",
+   "menu_txt": "Inici  Serveis  Tarifes  Equip  Contacte",
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Has de fer zoom // *per llegir*",
+   "nota": "Si cal pessigar la pantalla, no està pensada per a mòbil.",
+   "maqueta": {
+    "tipo": "movil",
+    "variante": "zoom",
+    "etiqueta": "Cal fer zoom",
+    "menu_txt": "Inici  Serveis  Tarifes  Equip  Contacte"
+   }
+  },
+  {
+   "titulo": "El telèfon // *no es pot prémer*",
+   "nota": "Que et truqui amb un toc, sense copiar números.",
+   "maqueta": {
+    "tipo": "movil",
+    "variante": "telefono",
+    "texto": "Fisioteràpia i rehabilitació",
+    "telefono": "Tel. 972 00 00 00",
+    "etiqueta": "No és un enllaç"
+   }
+  },
+  {
+   "titulo": "Una pantalla // *en blanc*",
+   "nota": "Mentre carrega, el client té temps de marxar.",
+   "maqueta": {
+    "tipo": "movil",
+    "variante": "blanco",
+    "etiqueta": "Carregant…"
+   }
+  },
+  {
+   "titulo": "Enllaços tan junts // *que falles*",
+   "nota": "El dit no és un ratolí: necessita espai.",
+   "maqueta": {
+    "tipo": "movil",
+    "variante": "juntos",
+    "enlaces": [
+     "Inici",
+     "Serveis",
+     "Tarifes",
+     "Equip",
+     "Blog",
+     "Contacte"
+    ],
+    "etiqueta": "Has premut el que no era"
+   }
+  },
+  {
+   "titulo": "I WhatsApp, // *ni rastre*",
+   "nota": "Que et pugui escriure per WhatsApp sense omplir res.",
+   "maqueta": {
+    "tipo": "movil",
+    "variante": "formulario",
+    "titulo": "Contacte",
+    "campos": [
+     "Nom",
+     "Correu",
+     "Telèfon",
+     "Missatge"
+    ],
+    "enviar": "Envia",
+    "etiqueta": "I el WhatsApp?"
+   }
+  }
+ ],
+ "cierre": "Et faig una demo de la teva web per al mòbil, gratis en 48 h",
+ "guardar": "Desa-te'l i fes la prova amb la teva web",
+ "cta": "Escriu-me per WhatsApp",
+ "guion": [
+  "Agafa el mòbil i obre la teva web. Ara. Si veus una d'aquestes cinc coses, el teu client també la veu.",
+  "U: has de fer zoom per llegir.",
+  "Dos: el telèfon no es pot prémer.",
+  "Tres: la pantalla es queda en blanc mentre carrega.",
+  "Quatre: els enllaços estan tan junts que prems el que no és.",
+  "I cinc: no hi ha WhatsApp enlloc.",
+  "Et faig una demo de la teva web gratis en 48 hores. Escriu-me per WhatsApp."
+ ]
+}

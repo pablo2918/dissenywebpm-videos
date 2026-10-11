@@ -34,6 +34,20 @@ proponer un tema, comprobar que el consejo lo cumple la propia oferta.
 3. `herramientas/voz_video.py .tmp/<id> --carpeta salida/carruseles/<id> --salida salida/<id>_voz.mp4`
    → 1080x1920, subtítulos = guion tal cual, volumen -16 LUFS.
 
+### Gancho (los 3 primeros segundos)
+Cada carrusel nuevo lleva en su JSON un bloque `gancho` (pastilla, texto con
+`*resaltado*`, maqueta). `carrusel.py` lo dibuja a pantalla completa en
+`salida/ganchos/<id>.png` (solo para el vídeo, no es una lámina del carrusel)
+y `voz_video.py` lo usa en lugar de la portada para el primer tramo del guion,
+sin subtítulos. El primer tramo del guion es la frase del gancho.
+Ganchos que funcionan: algo que el que mira puede comprobar en su negocio YA
+(«Coge el móvil y abre tu web. Ahora.», «Si tu web empieza con «Bienvenidos»…»),
+con el problema dibujado. Nunca cifras inventadas.
+
+### Subtítulos
+Montserrat Black, contorno negro grueso, sombra, y la palabra que se está
+diciendo en amarillo (karaoke). Frases cortas dichas deprisa van enteras.
+
 Azure: la clave la inyecta el entorno de la nube (secreto de red con la
 cabecera `Ocp-Apim-Subscription-Key` para swedencentral.tts.speech.microsoft.com).
 El script nunca la ve. En local se lee de `AZURE_SPEECH_KEY` en `.env`

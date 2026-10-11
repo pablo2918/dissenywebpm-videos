@@ -1,0 +1,100 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "id": "29_movil_es",
+ "idioma": "es",
+ "negocio": "Fisioterapia Fulanito",
+ "dominio": "fisiofulanito.com",
+ "pastilla": "Haz la prueba",
+ "portada": "Abre tu web // *en el móvil*",
+ "desliza": "Desliza →",
+ "de": "de 5",
+ "gancho": {
+  "pastilla": "Haz la prueba",
+  "texto": "Coge el móvil y abre *tu web. Ahora.*",
+  "maqueta": {
+   "tipo": "movil",
+   "variante": "zoom",
+   "etiqueta": "Hay que hacer zoom",
+   "menu_txt": "Inicio  Servicios  Tarifas  Equipo  Contacto",
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Tienes que hacer zoom // *para leer*",
+   "nota": "Si hay que pellizcar la pantalla, no está pensada para móvil.",
+   "maqueta": {
+    "tipo": "movil",
+    "variante": "zoom",
+    "etiqueta": "Hay que hacer zoom",
+    "menu_txt": "Inicio  Servicios  Tarifas  Equipo  Contacto"
+   }
+  },
+  {
+   "titulo": "El teléfono // *no se puede pulsar*",
+   "nota": "Que te llame con un toque, sin copiar números.",
+   "maqueta": {
+    "tipo": "movil",
+    "variante": "telefono",
+    "texto": "Fisioterapia y rehabilitación",
+    "telefono": "Tel. 972 00 00 00",
+    "etiqueta": "No es un enlace"
+   }
+  },
+  {
+   "titulo": "Una pantalla // *en blanco*",
+   "nota": "Mientras carga, al cliente le da tiempo a irse.",
+   "maqueta": {
+    "tipo": "movil",
+    "variante": "blanco",
+    "etiqueta": "Cargando…"
+   }
+  },
+  {
+   "titulo": "Enlaces tan juntos // *que fallas*",
+   "nota": "El dedo no es un ratón: necesita espacio.",
+   "maqueta": {
+    "tipo": "movil",
+    "variante": "juntos",
+    "enlaces": [
+     "Inicio",
+     "Servicios",
+     "Tarifas",
+     "Equipo",
+     "Blog",
+     "Contacto"
+    ],
+    "etiqueta": "Has pulsado el que no era"
+   }
+  },
+  {
+   "titulo": "Y WhatsApp, // *ni rastro*",
+   "nota": "Que pueda escribirte por WhatsApp sin rellenar nada.",
+   "maqueta": {
+    "tipo": "movil",
+    "variante": "formulario",
+    "titulo": "Contacto",
+    "campos": [
+     "Nombre",
+     "Email",
+     "Teléfono",
+     "Mensaje"
+    ],
+    "enviar": "Enviar",
+    "etiqueta": "¿Y WhatsApp?"
+   }
+  }
+ ],
+ "cierre": "Te hago una demo de tu web para el móvil, gratis en 48 h",
+ "guardar": "Guárdatelo y haz la prueba con tu web",
+ "cta": "Escríbeme por WhatsApp",
+ "guion": [
+  "Coge el móvil y abre tu web. Ahora. Si ves una de estas cinco cosas, tu cliente también la ve.",
+  "Uno: tienes que hacer zoom para leer.",
+  "Dos: el teléfono no se puede pulsar.",
+  "Tres: la pantalla se queda en blanco mientras carga.",
+  "Cuatro: los enlaces están tan juntos que pulsas el que no es.",
+  "Y cinco: no hay WhatsApp por ningún lado.",
+  "Te hago una demo de tu web gratis en 48 horas. Escríbeme por WhatsApp."
+ ]
+}
