@@ -1,0 +1,109 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "53_mayores_ca",
+ "idioma": "ca",
+ "negocio": "Farmàcia Fulanito",
+ "dominio": "farmaciafulanito.com",
+ "pastilla": "Clients grans",
+ "portada": "El teu client té 70 anys. // *Pot fer servir la teva web?*",
+ "gancho": {
+  "pastilla": "Clients grans",
+  "texto": "El teu client té 70 anys. // *Pot fer servir la teva web?*",
+  "maqueta": {
+   "tipo": "movil",
+   "variante": "zoom",
+   "etiqueta": "No ho pot llegir",
+   "menu_txt": "Inici  Serveis  Horaris  Guàrdies  Contacte",
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Lletra // *gran*",
+   "nota": "Si ha de buscar les ulleres, marxa.",
+   "maqueta": {
+    "tipo": "movil",
+    "variante": "zoom",
+    "etiqueta": "Lletra massa petita",
+    "menu_txt": "Inici  Serveis  Horaris  Guàrdies  Contacte"
+   }
+  },
+  {
+   "titulo": "Molt // *de contrast*",
+   "nota": "Gris clar sobre blanc no ho llegeix gairebé ningú.",
+   "maqueta": {
+    "tipo": "antes_despues",
+    "antes": "Gris sobre blanc",
+    "despues": "Negre sobre blanc",
+    "pie": "El mateix text, un altre color"
+   }
+  },
+  {
+   "titulo": "Un botó // *de trucar, gran*",
+   "nota": "Hi ha clients que prefereixen parlar, i està bé.",
+   "maqueta": {
+    "tipo": "movil",
+    "variante": "telefono",
+    "texto": "Farmàcia al centre de Girona",
+    "telefono": "Tel. 972 00 00 00",
+    "etiqueta": "Massa petit"
+   }
+  },
+  {
+   "titulo": "Pocs passos // *i clars*",
+   "nota": "Cada pas de més és algú que ho deixa.",
+   "maqueta": {
+    "tipo": "pasos",
+    "titulo": "Demanar un encàrrec",
+    "pasos": [
+     [
+      "Prem «Trucar»",
+      "O escriu-nos per WhatsApp"
+     ],
+     [
+      "Digues-nos què necessites",
+      "Nosaltres ho apuntem"
+     ],
+     [
+      "Passa a recollir-ho",
+      "T'avisem quan estigui"
+     ]
+    ],
+    "senalado": 0
+   }
+  },
+  {
+   "titulo": "El més important, // *a dalt*",
+   "nota": "Horari, guàrdies i telèfon, sense haver de baixar.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Farmàcia al centre de Girona",
+    "subtitulo": "Obert de 9 a 21 h. Guàrdies: veure calendari.",
+    "menu": [
+     "Horaris",
+     "Guàrdies",
+     "Contacte"
+    ],
+    "foto": 1,
+    "boton": "Truca ara",
+    "senala": "todo"
+   }
+  }
+ ],
+ "cierre": "Et faig una web fàcil per a tothom, gratis en 48 h",
+ "guardar": "Desa-te'l i passa-ho als teus pares",
+ "guion": [
+  "El teu client té setanta anys. Pot fer servir la teva web? Si no pot, no es queixa: simplement no torna.",
+  "Fes servir lletra gran.",
+  "Amb molt de contrast.",
+  "Un botó de trucar ben gran.",
+  "Pocs passos, i clars.",
+  "I el més important a dalt: horari i telèfon.",
+  "Et faig la demo d'una web fàcil per a tothom, gratis en 48 hores. Escriu-me per WhatsApp."
+ ],
+ "hashtags": "#accessibilitat #webpernegocis #gentgran #girona #comercelocal",
+ "aviso": "Farmàcia Fulanito i les seves dades són d'exemple. El botó de la maqueta porta a trucar perquè és el que prefereixen molts clients grans."
+}

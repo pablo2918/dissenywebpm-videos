@@ -1,0 +1,183 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "46_datos_ca",
+ "idioma": "ca",
+ "negocio": "Taller Fulanito",
+ "dominio": "tallerfulanito.com",
+ "pastilla": "Fes la prova",
+ "portada": "La teva web diu una cosa. // *Google, una altra*",
+ "gancho": {
+  "pastilla": "Fes la prova",
+  "texto": "La teva web diu les 9. // *Google, les 10.*",
+  "maqueta": {
+   "tipo": "lista",
+   "titulo": "Horari dels dissabtes",
+   "filas": [
+    [
+     "La teva web",
+     "9:00–14:00",
+     "bien"
+    ],
+    [
+     "Google Maps",
+     "10:00–13:00",
+     "mal"
+    ],
+    [
+     "Instagram",
+     "Tancat",
+     "mal"
+    ]
+   ],
+   "casillas": false,
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "L'horari, // *igual a tot arreu*",
+   "nota": "Si no coincideix, el client no es refia de cap.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Horari",
+    "filas": [
+     [
+      "Web",
+      "9:00–20:00",
+      "bien"
+     ],
+     [
+      "Google Maps",
+      "9:00–20:00",
+      "bien"
+     ],
+     [
+      "Instagram",
+      "9:00–19:00",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "El mateix // *telèfon*",
+   "nota": "Un número vell en algun lloc és una trucada que no t'arriba.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Telèfon",
+    "filas": [
+     [
+      "Web",
+      "972 00 00 00",
+      "bien"
+     ],
+     [
+      "Google Maps",
+      "972 00 00 00",
+      "bien"
+     ],
+     [
+      "Facebook",
+      "Número antic",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "La mateixa // *adreça*",
+   "nota": "Escrita igual: Google es fixa en aquestes coses.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Adreça",
+    "filas": [
+     [
+      "Web",
+      "Carrer Major, 12",
+      "bien"
+     ],
+     [
+      "Google Maps",
+      "C/ Major 12",
+      "bien"
+     ],
+     [
+      "Directori",
+      "Local antic",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Els festius, // *avisats*",
+   "nota": "El dia que més es nota és quan estàs tancat.",
+   "maqueta": {
+    "tipo": "ficha",
+    "valoracion": "4,6",
+    "filas": [
+     [
+      "Festiu 15 d'agost",
+      "Sense indicar",
+      true
+     ],
+     [
+      "Horari normal",
+      "9:00–20:00",
+      false
+     ],
+     [
+      "Telèfon",
+      "972 00 00 00",
+      false
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Un lloc // *que mana*",
+   "nota": "La web és la bona. La resta, es copia d'allà.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Ho actualitzo jo",
+    "filas": [
+     [
+      "Web",
+      "",
+      "ok"
+     ],
+     [
+      "Fitxa de Google",
+      "",
+      "ok"
+     ],
+     [
+      "I tu ho copies a les xarxes",
+      "",
+      "ok"
+     ]
+    ],
+    "casillas": true
+   }
+  }
+ ],
+ "cierre": "Et reviso la web i la fitxa de Google. Escriu-me",
+ "guardar": "Desa-te'l i compara-ho avui",
+ "guion": [
+  "La teva web diu que obres a les nou. Google diu a les deu. I el client no sap a qui creure.",
+  "L'horari, igual a tot arreu.",
+  "El mateix telèfon.",
+  "La mateixa adreça, escrita igual.",
+  "Els festius, avisats.",
+  "I un lloc que mana: la teva web. La resta es copia d'allà.",
+  "Si vols, et reviso la web i la fitxa de Google. Escriu-me per WhatsApp."
+ ],
+ "hashtags": "#googlemaps #seolocal #comercelocal #girona #webpernegocis",
+ "aviso": "Els horaris, telèfons i adreces són d'exemple. **La làmina 05 diu que tu actualitzes web i fitxa: comprova que encaixa amb el pla del client.**"
+}

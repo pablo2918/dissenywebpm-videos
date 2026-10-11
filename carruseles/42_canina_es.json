@@ -1,0 +1,147 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "42_canina_es",
+ "idioma": "es",
+ "negocio": "Peluquería Canina Fulanita",
+ "dominio": "caninafulanita.com",
+ "pastilla": "Peluquería canina",
+ "portada": "Lo que quiere ver // *quien te deja su perro*",
+ "gancho": {
+  "pastilla": "Peluquería canina",
+  "texto": "Nadie deja a su perro // *con un desconocido*",
+  "maqueta": {
+   "tipo": "antes_despues",
+   "antes": "Antes",
+   "despues": "Después",
+   "pie": "Corte de verano · caniche",
+   "k": 1.25
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "El antes // *y el después*",
+   "nota": "Una foto vale más que cualquier explicación.",
+   "maqueta": {
+    "tipo": "antes_despues",
+    "antes": "Antes",
+    "despues": "Después",
+    "pie": "Corte de verano · caniche"
+   }
+  },
+  {
+   "titulo": "Precio // *por tamaño*",
+   "nota": "Así sabe cuánto le va a costar su perro.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Tarifas",
+    "filas": [
+     [
+      "Perro pequeño",
+      "desde 25 €",
+      "bien"
+     ],
+     [
+      "Perro mediano",
+      "desde 35 €",
+      "bien"
+     ],
+     [
+      "Perro grande",
+      "desde 45 €",
+      "bien"
+     ],
+     [
+      "Gatos",
+      "Consultar",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Cuánto tiempo // *se queda*",
+   "nota": "Para organizarse el día.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Duración",
+    "filas": [
+     [
+      "Baño",
+      "1 hora",
+      "bien"
+     ],
+     [
+      "Baño y corte",
+      "2 horas",
+      "bien"
+     ],
+     [
+      "Deslanado",
+      "Sin indicar",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Qué dicen // *otros dueños*",
+   "nota": "Y que vea que respondes.",
+   "maqueta": {
+    "tipo": "resenas",
+    "respuesta_titulo": "Respuesta del propietario",
+    "resenas": [
+     {
+      "nombre": "Clara V.",
+      "estrellas": 5,
+      "texto": "Mi perra sale feliz cada vez. Mucha paciencia.",
+      "respuesta": "¡Gracias, Clara! Un beso a Luna."
+     },
+     {
+      "nombre": "Albert R.",
+      "estrellas": 5,
+      "texto": "Muy buen trato y puntuales."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Pedir cita, // *por WhatsApp*",
+   "nota": "Con una foto del perro ya sabes el trabajo que hay.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, ¿tenéis hueco el viernes para un caniche?"
+     },
+     {
+      "de": "cliente",
+      "fotos": true
+     },
+     {
+      "de": "negocio",
+      "texto": "¡Hola! Sí, el viernes a las 10. ¡Qué guapo!"
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Te hago la demo de la web de tu peluquería canina, gratis en 48 h",
+ "guardar": "Guárdatelo y mira tu web",
+ "guion": [
+  "Nadie deja a su perro con un desconocido. Antes de pedir cita, el dueño quiere ver esto.",
+  "El antes y el después.",
+  "El precio según el tamaño del perro.",
+  "Cuánto tiempo se queda.",
+  "Qué dicen otros dueños.",
+  "Y pedir cita por WhatsApp, con una foto del perro.",
+  "Te hago la demo de la web de tu peluquería canina gratis en 48 horas. Escríbeme por WhatsApp."
+ ],
+ "hashtags": "#peluqueriacanina #perros #mascotas #girona #webparanegocios",
+ "aviso": "Peluquería Canina Fulanita, los precios, las duraciones y las reseñas son de ejemplo."
+}

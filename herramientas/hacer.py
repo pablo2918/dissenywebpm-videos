@@ -42,6 +42,28 @@ def revision(tema, idi):
     hoja.save(REV / f"{tema}_{idi}_video.png")
 
 
+def limpio(t):
+    return t.replace("*", "").replace(" // ", " ").replace("//", " ")
+
+
+def publicar(tema):
+    """PUBLICAR.md a partir de los JSON (si traen hashtags y aviso)."""
+    dest = RAIZ / "salida" / tema / "PUBLICAR.md"
+    cs = {i: json.loads((RAIZ / "carruseles" / f"{tema}_{i}.json").read_text()) for i in ("es", "ca")}
+    if dest.exists() or not all("hashtags" in c for c in cs.values()):
+        return
+    tit = {"es": "Castellano", "ca": "Català"}
+    txt = f"# {tema[:2]} · {limpio(cs['es']['portada'])}\n\n> **Aviso:** {cs['es']['aviso']}\n"
+    for i, c in cs.items():
+        g = c["guion"]
+        pie = "\n".join([g[0], " ".join(g[1:6]), f"{g[6].rsplit('.', 1)[0] if g[6].count('.') > 1 else g[6]} 641 27 74 95", c["guardar"]])
+        txt += (f"\n**{tit[i]} (Instagram / Facebook)**\n{pie}\n\n"
+                f"**TikTok / Shorts:** {limpio(c['gancho']['texto'])}\n{c['hashtags']}\n")
+    txt += ("\n**Vídeo:** sube el de `es/` o `ca/` como Reel, TikTok o Short; "
+            "el carrusel (`carrusel/`, 7 láminas) a Instagram/Facebook otro día.\n")
+    dest.write_text(txt, encoding="utf-8")
+
+
 def main():
     for tema in sys.argv[1:]:
         for idi in ("es", "ca"):
@@ -56,6 +78,7 @@ def main():
                "--salida", base / "video.mp4")
             revision(tema, idi)
             print(f"OK {cid}")
+        publicar(tema)
 
 
 if __name__ == "__main__":

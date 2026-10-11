@@ -1,0 +1,156 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "34_academia_es",
+ "idioma": "es",
+ "negocio": "Academia Fulanito",
+ "dominio": "academiafulanito.com",
+ "pastilla": "Academias",
+ "portada": "Lo que busca un padre // *antes de apuntar a su hijo*",
+ "gancho": {
+  "pastilla": "Academias",
+  "texto": "En septiembre, los padres // *buscan academia*",
+  "maqueta": {
+   "tipo": "lista",
+   "titulo": "Academias cerca",
+   "filas": [
+    [
+     "Academia A",
+     "Horarios y precios",
+     "bien"
+    ],
+    [
+     "Tu academia",
+     "Solo un teléfono",
+     "mal"
+    ],
+    [
+     "Academia C",
+     "Horarios y precios",
+     "bien"
+    ]
+   ],
+   "casillas": false,
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Qué cursos // *y para qué edades*",
+   "nota": "Que vea en un vistazo si hay algo para su hijo.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Cursos",
+    "filas": [
+     [
+      "Refuerzo primaria",
+      "6–12 años",
+      "bien"
+     ],
+     [
+      "ESO y bachillerato",
+      "12–18 años",
+      "bien"
+     ],
+     [
+      "Inglés",
+      "Todas las edades",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Horarios, // *por días*",
+   "nota": "Lo primero que mira es si le cuadra con el colegio.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Horarios",
+    "filas": [
+     [
+      "Lunes y miércoles",
+      "17:00–18:30",
+      "bien"
+     ],
+     [
+      "Martes y jueves",
+      "18:30–20:00",
+      "bien"
+     ],
+     [
+      "Viernes",
+      "Sin indicar",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Cuánto cuesta // *al mes*",
+   "nota": "Con el precio, la conversación ya empieza en el «sí».",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Precios",
+    "filas": [
+     [
+      "2 h por semana",
+      "desde 60 €/mes",
+      "bien"
+     ],
+     [
+      "3 h por semana",
+      "desde 85 €/mes",
+      "bien"
+     ],
+     [
+      "Matrícula",
+      "Consultar",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Quién // *da las clases*",
+   "nota": "Un padre quiere saber a quién deja a su hijo.",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "Profesores",
+    "etiquetas": [
+     "Matemáticas",
+     "Lengua",
+     "Inglés"
+    ],
+    "pie": "Caras reales, no de catálogo"
+   }
+  },
+  {
+   "titulo": "Una clase // *de prueba*",
+   "nota": "Probar antes de pagar el mes quita dudas.",
+   "maqueta": {
+    "tipo": "movil_boton",
+    "titular": "Academia Fulanito",
+    "texto": "Refuerzo escolar e inglés en Girona.",
+    "boton": "Pide una clase de prueba"
+   }
+  }
+ ],
+ "cierre": "Te hago la demo de la web de tu academia, gratis en 48 h",
+ "guardar": "Guárdatelo para agosto",
+ "guion": [
+  "En septiembre, los padres buscan academia. Y eligen la que les responde sin tener que llamar.",
+  "Qué cursos tienes, y para qué edades.",
+  "Los horarios, por días.",
+  "Cuánto cuesta al mes.",
+  "Quién da las clases.",
+  "Y una clase de prueba, que se pida en un toque.",
+  "Te hago la demo de la web de tu academia gratis en 48 horas. Escríbeme por WhatsApp."
+ ],
+ "hashtags": "#academia #refuerzoescolar #vueltaalcole #girona #webparanegocios",
+ "aviso": "Academia Fulanito, los cursos, horarios y precios son de ejemplo."
+}

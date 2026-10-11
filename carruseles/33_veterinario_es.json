@@ -1,0 +1,144 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "33_veterinario_es",
+ "idioma": "es",
+ "negocio": "Clínica Veterinaria Fulanito",
+ "dominio": "vetfulanito.com",
+ "pastilla": "Veterinarios",
+ "portada": "Cuando tu perro se pone malo, // *esto es lo que buscas*",
+ "gancho": {
+  "pastilla": "Veterinarios",
+  "texto": "Son las 11 de la noche // *y tu perro no está bien*",
+  "maqueta": {
+   "tipo": "ficha",
+   "valoracion": "4,8",
+   "filas": [
+    [
+     "Urgencias",
+     "No aparece",
+     true
+    ],
+    [
+     "Horario",
+     "Cerrado · abre a las 9:00",
+     false
+    ],
+    [
+     "Teléfono",
+     "972 00 00 00",
+     false
+    ]
+   ],
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Si atiendes // *urgencias*",
+   "nota": "Y si no, a quién llamar. Eso también ayuda.",
+   "maqueta": {
+    "tipo": "ficha",
+    "valoracion": "4,8",
+    "filas": [
+     [
+      "Urgencias 24 h",
+      "No indicado",
+      true
+     ],
+     [
+      "Horario",
+      "Lun–Sáb 9:00–20:00",
+      false
+     ],
+     [
+      "Teléfono",
+      "972 00 00 00",
+      false
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Un teléfono // *que se pulse*",
+   "nota": "Con un animal en brazos, nadie copia números.",
+   "maqueta": {
+    "tipo": "movil",
+    "variante": "telefono",
+    "texto": "Clínica veterinaria en Girona",
+    "telefono": "Tel. 972 00 00 00",
+    "etiqueta": "No es un enlace"
+   }
+  },
+  {
+   "titulo": "Qué // *atendéis*",
+   "nota": "Perros y gatos, o también exóticos: dilo.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Atendemos",
+    "filas": [
+     [
+      "Perros",
+      "",
+      "ok"
+     ],
+     [
+      "Gatos",
+      "",
+      "ok"
+     ],
+     [
+      "Conejos y hurones",
+      "",
+      "ok"
+     ],
+     [
+      "Reptiles",
+      "No atendemos",
+      "mal"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "Quién // *lo va a cuidar*",
+   "nota": "Un dueño nervioso quiere ver caras.",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "El equipo",
+    "etiquetas": [
+     "Veterinaria",
+     "Auxiliar",
+     "Recepción"
+    ],
+    "pie": "Caras reales, no de catálogo"
+   }
+  },
+  {
+   "titulo": "Pedir cita // *por WhatsApp*",
+   "nota": "Para vacunas y revisiones, sin llamar.",
+   "maqueta": {
+    "tipo": "movil_boton",
+    "titular": "Clínica Veterinaria Fulanito",
+    "texto": "Perros, gatos y pequeños mamíferos.",
+    "boton": "Pide cita por WhatsApp"
+   }
+  }
+ ],
+ "cierre": "Te hago la demo de la web de tu clínica, gratis en 48 h",
+ "guardar": "Guárdatelo y mira tu web",
+ "guion": [
+  "Son las once de la noche y tu perro no está bien. Así te busca el dueño de un animal. Esto es lo que tiene que encontrar.",
+  "Si atiendes urgencias, y si no, a quién llamar.",
+  "Un teléfono que se pulse.",
+  "Qué animales atendéis.",
+  "Quién lo va a cuidar, con caras reales.",
+  "Y pedir cita por WhatsApp para vacunas y revisiones.",
+  "Te hago la demo de la web de tu clínica gratis en 48 horas. Escríbeme por WhatsApp."
+ ],
+ "hashtags": "#veterinario #clinicaveterinaria #mascotas #girona #webparanegocios",
+ "aviso": "Clínica Veterinaria Fulanito, el horario, el equipo y la valoración son de ejemplo."
+}

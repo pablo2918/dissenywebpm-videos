@@ -1,0 +1,164 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "45_dominio_ca",
+ "idioma": "ca",
+ "negocio": "Perruqueria Fulanita",
+ "dominio": "perruqueriafulanita.com",
+ "pastilla": "El teu domini",
+ "portada": "Un bon domini // *es dicta en 3 segons*",
+ "gancho": {
+  "pastilla": "Fes la prova",
+  "texto": "Dicta la teva web per telèfon. // *L'apunten bé?*",
+  "maqueta": {
+   "tipo": "lista",
+   "titulo": "La teva web",
+   "filas": [
+    [
+     "perruqueria-fulanita-girona-2019.com",
+     "Difícil",
+     "mal"
+    ],
+    [
+     "perruqueriafulanita.com",
+     "Fàcil",
+     "bien"
+    ]
+   ],
+   "casillas": false,
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Curt // *i fàcil de dir*",
+   "nota": "Si l'has de lletrejar, l'apuntaran malament.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Dominis",
+    "filas": [
+     [
+      "perruqueriafulanita.com",
+      "",
+      "bien"
+     ],
+     [
+      "perru-fulanita-girona-2019.cat",
+      "",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Sense guions // *ni números*",
+   "nota": "«Amb guió o sense?» és una visita perduda.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Evita",
+    "filas": [
+     [
+      "Guions",
+      "perru-fulanita",
+      "mal"
+     ],
+     [
+      "Números",
+      "fulanita2019",
+      "mal"
+     ],
+     [
+      "Lletres que sonen igual",
+      "b / v, ll / l·l",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Que digui // *què fas*",
+   "nota": "Si a més diu què fas, millor que només el nom.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Tria",
+    "filas": [
+     [
+      "fulanita.com",
+      "Només el nom",
+      "bien"
+     ],
+     [
+      "perruqueriafulanita.com",
+      "Nom i què fas",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": ".com, .es // *o .cat*",
+   "nota": "Els tres serveixen. Tria'n un i fes-lo servir a tot arreu.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Terminacions",
+    "filas": [
+     [
+      ".com",
+      "La més coneguda",
+      "bien"
+     ],
+     [
+      ".es",
+      "Per a Espanya",
+      "bien"
+     ],
+     [
+      ".cat",
+      "Per a Catalunya",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Al teu // *nom*",
+   "nota": "El domini és teu, no de qui et fa la web.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "El teu domini",
+    "filas": [
+     [
+      "Titular",
+      "El teu nom",
+      "bien"
+     ],
+     [
+      "Renovació",
+      "Inclosa a la quota",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  }
+ ],
+ "cierre": "El teu domini, al teu nom i inclòs. Escriu-me",
+ "guardar": "Desa-te'l i dicta la teva web en veu alta",
+ "guion": [
+  "Dicta la teva web per telèfon. Si t'han de preguntar com s'escriu, el teu domini no ajuda.",
+  "Ha de ser curt i fàcil de dir.",
+  "Sense guions ni números.",
+  "Millor si diu què fas, a més del nom.",
+  "Punt com, punt es o punt cat: els tres serveixen. Tria'n un.",
+  "I al teu nom. El domini és teu, no de qui et fa la web.",
+  "Amb mi, el domini va al teu nom i està inclòs. Escriu-me per WhatsApp."
+ ],
+ "hashtags": "#domini #webpernegocis #dissenyweb #girona #comercelocal",
+ "aviso": "Els dominis són d'exemple. **Comprova que la renovació del domini està inclosa a la quota, com diu la làmina 05.**"
+}

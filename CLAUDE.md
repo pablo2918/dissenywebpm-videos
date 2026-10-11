@@ -35,7 +35,8 @@ aparcado: va contra su modelo.
 Hechos aquí: 03 señales · 09 así trabajo · 12 clínica · 13 reformas · 14 casa
 rural · 15 gimnasio · 17 asesoría · 18 estética · 23 lo que mira un cliente ·
 28 «Bienvenidos» · 29 web en el móvil · 30 taller · 31 tienda de barrio.
-Con esto, la lista de ideas de `ideas_carruseles.md` está agotada. Descartadas:
+Preparados SIN generar (ver `planes/PLAN_30.md`): 32–61, 30 temas listos para
+`hacer.py`. Con esto, la lista de ideas de `ideas_carruseles.md` está agotada. Descartadas:
 21 (va contra su modelo) y 24 (se pisa con su 01). Temas nuevos: proponer antes.
 Ojo: 23 se parece a 08/01 y 29 a 10 → publicarlos separados en el tiempo.
 
@@ -54,7 +55,7 @@ Hacer los temas de 2 en 2 (4 vídeos) para poder revisarlo todo a ojo.
 ### Gancho (los 3 primeros segundos)
 Cada carrusel nuevo lleva en su JSON un bloque `gancho` (pastilla, texto con
 `*resaltado*`, maqueta). `carrusel.py` lo dibuja a pantalla completa en
-`salida/ganchos/<id>.png` (solo para el vídeo, no es una lámina del carrusel)
+`salida/<tema>/<idioma>/gancho.png` (solo para el vídeo, no es una lámina del carrusel)
 y `voz_video.py` lo usa en lugar de la portada para el primer tramo del guion,
 sin subtítulos. El primer tramo del guion es la frase del gancho.
 Ganchos que funcionan: algo que el que mira puede comprobar en su negocio YA

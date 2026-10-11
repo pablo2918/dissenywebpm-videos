@@ -1,0 +1,148 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "32_turistas_es",
+ "idioma": "es",
+ "negocio": "Can Fulanito",
+ "dominio": "canfulanito.com",
+ "pastilla": "Restaurantes",
+ "portada": "Tu carta, // *en su idioma*",
+ "gancho": {
+  "pastilla": "Restaurantes",
+  "texto": "Un turista busca dónde comer. // *¿Te entiende?*",
+  "maqueta": {
+   "tipo": "web",
+   "titulo": "Cuina de mercat a Girona",
+   "subtitulo": "Menú de migdia i carta de temporada.",
+   "menu": [
+    "Carta",
+    "Reserves",
+    "Contacte"
+   ],
+   "foto": 0,
+   "senala": "titulo",
+   "mal": "Solo en catalán",
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Un botón // *de idioma, a la vista*",
+   "nota": "Si tiene que buscarlo, ya se ha ido.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Cocina de mercado en Girona",
+    "subtitulo": "Menú de mediodía y carta de temporada.",
+    "menu": [
+     "ES · CA · EN · FR",
+     "Carta",
+     "Reservas"
+    ],
+    "foto": 0,
+    "senala": "titulo"
+   }
+  },
+  {
+   "titulo": "La carta, // *traducida de verdad*",
+   "nota": "El traductor automático convierte «fideuà» en cualquier cosa.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Menu",
+    "filas": [
+     [
+      "Fideuà",
+      "Noodle paella",
+      "bien"
+     ],
+     [
+      "Crema catalana",
+      "Catalan custard",
+      "bien"
+     ],
+     [
+      "Pa amb tomàquet",
+      "Bread with tomato",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Alérgenos, // *claros*",
+   "nota": "Quien viaja con alergias pregunta antes de entrar.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Allergens",
+    "filas": [
+     [
+      "Gluten",
+      "",
+      "ok"
+     ],
+     [
+      "Lactose",
+      "",
+      "ok"
+     ],
+     [
+      "Nuts",
+      "",
+      "ok"
+     ],
+     [
+      "Shellfish",
+      "",
+      "ok"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "Reservar // *sin hablar por teléfono*",
+   "nota": "Un mensaje escrito se entiende en cualquier idioma.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hi! Table for 4 tonight at 9?"
+     },
+     {
+      "de": "negocio",
+      "texto": "Hi! Yes, see you at 9. Thank you!"
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Cómo llegar // *desde el centro*",
+   "nota": "Un turista no conoce tu calle.",
+   "maqueta": {
+    "tipo": "zonas",
+    "titulo": "How to get here",
+    "zonas": [
+     "5 min from the Cathedral",
+     "Parking nearby",
+     "Old Town"
+    ]
+   }
+  }
+ ],
+ "cierre": "Te hago la demo de la web de tu restaurante, gratis en 48 h",
+ "guardar": "Guárdatelo antes del verano",
+ "guion": [
+  "Un turista busca dónde comer. Si tu web solo está en un idioma, no te entiende, y elige al de al lado.",
+  "Un botón de idioma, bien a la vista.",
+  "La carta traducida de verdad, no con el traductor automático.",
+  "Los alérgenos, claros.",
+  "Reservar por escrito, sin tener que hablar por teléfono.",
+  "Y cómo llegar desde el centro.",
+  "Te hago la demo de la web de tu restaurante gratis en 48 horas. Escríbeme por WhatsApp."
+ ],
+ "hashtags": "#restaurantes #turismo #girona #costabrava #webparanegocios",
+ "aviso": "Can Fulanito, la carta y las conversaciones son de ejemplo. **Comprueba que ofreces webs en varios idiomas antes de publicarlo.**"
+}

@@ -1,0 +1,163 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "39_psicologo_es",
+ "idioma": "es",
+ "negocio": "Psicología Fulanita",
+ "dominio": "psicologiafulanita.com",
+ "pastilla": "Psicólogos",
+ "portada": "Pedir ayuda cuesta. // *Que tu web no lo ponga difícil*",
+ "gancho": {
+  "pastilla": "Psicólogos y terapeutas",
+  "texto": "Pedir ayuda cuesta. // *Que tu web no lo complique.*",
+  "maqueta": {
+   "tipo": "movil",
+   "variante": "formulario",
+   "titulo": "Contacto",
+   "campos": [
+    "Nombre",
+    "Email",
+    "Teléfono",
+    "Motivo de la consulta"
+   ],
+   "enviar": "Enviar",
+   "etiqueta": "Muy largo",
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Qué tratas, // *en palabras normales*",
+   "nota": "«Ansiedad» se entiende mejor que «abordaje cognitivo-conductual».",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Te puedo ayudar con",
+    "filas": [
+     [
+      "Ansiedad y estrés",
+      "",
+      "ok"
+     ],
+     [
+      "Duelo",
+      "",
+      "ok"
+     ],
+     [
+      "Problemas de pareja",
+      "",
+      "ok"
+     ],
+     [
+      "Autoestima",
+      "",
+      "ok"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "Cómo es // *la primera sesión*",
+   "nota": "Saber qué va a pasar quita mucho miedo.",
+   "maqueta": {
+    "tipo": "pasos",
+    "titulo": "La primera sesión",
+    "pasos": [
+     [
+      "Me escribes",
+      "Sin dar explicaciones"
+     ],
+     [
+      "Primera sesión",
+      "Nos conocemos, sin compromiso"
+     ],
+     [
+      "Plan",
+      "Decidimos juntos cómo seguir"
+     ]
+    ],
+    "senalado": 0
+   }
+  },
+  {
+   "titulo": "Cuánto cuesta // *cada sesión*",
+   "nota": "Nadie pide cita sin saber si se lo puede permitir.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Tarifas",
+    "filas": [
+     [
+      "Sesión individual",
+      "desde 60 €",
+      "bien"
+     ],
+     [
+      "Sesión de pareja",
+      "desde 80 €",
+      "bien"
+     ],
+     [
+      "Primera sesión",
+      "Consultar",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Online // *o presencial*",
+   "nota": "A muchos les cuesta menos empezar desde casa.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Modalidad",
+    "filas": [
+     [
+      "Presencial en Girona",
+      "",
+      "ok"
+     ],
+     [
+      "Online por videollamada",
+      "",
+      "ok"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "Un contacto // *discreto*",
+   "nota": "Un mensaje corto es más fácil que una llamada.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, me gustaría pedir una primera sesión."
+     },
+     {
+      "de": "negocio",
+      "texto": "Hola, gracias por escribir. ¿Prefieres presencial u online?"
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Te hago la demo de la web de tu consulta, gratis en 48 h",
+ "guardar": "Guárdatelo y mira tu web con calma",
+ "guion": [
+  "Pedir ayuda cuesta. Tu web no puede ponerlo más difícil con formularios largos y palabras técnicas.",
+  "Di qué tratas, con palabras normales.",
+  "Explica cómo es la primera sesión.",
+  "Cuánto cuesta cada sesión.",
+  "Si atiendes online o presencial.",
+  "Y un contacto discreto, por WhatsApp.",
+  "Te hago la demo de la web de tu consulta gratis en 48 horas. Escríbeme por WhatsApp."
+ ],
+ "hashtags": "#psicologo #psicologia #terapia #girona #webparanegocios",
+ "aviso": "Psicología Fulanita, las tarifas y los tratamientos son de ejemplo."
+}

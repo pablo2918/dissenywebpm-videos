@@ -1,0 +1,148 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "57_seguro_ca",
+ "idioma": "ca",
+ "negocio": "El teu negoci",
+ "dominio": "elteunegoci.com",
+ "pastilla": "Fes la prova",
+ "portada": "Si la teva web surt // *com a «No segur»*",
+ "gancho": {
+  "pastilla": "Fes la prova",
+  "texto": "Obre la teva web. // *Posa «No segur»?*",
+  "maqueta": {
+   "tipo": "web",
+   "titulo": "Benvinguts a la nostra web",
+   "subtitulo": "Som una empresa amb anys d'experiència.",
+   "menu": [
+    "Inici",
+    "Nosaltres",
+    "Contacte"
+   ],
+   "foto": 4,
+   "dominio": "No segur · elteunegoci.com",
+   "senala": "titulo",
+   "mal": "No segur",
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Què // *vol dir*",
+   "nota": "Que el que s'escriu a la teva web no viatja protegit.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Barra del navegador",
+    "filas": [
+     [
+      "https://elteunegoci.com",
+      "Amb cadenat",
+      "bien"
+     ],
+     [
+      "No segur · elteunegoci.com",
+      "Sense certificat",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Per què // *espanta*",
+   "nota": "Ningú deixa el seu telèfon en una web que diu «No segur».",
+   "maqueta": {
+    "tipo": "movil",
+    "variante": "formulario",
+    "titulo": "Contacte",
+    "campos": [
+     "Nom",
+     "Telèfon",
+     "Missatge"
+    ],
+    "enviar": "Envia",
+    "etiqueta": "«No segur»"
+   }
+  },
+  {
+   "titulo": "Google // *també ho mira*",
+   "nota": "Prefereix ensenyar webs segures.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Google té en compte",
+    "filas": [
+     [
+      "Web segura (https)",
+      "",
+      "ok"
+     ],
+     [
+      "Càrrega ràpida",
+      "",
+      "ok"
+     ],
+     [
+      "Es veu bé al mòbil",
+      "",
+      "ok"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "Com // *s'arregla*",
+   "nota": "Amb un certificat. És una cosa tècnica, no l'has de fer tu.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Ho arregla qui et porta la web",
+    "filas": [
+     [
+      "Certificat de seguretat",
+      "",
+      "ok"
+     ],
+     [
+      "Que es renovi sol",
+      "",
+      "ok"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "Amb mi, // *inclòs*",
+   "nota": "Totes les meves webs porten el cadenat, sense pagar a part.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Perruqueria a Girona",
+    "subtitulo": "Tall, color i pentinats.",
+    "menu": [
+     "Serveis",
+     "Preus",
+     "Contacte"
+    ],
+    "foto": 3,
+    "dominio": "https://perruqueriafulanita.com",
+    "boton": "Demana hora per WhatsApp",
+    "senala": "todo"
+   }
+  }
+ ],
+ "cierre": "Web segura, amb el cadenat inclòs. Escriu-me",
+ "guardar": "Desa-te'l i mira la teva web",
+ "guion": [
+  "Obre la teva web. Posa «No segur» al costat de l'adreça? Si ho posa, els teus clients també ho veuen.",
+  "Vol dir que el que s'escriu a la teva web no viatja protegit.",
+  "I espanta: ningú hi deixa el seu telèfon.",
+  "Google també ho mira.",
+  "S'arregla amb un certificat. És cosa tècnica, no l'has de fer tu.",
+  "I amb mi va inclòs, sense pagar a part.",
+  "Et faig la demo de la teva web gratis en 48 hores. Escriu-me per WhatsApp."
+ ],
+ "hashtags": "#seguretatweb #https #webpernegocis #girona #comercelocal",
+ "aviso": "Les webs són d'exemple. **Comprova que el certificat (https) va inclòs a totes les teves webs, com diu la làmina 05.**"
+}

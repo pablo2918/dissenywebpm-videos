@@ -1,0 +1,161 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "52_navidad_ca",
+ "idioma": "ca",
+ "negocio": "El teu negoci",
+ "dominio": "elteunegoci.com",
+ "pastilla": "Nadal",
+ "portada": "Prepara el teu negoci // *per Nadal al novembre*",
+ "gancho": {
+  "pastilla": "Nadal",
+  "texto": "Al desembre // *ja és tard*",
+  "maqueta": {
+   "tipo": "lista",
+   "titulo": "Desembre",
+   "filas": [
+    [
+     "Horari festius",
+     "Sense posar",
+     "mal"
+    ],
+    [
+     "Encàrrecs",
+     "Només per telèfon",
+     "mal"
+    ],
+    [
+     "Targeta regal",
+     "No n'hi ha",
+     "mal"
+    ]
+   ],
+   "casillas": false,
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Horari // *de les festes*",
+   "nota": "24, 25, 26, 31 i 6 de gener: que ningú hi vagi en va.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Horari de Nadal",
+    "filas": [
+     [
+      "24 de desembre",
+      "9:00–14:00",
+      "bien"
+     ],
+     [
+      "25 i 26 de desembre",
+      "Tancat",
+      "bien"
+     ],
+     [
+      "31 de desembre",
+      "Sense indicar",
+      "mal"
+     ],
+     [
+      "6 de gener",
+      "Tancat",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Encàrrecs, // *amb data límit*",
+   "nota": "El que no s'encarrega a temps, no es ven.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Encàrrecs de Nadal",
+    "filas": [
+     [
+      "Cistelles i lots",
+      "Fins al 18 de des.",
+      "bien"
+     ],
+     [
+      "Menjars",
+      "Fins al 20 de des.",
+      "bien"
+     ],
+     [
+      "Últim dia",
+      "Sense indicar",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Una targeta // *regal*",
+   "nota": "Per a qui no sap què regalar. Es ven sola.",
+   "maqueta": {
+    "tipo": "movil_boton",
+    "titular": "Targeta regal",
+    "texto": "Regala un servei del teu negoci preferit.",
+    "boton": "Demana-la per WhatsApp"
+   }
+  },
+  {
+   "titulo": "Fotos // *de temporada*",
+   "nota": "El teu local decorat diu «som oberts i amb ganes».",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "Nadal",
+    "etiquetas": [
+     "Aparador",
+     "Producte",
+     "Equip"
+    ],
+    "pie": "Fotos d'aquest any, no de catàleg"
+   }
+  },
+  {
+   "titulo": "Avisa-ho // *amb temps*",
+   "nota": "A la web, a Google i als teus clients.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Avisa-ho a",
+    "filas": [
+     [
+      "La teva web",
+      "",
+      "ok"
+     ],
+     [
+      "La teva fitxa de Google",
+      "",
+      "ok"
+     ],
+     [
+      "WhatsApp als teus clients",
+      "",
+      "ok"
+     ]
+    ],
+    "casillas": true
+   }
+  }
+ ],
+ "cierre": "Et preparo la web per Nadal. Escriu-me",
+ "guardar": "Desa-te'l per al novembre",
+ "guion": [
+  "Al desembre ja és tard. El Nadal del teu negoci es prepara al novembre.",
+  "Posa l'horari de les festes.",
+  "Els encàrrecs, amb data límit.",
+  "Una targeta regal, per a qui no sap què regalar.",
+  "Fotos de temporada.",
+  "I avisa-ho amb temps: a la web, a Google i als teus clients.",
+  "Si vols la teva web a punt per Nadal, escriu-me per WhatsApp."
+ ],
+ "hashtags": "#nadal #comercelocal #compraalbarri #girona #botigues",
+ "aviso": "Les dates, els horaris i la targeta regal són d'exemple. **Publica-ho a principis de novembre.**"
+}

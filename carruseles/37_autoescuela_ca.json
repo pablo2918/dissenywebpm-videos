@@ -1,0 +1,179 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "37_autoescuela_ca",
+ "idioma": "ca",
+ "negocio": "Autoescola Fulanito",
+ "dominio": "autoescolafulanito.com",
+ "pastilla": "Autoescoles",
+ "portada": "El primer que busca // *qui es vol treure el carnet*",
+ "gancho": {
+  "pastilla": "Autoescoles",
+  "texto": "«Quant costa // *treure's el carnet?»*",
+  "maqueta": {
+   "tipo": "lista",
+   "titulo": "Permís B",
+   "filas": [
+    [
+     "Matrícula",
+     "Consultar",
+     "mal"
+    ],
+    [
+     "Classe pràctica",
+     "Consultar",
+     "mal"
+    ],
+    [
+     "Taxes de trànsit",
+     "Consultar",
+     "mal"
+    ]
+   ],
+   "casillas": false,
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Quant costa, // *desglossat*",
+   "nota": "Matrícula, classes i taxes: sense sorpreses.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Permís B",
+    "filas": [
+     [
+      "Matrícula",
+      "des de 150 €",
+      "bien"
+     ],
+     [
+      "Classe pràctica",
+      "des de 35 €",
+      "bien"
+     ],
+     [
+      "Taxes de trànsit",
+      "A part",
+      "bien"
+     ],
+     [
+      "Pack complet",
+      "Consultar",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Horaris // *de teòrica*",
+   "nota": "Que vegi si li quadra amb l'institut o la feina.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Classes teòriques",
+    "filas": [
+     [
+      "Matins",
+      "10:00–11:00",
+      "bien"
+     ],
+     [
+      "Tardes",
+      "18:00–19:00",
+      "bien"
+     ],
+     [
+      "En línia",
+      "Quan vulguis",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Quins carnets // *prepareu*",
+   "nota": "Cotxe, moto, camió: que ho vegi a la primera.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Permisos",
+    "filas": [
+     [
+      "Cotxe (B)",
+      "",
+      "ok"
+     ],
+     [
+      "Moto (A1 i A2)",
+      "",
+      "ok"
+     ],
+     [
+      "Ciclomotor (AM)",
+      "",
+      "ok"
+     ],
+     [
+      "Camió (C)",
+      "No el fem",
+      "mal"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "Com // *funciona*",
+   "nota": "De la matrícula a l'examen, pas a pas.",
+   "maqueta": {
+    "tipo": "pasos",
+    "titulo": "Pas a pas",
+    "pasos": [
+     [
+      "Matrícula",
+      "Et donem el material"
+     ],
+     [
+      "Teòrica",
+      "A classe o en línia"
+     ],
+     [
+      "Pràctiques",
+      "Amb el teu professor"
+     ],
+     [
+      "Exàmens",
+      "T'acompanyem"
+     ]
+    ],
+    "senalado": 1
+   }
+  },
+  {
+   "titulo": "Apuntar-se, // *per WhatsApp*",
+   "nota": "És per a gent jove: escriuen, no truquen.",
+   "maqueta": {
+    "tipo": "movil_boton",
+    "titular": "Autoescola Fulanito",
+    "texto": "Cotxe i moto a Girona.",
+    "boton": "Informa't per WhatsApp"
+   }
+  }
+ ],
+ "cierre": "Et faig la demo de la web de la teva autoescola, gratis en 48 h",
+ "guardar": "Desa-te'l i mira la teva web",
+ "guion": [
+  "Quant costa treure's el carnet? És el primer que busca qui se'l vol treure. I si la teva web no ho diu, mira la del costat.",
+  "El preu, desglossat: matrícula, classes i taxes.",
+  "Els horaris de teòrica.",
+  "Quins carnets prepareu.",
+  "Com funciona, pas a pas.",
+  "I apuntar-se per WhatsApp. El teu client és jove: escriu, no truca.",
+  "Et faig la demo de la web de la teva autoescola gratis en 48 hores. Escriu-me per WhatsApp."
+ ],
+ "hashtags": "#autoescola #carnetdeconduir #girona #permisb #webpernegocis",
+ "aviso": "Autoescola Fulanito, els preus i horaris són d'exemple."
+}

@@ -1,0 +1,162 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "51_vacaciones_es",
+ "idioma": "es",
+ "negocio": "Tu negocio",
+ "dominio": "tunegocio.com",
+ "pastilla": "Vacaciones",
+ "portada": "Antes de cerrar // *por vacaciones, haz esto*",
+ "gancho": {
+  "pastilla": "Vacaciones",
+  "texto": "Cierras en agosto. // *Google dice «abierto».*",
+  "maqueta": {
+   "tipo": "ficha",
+   "valoracion": "4,7",
+   "filas": [
+    [
+     "Horario hoy",
+     "Abierto · 9:00–20:00",
+     true
+    ],
+    [
+     "Dirección",
+     "Carrer Major, 12",
+     false
+    ],
+    [
+     "Teléfono",
+     "972 00 00 00",
+     false
+    ]
+   ],
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Horario especial // *en Google*",
+   "nota": "Si no, alguien irá a tu puerta y la encontrará cerrada.",
+   "maqueta": {
+    "tipo": "ficha",
+    "valoracion": "4,7",
+    "filas": [
+     [
+      "Del 5 al 25 de agosto",
+      "Cerrado por vacaciones",
+      false
+     ],
+     [
+      "Horario normal",
+      "9:00–20:00",
+      false
+     ],
+     [
+      "Teléfono",
+      "972 00 00 00",
+      false
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Un aviso // *en la web*",
+   "nota": "Arriba, con la fecha de vuelta.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Cerrado del 5 al 25 de agosto",
+    "subtitulo": "Volvemos el lunes 26. Puedes escribirnos por WhatsApp.",
+    "menu": [
+     "Inicio",
+     "Servicios",
+     "Contacto"
+    ],
+    "foto": 2,
+    "senala": "titulo"
+   }
+  },
+  {
+   "titulo": "WhatsApp, // *en modo ausencia*",
+   "nota": "Que sepan cuándo vas a contestar.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, ¿estáis abiertos?"
+     },
+     {
+      "de": "negocio",
+      "texto": "¡Hola! Estamos de vacaciones hasta el 25 de agosto. Te contestamos a la vuelta."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Una publicación // *antes de irte*",
+   "nota": "En la ficha de Google y en tus redes.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Avísalo en",
+    "filas": [
+     [
+      "Ficha de Google",
+      "",
+      "ok"
+     ],
+     [
+      "Instagram",
+      "",
+      "ok"
+     ],
+     [
+      "Un cartel en la puerta",
+      "",
+      "ok"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "Y a la vuelta, // *quítalo todo*",
+   "nota": "Un aviso viejo espanta más que no tener aviso.",
+   "maqueta": {
+    "tipo": "ficha",
+    "valoracion": "4,7",
+    "filas": [
+     [
+      "Horario hoy",
+      "Cerrado por vacaciones",
+      true
+     ],
+     [
+      "Fecha de hoy",
+      "2 de septiembre",
+      false
+     ],
+     [
+      "Teléfono",
+      "972 00 00 00",
+      false
+     ]
+    ]
+   }
+  }
+ ],
+ "cierre": "El aviso de la web lo cambio yo. Escríbeme",
+ "guardar": "Guárdatelo para antes de cerrar",
+ "guion": [
+  "Cierras en agosto. Google dice que estás abierto. Y alguien irá a tu puerta y la encontrará cerrada.",
+  "Pon el horario especial en Google.",
+  "Un aviso en la web, con la fecha de vuelta.",
+  "El WhatsApp en modo ausencia.",
+  "Una publicación antes de irte.",
+  "Y a la vuelta, quítalo todo. Un aviso viejo espanta más que no tener aviso.",
+  "Si tienes la web conmigo, el aviso lo cambio yo. Escríbeme por WhatsApp."
+ ],
+ "hashtags": "#vacaciones #googlemaps #negociolocal #girona #consejos",
+ "aviso": "Las fechas y los mensajes son de ejemplo. **Publícalo a mediados de julio, o antes de Navidad cambiando las fechas.**"
+}

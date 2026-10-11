@@ -1,0 +1,149 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "49_bilingue_ca",
+ "idioma": "ca",
+ "negocio": "Ferreteria Fulanito",
+ "dominio": "ferreteriafulanito.com",
+ "pastilla": "Girona",
+ "portada": "A Girona et busquen // *en català i en castellà*",
+ "gancho": {
+  "pastilla": "Girona",
+  "texto": "«Ferreteria Girona» // *o «ferretería Girona»?*",
+  "maqueta": {
+   "tipo": "lista",
+   "titulo": "El que escriuen a Google",
+   "filas": [
+    [
+     "ferreteria girona",
+     "En català",
+     "bien"
+    ],
+    [
+     "ferretería girona",
+     "En castellà",
+     "bien"
+    ],
+    [
+     "La teva web",
+     "Només en un",
+     "mal"
+    ]
+   ],
+   "casillas": false,
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Els teus clients // *parlen els dos*",
+   "nota": "I busquen en l'idioma en què pensen.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Cerques",
+    "filas": [
+     [
+      "fusteria a Girona",
+      "",
+      "bien"
+     ],
+     [
+      "carpintería en Girona",
+      "",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Una web // *en cada idioma*",
+   "nota": "No un traductor automàtic enganxat a sobre.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Ferreteria de barri a Salt",
+    "subtitulo": "Eines, pintura i claus al moment.",
+    "menu": [
+     "CA · ES",
+     "Productes",
+     "Contacte"
+    ],
+    "foto": 5,
+    "senala": "titulo"
+   }
+  },
+  {
+   "titulo": "El botó d'idioma, // *a la vista*",
+   "nota": "A dalt, on es veu sense buscar-lo.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Ferretería de barrio en Salt",
+    "subtitulo": "Herramientas, pintura y llaves al momento.",
+    "menu": [
+     "CA · ES",
+     "Productos",
+     "Contacto"
+    ],
+    "foto": 5,
+    "senala": "titulo"
+   }
+  },
+  {
+   "titulo": "La fitxa de Google, // *coherent*",
+   "nota": "El nom i la descripció, pensats per als dos.",
+   "maqueta": {
+    "tipo": "ficha",
+    "valoracion": "4,8",
+    "filas": [
+     [
+      "Nom",
+      "Ferreteria Fulanito",
+      false
+     ],
+     [
+      "Descripció",
+      "Només en un idioma",
+      true
+     ],
+     [
+      "Web",
+      "ferreteriafulanito.com",
+      false
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "I contesta // *en el seu idioma*",
+   "nota": "Si t'escriuen en castellà, en castellà. Si no, en català.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, ¿tenéis tacos de pladur?"
+     },
+     {
+      "de": "negocio",
+      "texto": "¡Hola! Sí, tenemos de varias medidas."
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Et faig la demo de la teva web, gratis en 48 h",
+ "guardar": "Desa-te'l i busca't en els dos idiomes",
+ "guion": [
+  "A Girona, uns busquen «ferreteria» i d'altres «ferretería». Si la teva web només està en un idioma, a la meitat no els hi surts tan bé.",
+  "Els teus clients parlen els dos idiomes, i busquen en el que pensen.",
+  "Tingues una pàgina en cada idioma, no un traductor automàtic.",
+  "El botó d'idioma, a la vista.",
+  "La fitxa de Google, coherent amb la web.",
+  "I contesta cadascú en el seu idioma.",
+  "Et faig la demo de la teva web gratis en 48 hores. Escriu-me per WhatsApp."
+ ],
+ "hashtags": "#girona #catala #seolocal #comercelocal #webpernegocis",
+ "aviso": "Ferreteria Fulanito i les cerques són d'exemple. **Comprova que ofereixes la web en català i castellà abans de publicar-ho.**"
+}

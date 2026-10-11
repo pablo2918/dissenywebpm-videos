@@ -1,0 +1,123 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "60_boca_es",
+ "idioma": "es",
+ "negocio": "Fontanería Fulanito",
+ "dominio": "fontaneriafulanito.com",
+ "pastilla": "Boca a boca",
+ "portada": "Te recomiendan. // *Y ahora te buscan en Google*",
+ "gancho": {
+  "pastilla": "Boca a boca",
+  "texto": "Te han recomendado. // *Ahora te buscan en Google.*",
+  "maqueta": {
+   "tipo": "chat",
+   "globos": [
+    {
+     "de": "cliente",
+     "texto": "¿Conoces un fontanero de confianza?"
+    },
+    {
+     "de": "cliente",
+     "texto": "Sí, Fontanería Fulanito. Búscalo."
+    }
+   ],
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Que salga // *tu nombre*",
+   "nota": "Lo buscan tal cual se lo han dicho.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "fontanería fulanito",
+    "filas": [
+     [
+      "Tu web",
+      "No sale",
+      "mal"
+     ],
+     [
+      "Un directorio viejo",
+      "Sale",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Que tengas // *web*",
+   "nota": "Sin web, la recomendación se enfría.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Fontanería en Girona",
+    "subtitulo": "Averías, calderas y baños. Urgencias el mismo día.",
+    "menu": [
+     "Servicios",
+     "Trabajos",
+     "Contacto"
+    ],
+    "foto": 1,
+    "boton": "Escríbenos por WhatsApp",
+    "senala": "todo"
+   }
+  },
+  {
+   "titulo": "Que haya // *reseñas*",
+   "nota": "Confirman lo que le han contado.",
+   "maqueta": {
+    "tipo": "resenas",
+    "respuesta_titulo": "Respuesta del propietario",
+    "resenas": [
+     {
+      "nombre": "Montse L.",
+      "estrellas": 5,
+      "texto": "Vino el mismo día y me lo dejó todo perfecto."
+     },
+     {
+      "nombre": "Jordi A.",
+      "estrellas": 5,
+      "texto": "Serio y con buen precio. Me lo recomendó mi vecino."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Que se vean // *tus trabajos*",
+   "nota": "Fotos de trabajos reales, no de catálogo.",
+   "maqueta": {
+    "tipo": "antes_despues",
+    "antes": "Antes",
+    "despues": "Después",
+    "pie": "Cambio de caldera en Salt"
+   }
+  },
+  {
+   "titulo": "Y que sea fácil // *escribirte*",
+   "nota": "Si es difícil, llama al siguiente que encuentre.",
+   "maqueta": {
+    "tipo": "movil_boton",
+    "titular": "Fontanería Fulanito",
+    "texto": "Averías y calderas en Girona.",
+    "boton": "Escríbenos por WhatsApp"
+   }
+  }
+ ],
+ "cierre": "Que te encuentren cuando te recomienden. Escríbeme",
+ "guardar": "Guárdatelo y búscate como te buscan",
+ "guion": [
+  "Te han recomendado. Y ahora, antes de llamarte, te buscan en Google. Si no encuentran nada, dudan.",
+  "Que salga tu nombre.",
+  "Que tengas web.",
+  "Que haya reseñas que confirmen lo que le han contado.",
+  "Que se vean tus trabajos.",
+  "Y que sea fácil escribirte.",
+  "Te hago la demo de tu web gratis en 48 horas. Escríbeme por WhatsApp."
+ ],
+ "hashtags": "#bocaaboca #fontanero #oficios #girona #webparanegocios",
+ "aviso": "Fontanería Fulanito, las reseñas y los trabajos son de ejemplo."
+}

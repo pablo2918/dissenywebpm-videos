@@ -1,0 +1,183 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "46_datos_es",
+ "idioma": "es",
+ "negocio": "Taller Fulanito",
+ "dominio": "tallerfulanito.com",
+ "pastilla": "Haz la prueba",
+ "portada": "Tu web dice una cosa. // *Google, otra*",
+ "gancho": {
+  "pastilla": "Haz la prueba",
+  "texto": "Tu web dice las 9. // *Google, las 10.*",
+  "maqueta": {
+   "tipo": "lista",
+   "titulo": "Horario de los sábados",
+   "filas": [
+    [
+     "Tu web",
+     "9:00–14:00",
+     "bien"
+    ],
+    [
+     "Google Maps",
+     "10:00–13:00",
+     "mal"
+    ],
+    [
+     "Instagram",
+     "Cerrado",
+     "mal"
+    ]
+   ],
+   "casillas": false,
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "El horario, // *igual en todas partes*",
+   "nota": "Si no coincide, el cliente no se fía de ninguno.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Horario",
+    "filas": [
+     [
+      "Web",
+      "9:00–20:00",
+      "bien"
+     ],
+     [
+      "Google Maps",
+      "9:00–20:00",
+      "bien"
+     ],
+     [
+      "Instagram",
+      "9:00–19:00",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "El mismo // *teléfono*",
+   "nota": "Un número viejo en algún sitio es una llamada que no te llega.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Teléfono",
+    "filas": [
+     [
+      "Web",
+      "972 00 00 00",
+      "bien"
+     ],
+     [
+      "Google Maps",
+      "972 00 00 00",
+      "bien"
+     ],
+     [
+      "Facebook",
+      "Número antiguo",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "La misma // *dirección*",
+   "nota": "Escrita igual: Google se fija en estas cosas.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Dirección",
+    "filas": [
+     [
+      "Web",
+      "Carrer Major, 12",
+      "bien"
+     ],
+     [
+      "Google Maps",
+      "C/ Major 12",
+      "bien"
+     ],
+     [
+      "Directorio",
+      "Local antiguo",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Los festivos, // *avisados*",
+   "nota": "El día que más se nota es cuando estás cerrado.",
+   "maqueta": {
+    "tipo": "ficha",
+    "valoracion": "4,6",
+    "filas": [
+     [
+      "Festivo 15 de agosto",
+      "Sin indicar",
+      true
+     ],
+     [
+      "Horario normal",
+      "9:00–20:00",
+      false
+     ],
+     [
+      "Teléfono",
+      "972 00 00 00",
+      false
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Un sitio // *que manda*",
+   "nota": "La web es la buena. El resto, se copia de ahí.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Lo actualizo yo",
+    "filas": [
+     [
+      "Web",
+      "",
+      "ok"
+     ],
+     [
+      "Ficha de Google",
+      "",
+      "ok"
+     ],
+     [
+      "Y tú lo copias en redes",
+      "",
+      "ok"
+     ]
+    ],
+    "casillas": true
+   }
+  }
+ ],
+ "cierre": "Te reviso tu web y tu ficha de Google. Escríbeme",
+ "guardar": "Guárdatelo y compáralo hoy",
+ "guion": [
+  "Tu web dice que abres a las nueve. Google dice a las diez. Y el cliente no sabe a quién creer.",
+  "El horario, igual en todas partes.",
+  "El mismo teléfono.",
+  "La misma dirección, escrita igual.",
+  "Los festivos, avisados.",
+  "Y un sitio que manda: tu web. El resto se copia de ahí.",
+  "Si quieres, te reviso tu web y tu ficha de Google. Escríbeme por WhatsApp."
+ ],
+ "hashtags": "#googlemaps #seolocal #negociolocal #girona #webparanegocios",
+ "aviso": "Los horarios, teléfonos y direcciones son de ejemplo. **La lámina 05 dice que tú actualizas web y ficha: comprueba que encaja con el plan del cliente.**"
+}

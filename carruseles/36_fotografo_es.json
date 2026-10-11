@@ -1,0 +1,153 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "36_fotografo_es",
+ "idioma": "es",
+ "negocio": "Fulanito Fotografía",
+ "dominio": "fulanitofoto.com",
+ "pastilla": "Fotógrafos",
+ "portada": "Una pareja busca fotógrafo. // *Esto le convence*",
+ "gancho": {
+  "pastilla": "Fotógrafos",
+  "texto": "Tus fotos son buenas. // *¿Dónde las enseñas?*",
+  "maqueta": {
+   "tipo": "chat",
+   "globos": [
+    {
+     "de": "cliente",
+     "texto": "Hola, ¿tienes fotos de bodas para ver?"
+    },
+    {
+     "de": "negocio",
+     "texto": "Sí, te paso unas cuantas por aquí…"
+    },
+    {
+     "de": "negocio",
+     "fotos": true
+    }
+   ],
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Tu trabajo, // *por tipo de sesión*",
+   "nota": "Quien se casa no quiere ver fotos de producto.",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "Portfolio",
+    "etiquetas": [
+     "Bodas",
+     "Familias",
+     "Empresas"
+    ],
+    "pie": "Tu trabajo ordenado por tipo"
+   }
+  },
+  {
+   "titulo": "Un precio // *de partida*",
+   "nota": "Con un «desde», la pareja sabe si encaja en su presupuesto.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Tarifas",
+    "filas": [
+     [
+      "Boda completa",
+      "desde 1.200 €",
+      "bien"
+     ],
+     [
+      "Sesión de familia",
+      "desde 150 €",
+      "bien"
+     ],
+     [
+      "Fotos de empresa",
+      "Consultar",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Cómo es // *trabajar contigo*",
+   "nota": "De la primera llamada a la entrega de las fotos.",
+   "maqueta": {
+    "tipo": "pasos",
+    "titulo": "Cómo trabajo",
+    "pasos": [
+     [
+      "Nos conocemos",
+      "Café o videollamada"
+     ],
+     [
+      "Reserva de fecha",
+      "Con una señal"
+     ],
+     [
+      "El día",
+      "Me encargo de todo"
+     ],
+     [
+      "Entrega",
+      "Galería online en semanas"
+     ]
+    ],
+    "senalado": 1
+   }
+  },
+  {
+   "titulo": "Qué dicen // *las parejas*",
+   "nota": "Una boda solo se hace una vez: quieren seguridad.",
+   "maqueta": {
+    "tipo": "resenas",
+    "respuesta_titulo": "Respuesta del propietario",
+    "resenas": [
+     {
+      "nombre": "Laia y Pau",
+      "estrellas": 5,
+      "texto": "Las fotos son preciosas, no nos dimos ni cuenta de que estaba."
+     },
+     {
+      "nombre": "Marina G.",
+      "estrellas": 5,
+      "texto": "Sesión de familia muy natural."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "¿Tienes libre // *mi fecha?*",
+   "nota": "Es la primera pregunta. Que la pueda hacer en un toque.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, nos casamos el 14 de junio en Girona. ¿Tienes la fecha libre?"
+     },
+     {
+      "de": "negocio",
+      "texto": "¡Enhorabuena! La tengo libre. ¿Os llamo y os cuento?"
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Te hago la demo de tu web de fotografía, gratis en 48 h",
+ "guardar": "Guárdatelo y ordena tu portfolio",
+ "guion": [
+  "Tus fotos son buenas. Pero si solo las enseñas por WhatsApp, quien no te conoce no las ve nunca.",
+  "Enseña tu trabajo ordenado por tipo de sesión.",
+  "Pon un precio de partida.",
+  "Explica cómo es trabajar contigo.",
+  "Lo que dicen las parejas y las familias.",
+  "Y que pregunten si tienes su fecha libre, por WhatsApp.",
+  "Te hago la demo de tu web de fotografía gratis en 48 horas. Escríbeme por WhatsApp."
+ ],
+ "hashtags": "#fotografodebodas #fotografia #bodasgirona #girona #webparanegocios",
+ "aviso": "Fulanito Fotografía, las tarifas, el proceso y las reseñas son de ejemplo."
+}

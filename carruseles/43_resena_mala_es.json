@@ -1,0 +1,134 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "43_resena_mala_es",
+ "idioma": "es",
+ "negocio": "Restaurante Fulanito",
+ "dominio": "restaurantefulanito.com",
+ "pastilla": "Google Maps",
+ "portada": "Cómo contestar // *una reseña de 1 estrella*",
+ "gancho": {
+  "pastilla": "Te ha pasado",
+  "texto": "Te han puesto una estrella. // *No contestes todavía.*",
+  "maqueta": {
+   "tipo": "resenas",
+   "respuesta_titulo": "",
+   "resenas": [
+    {
+     "nombre": "Marc P.",
+     "estrellas": 1,
+     "texto": "Esperé 40 minutos y nadie me dijo nada. No vuelvo."
+    }
+   ],
+   "k": 1.5
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Espera // *a estar tranquilo*",
+   "nota": "Contestar en caliente siempre sale mal.",
+   "maqueta": {
+    "tipo": "resenas",
+    "respuesta_titulo": "",
+    "resenas": [
+     {
+      "nombre": "Marc P.",
+      "estrellas": 1,
+      "texto": "Esperé 40 minutos y nadie me dijo nada. No vuelvo."
+     }
+    ],
+    "k": 1.5
+   }
+  },
+  {
+   "titulo": "Dale la razón // *en lo que la tenga*",
+   "nota": "No hace falta dársela en todo. En lo que sea verdad, sí.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Antes de contestar",
+    "filas": [
+     [
+      "¿Esperó de verdad?",
+      "Sí",
+      "bien"
+     ],
+     [
+      "¿Le avisamos?",
+      "No",
+      "mal"
+     ],
+     [
+      "¿Fue culpa suya?",
+      "No importa",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Di qué // *has cambiado*",
+   "nota": "Eso no lo lee solo él: lo leen todos los que vienen después.",
+   "maqueta": {
+    "tipo": "resenas",
+    "respuesta_titulo": "Respuesta del propietario",
+    "resenas": [
+     {
+      "nombre": "Marc P.",
+      "estrellas": 1,
+      "texto": "Esperé 40 minutos y nadie me dijo nada.",
+      "respuesta": "Hola, Marc. Tienes razón: no avisarte estuvo mal. Ya hemos cambiado cómo damos las citas. ¿Nos escribes y te invitamos a volver?"
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Invítale // *a hablar en privado*",
+   "nota": "La discusión, fuera de Google.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, soy Marc, el de la reseña."
+     },
+     {
+      "de": "negocio",
+      "texto": "Hola, Marc. Gracias por escribir. Te invitamos a volver cuando quieras."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Nunca // *discutas en público*",
+   "nota": "Aunque tengas razón, quien lee solo ve una pelea.",
+   "maqueta": {
+    "tipo": "resenas",
+    "respuesta_titulo": "Respuesta del propietario",
+    "resenas": [
+     {
+      "nombre": "Marc P.",
+      "estrellas": 1,
+      "texto": "Esperé 40 minutos y nadie me dijo nada.",
+      "respuesta": "Eso es mentira, llegaste tarde tú."
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Tu ficha de Google, cuidada. Te lo explico por WhatsApp",
+ "guardar": "Guárdatelo para el día que te toque",
+ "guion": [
+  "Te han puesto una estrella. No contestes todavía. Primero, mira esto.",
+  "Espera a estar tranquilo. Contestar en caliente siempre sale mal.",
+  "Dale la razón en lo que la tenga.",
+  "Di qué has cambiado. Eso lo leen todos los que vienen después.",
+  "Invítale a hablar en privado.",
+  "Y nunca discutas en público. Aunque tengas razón, quien lee solo ve una pelea.",
+  "Si quieres que te ayude con tu ficha de Google, escríbeme por WhatsApp."
+ ],
+ "hashtags": "#googlemaps #reseñas #negociolocal #girona #atencionalcliente",
+ "aviso": "La reseña y las respuestas son de ejemplo. Es un consejo general, vale para cualquier negocio."
+}

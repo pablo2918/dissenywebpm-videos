@@ -1,0 +1,169 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "41_abogado_es",
+ "idioma": "es",
+ "negocio": "Fulanito Abogados",
+ "dominio": "fulanitoabogados.com",
+ "pastilla": "Abogados",
+ "portada": "Nadie llama a un abogado // *sin saber esto antes*",
+ "gancho": {
+  "pastilla": "Abogados",
+  "texto": "«¿Cuánto me va a costar // *la primera consulta?»*",
+  "maqueta": {
+   "tipo": "lista",
+   "titulo": "Honorarios",
+   "filas": [
+    [
+     "Primera consulta",
+     "Consultar",
+     "mal"
+    ],
+    [
+     "Divorcio",
+     "Consultar",
+     "mal"
+    ],
+    [
+     "Herencias",
+     "Consultar",
+     "mal"
+    ]
+   ],
+   "casillas": false,
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "En qué // *te especializas*",
+   "nota": "Quien tiene un problema de herencia busca a quien sepa de herencias.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Especialidades",
+    "filas": [
+     [
+      "Familia y divorcios",
+      "",
+      "ok"
+     ],
+     [
+      "Herencias",
+      "",
+      "ok"
+     ],
+     [
+      "Laboral",
+      "",
+      "ok"
+     ],
+     [
+      "Penal",
+      "No llevamos",
+      "mal"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "La primera consulta, // *clara*",
+   "nota": "Si es gratis o cuánto cuesta. Esa duda frena a mucha gente.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Primera consulta",
+    "filas": [
+     [
+      "Duración",
+      "30 minutos",
+      "bien"
+     ],
+     [
+      "Precio",
+      "desde 50 €",
+      "bien"
+     ],
+     [
+      "Online",
+      "Disponible",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Cómo // *trabajas*",
+   "nota": "Un proceso legal asusta. Explicarlo, tranquiliza.",
+   "maqueta": {
+    "tipo": "pasos",
+    "titulo": "Cómo trabajamos",
+    "pasos": [
+     [
+      "Nos cuentas tu caso",
+      "Por WhatsApp o en el despacho"
+     ],
+     [
+      "Primera consulta",
+      "Te decimos qué opciones tienes"
+     ],
+     [
+      "Presupuesto cerrado",
+      "Por escrito, antes de empezar"
+     ],
+     [
+      "Seguimiento",
+      "Te avisamos de cada paso"
+     ]
+    ],
+    "senalado": 1
+   }
+  },
+  {
+   "titulo": "Quién // *te va a llevar el caso*",
+   "nota": "Con un abogado se confía en una persona.",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "El despacho",
+    "etiquetas": [
+     "Abogada",
+     "Abogado",
+     "Despacho"
+    ],
+    "pie": "Caras reales, no de catálogo"
+   }
+  },
+  {
+   "titulo": "Un primer contacto // *fácil*",
+   "nota": "Contar el problema por escrito cuesta menos que llamar.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, me estoy separando y no sé por dónde empezar."
+     },
+     {
+      "de": "negocio",
+      "texto": "Hola, te entendemos. ¿Te va bien una primera consulta el martes?"
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Te hago la demo de la web de tu despacho, gratis en 48 h",
+ "guardar": "Guárdatelo y relee tu web",
+ "guion": [
+  "¿Cuánto me va a costar la primera consulta? Esa duda frena a mucha gente antes de llamar a un abogado.",
+  "Di en qué te especializas.",
+  "Deja clara la primera consulta: cuánto dura y cuánto cuesta.",
+  "Explica cómo trabajas.",
+  "Quién va a llevar el caso.",
+  "Y un primer contacto fácil, por WhatsApp.",
+  "Te hago la demo de la web de tu despacho gratis en 48 horas. Escríbeme por WhatsApp."
+ ],
+ "hashtags": "#abogados #despacho #abogadosgirona #girona #webparanegocios",
+ "aviso": "Fulanito Abogados, las especialidades, los precios y el proceso son de ejemplo."
+}

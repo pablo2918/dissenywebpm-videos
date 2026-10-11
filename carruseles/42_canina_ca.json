@@ -1,0 +1,147 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "42_canina_ca",
+ "idioma": "ca",
+ "negocio": "Perruqueria Canina Fulanita",
+ "dominio": "caninafulanita.com",
+ "pastilla": "Perruqueria canina",
+ "portada": "El que vol veure // *qui et deixa el seu gos*",
+ "gancho": {
+  "pastilla": "Perruqueria canina",
+  "texto": "Ningú deixa el seu gos // *amb un desconegut*",
+  "maqueta": {
+   "tipo": "antes_despues",
+   "antes": "Abans",
+   "despues": "Després",
+   "pie": "Tall d'estiu · caniche",
+   "k": 1.25
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "L'abans // *i el després*",
+   "nota": "Una foto val més que qualsevol explicació.",
+   "maqueta": {
+    "tipo": "antes_despues",
+    "antes": "Abans",
+    "despues": "Després",
+    "pie": "Tall d'estiu · caniche"
+   }
+  },
+  {
+   "titulo": "Preu // *per mida*",
+   "nota": "Així sap quant li costarà el seu gos.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Tarifes",
+    "filas": [
+     [
+      "Gos petit",
+      "des de 25 €",
+      "bien"
+     ],
+     [
+      "Gos mitjà",
+      "des de 35 €",
+      "bien"
+     ],
+     [
+      "Gos gran",
+      "des de 45 €",
+      "bien"
+     ],
+     [
+      "Gats",
+      "Consultar",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Quant de temps // *s'hi queda*",
+   "nota": "Per organitzar-se el dia.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Durada",
+    "filas": [
+     [
+      "Bany",
+      "1 hora",
+      "bien"
+     ],
+     [
+      "Bany i tall",
+      "2 hores",
+      "bien"
+     ],
+     [
+      "Desllanat",
+      "Sense indicar",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Què diuen // *altres amos*",
+   "nota": "I que vegi que respons.",
+   "maqueta": {
+    "tipo": "resenas",
+    "respuesta_titulo": "Resposta del propietari",
+    "resenas": [
+     {
+      "nombre": "Clara V.",
+      "estrellas": 5,
+      "texto": "La meva gossa en surt feliç cada vegada. Molta paciència.",
+      "respuesta": "Gràcies, Clara! Un petó a la Luna."
+     },
+     {
+      "nombre": "Albert R.",
+      "estrellas": 5,
+      "texto": "Molt bon tracte i puntuals."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Demanar cita, // *per WhatsApp*",
+   "nota": "Amb una foto del gos ja saps la feina que hi ha.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, teniu lloc divendres per a un caniche?"
+     },
+     {
+      "de": "cliente",
+      "fotos": true
+     },
+     {
+      "de": "negocio",
+      "texto": "Hola! Sí, divendres a les 10. Que maco!"
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Et faig la demo de la web de la teva perruqueria canina, gratis en 48 h",
+ "guardar": "Desa-te'l i mira la teva web",
+ "guion": [
+  "Ningú deixa el seu gos amb un desconegut. Abans de demanar cita, l'amo vol veure això.",
+  "L'abans i el després.",
+  "El preu segons la mida del gos.",
+  "Quant de temps s'hi queda.",
+  "Què diuen altres amos.",
+  "I demanar cita per WhatsApp, amb una foto del gos.",
+  "Et faig la demo de la web de la teva perruqueria canina gratis en 48 hores. Escriu-me per WhatsApp."
+ ],
+ "hashtags": "#perruqueriacanina #gossos #mascotes #girona #webpernegocis",
+ "aviso": "Perruqueria Canina Fulanita, els preus, les durades i les ressenyes són d'exemple."
+}

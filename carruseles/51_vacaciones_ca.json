@@ -1,0 +1,162 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "51_vacaciones_ca",
+ "idioma": "ca",
+ "negocio": "El teu negoci",
+ "dominio": "elteunegoci.com",
+ "pastilla": "Vacances",
+ "portada": "Abans de tancar // *per vacances, fes això*",
+ "gancho": {
+  "pastilla": "Vacances",
+  "texto": "Tanques a l'agost. // *Google diu «obert».*",
+  "maqueta": {
+   "tipo": "ficha",
+   "valoracion": "4,7",
+   "filas": [
+    [
+     "Horari avui",
+     "Obert · 9:00–20:00",
+     true
+    ],
+    [
+     "Adreça",
+     "Carrer Major, 12",
+     false
+    ],
+    [
+     "Telèfon",
+     "972 00 00 00",
+     false
+    ]
+   ],
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Horari especial // *a Google*",
+   "nota": "Si no, algú anirà a la teva porta i la trobarà tancada.",
+   "maqueta": {
+    "tipo": "ficha",
+    "valoracion": "4,7",
+    "filas": [
+     [
+      "Del 5 al 25 d'agost",
+      "Tancat per vacances",
+      false
+     ],
+     [
+      "Horari normal",
+      "9:00–20:00",
+      false
+     ],
+     [
+      "Telèfon",
+      "972 00 00 00",
+      false
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Un avís // *a la web*",
+   "nota": "A dalt, amb la data de tornada.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Tancat del 5 al 25 d'agost",
+    "subtitulo": "Tornem dilluns 26. Ens pots escriure per WhatsApp.",
+    "menu": [
+     "Inici",
+     "Serveis",
+     "Contacte"
+    ],
+    "foto": 2,
+    "senala": "titulo"
+   }
+  },
+  {
+   "titulo": "WhatsApp, // *en mode absència*",
+   "nota": "Que sàpiguen quan contestaràs.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, sou oberts?"
+     },
+     {
+      "de": "negocio",
+      "texto": "Hola! Som de vacances fins al 25 d'agost. Et contestem a la tornada."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Una publicació // *abans de marxar*",
+   "nota": "A la fitxa de Google i a les xarxes.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Avisa-ho a",
+    "filas": [
+     [
+      "Fitxa de Google",
+      "",
+      "ok"
+     ],
+     [
+      "Instagram",
+      "",
+      "ok"
+     ],
+     [
+      "Un cartell a la porta",
+      "",
+      "ok"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "I a la tornada, // *treu-ho tot*",
+   "nota": "Un avís vell espanta més que no tenir avís.",
+   "maqueta": {
+    "tipo": "ficha",
+    "valoracion": "4,7",
+    "filas": [
+     [
+      "Horari avui",
+      "Tancat per vacances",
+      true
+     ],
+     [
+      "Data d'avui",
+      "2 de setembre",
+      false
+     ],
+     [
+      "Telèfon",
+      "972 00 00 00",
+      false
+     ]
+    ]
+   }
+  }
+ ],
+ "cierre": "L'avís de la web el canvio jo. Escriu-me",
+ "guardar": "Desa-te'l per abans de tancar",
+ "guion": [
+  "Tanques a l'agost. Google diu que estàs obert. I algú anirà a la teva porta i la trobarà tancada.",
+  "Posa l'horari especial a Google.",
+  "Un avís a la web, amb la data de tornada.",
+  "El WhatsApp en mode absència.",
+  "Una publicació abans de marxar.",
+  "I a la tornada, treu-ho tot. Un avís vell espanta més que no tenir avís.",
+  "Si tens la web amb mi, l'avís el canvio jo. Escriu-me per WhatsApp."
+ ],
+ "hashtags": "#vacances #googlemaps #comercelocal #girona #consells",
+ "aviso": "Les dates i els missatges són d'exemple. **Publica-ho a mitjan juliol, o abans de Nadal canviant les dates.**"
+}

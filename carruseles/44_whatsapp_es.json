@@ -1,0 +1,157 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "44_whatsapp_es",
+ "idioma": "es",
+ "negocio": "Tu negocio",
+ "dominio": "tunegocio.com",
+ "pastilla": "WhatsApp Business",
+ "portada": "Tu WhatsApp, // *bien configurado*",
+ "gancho": {
+  "pastilla": "WhatsApp Business",
+  "texto": "Te escriben a las 11 de la noche. // *¿Qué contestas?*",
+  "maqueta": {
+   "tipo": "chat",
+   "globos": [
+    {
+     "de": "cliente",
+     "texto": "Hola, ¿abrís mañana?"
+    },
+    {
+     "de": "cliente",
+     "texto": "¿Hola?"
+    }
+   ],
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Mensaje // *de ausencia*",
+   "nota": "Que sepa que lo has leído aunque estés cerrado.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, ¿abrís mañana?"
+     },
+     {
+      "de": "negocio",
+      "texto": "Ahora estamos cerrados. Te contestamos mañana a partir de las 9. ¡Gracias!"
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Mensaje // *de bienvenida*",
+   "nota": "Para quien te escribe por primera vez.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola"
+     },
+     {
+      "de": "negocio",
+      "texto": "¡Hola! Gracias por escribirnos. Dinos qué necesitas y te ayudamos."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "El perfil, // *completo*",
+   "nota": "Horario, dirección y web: que no tenga que preguntarlo.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Perfil de empresa",
+    "filas": [
+     [
+      "Horario",
+      "Lun–Sáb 9:00–20:00",
+      "bien"
+     ],
+     [
+      "Dirección",
+      "Carrer Major, 12",
+      "bien"
+     ],
+     [
+      "Web",
+      "Sin poner",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Respuestas // *rápidas*",
+   "nota": "Lo que contestas diez veces al día, guardado.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Respuestas rápidas",
+    "filas": [
+     [
+      "/horario",
+      "Abrimos de 9 a 20 h",
+      "bien"
+     ],
+     [
+      "/precios",
+      "Te paso la lista",
+      "bien"
+     ],
+     [
+      "/aparcar",
+      "Hay parking al lado",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Etiquetas // *para no perder a nadie*",
+   "nota": "Así ves de un vistazo quién espera respuesta.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Etiquetas",
+    "filas": [
+     [
+      "Nuevo cliente",
+      "3 chats",
+      "bien"
+     ],
+     [
+      "Pendiente de pago",
+      "1 chat",
+      "bien"
+     ],
+     [
+      "Presupuesto enviado",
+      "2 chats",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  }
+ ],
+ "cierre": "¿Te lo dejo configurado con tu web? Escríbeme",
+ "guardar": "Guárdatelo y configúralo hoy",
+ "guion": [
+  "Te escriben a las once de la noche. ¿Qué les contesta tu WhatsApp? Si no contesta nada, piensan que no estás.",
+  "Pon un mensaje de ausencia, para cuando estés cerrado.",
+  "Un mensaje de bienvenida, para quien te escribe por primera vez.",
+  "El perfil completo, con horario, dirección y web.",
+  "Respuestas rápidas, para lo que contestas diez veces al día.",
+  "Y etiquetas, para no perder a nadie.",
+  "Si quieres que tu web y tu WhatsApp vayan de la mano, escríbeme por WhatsApp."
+ ],
+ "hashtags": "#whatsappbusiness #negociolocal #atencionalcliente #girona #pymes",
+ "aviso": "Las conversaciones y las etiquetas son de ejemplo. Son funciones de la app gratuita WhatsApp Business."
+}

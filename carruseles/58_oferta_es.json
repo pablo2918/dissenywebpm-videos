@@ -1,0 +1,156 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "58_oferta_es",
+ "idioma": "es",
+ "negocio": "Centro de Estética Fulanita",
+ "dominio": "esteticafulanita.com",
+ "pastilla": "Promociones",
+ "portada": "Tienes una oferta. // *Que se entere alguien*",
+ "gancho": {
+  "pastilla": "Promociones",
+  "texto": "Tienes una oferta. // *¿Quién se entera?*",
+  "maqueta": {
+   "tipo": "lista",
+   "titulo": "Tu oferta de mayo",
+   "filas": [
+    [
+     "Cartel en la puerta",
+     "Lo ven 20 personas",
+     "bien"
+    ],
+    [
+     "Tu web",
+     "No sale",
+     "mal"
+    ],
+    [
+     "Google",
+     "No sale",
+     "mal"
+    ]
+   ],
+   "casillas": false,
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Arriba // *en la web*",
+   "nota": "Una franja en la portada, con fecha de fin.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "−20 % en higiene facial hasta el 31 de mayo",
+    "subtitulo": "Reserva tu hueco por WhatsApp.",
+    "menu": [
+     "Servicios",
+     "Precios",
+     "Contacto"
+    ],
+    "foto": 3,
+    "boton": "Reserva por WhatsApp",
+    "senala": "titulo"
+   }
+  },
+  {
+   "titulo": "Una publicación // *en Google*",
+   "nota": "La ve quien te busca en el mapa.",
+   "maqueta": {
+    "tipo": "ficha",
+    "valoracion": "4,8",
+    "filas": [
+     [
+      "Novedad",
+      "−20 % en higiene facial",
+      false
+     ],
+     [
+      "Válido hasta",
+      "31 de mayo",
+      false
+     ],
+     [
+      "Teléfono",
+      "972 00 00 00",
+      false
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "A tus clientes, // *por WhatsApp*",
+   "nota": "Un mensaje corto a los de siempre.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "negocio",
+      "texto": "¡Hola! Este mes, −20 % en higiene facial. ¿Te guardo hora?"
+     },
+     {
+      "de": "cliente",
+      "texto": "¡Sí! ¿El jueves por la tarde?"
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Con fecha // *de fin*",
+   "nota": "Sin fecha, nadie tiene prisa.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "La oferta",
+    "filas": [
+     [
+      "Qué",
+      "−20 % en higiene facial",
+      "bien"
+     ],
+     [
+      "Hasta cuándo",
+      "31 de mayo",
+      "bien"
+     ],
+     [
+      "Cómo",
+      "Reserva por WhatsApp",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Y cuando acabe, // *quítala*",
+   "nota": "Una oferta caducada da imagen de abandono.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "−20 % hasta el 31 de mayo",
+    "subtitulo": "Hoy es 14 de junio.",
+    "menu": [
+     "Servicios",
+     "Precios",
+     "Contacto"
+    ],
+    "foto": 3,
+    "senala": "titulo",
+    "mal": "Caducada"
+   }
+  }
+ ],
+ "cierre": "Tus ofertas en la web las pongo y las quito yo. Escríbeme",
+ "guardar": "Guárdatelo para tu próxima promoción",
+ "guion": [
+  "Tienes una oferta. ¿Quién se entera? Si solo la pones en un cartel en la puerta, la ven cuatro.",
+  "Ponla arriba en tu web.",
+  "Publícala en tu ficha de Google.",
+  "Mándala a tus clientes por WhatsApp.",
+  "Siempre con fecha de fin.",
+  "Y cuando acabe, quítala.",
+  "Si tienes la web conmigo, tus ofertas las pongo y las quito yo. Escríbeme por WhatsApp."
+ ],
+ "hashtags": "#promociones #ofertas #negociolocal #girona #marketinglocal",
+ "aviso": "Centro de Estética Fulanita y la oferta son de ejemplo. **El cierre dice que tú pones y quitas las ofertas: comprueba que entra en el mantenimiento.**"
+}

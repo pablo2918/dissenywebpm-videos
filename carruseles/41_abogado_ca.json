@@ -1,0 +1,169 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "41_abogado_ca",
+ "idioma": "ca",
+ "negocio": "Fulanito Advocats",
+ "dominio": "fulanitoadvocats.com",
+ "pastilla": "Advocats",
+ "portada": "Ningú truca a un advocat // *sense saber això abans*",
+ "gancho": {
+  "pastilla": "Advocats",
+  "texto": "«Quant em costarà // *la primera consulta?»*",
+  "maqueta": {
+   "tipo": "lista",
+   "titulo": "Honoraris",
+   "filas": [
+    [
+     "Primera consulta",
+     "Consultar",
+     "mal"
+    ],
+    [
+     "Divorci",
+     "Consultar",
+     "mal"
+    ],
+    [
+     "Herències",
+     "Consultar",
+     "mal"
+    ]
+   ],
+   "casillas": false,
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "En què // *t'especialitzes*",
+   "nota": "Qui té un problema d'herència busca qui en sàpiga.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Especialitats",
+    "filas": [
+     [
+      "Família i divorcis",
+      "",
+      "ok"
+     ],
+     [
+      "Herències",
+      "",
+      "ok"
+     ],
+     [
+      "Laboral",
+      "",
+      "ok"
+     ],
+     [
+      "Penal",
+      "No en portem",
+      "mal"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "La primera consulta, // *clara*",
+   "nota": "Si és gratuïta o quant costa. Aquest dubte frena molta gent.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Primera consulta",
+    "filas": [
+     [
+      "Durada",
+      "30 minuts",
+      "bien"
+     ],
+     [
+      "Preu",
+      "des de 50 €",
+      "bien"
+     ],
+     [
+      "En línia",
+      "Disponible",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Com // *treballes*",
+   "nota": "Un procés legal fa por. Explicar-lo, tranquil·litza.",
+   "maqueta": {
+    "tipo": "pasos",
+    "titulo": "Com treballem",
+    "pasos": [
+     [
+      "Ens expliques el cas",
+      "Per WhatsApp o al despatx"
+     ],
+     [
+      "Primera consulta",
+      "Et diem quines opcions tens"
+     ],
+     [
+      "Pressupost tancat",
+      "Per escrit, abans de començar"
+     ],
+     [
+      "Seguiment",
+      "T'avisem de cada pas"
+     ]
+    ],
+    "senalado": 1
+   }
+  },
+  {
+   "titulo": "Qui // *et portarà el cas*",
+   "nota": "Amb un advocat es confia en una persona.",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "El despatx",
+    "etiquetas": [
+     "Advocada",
+     "Advocat",
+     "Despatx"
+    ],
+    "pie": "Cares reals, no de catàleg"
+   }
+  },
+  {
+   "titulo": "Un primer contacte // *fàcil*",
+   "nota": "Explicar el problema per escrit costa menys que trucar.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, m'estic separant i no sé per on començar."
+     },
+     {
+      "de": "negocio",
+      "texto": "Hola, t'entenem. Et va bé una primera consulta dimarts?"
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Et faig la demo de la web del teu despatx, gratis en 48 h",
+ "guardar": "Desa-te'l i rellegeix la teva web",
+ "guion": [
+  "Quant em costarà la primera consulta? Aquest dubte frena molta gent abans de trucar a un advocat.",
+  "Digues en què t'especialitzes.",
+  "Deixa clara la primera consulta: quant dura i quant costa.",
+  "Explica com treballes.",
+  "Qui portarà el cas.",
+  "I un primer contacte fàcil, per WhatsApp.",
+  "Et faig la demo de la web del teu despatx gratis en 48 hores. Escriu-me per WhatsApp."
+ ],
+ "hashtags": "#advocats #despatx #advocatsgirona #girona #webpernegocis",
+ "aviso": "Fulanito Advocats, les especialitats, els preus i el procés són d'exemple."
+}

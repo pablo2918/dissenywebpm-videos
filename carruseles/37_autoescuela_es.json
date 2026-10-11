@@ -1,0 +1,179 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "37_autoescuela_es",
+ "idioma": "es",
+ "negocio": "Autoescuela Fulanito",
+ "dominio": "autoescuelafulanito.com",
+ "pastilla": "Autoescuelas",
+ "portada": "Lo primero que busca // *quien se quiere sacar el carnet*",
+ "gancho": {
+  "pastilla": "Autoescuelas",
+  "texto": "«¿Cuánto cuesta // *sacarse el carnet?»*",
+  "maqueta": {
+   "tipo": "lista",
+   "titulo": "Permiso B",
+   "filas": [
+    [
+     "Matrícula",
+     "Consultar",
+     "mal"
+    ],
+    [
+     "Clase práctica",
+     "Consultar",
+     "mal"
+    ],
+    [
+     "Tasas de tráfico",
+     "Consultar",
+     "mal"
+    ]
+   ],
+   "casillas": false,
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Cuánto cuesta, // *desglosado*",
+   "nota": "Matrícula, clases y tasas: sin sorpresas.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Permiso B",
+    "filas": [
+     [
+      "Matrícula",
+      "desde 150 €",
+      "bien"
+     ],
+     [
+      "Clase práctica",
+      "desde 35 €",
+      "bien"
+     ],
+     [
+      "Tasas de tráfico",
+      "Aparte",
+      "bien"
+     ],
+     [
+      "Pack completo",
+      "Consultar",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Horarios // *de teórica*",
+   "nota": "Que vea si le cuadra con el instituto o el trabajo.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Clases teóricas",
+    "filas": [
+     [
+      "Mañanas",
+      "10:00–11:00",
+      "bien"
+     ],
+     [
+      "Tardes",
+      "18:00–19:00",
+      "bien"
+     ],
+     [
+      "Online",
+      "Cuando quieras",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Qué carnets // *preparáis*",
+   "nota": "Coche, moto, camión: que lo vea a la primera.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Permisos",
+    "filas": [
+     [
+      "Coche (B)",
+      "",
+      "ok"
+     ],
+     [
+      "Moto (A1 y A2)",
+      "",
+      "ok"
+     ],
+     [
+      "Ciclomotor (AM)",
+      "",
+      "ok"
+     ],
+     [
+      "Camión (C)",
+      "No lo damos",
+      "mal"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "Cómo // *funciona*",
+   "nota": "De la matrícula al examen, paso a paso.",
+   "maqueta": {
+    "tipo": "pasos",
+    "titulo": "Paso a paso",
+    "pasos": [
+     [
+      "Matrícula",
+      "Te damos el material"
+     ],
+     [
+      "Teórica",
+      "En clase u online"
+     ],
+     [
+      "Prácticas",
+      "Con tu profesor"
+     ],
+     [
+      "Exámenes",
+      "Te acompañamos"
+     ]
+    ],
+    "senalado": 1
+   }
+  },
+  {
+   "titulo": "Apuntarse, // *por WhatsApp*",
+   "nota": "Es para gente joven: escriben, no llaman.",
+   "maqueta": {
+    "tipo": "movil_boton",
+    "titular": "Autoescuela Fulanito",
+    "texto": "Coche y moto en Girona.",
+    "boton": "Infórmate por WhatsApp"
+   }
+  }
+ ],
+ "cierre": "Te hago la demo de la web de tu autoescuela, gratis en 48 h",
+ "guardar": "Guárdatelo y mira tu web",
+ "guion": [
+  "¿Cuánto cuesta sacarse el carnet? Es lo primero que busca quien se lo quiere sacar. Y si tu web no lo dice, mira la de al lado.",
+  "El precio, desglosado: matrícula, clases y tasas.",
+  "Los horarios de teórica.",
+  "Qué carnets preparáis.",
+  "Cómo funciona, paso a paso.",
+  "Y apuntarse por WhatsApp. Tu cliente es joven: escribe, no llama.",
+  "Te hago la demo de la web de tu autoescuela gratis en 48 horas. Escríbeme por WhatsApp."
+ ],
+ "hashtags": "#autoescuela #carnetdeconducir #girona #permisob #webparanegocios",
+ "aviso": "Autoescuela Fulanito, los precios y horarios son de ejemplo."
+}

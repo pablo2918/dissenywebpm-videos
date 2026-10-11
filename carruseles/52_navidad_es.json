@@ -1,0 +1,161 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "52_navidad_es",
+ "idioma": "es",
+ "negocio": "Tu negocio",
+ "dominio": "tunegocio.com",
+ "pastilla": "Navidad",
+ "portada": "Prepara tu negocio // *para Navidad en noviembre*",
+ "gancho": {
+  "pastilla": "Navidad",
+  "texto": "En diciembre // *ya es tarde*",
+  "maqueta": {
+   "tipo": "lista",
+   "titulo": "Diciembre",
+   "filas": [
+    [
+     "Horario festivos",
+     "Sin poner",
+     "mal"
+    ],
+    [
+     "Encargos",
+     "Solo por teléfono",
+     "mal"
+    ],
+    [
+     "Tarjeta regalo",
+     "No hay",
+     "mal"
+    ]
+   ],
+   "casillas": false,
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Horario // *de las fiestas*",
+   "nota": "24, 25, 31 y 6 de enero: que nadie vaya en balde.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Horario de Navidad",
+    "filas": [
+     [
+      "24 de diciembre",
+      "9:00–14:00",
+      "bien"
+     ],
+     [
+      "25 de diciembre",
+      "Cerrado",
+      "bien"
+     ],
+     [
+      "31 de diciembre",
+      "Sin indicar",
+      "mal"
+     ],
+     [
+      "6 de enero",
+      "Cerrado",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Encargos, // *con fecha límite*",
+   "nota": "Lo que no se encarga a tiempo, no se vende.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Encargos de Navidad",
+    "filas": [
+     [
+      "Cestas y lotes",
+      "Hasta el 18 de dic.",
+      "bien"
+     ],
+     [
+      "Comidas",
+      "Hasta el 20 de dic.",
+      "bien"
+     ],
+     [
+      "Último día",
+      "Sin indicar",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Una tarjeta // *regalo*",
+   "nota": "Para quien no sabe qué regalar. Se vende sola.",
+   "maqueta": {
+    "tipo": "movil_boton",
+    "titular": "Tarjeta regalo",
+    "texto": "Regala un servicio de tu negocio favorito.",
+    "boton": "Pídela por WhatsApp"
+   }
+  },
+  {
+   "titulo": "Fotos // *de temporada*",
+   "nota": "Tu local decorado dice «estamos abiertos y con ganas».",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "Navidad",
+    "etiquetas": [
+     "Escaparate",
+     "Producto",
+     "Equipo"
+    ],
+    "pie": "Fotos de este año, no de catálogo"
+   }
+  },
+  {
+   "titulo": "Avísalo // *con tiempo*",
+   "nota": "En la web, en Google y a tus clientes.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Avísalo en",
+    "filas": [
+     [
+      "Tu web",
+      "",
+      "ok"
+     ],
+     [
+      "Tu ficha de Google",
+      "",
+      "ok"
+     ],
+     [
+      "WhatsApp a tus clientes",
+      "",
+      "ok"
+     ]
+    ],
+    "casillas": true
+   }
+  }
+ ],
+ "cierre": "Te preparo la web para Navidad. Escríbeme",
+ "guardar": "Guárdatelo para noviembre",
+ "guion": [
+  "En diciembre ya es tarde. La Navidad de tu negocio se prepara en noviembre.",
+  "Pon el horario de las fiestas.",
+  "Los encargos, con fecha límite.",
+  "Una tarjeta regalo, para quien no sabe qué regalar.",
+  "Fotos de temporada.",
+  "Y avísalo con tiempo: en la web, en Google y a tus clientes.",
+  "Si quieres tu web lista para Navidad, escríbeme por WhatsApp."
+ ],
+ "hashtags": "#navidad #comerciolocal #negociolocal #girona #compraenelbarrio",
+ "aviso": "Las fechas, horarios y la tarjeta regalo son de ejemplo. **Publícalo a principios de noviembre.**"
+}

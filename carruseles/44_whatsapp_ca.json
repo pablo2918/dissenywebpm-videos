@@ -1,0 +1,157 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "44_whatsapp_ca",
+ "idioma": "ca",
+ "negocio": "El teu negoci",
+ "dominio": "elteunegoci.com",
+ "pastilla": "WhatsApp Business",
+ "portada": "El teu WhatsApp, // *ben configurat*",
+ "gancho": {
+  "pastilla": "WhatsApp Business",
+  "texto": "T'escriuen a les 11 de la nit. // *Què contestes?*",
+  "maqueta": {
+   "tipo": "chat",
+   "globos": [
+    {
+     "de": "cliente",
+     "texto": "Hola, obriu demà?"
+    },
+    {
+     "de": "cliente",
+     "texto": "Hola?"
+    }
+   ],
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Missatge // *d'absència*",
+   "nota": "Que sàpiga que ho has llegit encara que estiguis tancat.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, obriu demà?"
+     },
+     {
+      "de": "negocio",
+      "texto": "Ara som tancats. Et contestem demà a partir de les 9. Gràcies!"
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Missatge // *de benvinguda*",
+   "nota": "Per a qui t'escriu per primera vegada.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola"
+     },
+     {
+      "de": "negocio",
+      "texto": "Hola! Gràcies per escriure'ns. Digues-nos què necessites i t'ajudem."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "El perfil, // *complet*",
+   "nota": "Horari, adreça i web: que no ho hagi de preguntar.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Perfil d'empresa",
+    "filas": [
+     [
+      "Horari",
+      "Dl–Ds 9:00–20:00",
+      "bien"
+     ],
+     [
+      "Adreça",
+      "Carrer Major, 12",
+      "bien"
+     ],
+     [
+      "Web",
+      "Sense posar",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Respostes // *ràpides*",
+   "nota": "El que contestes deu vegades al dia, desat.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Respostes ràpides",
+    "filas": [
+     [
+      "/horari",
+      "Obrim de 9 a 20 h",
+      "bien"
+     ],
+     [
+      "/preus",
+      "Et passo la llista",
+      "bien"
+     ],
+     [
+      "/aparcar",
+      "Hi ha pàrquing al costat",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Etiquetes // *per no perdre ningú*",
+   "nota": "Així veus d'un cop d'ull qui espera resposta.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Etiquetes",
+    "filas": [
+     [
+      "Client nou",
+      "3 xats",
+      "bien"
+     ],
+     [
+      "Pendent de pagament",
+      "1 xat",
+      "bien"
+     ],
+     [
+      "Pressupost enviat",
+      "2 xats",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  }
+ ],
+ "cierre": "Te'l deixo configurat amb la teva web? Escriu-me",
+ "guardar": "Desa-te'l i configura'l avui",
+ "guion": [
+  "T'escriuen a les onze de la nit. Què els contesta el teu WhatsApp? Si no contesta res, pensen que no hi ets.",
+  "Posa un missatge d'absència, per quan siguis tancat.",
+  "Un missatge de benvinguda, per a qui t'escriu per primera vegada.",
+  "El perfil complet, amb horari, adreça i web.",
+  "Respostes ràpides, per al que contestes deu vegades al dia.",
+  "I etiquetes, per no perdre ningú.",
+  "Si vols que la teva web i el teu WhatsApp vagin de la mà, escriu-me per WhatsApp."
+ ],
+ "hashtags": "#whatsappbusiness #comercelocal #atencioalclient #girona #pimes",
+ "aviso": "Les converses i les etiquetes són d'exemple. Són funcions de l'app gratuïta WhatsApp Business. **El tancament diu «te'l deixo configurat»: comprova que ho vols oferir.**"
+}

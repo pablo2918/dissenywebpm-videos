@@ -1,0 +1,123 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "60_boca_ca",
+ "idioma": "ca",
+ "negocio": "Lampisteria Fulanito",
+ "dominio": "lampisteriafulanito.com",
+ "pastilla": "Boca-orella",
+ "portada": "Et recomanen. // *I ara et busquen a Google*",
+ "gancho": {
+  "pastilla": "Boca-orella",
+  "texto": "T'han recomanat. // *Ara et busquen a Google.*",
+  "maqueta": {
+   "tipo": "chat",
+   "globos": [
+    {
+     "de": "cliente",
+     "texto": "Coneixes un lampista de confiança?"
+    },
+    {
+     "de": "cliente",
+     "texto": "Sí, Lampisteria Fulanito. Busca'l."
+    }
+   ],
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Que surti // *el teu nom*",
+   "nota": "El busquen tal com els l'han dit.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "lampisteria fulanito",
+    "filas": [
+     [
+      "La teva web",
+      "No surt",
+      "mal"
+     ],
+     [
+      "Un directori vell",
+      "Surt",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Que tinguis // *web*",
+   "nota": "Sense web, la recomanació es refreda.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Lampisteria a Girona",
+    "subtitulo": "Avaries, calderes i banys. Urgències el mateix dia.",
+    "menu": [
+     "Serveis",
+     "Feines",
+     "Contacte"
+    ],
+    "foto": 1,
+    "boton": "Escriu-nos per WhatsApp",
+    "senala": "todo"
+   }
+  },
+  {
+   "titulo": "Que hi hagi // *ressenyes*",
+   "nota": "Confirmen el que li han explicat.",
+   "maqueta": {
+    "tipo": "resenas",
+    "respuesta_titulo": "Resposta del propietari",
+    "resenas": [
+     {
+      "nombre": "Montse L.",
+      "estrellas": 5,
+      "texto": "Va venir el mateix dia i m'ho va deixar tot perfecte."
+     },
+     {
+      "nombre": "Jordi A.",
+      "estrellas": 5,
+      "texto": "Seriós i amb bon preu. Me'l va recomanar el veí."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Que es vegin // *les teves feines*",
+   "nota": "Fotos de feines reals, no de catàleg.",
+   "maqueta": {
+    "tipo": "antes_despues",
+    "antes": "Abans",
+    "despues": "Després",
+    "pie": "Canvi de caldera a Salt"
+   }
+  },
+  {
+   "titulo": "I que sigui fàcil // *escriure't*",
+   "nota": "Si és difícil, truca al següent que trobi.",
+   "maqueta": {
+    "tipo": "movil_boton",
+    "titular": "Lampisteria Fulanito",
+    "texto": "Avaries i calderes a Girona.",
+    "boton": "Escriu-nos per WhatsApp"
+   }
+  }
+ ],
+ "cierre": "Que et trobin quan et recomanin. Escriu-me",
+ "guardar": "Desa-te'l i busca't com et busquen",
+ "guion": [
+  "T'han recomanat. I ara, abans de trucar-te, et busquen a Google. Si no troben res, dubten.",
+  "Que surti el teu nom.",
+  "Que tinguis web.",
+  "Que hi hagi ressenyes que confirmin el que li han explicat.",
+  "Que es vegin les teves feines.",
+  "I que sigui fàcil escriure't.",
+  "Et faig la demo de la teva web gratis en 48 hores. Escriu-me per WhatsApp."
+ ],
+ "hashtags": "#bocaorella #lampista #oficis #girona #webpernegocis",
+ "aviso": "Lampisteria Fulanito, les ressenyes i les feines són d'exemple."
+}

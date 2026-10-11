@@ -1,0 +1,153 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "36_fotografo_ca",
+ "idioma": "ca",
+ "negocio": "Fulanito Fotografia",
+ "dominio": "fulanitofoto.com",
+ "pastilla": "Fotògrafs",
+ "portada": "Una parella busca fotògraf. // *Això la convenç*",
+ "gancho": {
+  "pastilla": "Fotògrafs",
+  "texto": "Les teves fotos són bones. // *On les ensenyes?*",
+  "maqueta": {
+   "tipo": "chat",
+   "globos": [
+    {
+     "de": "cliente",
+     "texto": "Hola, tens fotos de casaments per veure?"
+    },
+    {
+     "de": "negocio",
+     "texto": "Sí, te'n passo unes quantes per aquí…"
+    },
+    {
+     "de": "negocio",
+     "fotos": true
+    }
+   ],
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "La teva feina, // *per tipus de sessió*",
+   "nota": "Qui es casa no vol veure fotos de producte.",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "Portfoli",
+    "etiquetas": [
+     "Casaments",
+     "Famílies",
+     "Empreses"
+    ],
+    "pie": "La teva feina ordenada per tipus"
+   }
+  },
+  {
+   "titulo": "Un preu // *de partida*",
+   "nota": "Amb un «des de», la parella sap si encaixa en el seu pressupost.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Tarifes",
+    "filas": [
+     [
+      "Casament complet",
+      "des de 1.200 €",
+      "bien"
+     ],
+     [
+      "Sessió de família",
+      "des de 150 €",
+      "bien"
+     ],
+     [
+      "Fotos d'empresa",
+      "Consultar",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Com és // *treballar amb tu*",
+   "nota": "De la primera trucada a l'entrega de les fotos.",
+   "maqueta": {
+    "tipo": "pasos",
+    "titulo": "Com treballo",
+    "pasos": [
+     [
+      "Ens coneixem",
+      "Cafè o videotrucada"
+     ],
+     [
+      "Reserva de data",
+      "Amb una paga i senyal"
+     ],
+     [
+      "El dia",
+      "M'encarrego de tot"
+     ],
+     [
+      "Entrega",
+      "Galeria en línia en setmanes"
+     ]
+    ],
+    "senalado": 1
+   }
+  },
+  {
+   "titulo": "Què diuen // *les parelles*",
+   "nota": "Un casament només es fa una vegada: volen seguretat.",
+   "maqueta": {
+    "tipo": "resenas",
+    "respuesta_titulo": "Resposta del propietari",
+    "resenas": [
+     {
+      "nombre": "Laia i Pau",
+      "estrellas": 5,
+      "texto": "Les fotos són precioses, ni ens vam adonar que hi era."
+     },
+     {
+      "nombre": "Marina G.",
+      "estrellas": 5,
+      "texto": "Sessió de família molt natural."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Tens lliure // *la meva data?*",
+   "nota": "És la primera pregunta. Que la pugui fer amb un toc.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, ens casem el 14 de juny a Girona. Tens la data lliure?"
+     },
+     {
+      "de": "negocio",
+      "texto": "Enhorabona! La tinc lliure. Us truco i us explico?"
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Et faig la demo de la teva web de fotografia, gratis en 48 h",
+ "guardar": "Desa-te'l i ordena el teu portfoli",
+ "guion": [
+  "Les teves fotos són bones. Però si només les ensenyes per WhatsApp, qui no et coneix no les veu mai.",
+  "Ensenya la teva feina ordenada per tipus de sessió.",
+  "Posa un preu de partida.",
+  "Explica com és treballar amb tu.",
+  "El que diuen les parelles i les famílies.",
+  "I que preguntin si tens la seva data lliure, per WhatsApp.",
+  "Et faig la demo de la teva web de fotografia gratis en 48 hores. Escriu-me per WhatsApp."
+ ],
+ "hashtags": "#fotografdecasaments #fotografia #casamentsgirona #girona #webpernegocis",
+ "aviso": "Fulanito Fotografia, les tarifes, el procés i les ressenyes són d'exemple."
+}

@@ -1,0 +1,134 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "43_resena_mala_ca",
+ "idioma": "ca",
+ "negocio": "Restaurant Fulanito",
+ "dominio": "restaurantfulanito.com",
+ "pastilla": "Google Maps",
+ "portada": "Com contestar // *una ressenya d'1 estrella*",
+ "gancho": {
+  "pastilla": "T'ha passat",
+  "texto": "T'han posat una estrella. // *No contestis encara.*",
+  "maqueta": {
+   "tipo": "resenas",
+   "respuesta_titulo": "",
+   "resenas": [
+    {
+     "nombre": "Marc P.",
+     "estrellas": 1,
+     "texto": "Vaig esperar 40 minuts i ningú em va dir res. No hi torno."
+    }
+   ],
+   "k": 1.5
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Espera // *a estar tranquil*",
+   "nota": "Contestar en calent sempre surt malament.",
+   "maqueta": {
+    "tipo": "resenas",
+    "respuesta_titulo": "",
+    "resenas": [
+     {
+      "nombre": "Marc P.",
+      "estrellas": 1,
+      "texto": "Vaig esperar 40 minuts i ningú em va dir res. No hi torno."
+     }
+    ],
+    "k": 1.5
+   }
+  },
+  {
+   "titulo": "Dona-li la raó // *en el que la tingui*",
+   "nota": "No cal donar-li-la en tot. En el que sigui veritat, sí.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Abans de contestar",
+    "filas": [
+     [
+      "Va esperar de debò?",
+      "Sí",
+      "bien"
+     ],
+     [
+      "L'hem avisat?",
+      "No",
+      "mal"
+     ],
+     [
+      "Va ser culpa seva?",
+      "No importa",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Digues què // *has canviat*",
+   "nota": "Això no ho llegeix només ell: ho llegeixen tots els que vénen després.",
+   "maqueta": {
+    "tipo": "resenas",
+    "respuesta_titulo": "Resposta del propietari",
+    "resenas": [
+     {
+      "nombre": "Marc P.",
+      "estrellas": 1,
+      "texto": "Vaig esperar 40 minuts i ningú em va dir res.",
+      "respuesta": "Hola, Marc. Tens raó: no avisar-te va estar malament. Ja hem canviat com donem les hores. Ens escrius i et convidem a tornar?"
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Convida'l // *a parlar en privat*",
+   "nota": "La discussió, fora de Google.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, sóc el Marc, el de la ressenya."
+     },
+     {
+      "de": "negocio",
+      "texto": "Hola, Marc. Gràcies per escriure. Et convidem a tornar quan vulguis."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Mai // *discuteixis en públic*",
+   "nota": "Encara que tinguis raó, qui ho llegeix només veu una baralla.",
+   "maqueta": {
+    "tipo": "resenas",
+    "respuesta_titulo": "Resposta del propietari",
+    "resenas": [
+     {
+      "nombre": "Marc P.",
+      "estrellas": 1,
+      "texto": "Vaig esperar 40 minuts i ningú em va dir res.",
+      "respuesta": "Això és mentida, vas arribar tard tu."
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "La teva fitxa de Google, cuidada. T'ho explico per WhatsApp",
+ "guardar": "Desa-te'l per al dia que et toqui",
+ "guion": [
+  "T'han posat una estrella. No contestis encara. Primer, mira això.",
+  "Espera a estar tranquil. Contestar en calent sempre surt malament.",
+  "Dona-li la raó en el que la tingui.",
+  "Digues què has canviat. Això ho llegeixen tots els que vénen després.",
+  "Convida'l a parlar en privat.",
+  "I mai discuteixis en públic. Encara que tinguis raó, qui ho llegeix només veu una baralla.",
+  "Si vols que t'ajudi amb la teva fitxa de Google, escriu-me per WhatsApp."
+ ],
+ "hashtags": "#googlemaps #ressenyes #comercelocal #girona #atencioalclient",
+ "aviso": "La ressenya i les respostes són d'exemple. És un consell general, val per a qualsevol negoci."
+}

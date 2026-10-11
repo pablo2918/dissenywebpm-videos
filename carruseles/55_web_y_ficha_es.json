@@ -1,0 +1,170 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "55_web_y_ficha_es",
+ "idioma": "es",
+ "negocio": "Peluquería Fulanita",
+ "dominio": "peluqueriafulanita.com",
+ "pastilla": "Google",
+ "portada": "¿Web o ficha de Google? // *Las dos. Te explico por qué*",
+ "gancho": {
+  "pastilla": "Pregunta frecuente",
+  "texto": "¿Web o ficha de Google? // *Las dos.*",
+  "maqueta": {
+   "tipo": "ficha",
+   "valoracion": "4,7",
+   "filas": [
+    [
+     "Sitio web",
+     "peluqueriafulanita.com",
+     false
+    ],
+    [
+     "Horario",
+     "9:00–20:00",
+     false
+    ],
+    [
+     "Teléfono",
+     "972 00 00 00",
+     false
+    ]
+   ],
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "La ficha: // *te encuentran*",
+   "nota": "Es lo que sale en el mapa cuando buscan cerca.",
+   "maqueta": {
+    "tipo": "ficha",
+    "valoracion": "4,7",
+    "filas": [
+     [
+      "Horario",
+      "Abierto · cierra a las 20:00",
+      false
+     ],
+     [
+      "Dirección",
+      "Carrer Major, 12",
+      false
+     ],
+     [
+      "Teléfono",
+      "972 00 00 00",
+      false
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "La web: // *te eligen*",
+   "nota": "Ahí cuentas lo que no cabe en una ficha.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Peluquería en Girona",
+    "subtitulo": "Corte, color y peinados. Precios a la vista.",
+    "menu": [
+     "Servicios",
+     "Precios",
+     "Contacto"
+    ],
+    "foto": 3,
+    "boton": "Pide hora por WhatsApp",
+    "senala": "todo"
+   }
+  },
+  {
+   "titulo": "En la ficha // *manda Google*",
+   "nota": "Él decide qué se ve y en qué orden.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Tu ficha",
+    "filas": [
+     [
+      "Orden de las fotos",
+      "Lo decide Google",
+      "bien"
+     ],
+     [
+      "Reseñas",
+      "Las escriben otros",
+      "bien"
+     ],
+     [
+      "Diseño",
+      "El mismo para todos",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "En la web // *mandas tú*",
+   "nota": "Qué dices, cómo lo dices y qué enseñas primero.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Tu web",
+    "filas": [
+     [
+      "Qué se ve primero",
+      "Lo decides tú",
+      "bien"
+     ],
+     [
+      "Precios y servicios",
+      "Bien explicados",
+      "bien"
+     ],
+     [
+      "Diseño",
+      "El de tu negocio",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Y se ayudan // *entre ellas*",
+   "nota": "La ficha lleva a la web. La web refuerza la ficha.",
+   "maqueta": {
+    "tipo": "pasos",
+    "titulo": "Así funcionan juntas",
+    "pasos": [
+     [
+      "Te buscan en Google",
+      "Sale tu ficha"
+     ],
+     [
+      "Pulsan «Sitio web»",
+      "Llegan a tu web"
+     ],
+     [
+      "Te escriben",
+      "Por WhatsApp"
+     ]
+    ],
+    "senalado": 2
+   }
+  }
+ ],
+ "cierre": "Web + ficha de Google en un solo pack. Escríbeme",
+ "guardar": "Guárdatelo y revisa las dos",
+ "guion": [
+  "¿Web o ficha de Google? Las dos. Hacen trabajos distintos, y se ayudan entre ellas.",
+  "Con la ficha, te encuentran en el mapa.",
+  "Con la web, te eligen.",
+  "En la ficha manda Google.",
+  "En la web mandas tú.",
+  "Y juntas funcionan mejor: la ficha lleva a la web.",
+  "Tengo un pack con web y ficha de Google. Escríbeme por WhatsApp y te lo cuento."
+ ],
+ "hashtags": "#googlemaps #seolocal #webparanegocios #girona #negociolocal",
+ "aviso": "Peluquería Fulanita y sus datos son de ejemplo. El cierre habla del pack digitalización: **si lo citas con precio, usa 580 € + 22 €/mes.**"
+}

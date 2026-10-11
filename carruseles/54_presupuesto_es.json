@@ -1,0 +1,150 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "54_presupuesto_es",
+ "idioma": "es",
+ "negocio": "Reformas Fulanito",
+ "dominio": "reformasfulanito.com",
+ "pastilla": "Oficios",
+ "portada": "Tu presupuesto por WhatsApp // *parece un ticket*",
+ "gancho": {
+  "pastilla": "Oficios",
+  "texto": "«Te sale por unos 1.800 €». // *¿Y eso qué incluye?*",
+  "maqueta": {
+   "tipo": "chat",
+   "globos": [
+    {
+     "de": "cliente",
+     "texto": "¿Cuánto me costaría cambiar la bañera por plato de ducha?"
+    },
+    {
+     "de": "negocio",
+     "texto": "Te sale por unos 1.800 €"
+    }
+   ],
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Desglosa // *las partidas*",
+   "nota": "Material y mano de obra, por separado.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Presupuesto",
+    "filas": [
+     [
+      "Plato de ducha",
+      "420 €",
+      "bien"
+     ],
+     [
+      "Mampara",
+      "380 €",
+      "bien"
+     ],
+     [
+      "Mano de obra",
+      "850 €",
+      "bien"
+     ],
+     [
+      "Retirada de escombros",
+      "150 €",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Di qué // *no incluye*",
+   "nota": "Lo que no se dice, luego se discute.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "No incluye",
+    "filas": [
+     [
+      "Cambiar azulejos",
+      "Aparte",
+      "bien"
+     ],
+     [
+      "Fontanería oculta",
+      "Si aparece, se avisa",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Plazo // *y validez*",
+   "nota": "Cuándo empiezas, cuánto tardas y hasta cuándo vale.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Condiciones",
+    "filas": [
+     [
+      "Inicio",
+      "En 2 semanas",
+      "bien"
+     ],
+     [
+      "Duración",
+      "3 días",
+      "bien"
+     ],
+     [
+      "Validez",
+      "30 días",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Una foto // *de un trabajo igual*",
+   "nota": "Así sabe lo que va a recibir.",
+   "maqueta": {
+    "tipo": "antes_despues",
+    "antes": "Antes",
+    "despues": "Después",
+    "pie": "Cambio de bañera por plato de ducha"
+   }
+  },
+  {
+   "titulo": "Y que puedan // *ver más*",
+   "nota": "Tu web con más trabajos, para quien duda.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "negocio",
+      "texto": "Te paso el presupuesto en PDF. Aquí tienes más trabajos como este: reformasfulanito.com"
+     },
+     {
+      "de": "cliente",
+      "texto": "Perfecto, lo miro con mi pareja."
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Tus trabajos, en una web que vende por ti. Escríbeme",
+ "guardar": "Guárdatelo para tu próximo presupuesto",
+ "guion": [
+  "Te sale por unos mil ochocientos euros. ¿Y eso qué incluye? Un presupuesto así parece un ticket, y genera desconfianza.",
+  "Desglosa las partidas.",
+  "Di qué no incluye.",
+  "Pon el plazo y la validez.",
+  "Añade una foto de un trabajo igual.",
+  "Y un enlace a tu web, con más trabajos.",
+  "Si quieres una web que enseñe tus trabajos, escríbeme por WhatsApp."
+ ],
+ "hashtags": "#reformas #presupuesto #autonomos #girona #oficios",
+ "aviso": "Reformas Fulanito, las partidas y los precios son de ejemplo, no son precios reales de mercado."
+}

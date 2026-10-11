@@ -1,0 +1,146 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "56_sales_ca",
+ "idioma": "ca",
+ "negocio": "El teu negoci",
+ "dominio": "elteunegoci.com",
+ "pastilla": "Fes la prova",
+ "portada": "Surts a Google? // *Comprova-ho en 2 minuts*",
+ "gancho": {
+  "pastilla": "Fes la prova",
+  "texto": "Agafa el mòbil i busca // *el que fas + el teu poble*",
+  "maqueta": {
+   "tipo": "lista",
+   "titulo": "perruqueria salt",
+   "filas": [
+    [
+     "1. Perruqueria A",
+     "",
+     "bien"
+    ],
+    [
+     "2. Perruqueria B",
+     "",
+     "bien"
+    ],
+    [
+     "3. Perruqueria C",
+     "",
+     "bien"
+    ],
+    [
+     "I la teva?",
+     "No surt",
+     "mal"
+    ]
+   ],
+   "casillas": false,
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Busca // *el teu nom*",
+   "nota": "Si no surts ni amb el teu nom, comença per aquí.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "perruqueria fulanita",
+    "filas": [
+     [
+      "La teva web",
+      "No surt",
+      "mal"
+     ],
+     [
+      "La teva fitxa de Google",
+      "Surt",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Busca el que fas // *i on*",
+   "nota": "Així et busquen els que encara no et coneixen.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "perruqueria salt",
+    "filas": [
+     [
+      "1. Perruqueria A",
+      "",
+      "bien"
+     ],
+     [
+      "2. Perruqueria B",
+      "",
+      "bien"
+     ],
+     [
+      "I la teva?",
+      "No surt",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Fes-ho // *des del mòbil*",
+   "nota": "És des d'on et busca gairebé tothom.",
+   "maqueta": {
+    "tipo": "movil",
+    "variante": "zoom",
+    "etiqueta": "Es veu bé?",
+    "menu_txt": "Inici  Serveis  Preus  Contacte"
+   }
+  },
+  {
+   "titulo": "Mira // *el mapa*",
+   "nota": "Busca a Google Maps sense posar el teu nom.",
+   "maqueta": {
+    "tipo": "zonas",
+    "titulo": "Al mapa surten",
+    "zonas": [
+     "Perruqueria A",
+     "Perruqueria B",
+     "I tu?"
+    ]
+   }
+  },
+  {
+   "titulo": "I pregunta // *als teus clients*",
+   "nota": "«Com ens has trobat?» Apunta les respostes.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "negocio",
+      "texto": "Per cert, com ens has trobat?"
+     },
+     {
+      "de": "cliente",
+      "texto": "Et vaig buscar a Google i sorties la primera."
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Si no surts, et dic per què. Escriu-me",
+ "guardar": "Desa-te'l i fes la prova avui",
+ "guion": [
+  "Agafa el mòbil i busca el que fas més el teu poble. Surts? Comprova-ho en dos minuts.",
+  "Primer, busca el teu nom.",
+  "Després, busca el que fas i on, com et busca algú que no et coneix.",
+  "Fes-ho des del mòbil.",
+  "Mira també el mapa.",
+  "I pregunta als teus clients com t'han trobat.",
+  "Si no surts, escriu-me per WhatsApp i et dic per què."
+ ],
+ "hashtags": "#seolocal #google #comercelocal #girona #webpernegocis",
+ "aviso": "Les cerques i els resultats són d'exemple. És una prova que pot fer qualsevol negoci."
+}

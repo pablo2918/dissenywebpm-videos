@@ -1,0 +1,150 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "54_presupuesto_ca",
+ "idioma": "ca",
+ "negocio": "Reformes Fulanito",
+ "dominio": "reformesfulanito.com",
+ "pastilla": "Oficis",
+ "portada": "El teu pressupost per WhatsApp // *sembla un tiquet*",
+ "gancho": {
+  "pastilla": "Oficis",
+  "texto": "«Et surt per uns 1.800 €». // *I això què inclou?*",
+  "maqueta": {
+   "tipo": "chat",
+   "globos": [
+    {
+     "de": "cliente",
+     "texto": "Quant em costaria canviar la banyera per plat de dutxa?"
+    },
+    {
+     "de": "negocio",
+     "texto": "Et surt per uns 1.800 €"
+    }
+   ],
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Desglossa // *les partides*",
+   "nota": "Material i mà d'obra, per separat.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Pressupost",
+    "filas": [
+     [
+      "Plat de dutxa",
+      "420 €",
+      "bien"
+     ],
+     [
+      "Mampara",
+      "380 €",
+      "bien"
+     ],
+     [
+      "Mà d'obra",
+      "850 €",
+      "bien"
+     ],
+     [
+      "Retirada de runa",
+      "150 €",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Digues què // *no inclou*",
+   "nota": "El que no es diu, després es discuteix.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "No inclou",
+    "filas": [
+     [
+      "Canviar rajoles",
+      "A part",
+      "bien"
+     ],
+     [
+      "Lampisteria oculta",
+      "Si apareix, s'avisa",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Termini // *i validesa*",
+   "nota": "Quan comences, quant trigues i fins quan val.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Condicions",
+    "filas": [
+     [
+      "Inici",
+      "En 2 setmanes",
+      "bien"
+     ],
+     [
+      "Durada",
+      "3 dies",
+      "bien"
+     ],
+     [
+      "Validesa",
+      "30 dies",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Una foto // *d'una feina igual*",
+   "nota": "Així sap què rebrà.",
+   "maqueta": {
+    "tipo": "antes_despues",
+    "antes": "Abans",
+    "despues": "Després",
+    "pie": "Canvi de banyera per plat de dutxa"
+   }
+  },
+  {
+   "titulo": "I que puguin // *veure'n més*",
+   "nota": "La teva web amb més feines, per a qui dubta.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "negocio",
+      "texto": "Et passo el pressupost en PDF. Aquí tens més feines com aquesta: reformesfulanito.com"
+     },
+     {
+      "de": "cliente",
+      "texto": "Perfecte, ho miro amb la meva parella."
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Les teves feines, en una web que ven per tu. Escriu-me",
+ "guardar": "Desa-te'l per al teu proper pressupost",
+ "guion": [
+  "Et surt per uns mil vuit-cents euros. I això què inclou? Un pressupost així sembla un tiquet, i genera desconfiança.",
+  "Desglossa les partides.",
+  "Digues què no inclou.",
+  "Posa el termini i la validesa.",
+  "Afegeix una foto d'una feina igual.",
+  "I un enllaç a la teva web, amb més feines.",
+  "Si vols una web que ensenyi les teves feines, escriu-me per WhatsApp."
+ ],
+ "hashtags": "#reformes #pressupost #autonoms #girona #oficis",
+ "aviso": "Reformes Fulanito, les partides i els preus són d'exemple, no són preus reals de mercat."
+}

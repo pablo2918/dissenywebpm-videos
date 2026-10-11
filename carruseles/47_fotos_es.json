@@ -1,0 +1,92 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "47_fotos_es",
+ "idioma": "es",
+ "negocio": "Tu negocio",
+ "dominio": "tunegocio.com",
+ "pastilla": "Fotos con el móvil",
+ "portada": "5 trucos para hacer // *fotos de tu negocio con el móvil*",
+ "gancho": {
+  "pastilla": "Fotos con el móvil",
+  "texto": "Esta foto // *te está quitando clientes*",
+  "maqueta": {
+   "tipo": "antes_despues",
+   "antes": "Así no",
+   "despues": "Así sí",
+   "pie": "La misma tienda, el mismo móvil",
+   "k": 1.25
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Luz // *natural*",
+   "nota": "Junto a la ventana o con la puerta abierta. Sin flash.",
+   "maqueta": {
+    "tipo": "antes_despues",
+    "antes": "Con flash",
+    "despues": "Con luz de día",
+    "pie": "El mismo plato, a la misma hora"
+   }
+  },
+  {
+   "titulo": "Limpia // *el objetivo*",
+   "nota": "Un dedo en la lente y todo sale borroso.",
+   "maqueta": {
+    "tipo": "antes_despues",
+    "antes": "Sin limpiar",
+    "despues": "Limpio",
+    "pie": "Pásale la camiseta antes de cada foto"
+   }
+  },
+  {
+   "titulo": "Recoge // *antes*",
+   "nota": "Cajas, cables y bolsas también salen en la foto.",
+   "maqueta": {
+    "tipo": "antes_despues",
+    "antes": "Sin recoger",
+    "despues": "Recogido",
+    "pie": "Cinco minutos de orden cambian la foto"
+   }
+  },
+  {
+   "titulo": "Gente // *trabajando*",
+   "nota": "Una foto con personas da más confianza que un local vacío.",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "Fotos que funcionan",
+    "etiquetas": [
+     "Trabajando",
+     "Atendiendo",
+     "El equipo"
+    ],
+    "pie": "Personas de verdad, no de catálogo"
+   }
+  },
+  {
+   "titulo": "Sin filtros // *raros*",
+   "nota": "Que el cliente reconozca tu local cuando llegue.",
+   "maqueta": {
+    "tipo": "antes_despues",
+    "antes": "Con filtro",
+    "despues": "Natural",
+    "pie": "Lo que ve en la foto es lo que se encuentra"
+   }
+  }
+ ],
+ "cierre": "Mándame tus fotos y las pongo yo en tu web",
+ "guardar": "Guárdatelo y haz las fotos esta semana",
+ "guion": [
+  "Esta foto te está quitando clientes. Y no hace falta un fotógrafo para arreglarlo: con tu móvil basta.",
+  "Usa luz natural, sin flash.",
+  "Limpia el objetivo antes de cada foto.",
+  "Recoge antes de disparar.",
+  "Saca gente trabajando, no el local vacío.",
+  "Y nada de filtros raros. Que el cliente reconozca tu local.",
+  "Mándame tus fotos por WhatsApp y las pongo yo en tu web."
+ ],
+ "hashtags": "#fotografiamovil #negociolocal #consejos #girona #webparanegocios",
+ "aviso": "Las fotos de las maquetas son ilustraciones. Es un consejo general, vale para cualquier negocio."
+}

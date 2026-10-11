@@ -1,0 +1,163 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "40_pasteleria_es",
+ "idioma": "es",
+ "negocio": "Pastelería Fulanita",
+ "dominio": "pasteleriafulanita.com",
+ "pastilla": "Pastelerías",
+ "portada": "Encargos de tartas, // *sin perder la mañana al teléfono*",
+ "gancho": {
+  "pastilla": "Pastelerías y obradores",
+  "texto": "«¿Me haces una tarta // *para el sábado?»*",
+  "maqueta": {
+   "tipo": "chat",
+   "globos": [
+    {
+     "de": "cliente",
+     "texto": "¿Me haces una tarta para el sábado?"
+    },
+    {
+     "de": "cliente",
+     "texto": "¿Cuánto cuesta?"
+    },
+    {
+     "de": "cliente",
+     "texto": "¿Tenéis sin gluten?"
+    }
+   ],
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Tus tartas, // *con foto y precio*",
+   "nota": "Que elija antes de escribirte.",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "Tartas",
+    "etiquetas": [
+     "Chocolate",
+     "Fresa",
+     "Tres leches"
+    ],
+    "pie": "Tartas de tu obrador, con precio"
+   }
+  },
+  {
+   "titulo": "Tamaños // *y raciones*",
+   "nota": "«¿Para cuántos es?» es la segunda pregunta.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Tamaños",
+    "filas": [
+     [
+      "6 raciones",
+      "desde 22 €",
+      "bien"
+     ],
+     [
+      "10 raciones",
+      "desde 32 €",
+      "bien"
+     ],
+     [
+      "20 raciones",
+      "Consultar",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Con cuánta // *antelación*",
+   "nota": "Avisarlo en la web te ahorra decir que no.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Encargos",
+    "filas": [
+     [
+      "Tartas de la carta",
+      "48 h antes",
+      "bien"
+     ],
+     [
+      "Tartas personalizadas",
+      "1 semana antes",
+      "bien"
+     ],
+     [
+      "Mismo día",
+      "No es posible",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Alergias // *e intolerancias*",
+   "nota": "Sin gluten, sin lactosa: que lo vea claro.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Opciones",
+    "filas": [
+     [
+      "Sin gluten",
+      "",
+      "ok"
+     ],
+     [
+      "Sin lactosa",
+      "",
+      "ok"
+     ],
+     [
+      "Vegana",
+      "",
+      "ok"
+     ],
+     [
+      "Sin frutos secos",
+      "Consultar",
+      "mal"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "Encargar // *por WhatsApp*",
+   "nota": "Elige, escribe y la recoge el día que quiera.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, quiero la de chocolate de 10 raciones para el sábado."
+     },
+     {
+      "de": "negocio",
+      "texto": "¡Hecho! La tienes el sábado a partir de las 10."
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Te hago la demo de la web de tu pastelería, gratis en 48 h",
+ "guardar": "Guárdatelo y mira tu web",
+ "guion": [
+  "¿Me haces una tarta para el sábado? ¿Cuánto cuesta? ¿Tenéis sin gluten? Si te preguntan esto cada día, tu web puede contestar por ti.",
+  "Enseña tus tartas con foto y precio.",
+  "Los tamaños y las raciones.",
+  "Con cuánta antelación hay que encargar.",
+  "Las opciones para alergias.",
+  "Y encargar por WhatsApp.",
+  "Te hago la demo de la web de tu pastelería gratis en 48 horas. Escríbeme por WhatsApp."
+ ],
+ "hashtags": "#pasteleria #tartas #obrador #girona #webparanegocios",
+ "aviso": "Pastelería Fulanita, las tartas, los precios y los plazos son de ejemplo."
+}

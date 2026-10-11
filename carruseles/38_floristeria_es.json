@@ -1,0 +1,145 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "38_floristeria_es",
+ "idioma": "es",
+ "negocio": "Floristería Fulanita",
+ "dominio": "floresfulanita.com",
+ "pastilla": "Floristerías",
+ "portada": "Encargos de flores // *sin colas ni llamadas*",
+ "gancho": {
+  "pastilla": "Floristerías",
+  "texto": "Sant Jordi: // *¿te encargan por WhatsApp?*",
+  "maqueta": {
+   "tipo": "chat",
+   "globos": [
+    {
+     "de": "cliente",
+     "texto": "Hola, ¿me guardas una rosa para Sant Jordi?"
+    },
+    {
+     "de": "cliente",
+     "texto": "¿Y un ramo para el sábado?"
+    },
+    {
+     "de": "cliente",
+     "texto": "¿Hacéis entregas a Salt?"
+    }
+   ],
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Tus ramos, // *con precio*",
+   "nota": "Que elija desde el sofá, no en el mostrador.",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "Ramos",
+    "etiquetas": [
+     "25 €",
+     "35 €",
+     "50 €"
+    ],
+    "pie": "Ramos de tu tienda, con su precio"
+   }
+  },
+  {
+   "titulo": "Encargar // *por WhatsApp*",
+   "nota": "Elige, escribe y lo recoge hecho.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, quiero el ramo de 35 € para el sábado."
+     },
+     {
+      "de": "negocio",
+      "texto": "¡Perfecto! Te lo tengo listo el sábado a las 11."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Hasta dónde // *entregáis*",
+   "nota": "Y cuánto cuesta el envío.",
+   "maqueta": {
+    "tipo": "zonas",
+    "titulo": "Entregamos en",
+    "zonas": [
+     "Girona",
+     "Salt",
+     "Sarrià de Ter",
+     "Celrà"
+    ]
+   }
+  },
+  {
+   "titulo": "Con cuántos días // *de antelación*",
+   "nota": "En las fechas fuertes, avisar antes evita disgustos.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Encargos",
+    "filas": [
+     [
+      "Ramo del día",
+      "Mismo día",
+      "bien"
+     ],
+     [
+      "Centro de mesa",
+      "2 días antes",
+      "bien"
+     ],
+     [
+      "Bodas",
+      "Consultar",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Horario // *de las fechas especiales*",
+   "nota": "Sant Jordi y festivos no son un día normal.",
+   "maqueta": {
+    "tipo": "ficha",
+    "valoracion": "4,9",
+    "filas": [
+     [
+      "Sant Jordi",
+      "Sin indicar",
+      true
+     ],
+     [
+      "Horario normal",
+      "9:00–13:30 y 16:30–20:00",
+      false
+     ],
+     [
+      "Teléfono",
+      "972 00 00 00",
+      false
+     ]
+    ]
+   }
+  }
+ ],
+ "cierre": "Te hago la demo de la web de tu floristería, gratis en 48 h",
+ "guardar": "Guárdatelo antes de la próxima fecha fuerte",
+ "guion": [
+  "Sant Jordi, San Valentín, el Día de la Madre. En esas fechas, quien encarga por WhatsApp no hace cola, y tú tampoco.",
+  "Enseña tus ramos con su precio.",
+  "Que te encarguen por WhatsApp y lo recojan hecho.",
+  "Hasta dónde entregáis.",
+  "Con cuántos días de antelación hay que encargar.",
+  "Y el horario de las fechas especiales.",
+  "Te hago la demo de la web de tu floristería gratis en 48 horas. Escríbeme por WhatsApp."
+ ],
+ "hashtags": "#floristeria #santjordi #flores #girona #webparanegocios",
+ "aviso": "Floristería Fulanita, los ramos, los precios y las zonas de entrega son de ejemplo. **Publícalo unas semanas antes de Sant Jordi, San Valentín o el Día de la Madre.**"
+}

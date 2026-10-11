@@ -1,0 +1,148 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "57_seguro_es",
+ "idioma": "es",
+ "negocio": "Tu negocio",
+ "dominio": "tunegocio.com",
+ "pastilla": "Haz la prueba",
+ "portada": "Si tu web sale // *como «No seguro»*",
+ "gancho": {
+  "pastilla": "Haz la prueba",
+  "texto": "Abre tu web. // *¿Pone «No seguro»?*",
+  "maqueta": {
+   "tipo": "web",
+   "titulo": "Bienvenidos a nuestra web",
+   "subtitulo": "Somos una empresa con años de experiencia.",
+   "menu": [
+    "Inicio",
+    "Nosotros",
+    "Contacto"
+   ],
+   "foto": 4,
+   "dominio": "No seguro · tunegocio.com",
+   "senala": "titulo",
+   "mal": "No seguro",
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Qué // *significa*",
+   "nota": "Que lo que se escribe en tu web no viaja protegido.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Barra del navegador",
+    "filas": [
+     [
+      "https://tunegocio.com",
+      "Con candado",
+      "bien"
+     ],
+     [
+      "No seguro · tunegocio.com",
+      "Sin certificado",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Por qué // *espanta*",
+   "nota": "Nadie deja su teléfono en una web que dice «No seguro».",
+   "maqueta": {
+    "tipo": "movil",
+    "variante": "formulario",
+    "titulo": "Contacto",
+    "campos": [
+     "Nombre",
+     "Teléfono",
+     "Mensaje"
+    ],
+    "enviar": "Enviar",
+    "etiqueta": "«No seguro»"
+   }
+  },
+  {
+   "titulo": "Google // *también lo mira*",
+   "nota": "Prefiere enseñar webs seguras.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Google tiene en cuenta",
+    "filas": [
+     [
+      "Web segura (https)",
+      "",
+      "ok"
+     ],
+     [
+      "Carga rápida",
+      "",
+      "ok"
+     ],
+     [
+      "Se ve bien en el móvil",
+      "",
+      "ok"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "Cómo // *se arregla*",
+   "nota": "Con un certificado. Es una cosa técnica, no la tienes que hacer tú.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Lo arregla quien te lleva la web",
+    "filas": [
+     [
+      "Certificado de seguridad",
+      "",
+      "ok"
+     ],
+     [
+      "Que se renueve solo",
+      "",
+      "ok"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "Conmigo, // *incluido*",
+   "nota": "Todas mis webs llevan el candado, sin pagar aparte.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Peluquería en Girona",
+    "subtitulo": "Corte, color y peinados.",
+    "menu": [
+     "Servicios",
+     "Precios",
+     "Contacto"
+    ],
+    "foto": 3,
+    "dominio": "https://peluqueriafulanita.com",
+    "boton": "Pide hora por WhatsApp",
+    "senala": "todo"
+   }
+  }
+ ],
+ "cierre": "Web segura, con el candado incluido. Escríbeme",
+ "guardar": "Guárdatelo y mira tu web",
+ "guion": [
+  "Abre tu web. ¿Pone «No seguro» al lado de la dirección? Si lo pone, tus clientes también lo ven.",
+  "Significa que lo que se escribe en tu web no viaja protegido.",
+  "Y espanta: nadie deja su teléfono ahí.",
+  "Google también lo mira.",
+  "Se arregla con un certificado. Es cosa técnica, no la tienes que hacer tú.",
+  "Y conmigo va incluido, sin pagar aparte.",
+  "Te hago la demo de tu web gratis en 48 horas. Escríbeme por WhatsApp."
+ ],
+ "hashtags": "#seguridadweb #https #webparanegocios #girona #negociolocal",
+ "aviso": "Las webs son de ejemplo. **Comprueba que el certificado (https) va incluido en todas tus webs, como dice la lámina 05.**"
+}

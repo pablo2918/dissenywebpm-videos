@@ -1,0 +1,163 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "40_pasteleria_ca",
+ "idioma": "ca",
+ "negocio": "Pastisseria Fulanita",
+ "dominio": "pastisseriafulanita.com",
+ "pastilla": "Pastisseries",
+ "portada": "Encàrrecs de pastissos, // *sense perdre el matí al telèfon*",
+ "gancho": {
+  "pastilla": "Pastisseries i obradors",
+  "texto": "«Em fas un pastís // *per dissabte?»*",
+  "maqueta": {
+   "tipo": "chat",
+   "globos": [
+    {
+     "de": "cliente",
+     "texto": "Em fas un pastís per dissabte?"
+    },
+    {
+     "de": "cliente",
+     "texto": "Quant costa?"
+    },
+    {
+     "de": "cliente",
+     "texto": "En teniu sense gluten?"
+    }
+   ],
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Els teus pastissos, // *amb foto i preu*",
+   "nota": "Que triï abans d'escriure't.",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "Pastissos",
+    "etiquetas": [
+     "Xocolata",
+     "Maduixa",
+     "Tres llets"
+    ],
+    "pie": "Pastissos del teu obrador, amb preu"
+   }
+  },
+  {
+   "titulo": "Mides // *i racions*",
+   "nota": "«Per a quants és?» és la segona pregunta.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Mides",
+    "filas": [
+     [
+      "6 racions",
+      "des de 22 €",
+      "bien"
+     ],
+     [
+      "10 racions",
+      "des de 32 €",
+      "bien"
+     ],
+     [
+      "20 racions",
+      "Consultar",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Amb quanta // *antelació*",
+   "nota": "Avisar-ho a la web t'estalvia dir que no.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Encàrrecs",
+    "filas": [
+     [
+      "Pastissos de la carta",
+      "48 h abans",
+      "bien"
+     ],
+     [
+      "Pastissos personalitzats",
+      "1 setmana abans",
+      "bien"
+     ],
+     [
+      "El mateix dia",
+      "No és possible",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Al·lèrgies // *i intoleràncies*",
+   "nota": "Sense gluten, sense lactosa: que ho vegi clar.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Opcions",
+    "filas": [
+     [
+      "Sense gluten",
+      "",
+      "ok"
+     ],
+     [
+      "Sense lactosa",
+      "",
+      "ok"
+     ],
+     [
+      "Vegà",
+      "",
+      "ok"
+     ],
+     [
+      "Sense fruits secs",
+      "Consultar",
+      "mal"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "Encarregar // *per WhatsApp*",
+   "nota": "Tria, escriu i el recull el dia que vulgui.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, vull el de xocolata de 10 racions per dissabte."
+     },
+     {
+      "de": "negocio",
+      "texto": "Fet! El tens dissabte a partir de les 10."
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Et faig la demo de la web de la teva pastisseria, gratis en 48 h",
+ "guardar": "Desa-te'l i mira la teva web",
+ "guion": [
+  "Em fas un pastís per dissabte? Quant costa? En teniu sense gluten? Si et pregunten això cada dia, la teva web pot contestar per tu.",
+  "Ensenya els teus pastissos amb foto i preu.",
+  "Les mides i les racions.",
+  "Amb quanta antelació cal encarregar.",
+  "Les opcions per a al·lèrgies.",
+  "I encarregar per WhatsApp.",
+  "Et faig la demo de la web de la teva pastisseria gratis en 48 hores. Escriu-me per WhatsApp."
+ ],
+ "hashtags": "#pastisseria #pastissos #obrador #girona #webpernegocis",
+ "aviso": "Pastisseria Fulanita, els pastissos, els preus i els terminis són d'exemple."
+}

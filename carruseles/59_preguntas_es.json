@@ -1,0 +1,165 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "59_preguntas_es",
+ "idioma": "es",
+ "negocio": "Taller Fulanito",
+ "dominio": "tallerfulanito.com",
+ "pastilla": "Ahorra tiempo",
+ "portada": "¿Cuántas veces al día // *contestas lo mismo?*",
+ "gancho": {
+  "pastilla": "Ahorra tiempo",
+  "texto": "¿Cuántas veces al día // *contestas lo mismo?*",
+  "maqueta": {
+   "tipo": "chat",
+   "globos": [
+    {
+     "de": "cliente",
+     "texto": "¿Hacéis ITV?"
+    },
+    {
+     "de": "cliente",
+     "texto": "¿Me dejáis coche de sustitución?"
+    },
+    {
+     "de": "cliente",
+     "texto": "¿Aceptáis tarjeta?"
+    }
+   ],
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Apunta las preguntas // *una semana*",
+   "nota": "En una libreta o en el móvil. Sin pensar.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Esta semana me han preguntado",
+    "filas": [
+     [
+      "¿Hacéis ITV?",
+      "7 veces",
+      "bien"
+     ],
+     [
+      "¿Coche de sustitución?",
+      "5 veces",
+      "bien"
+     ],
+     [
+      "¿Aceptáis tarjeta?",
+      "4 veces",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Quédate // *con las 5 que más*",
+   "nota": "Esas son las que te quitan tiempo de verdad.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Las 5 que más se repiten",
+    "filas": [
+     [
+      "¿Hacéis ITV?",
+      "",
+      "ok"
+     ],
+     [
+      "¿Coche de sustitución?",
+      "",
+      "ok"
+     ],
+     [
+      "¿Aceptáis tarjeta?",
+      "",
+      "ok"
+     ],
+     [
+      "¿Abrís el sábado?",
+      "",
+      "ok"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "Respuestas // *cortas*",
+   "nota": "Una o dos frases. Como si se lo dijeras en el mostrador.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Preguntas frecuentes",
+    "filas": [
+     [
+      "¿Hacéis ITV?",
+      "No, pero te lo llevamos",
+      "bien"
+     ],
+     [
+      "¿Coche de sustitución?",
+      "Sí, con reserva",
+      "bien"
+     ],
+     [
+      "¿Tarjeta?",
+      "Sí",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Ponlas // *en tu web*",
+   "nota": "Una sección de preguntas frecuentes. Google también las lee.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Preguntas frecuentes",
+    "subtitulo": "ITV, coche de sustitución, formas de pago y horarios.",
+    "menu": [
+     "Servicios",
+     "Preguntas",
+     "Contacto"
+    ],
+    "foto": 1,
+    "senala": "titulo"
+   }
+  },
+  {
+   "titulo": "Y enlázalas // *en WhatsApp*",
+   "nota": "En el mensaje automático: «Aquí tienes las respuestas».",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, una pregunta…"
+     },
+     {
+      "de": "negocio",
+      "texto": "¡Hola! Quizá ya está aquí: tallerfulanito.com/preguntas. Si no, dime."
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Tus preguntas frecuentes, en tu web. Escríbeme",
+ "guardar": "Guárdatelo y empieza a apuntar hoy",
+ "guion": [
+  "¿Cuántas veces al día contestas lo mismo? Tu web puede contestar por ti.",
+  "Apunta las preguntas durante una semana.",
+  "Quédate con las cinco que más se repiten.",
+  "Escribe respuestas cortas.",
+  "Ponlas en tu web. Google también las lee.",
+  "Y enlázalas en tu WhatsApp.",
+  "Mándame tus preguntas y las pongo en tu web. Escríbeme por WhatsApp."
+ ],
+ "hashtags": "#negociolocal #atencionalcliente #tallermecanico #girona #webparanegocios",
+ "aviso": "Taller Fulanito, las preguntas y los recuentos son de ejemplo."
+}

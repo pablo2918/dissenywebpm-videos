@@ -1,0 +1,152 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "50_excusas_ca",
+ "idioma": "ca",
+ "negocio": "El teu negoci",
+ "dominio": "elteunegoci.com",
+ "pastilla": "5 excuses",
+ "portada": "5 excuses per no tenir web // *(i la veritat)*",
+ "gancho": {
+  "pastilla": "Et sona?",
+  "texto": "«Jo no necessito web, // *a mi ja em coneixen»*",
+  "maqueta": {
+   "tipo": "chat",
+   "globos": [
+    {
+     "de": "cliente",
+     "texto": "M'han parlat de tu. Tens web per veure preus?"
+    },
+    {
+     "de": "negocio",
+     "texto": "No, però passa i t'explico."
+    }
+   ],
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "«A mi ja // *em coneixen»*",
+   "nota": "Els de sempre, sí. Els nous et busquen a Google.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "M'han parlat de tu. Tens web per veure preus?"
+     },
+     {
+      "de": "negocio",
+      "texto": "No, però passa i t'explico."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "«Ja tinc // *Instagram»*",
+   "nota": "Instagram és per a qui ja et segueix. Google, per a qui et busca.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Qui et troba",
+    "filas": [
+     [
+      "Instagram",
+      "Qui ja et segueix",
+      "bien"
+     ],
+     [
+      "Google i la teva web",
+      "Qui et busca avui",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "«És molt // *car»*",
+   "nota": "Una web senzilla, des de 420 € i 15 € al mes, tot inclòs.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Web des de 420 €",
+    "filas": [
+     [
+      "Domini",
+      "",
+      "ok"
+     ],
+     [
+      "Allotjament",
+      "",
+      "ok"
+     ],
+     [
+      "Manteniment bàsic",
+      "",
+      "ok"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "«No tinc // *temps»*",
+   "nota": "M'expliques el teu negoci per WhatsApp. La resta la faig jo.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "No tinc temps per a això."
+     },
+     {
+      "de": "negocio",
+      "texto": "M'envies fotos i el que fas. En 48 h tens la demo."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "«No en sé // *res d'això»*",
+   "nota": "No cal. No tocaràs res tècnic.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "El que fas tu",
+    "filas": [
+     [
+      "Explicar-me el negoci",
+      "",
+      "ok"
+     ],
+     [
+      "Enviar-me fotos",
+      "",
+      "ok"
+     ],
+     [
+      "El que és tècnic",
+      "Ho faig jo",
+      "bien"
+     ]
+    ],
+    "casillas": true
+   }
+  }
+ ],
+ "cierre": "Demana'm la demo, gratis i sense compromís",
+ "guardar": "Desa-te'l per a la propera excusa",
+ "guion": [
+  "«Jo no necessito web, a mi ja em coneixen.» Aquestes són les cinc excuses que més sento, i la veritat de cadascuna.",
+  "A mi ja em coneixen. Els de sempre, sí. Els nous et busquen a Google.",
+  "Ja tinc Instagram. Instagram és per a qui ja et segueix.",
+  "És molt car. Una web senzilla, des de quatre-cents vint euros, amb domini, allotjament i manteniment.",
+  "No tinc temps. M'ho expliques per WhatsApp i ho faig jo.",
+  "No en sé res, d'això. No cal: no tocaràs res tècnic.",
+  "Demana'm la demo de la teva web, gratis i sense compromís. Escriu-me per WhatsApp."
+ ],
+ "hashtags": "#webpernegocis #comercelocal #emprenedors #girona #dissenyweb",
+ "aviso": "Les converses són d'exemple. Els preus (des de 420 € + 15 €/mes) són els teus: **revisa'ls abans de publicar.**"
+}

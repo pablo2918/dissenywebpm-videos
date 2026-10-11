@@ -1,0 +1,164 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "45_dominio_es",
+ "idioma": "es",
+ "negocio": "Peluquería Fulanita",
+ "dominio": "peluqueriafulanita.com",
+ "pastilla": "Tu dominio",
+ "portada": "Un buen dominio // *se dicta en 3 segundos*",
+ "gancho": {
+  "pastilla": "Haz la prueba",
+  "texto": "Dicta tu web por teléfono. // *¿La apuntan bien?*",
+  "maqueta": {
+   "tipo": "lista",
+   "titulo": "Tu web",
+   "filas": [
+    [
+     "peluqueria-fulanita-girona-2019.com",
+     "Difícil",
+     "mal"
+    ],
+    [
+     "peluqueriafulanita.com",
+     "Fácil",
+     "bien"
+    ]
+   ],
+   "casillas": false,
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Corto // *y fácil de decir*",
+   "nota": "Si lo tienes que deletrear, lo apuntarán mal.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Dominios",
+    "filas": [
+     [
+      "peluqueriafulanita.com",
+      "",
+      "bien"
+     ],
+     [
+      "pelu-fulanita-girona-2019.es",
+      "",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Sin guiones // *ni números*",
+   "nota": "«¿Con guion o sin guion?» es una visita perdida.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Evita",
+    "filas": [
+     [
+      "Guiones",
+      "pelu-fulanita",
+      "mal"
+     ],
+     [
+      "Números",
+      "fulanita2019",
+      "mal"
+     ],
+     [
+      "Letras que suenan igual",
+      "b / v, ll / y",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Que diga // *qué haces*",
+   "nota": "Si además dice qué haces, mejor que solo el nombre.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Elige",
+    "filas": [
+     [
+      "fulanita.com",
+      "Solo el nombre",
+      "bien"
+     ],
+     [
+      "peluqueriafulanita.com",
+      "Nombre y qué haces",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": ".com, .es // *o .cat*",
+   "nota": "Los tres sirven. Elige uno y úsalo en todas partes.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Terminaciones",
+    "filas": [
+     [
+      ".com",
+      "La más conocida",
+      "bien"
+     ],
+     [
+      ".es",
+      "Para España",
+      "bien"
+     ],
+     [
+      ".cat",
+      "Para Cataluña",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "A tu // *nombre*",
+   "nota": "El dominio es tuyo, no de quien te hace la web.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Tu dominio",
+    "filas": [
+     [
+      "Titular",
+      "Tu nombre",
+      "bien"
+     ],
+     [
+      "Renovación",
+      "Incluida en la cuota",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  }
+ ],
+ "cierre": "Tu dominio, a tu nombre e incluido. Escríbeme",
+ "guardar": "Guárdatelo y dicta tu web en voz alta",
+ "guion": [
+  "Dicta tu web por teléfono. Si te tienen que preguntar cómo se escribe, tu dominio no ayuda.",
+  "Tiene que ser corto y fácil de decir.",
+  "Sin guiones ni números.",
+  "Mejor si dice qué haces, además del nombre.",
+  "Punto com, punto es o punto cat: los tres sirven. Elige uno.",
+  "Y a tu nombre. El dominio es tuyo, no de quien te hace la web.",
+  "Conmigo, el dominio va a tu nombre y está incluido. Escríbeme por WhatsApp."
+ ],
+ "hashtags": "#dominio #webparanegocios #diseñoweb #girona #negociolocal",
+ "aviso": "Los dominios son de ejemplo. **Comprueba que la renovación del dominio está incluida en tu cuota, como dice la lámina 05.**"
+}

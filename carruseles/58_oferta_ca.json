@@ -1,0 +1,156 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "58_oferta_ca",
+ "idioma": "ca",
+ "negocio": "Centre d'Estètica Fulanita",
+ "dominio": "esteticafulanita.com",
+ "pastilla": "Promocions",
+ "portada": "Tens una oferta? // *Que es vegi*",
+ "gancho": {
+  "pastilla": "Promocions",
+  "texto": "Tens una oferta. // *Qui se n'assabenta?*",
+  "maqueta": {
+   "tipo": "lista",
+   "titulo": "La teva oferta de maig",
+   "filas": [
+    [
+     "Cartell a la porta",
+     "La veuen 20 persones",
+     "bien"
+    ],
+    [
+     "La teva web",
+     "No hi surt",
+     "mal"
+    ],
+    [
+     "Google",
+     "No hi surt",
+     "mal"
+    ]
+   ],
+   "casillas": false,
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "A dalt // *de la web*",
+   "nota": "Una franja a la portada, amb data de fi.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "−20 % en higiene facial fins al 31 de maig",
+    "subtitulo": "Reserva la teva hora per WhatsApp.",
+    "menu": [
+     "Serveis",
+     "Preus",
+     "Contacte"
+    ],
+    "foto": 3,
+    "boton": "Reserva per WhatsApp",
+    "senala": "titulo"
+   }
+  },
+  {
+   "titulo": "Una publicació // *a Google*",
+   "nota": "La veu qui et busca al mapa.",
+   "maqueta": {
+    "tipo": "ficha",
+    "valoracion": "4,8",
+    "filas": [
+     [
+      "Novetat",
+      "−20 % en higiene facial",
+      false
+     ],
+     [
+      "Vàlid fins",
+      "31 de maig",
+      false
+     ],
+     [
+      "Telèfon",
+      "972 00 00 00",
+      false
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Als teus clients, // *per WhatsApp*",
+   "nota": "Un missatge curt als de sempre.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "negocio",
+      "texto": "Hola! Aquest mes, −20 % en higiene facial. Et guardo hora?"
+     },
+     {
+      "de": "cliente",
+      "texto": "Sí! Dijous a la tarda?"
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Amb data // *de fi*",
+   "nota": "Sense data, ningú té pressa.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "L'oferta",
+    "filas": [
+     [
+      "Què",
+      "−20 % en higiene facial",
+      "bien"
+     ],
+     [
+      "Fins quan",
+      "31 de maig",
+      "bien"
+     ],
+     [
+      "Com",
+      "Reserva per WhatsApp",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "I quan acabi, // *treu-la*",
+   "nota": "Una oferta caducada dona imatge d'abandonament.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "−20 % fins al 31 de maig",
+    "subtitulo": "Avui és 14 de juny.",
+    "menu": [
+     "Serveis",
+     "Preus",
+     "Contacte"
+    ],
+    "foto": 3,
+    "senala": "titulo",
+    "mal": "Caducada"
+   }
+  }
+ ],
+ "cierre": "Les ofertes de la web les poso i les trec jo. Escriu-me",
+ "guardar": "Desa-te'l per a la propera promoció",
+ "guion": [
+  "Tens una oferta. Qui se n'assabenta? Si només la poses en un cartell a la porta, la veuen quatre.",
+  "Posa-la a dalt de la web.",
+  "Publica-la a la teva fitxa de Google.",
+  "Envia-la als teus clients per WhatsApp.",
+  "Sempre amb data de fi.",
+  "I quan acabi, treu-la.",
+  "Si tens la web amb mi, les ofertes les poso i les trec jo. Escriu-me per WhatsApp."
+ ],
+ "hashtags": "#promocions #ofertes #comercelocal #girona #marketinglocal",
+ "aviso": "Centre d'Estètica Fulanita i l'oferta són d'exemple. **El tancament diu que tu poses i treus les ofertes: comprova que entra al manteniment.**"
+}

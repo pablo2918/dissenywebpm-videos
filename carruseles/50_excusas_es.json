@@ -1,0 +1,152 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "50_excusas_es",
+ "idioma": "es",
+ "negocio": "Tu negocio",
+ "dominio": "tunegocio.com",
+ "pastilla": "5 excusas",
+ "portada": "5 excusas para no tener web // *(y la verdad)*",
+ "gancho": {
+  "pastilla": "¿Te suena?",
+  "texto": "«Yo no necesito web, // *a mí ya me conocen»*",
+  "maqueta": {
+   "tipo": "chat",
+   "globos": [
+    {
+     "de": "cliente",
+     "texto": "Me han hablado de ti. ¿Tienes web para ver precios?"
+    },
+    {
+     "de": "negocio",
+     "texto": "No, pero pásate y te cuento."
+    }
+   ],
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "«A mí ya // *me conocen»*",
+   "nota": "Los de siempre, sí. Los nuevos te buscan en Google.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Me han hablado de ti. ¿Tienes web para ver precios?"
+     },
+     {
+      "de": "negocio",
+      "texto": "No, pero pásate y te cuento."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "«Ya tengo // *Instagram»*",
+   "nota": "Instagram es para quien ya te sigue. Google, para quien te busca.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Quién te encuentra",
+    "filas": [
+     [
+      "Instagram",
+      "Quien ya te sigue",
+      "bien"
+     ],
+     [
+      "Google y tu web",
+      "Quien te busca hoy",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "«Es muy // *caro»*",
+   "nota": "Una web sencilla, desde 420 € y 15 € al mes, todo incluido.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Web desde 420 €",
+    "filas": [
+     [
+      "Dominio",
+      "",
+      "ok"
+     ],
+     [
+      "Alojamiento",
+      "",
+      "ok"
+     ],
+     [
+      "Mantenimiento básico",
+      "",
+      "ok"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "«No tengo // *tiempo»*",
+   "nota": "Me cuentas tu negocio por WhatsApp. El resto lo hago yo.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "No tengo tiempo para esto."
+     },
+     {
+      "de": "negocio",
+      "texto": "Me mandas fotos y lo que haces. En 48 h tienes la demo."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "«No sé nada // *de esto»*",
+   "nota": "No hace falta. No vas a tocar nada técnico.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Lo que haces tú",
+    "filas": [
+     [
+      "Contarme tu negocio",
+      "",
+      "ok"
+     ],
+     [
+      "Mandarme fotos",
+      "",
+      "ok"
+     ],
+     [
+      "Lo técnico",
+      "Lo hago yo",
+      "bien"
+     ]
+    ],
+    "casillas": true
+   }
+  }
+ ],
+ "cierre": "Pídeme la demo, gratis y sin compromiso",
+ "guardar": "Guárdatelo para la próxima excusa",
+ "guion": [
+  "«Yo no necesito web, a mí ya me conocen.» Estas son las cinco excusas que más oigo, y la verdad de cada una.",
+  "A mí ya me conocen. Los de siempre, sí. Los nuevos te buscan en Google.",
+  "Ya tengo Instagram. Instagram es para quien ya te sigue.",
+  "Es muy caro. Una web sencilla, desde cuatrocientos veinte euros, con dominio, alojamiento y mantenimiento.",
+  "No tengo tiempo. Me lo cuentas por WhatsApp y lo hago yo.",
+  "No sé nada de esto. No hace falta: no vas a tocar nada técnico.",
+  "Pídeme la demo de tu web, gratis y sin compromiso. Escríbeme por WhatsApp."
+ ],
+ "hashtags": "#webparanegocios #negociolocal #emprendedores #girona #diseñoweb",
+ "aviso": "Las conversaciones son de ejemplo. Los precios (desde 420 € + 15 €/mes) son los tuyos: **revísalos antes de publicar.**"
+}

@@ -1,0 +1,157 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "48_web_nueva_es",
+ "idioma": "es",
+ "negocio": "Peluquería Fulanita",
+ "dominio": "peluqueriafulanita.com",
+ "pastilla": "Web nueva",
+ "portada": "Tienes web nueva. // *Que se entere todo el mundo*",
+ "gancho": {
+  "pastilla": "Web nueva",
+  "texto": "Tienes web nueva. // *Nadie lo sabe.*",
+  "maqueta": {
+   "tipo": "web",
+   "titulo": "Peluquería en Girona",
+   "subtitulo": "Corte, color y peinados.",
+   "menu": [
+    "Servicios",
+    "Precios",
+    "Contacto"
+   ],
+   "foto": 3,
+   "boton": "Pide hora por WhatsApp",
+   "senala": "todo",
+   "mal": "0 visitas",
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "En tu ficha // *de Google*",
+   "nota": "Es por donde más gente la va a encontrar.",
+   "maqueta": {
+    "tipo": "ficha",
+    "valoracion": "4,7",
+    "filas": [
+     [
+      "Sitio web",
+      "Sin poner",
+      true
+     ],
+     [
+      "Horario",
+      "9:00–20:00",
+      false
+     ],
+     [
+      "Teléfono",
+      "972 00 00 00",
+      false
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "En tu perfil // *de Instagram*",
+   "nota": "El enlace de la bio es el único que se puede pulsar.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Perfil de Instagram",
+    "filas": [
+     [
+      "Bio",
+      "Corte y color en Girona",
+      "bien"
+     ],
+     [
+      "Enlace",
+      "Sin poner",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "En tu // *WhatsApp*",
+   "nota": "En el perfil y en el mensaje de bienvenida.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, ¿qué precios tenéis?"
+     },
+     {
+      "de": "negocio",
+      "texto": "¡Hola! Los tienes todos aquí: peluqueriafulanita.com"
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "En el local, // *con un QR*",
+   "nota": "En el mostrador, en el espejo, en el ticket.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Pon el QR en",
+    "filas": [
+     [
+      "El mostrador",
+      "",
+      "ok"
+     ],
+     [
+      "El escaparate",
+      "",
+      "ok"
+     ],
+     [
+      "Las tarjetas",
+      "",
+      "ok"
+     ],
+     [
+      "El ticket",
+      "",
+      "ok"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "Y díselo // *a tus clientes*",
+   "nota": "Un mensaje a los de siempre. Lo compartirán.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "negocio",
+      "texto": "¡Hola! Estrenamos web: peluqueriafulanita.com. Ya puedes ver precios y pedir hora."
+     },
+     {
+      "de": "cliente",
+      "texto": "¡Qué bien! Se la paso a mi hermana."
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Te hago la web y te digo dónde ponerla. Escríbeme",
+ "guardar": "Guárdatelo para el día que estrenes web",
+ "guion": [
+  "Tienes web nueva. Nadie lo sabe. Una web que nadie conoce es como un local sin cartel.",
+  "Ponla en tu ficha de Google.",
+  "En el enlace de tu perfil de Instagram.",
+  "En tu WhatsApp.",
+  "En el local, con un código QR.",
+  "Y díselo a tus clientes de siempre. La compartirán.",
+  "Te hago la demo de tu web gratis en 48 horas. Escríbeme por WhatsApp."
+ ],
+ "hashtags": "#webnueva #negociolocal #instagramtips #girona #webparanegocios",
+ "aviso": "Peluquería Fulanita, su web y las conversaciones son de ejemplo."
+}

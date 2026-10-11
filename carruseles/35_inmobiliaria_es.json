@@ -1,0 +1,137 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "35_inmobiliaria_es",
+ "idioma": "es",
+ "negocio": "Inmobiliaria Fulanito",
+ "dominio": "inmofulanito.com",
+ "pastilla": "Inmobiliarias",
+ "portada": "Quien vende su piso // *te busca en Google*",
+ "gancho": {
+  "pastilla": "Inmobiliarias",
+  "texto": "Los pisos están en los portales. // *¿Y tú?*",
+  "maqueta": {
+   "tipo": "web",
+   "titulo": "Inmobiliaria en Girona",
+   "subtitulo": "Compra, venta y alquiler.",
+   "menu": [
+    "Pisos",
+    "Nosotros",
+    "Contacto"
+   ],
+   "foto": 1,
+   "senala": "titulo",
+   "mal": "Como todas",
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "En qué zona // *eres especialista*",
+   "nota": "Quien vende quiere a alguien que conozca su barrio.",
+   "maqueta": {
+    "tipo": "zonas",
+    "titulo": "Conocemos bien",
+    "zonas": [
+     "Barri Vell",
+     "Eixample",
+     "Montilivi",
+     "Salt"
+    ]
+   }
+  },
+  {
+   "titulo": "Cómo vendes // *un piso*",
+   "nota": "Explicarlo da confianza para firmar contigo.",
+   "maqueta": {
+    "tipo": "pasos",
+    "titulo": "Cómo trabajamos",
+    "pasos": [
+     [
+      "Visita y valoración",
+      "Vemos el piso contigo"
+     ],
+     [
+      "Fotos y anuncio",
+      "Fotos cuidadas, no del móvil"
+     ],
+     [
+      "Visitas",
+      "Las hacemos nosotros"
+     ],
+     [
+      "Firma",
+      "Te acompañamos hasta el notario"
+     ]
+    ],
+    "senalado": 1
+   }
+  },
+  {
+   "titulo": "Lo que // *ya has vendido*",
+   "nota": "Es tu mejor carta de presentación.",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "Vendidos",
+    "etiquetas": [
+     "Vendido",
+     "Vendido",
+     "Alquilado"
+    ],
+    "pie": "Pisos reales de tu agencia"
+   }
+  },
+  {
+   "titulo": "Qué dicen // *quienes vendieron contigo*",
+   "nota": "Una venta es una decisión grande: quieren pruebas.",
+   "maqueta": {
+    "tipo": "resenas",
+    "respuesta_titulo": "Respuesta del propietario",
+    "resenas": [
+     {
+      "nombre": "Núria F.",
+      "estrellas": 5,
+      "texto": "Nos lo explicaron todo y vendimos en poco tiempo."
+     },
+     {
+      "nombre": "Josep M.",
+      "estrellas": 5,
+      "texto": "Muy profesionales con las visitas."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Valorar su piso, // *por WhatsApp*",
+   "nota": "El primer paso, sin compromiso y sin ir a la oficina.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, quiero vender mi piso en el Eixample. ¿Me lo valoráis?"
+     },
+     {
+      "de": "negocio",
+      "texto": "Hola, claro. ¿Te va bien que pasemos a verlo el jueves?"
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Te hago la demo de la web de tu inmobiliaria, gratis en 48 h",
+ "guardar": "Guárdatelo y mira tu web",
+ "guion": [
+  "Los pisos están en los portales. Pero quien quiere vender su piso busca una agencia en Google, y te tiene que encontrar a ti.",
+  "Di en qué zona eres especialista.",
+  "Explica cómo vendes un piso, paso a paso.",
+  "Enseña lo que ya has vendido.",
+  "Lo que dicen quienes vendieron contigo.",
+  "Y que pueda pedir una valoración por WhatsApp.",
+  "Te hago la demo de la web de tu inmobiliaria gratis en 48 horas. Escríbeme por WhatsApp."
+ ],
+ "hashtags": "#inmobiliaria #venderpiso #girona #inmobiliariagirona #webparanegocios",
+ "aviso": "Inmobiliaria Fulanito, las zonas, los pisos y las reseñas son de ejemplo."
+}

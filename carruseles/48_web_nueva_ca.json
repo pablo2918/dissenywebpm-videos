@@ -1,0 +1,157 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "48_web_nueva_ca",
+ "idioma": "ca",
+ "negocio": "Perruqueria Fulanita",
+ "dominio": "perruqueriafulanita.com",
+ "pastilla": "Web nova",
+ "portada": "Tens web nova. // *Que se n'assabenti tothom*",
+ "gancho": {
+  "pastilla": "Web nova",
+  "texto": "Tens web nova. // *Ningú ho sap.*",
+  "maqueta": {
+   "tipo": "web",
+   "titulo": "Perruqueria a Girona",
+   "subtitulo": "Tall, color i pentinats.",
+   "menu": [
+    "Serveis",
+    "Preus",
+    "Contacte"
+   ],
+   "foto": 3,
+   "boton": "Demana hora per WhatsApp",
+   "senala": "todo",
+   "mal": "0 visites",
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "A la teva fitxa // *de Google*",
+   "nota": "És per on més gent la trobarà.",
+   "maqueta": {
+    "tipo": "ficha",
+    "valoracion": "4,7",
+    "filas": [
+     [
+      "Lloc web",
+      "Sense posar",
+      true
+     ],
+     [
+      "Horari",
+      "9:00–20:00",
+      false
+     ],
+     [
+      "Telèfon",
+      "972 00 00 00",
+      false
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Al teu perfil // *d'Instagram*",
+   "nota": "L'enllaç de la bio és l'únic que es pot prémer.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Perfil d'Instagram",
+    "filas": [
+     [
+      "Bio",
+      "Tall i color a Girona",
+      "bien"
+     ],
+     [
+      "Enllaç",
+      "Sense posar",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Al teu // *WhatsApp*",
+   "nota": "Al perfil i al missatge de benvinguda.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, quins preus teniu?"
+     },
+     {
+      "de": "negocio",
+      "texto": "Hola! Els tens tots aquí: perruqueriafulanita.com"
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Al local, // *amb un QR*",
+   "nota": "Al taulell, al mirall, al tiquet.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Posa el QR a",
+    "filas": [
+     [
+      "El taulell",
+      "",
+      "ok"
+     ],
+     [
+      "L'aparador",
+      "",
+      "ok"
+     ],
+     [
+      "Les targetes",
+      "",
+      "ok"
+     ],
+     [
+      "El tiquet",
+      "",
+      "ok"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "I digues-ho // *als teus clients*",
+   "nota": "Un missatge als de sempre. La compartiran.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "negocio",
+      "texto": "Hola! Estrenem web: perruqueriafulanita.com. Ja pots veure preus i demanar hora."
+     },
+     {
+      "de": "cliente",
+      "texto": "Que bé! La passo a la meva germana."
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Et faig la web i et dic on posar-la. Escriu-me",
+ "guardar": "Desa-te'l per al dia que estrenis web",
+ "guion": [
+  "Tens web nova. Ningú ho sap. Una web que ningú coneix és com un local sense rètol.",
+  "Posa-la a la teva fitxa de Google.",
+  "A l'enllaç del teu perfil d'Instagram.",
+  "Al teu WhatsApp.",
+  "Al local, amb un codi QR.",
+  "I digues-ho als teus clients de sempre. La compartiran.",
+  "Et faig la demo de la teva web gratis en 48 hores. Escriu-me per WhatsApp."
+ ],
+ "hashtags": "#webnova #comercelocal #instagram #girona #webpernegocis",
+ "aviso": "Perruqueria Fulanita, la seva web i les converses són d'exemple."
+}

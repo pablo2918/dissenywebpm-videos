@@ -1,0 +1,145 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "38_floristeria_ca",
+ "idioma": "ca",
+ "negocio": "Floristeria Fulanita",
+ "dominio": "florsfulanita.com",
+ "pastilla": "Floristeries",
+ "portada": "Encàrrecs de flors // *sense cues ni trucades*",
+ "gancho": {
+  "pastilla": "Floristeries",
+  "texto": "Sant Jordi: // *t'encarreguen per WhatsApp?*",
+  "maqueta": {
+   "tipo": "chat",
+   "globos": [
+    {
+     "de": "cliente",
+     "texto": "Hola, em guardes una rosa per Sant Jordi?"
+    },
+    {
+     "de": "cliente",
+     "texto": "I un ram per dissabte?"
+    },
+    {
+     "de": "cliente",
+     "texto": "Feu entregues a Salt?"
+    }
+   ],
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Els teus rams, // *amb preu*",
+   "nota": "Que triï des del sofà, no al taulell.",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "Rams",
+    "etiquetas": [
+     "25 €",
+     "35 €",
+     "50 €"
+    ],
+    "pie": "Rams de la teva botiga, amb el seu preu"
+   }
+  },
+  {
+   "titulo": "Encarregar // *per WhatsApp*",
+   "nota": "Tria, escriu i el recull fet.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, vull el ram de 35 € per dissabte."
+     },
+     {
+      "de": "negocio",
+      "texto": "Perfecte! El tindràs a punt dissabte a les 11."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Fins on // *entregueu*",
+   "nota": "I quant costa l'enviament.",
+   "maqueta": {
+    "tipo": "zonas",
+    "titulo": "Entreguem a",
+    "zonas": [
+     "Girona",
+     "Salt",
+     "Sarrià de Ter",
+     "Celrà"
+    ]
+   }
+  },
+  {
+   "titulo": "Amb quants dies // *d'antelació*",
+   "nota": "En les dates fortes, avisar abans evita disgustos.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Encàrrecs",
+    "filas": [
+     [
+      "Ram del dia",
+      "El mateix dia",
+      "bien"
+     ],
+     [
+      "Centre de taula",
+      "2 dies abans",
+      "bien"
+     ],
+     [
+      "Casaments",
+      "Consultar",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Horari // *de les dates especials*",
+   "nota": "Sant Jordi i els festius no són un dia normal.",
+   "maqueta": {
+    "tipo": "ficha",
+    "valoracion": "4,9",
+    "filas": [
+     [
+      "Sant Jordi",
+      "Sense indicar",
+      true
+     ],
+     [
+      "Horari normal",
+      "9:00–13:30 i 16:30–20:00",
+      false
+     ],
+     [
+      "Telèfon",
+      "972 00 00 00",
+      false
+     ]
+    ]
+   }
+  }
+ ],
+ "cierre": "Et faig la demo de la web de la teva floristeria, gratis en 48 h",
+ "guardar": "Desa-te'l abans de la propera data forta",
+ "guion": [
+  "Sant Jordi, Sant Valentí, el Dia de la Mare. En aquestes dates, qui encarrega per WhatsApp no fa cua, i tu tampoc.",
+  "Ensenya els teus rams amb el seu preu.",
+  "Que t'encarreguin per WhatsApp i el recullin fet.",
+  "Fins on entregueu.",
+  "Amb quants dies d'antelació cal encarregar.",
+  "I l'horari de les dates especials.",
+  "Et faig la demo de la web de la teva floristeria gratis en 48 hores. Escriu-me per WhatsApp."
+ ],
+ "hashtags": "#floristeria #santjordi #flors #girona #webpernegocis",
+ "aviso": "Floristeria Fulanita, els rams, els preus i les zones d'entrega són d'exemple. **Publica-ho unes setmanes abans de Sant Jordi, Sant Valentí o el Dia de la Mare.**"
+}

@@ -1,0 +1,164 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Desliza →",
+ "cta": "Escríbeme por WhatsApp",
+ "id": "61_legal_es",
+ "idioma": "es",
+ "negocio": "Tu negocio",
+ "dominio": "tunegocio.com",
+ "pastilla": "Lo legal",
+ "portada": "Lo que tu web // *tiene que tener por ley*",
+ "gancho": {
+  "pastilla": "Lo legal",
+  "texto": "Tu web también tiene // *papeles que cumplir*",
+  "maqueta": {
+   "tipo": "lista",
+   "titulo": "Pie de tu web",
+   "filas": [
+    [
+     "Aviso legal",
+     "No está",
+     "mal"
+    ],
+    [
+     "Privacidad",
+     "No está",
+     "mal"
+    ],
+    [
+     "Cookies",
+     "No está",
+     "mal"
+    ]
+   ],
+   "casillas": false,
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Aviso // *legal*",
+   "nota": "Quién está detrás de la web: nombre, NIF y contacto.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Aviso legal",
+    "filas": [
+     [
+      "Titular",
+      "Tu nombre o empresa",
+      "bien"
+     ],
+     [
+      "NIF",
+      "",
+      "bien"
+     ],
+     [
+      "Contacto",
+      "Email o dirección",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Política // *de privacidad*",
+   "nota": "Qué haces con los datos de quien te escribe.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Privacidad",
+    "filas": [
+     [
+      "Qué datos recoges",
+      "",
+      "ok"
+     ],
+     [
+      "Para qué los usas",
+      "",
+      "ok"
+     ],
+     [
+      "Cómo pedir que los borres",
+      "",
+      "ok"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "Cookies, // *si las usas*",
+   "nota": "Si tu web las usa, hay que avisar y dejar elegir.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Cookies",
+    "filas": [
+     [
+      "Aviso al entrar",
+      "",
+      "ok"
+     ],
+     [
+      "Aceptar o rechazar",
+      "",
+      "ok"
+     ],
+     [
+      "Rechazar, igual de fácil",
+      "",
+      "ok"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "Casilla // *en los formularios*",
+   "nota": "Que acepte la política antes de enviar.",
+   "maqueta": {
+    "tipo": "movil",
+    "variante": "formulario",
+    "titulo": "Contacto",
+    "campos": [
+     "Nombre",
+     "Teléfono",
+     "Mensaje"
+    ],
+    "enviar": "Enviar",
+    "etiqueta": "Falta la casilla"
+   }
+  },
+  {
+   "titulo": "Todo, // *en el pie de página*",
+   "nota": "Enlazado en todas las páginas, donde se busca.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Peluquería en Girona",
+    "subtitulo": "Aviso legal · Privacidad · Cookies",
+    "menu": [
+     "Servicios",
+     "Precios",
+     "Contacto"
+    ],
+    "foto": 3,
+    "senala": "subtitulo"
+   }
+  }
+ ],
+ "cierre": "Tu web, con los textos legales en su sitio. Escríbeme",
+ "guardar": "Guárdatelo y revisa el pie de tu web",
+ "guion": [
+  "Tu web también tiene papeles que cumplir. Esto es lo básico que debería tener.",
+  "Un aviso legal: quién está detrás.",
+  "Una política de privacidad: qué haces con los datos.",
+  "Si usas cookies, un aviso que deje elegir.",
+  "Una casilla de aceptación en los formularios.",
+  "Y todo enlazado en el pie de página.",
+  "Si quieres tu web con todo en su sitio, escríbeme por WhatsApp."
+ ],
+ "hashtags": "#rgpd #avisolegal #webparanegocios #girona #autonomos",
+ "aviso": "Es información general, no asesoramiento legal. **Antes de publicarlo, comprueba qué incluyes tú en tus webs (textos legales, aviso de cookies) y ajusta el cierre.**"
+}

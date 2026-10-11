@@ -1,0 +1,156 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "34_academia_ca",
+ "idioma": "ca",
+ "negocio": "Acadèmia Fulanito",
+ "dominio": "academiafulanito.com",
+ "pastilla": "Acadèmies",
+ "portada": "El que busca un pare // *abans d'apuntar el seu fill*",
+ "gancho": {
+  "pastilla": "Acadèmies",
+  "texto": "Al setembre, els pares // *busquen acadèmia*",
+  "maqueta": {
+   "tipo": "lista",
+   "titulo": "Acadèmies a prop",
+   "filas": [
+    [
+     "Acadèmia A",
+     "Horaris i preus",
+     "bien"
+    ],
+    [
+     "La teva acadèmia",
+     "Només un telèfon",
+     "mal"
+    ],
+    [
+     "Acadèmia C",
+     "Horaris i preus",
+     "bien"
+    ]
+   ],
+   "casillas": false,
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Quins cursos // *i per a quines edats*",
+   "nota": "Que vegi d'un cop d'ull si hi ha alguna cosa per al seu fill.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Cursos",
+    "filas": [
+     [
+      "Reforç primària",
+      "6–12 anys",
+      "bien"
+     ],
+     [
+      "ESO i batxillerat",
+      "12–18 anys",
+      "bien"
+     ],
+     [
+      "Anglès",
+      "Totes les edats",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Horaris, // *per dies*",
+   "nota": "El primer que mira és si li quadra amb l'escola.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Horaris",
+    "filas": [
+     [
+      "Dilluns i dimecres",
+      "17:00–18:30",
+      "bien"
+     ],
+     [
+      "Dimarts i dijous",
+      "18:30–20:00",
+      "bien"
+     ],
+     [
+      "Divendres",
+      "Sense indicar",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Quant costa // *al mes*",
+   "nota": "Amb el preu, la conversa ja comença amb el «sí».",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Preus",
+    "filas": [
+     [
+      "2 h per setmana",
+      "des de 60 €/mes",
+      "bien"
+     ],
+     [
+      "3 h per setmana",
+      "des de 85 €/mes",
+      "bien"
+     ],
+     [
+      "Matrícula",
+      "Consultar",
+      "mal"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Qui // *fa les classes*",
+   "nota": "Un pare vol saber a qui deixa el seu fill.",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "Professors",
+    "etiquetas": [
+     "Matemàtiques",
+     "Llengua",
+     "Anglès"
+    ],
+    "pie": "Cares reals, no de catàleg"
+   }
+  },
+  {
+   "titulo": "Una classe // *de prova*",
+   "nota": "Provar abans de pagar el mes treu dubtes.",
+   "maqueta": {
+    "tipo": "movil_boton",
+    "titular": "Acadèmia Fulanito",
+    "texto": "Reforç escolar i anglès a Girona.",
+    "boton": "Demana una classe de prova"
+   }
+  }
+ ],
+ "cierre": "Et faig la demo de la web de la teva acadèmia, gratis en 48 h",
+ "guardar": "Desa-te'l per a l'agost",
+ "guion": [
+  "Al setembre, els pares busquen acadèmia. I trien la que els respon sense haver de trucar.",
+  "Quins cursos tens, i per a quines edats.",
+  "Els horaris, per dies.",
+  "Quant costa al mes.",
+  "Qui fa les classes.",
+  "I una classe de prova, que es demani amb un toc.",
+  "Et faig la demo de la web de la teva acadèmia gratis en 48 hores. Escriu-me per WhatsApp."
+ ],
+ "hashtags": "#academia #reforcescolar #tornadaalescola #girona #webpernegocis",
+ "aviso": "Acadèmia Fulanito, els cursos, horaris i preus són d'exemple."
+}

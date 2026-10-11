@@ -1,0 +1,165 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "desliza": "Llisca →",
+ "cta": "Escriu-me per WhatsApp",
+ "id": "59_preguntas_ca",
+ "idioma": "ca",
+ "negocio": "Taller Fulanito",
+ "dominio": "tallerfulanito.com",
+ "pastilla": "Estalvia temps",
+ "portada": "Quantes vegades al dia // *contestes el mateix?*",
+ "gancho": {
+  "pastilla": "Estalvia temps",
+  "texto": "Quantes vegades al dia // *contestes el mateix?*",
+  "maqueta": {
+   "tipo": "chat",
+   "globos": [
+    {
+     "de": "cliente",
+     "texto": "Feu ITV?"
+    },
+    {
+     "de": "cliente",
+     "texto": "Em deixeu cotxe de substitució?"
+    },
+    {
+     "de": "cliente",
+     "texto": "Accepteu targeta?"
+    }
+   ],
+   "k": 1.3
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Apunta les preguntes // *una setmana*",
+   "nota": "En una llibreta o al mòbil. Sense pensar-hi.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Aquesta setmana m'han preguntat",
+    "filas": [
+     [
+      "Feu ITV?",
+      "7 vegades",
+      "bien"
+     ],
+     [
+      "Cotxe de substitució?",
+      "5 vegades",
+      "bien"
+     ],
+     [
+      "Accepteu targeta?",
+      "4 vegades",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Queda't // *amb les 5 que més*",
+   "nota": "Són les que et prenen temps de debò.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Les 5 que més es repeteixen",
+    "filas": [
+     [
+      "Feu ITV?",
+      "",
+      "ok"
+     ],
+     [
+      "Cotxe de substitució?",
+      "",
+      "ok"
+     ],
+     [
+      "Accepteu targeta?",
+      "",
+      "ok"
+     ],
+     [
+      "Obriu dissabte?",
+      "",
+      "ok"
+     ]
+    ],
+    "casillas": true
+   }
+  },
+  {
+   "titulo": "Respostes // *curtes*",
+   "nota": "Una o dues frases. Com si ho diguessis al taulell.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Preguntes freqüents",
+    "filas": [
+     [
+      "Feu ITV?",
+      "No, però te'l portem",
+      "bien"
+     ],
+     [
+      "Cotxe de substitució?",
+      "Sí, amb reserva",
+      "bien"
+     ],
+     [
+      "Targeta?",
+      "Sí",
+      "bien"
+     ]
+    ],
+    "casillas": false
+   }
+  },
+  {
+   "titulo": "Posa-les // *a la teva web*",
+   "nota": "Una secció de preguntes freqüents. Google també les llegeix.",
+   "maqueta": {
+    "tipo": "web",
+    "titulo": "Preguntes freqüents",
+    "subtitulo": "ITV, cotxe de substitució, formes de pagament i horaris.",
+    "menu": [
+     "Serveis",
+     "Preguntes",
+     "Contacte"
+    ],
+    "foto": 1,
+    "senala": "titulo"
+   }
+  },
+  {
+   "titulo": "I enllaça-les // *al WhatsApp*",
+   "nota": "Al missatge automàtic: «Aquí tens les respostes».",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, una pregunta…"
+     },
+     {
+      "de": "negocio",
+      "texto": "Hola! Potser ja és aquí: tallerfulanito.com/preguntes. Si no, digues."
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Les teves preguntes freqüents, a la web. Escriu-me",
+ "guardar": "Desa-te'l i comença a apuntar avui",
+ "guion": [
+  "Quantes vegades al dia contestes el mateix? La teva web pot contestar per tu.",
+  "Apunta les preguntes durant una setmana.",
+  "Queda't amb les cinc que més es repeteixen.",
+  "Escriu respostes curtes.",
+  "Posa-les a la teva web. Google també les llegeix.",
+  "I enllaça-les al teu WhatsApp.",
+  "Envia'm les teves preguntes i les poso a la teva web. Escriu-me per WhatsApp."
+ ],
+ "hashtags": "#comercelocal #atencioalclient #tallermecanic #girona #webpernegocis",
+ "aviso": "Taller Fulanito, les preguntes i els recomptes són d'exemple."
+}
