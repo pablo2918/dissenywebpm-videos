@@ -72,7 +72,7 @@ def _parte_frase(fr):
     mejor = [(0, [])] + [None] * len(fr)
     for i in range(1, len(fr) + 1):
         # una cita «...» de hasta 7 palabras puede ir entera en un bloque
-        for k in range(1, 8):
+        for k in range(1, min(8, i + 1)):
             if k > 5 and not (fr[i - k]["texto"].startswith("«") and fr[i - 1]["texto"].rstrip(".,;:?!").endswith("»")):
                 continue
             if i - k >= 0 and mejor[i - k] is not None:
