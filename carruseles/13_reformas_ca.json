@@ -1,0 +1,129 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "id": "13_reformas_ca",
+ "idioma": "ca",
+ "negocio": "Reformes Fulanito",
+ "dominio": "reformesfulanito.com",
+ "pastilla": "5 coses",
+ "portada": "Si fas reformes, *ensenya això*",
+ "desliza": "Llisca →",
+ "de": "de 5",
+ "laminas": [
+  {
+   "titulo": "L'abans // *i el després*",
+   "nota": "El que convenç és el canvi, no la rajola.",
+   "maqueta": {
+    "tipo": "antes_despues",
+    "antes": "Abans",
+    "despues": "Després",
+    "pie": "Reforma de bany a Salt"
+   }
+  },
+  {
+   "titulo": "Fins on // *et desplaces*",
+   "nota": "Així sap si arribes fins a casa seva.",
+   "maqueta": {
+    "tipo": "zonas",
+    "titulo": "Treballem a",
+    "zonas": [
+     "Girona",
+     "Salt",
+     "Sarrià de Ter",
+     "Celrà",
+     "Bescanó"
+    ]
+   }
+  },
+  {
+   "titulo": "Quines feines // *fas de debò*",
+   "nota": "Dir el que no fas també estalvia visites.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Què fem",
+    "casillas": true,
+    "filas": [
+     [
+      "Banys",
+      "",
+      "ok"
+     ],
+     [
+      "Cuines",
+      "",
+      "ok"
+     ],
+     [
+      "Pisos sencers",
+      "",
+      "ok"
+     ],
+     [
+      "Piscines",
+      "No en fem",
+      "mal"
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Com treballes, // *pas a pas*",
+   "nota": "Saber què ve després dona tranquil·litat.",
+   "maqueta": {
+    "tipo": "pasos",
+    "titulo": "Com treballem",
+    "senalado": 1,
+    "pasos": [
+     [
+      "Visita",
+      "Mirem l'obra amb tu"
+     ],
+     [
+      "Pressupost",
+      "Per escrit i detallat"
+     ],
+     [
+      "Obra",
+      "T'avisem de cada fase"
+     ],
+     [
+      "Entrega",
+      "Ho repassem tot junts"
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Demanar pressupost // *per WhatsApp*",
+   "nota": "Amb fotos i un missatge, ja tens una visita.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, vull reformar el bany. Us passo fotos."
+     },
+     {
+      "de": "cliente",
+      "fotos": true
+     },
+     {
+      "de": "negocio",
+      "texto": "Hola! Amb això ja et podem donar una primera idea. Et va bé una visita dijous?"
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Et faig la demo de la teva web gratis en 48 h",
+ "guardar": "Desa-te'l per quan renovis la web",
+ "cta": "Escriu-me per WhatsApp",
+ "guion": [
+  "Si fas reformes, ensenya aquestes cinc coses a la teva web.",
+  "L'abans i el després. El que convenç és el canvi.",
+  "Fins on et desplaces, perquè sàpiga si arribes a casa seva.",
+  "Quines feines fas, i també quines no. T'estalvies visites.",
+  "Com treballes, pas a pas, de la visita a l'entrega.",
+  "I demanar pressupost per WhatsApp, amb fotos.",
+  "Et faig una demo de la teva web gratis en 48 hores. Escriu-me per WhatsApp."
+ ]
+}

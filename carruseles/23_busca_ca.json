@@ -1,0 +1,125 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "id": "23_busca_ca",
+ "idioma": "ca",
+ "negocio": "Perruqueria Fulanito",
+ "dominio": "perruqueriafulanito.com",
+ "pastilla": "5 coses",
+ "portada": "El que mira un client *abans de trucar-te*",
+ "desliza": "Llisca →",
+ "de": "de 5",
+ "laminas": [
+  {
+   "titulo": "Si ets // *obert ara*",
+   "nota": "Si no ho troba, truca al següent.",
+   "maqueta": {
+    "tipo": "ficha",
+    "valoracion": "4,7",
+    "filas": [
+     [
+      "Horari",
+      "No disponible",
+      true
+     ],
+     [
+      "Adreça",
+      "Carrer Major, 12",
+      false
+     ],
+     [
+      "Telèfon",
+      "972 00 00 00",
+      false
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Quant li // *costarà*",
+   "nota": "Amb un «des de» ja no fa por preguntar.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Preus",
+    "filas": [
+     [
+      "Tall",
+      "des de 18 €",
+      "bien"
+     ],
+     [
+      "Color",
+      "des de 35 €",
+      "bien"
+     ],
+     [
+      "Metxes",
+      "Consultar",
+      "mal"
+     ],
+     [
+      "Pentinat",
+      "des de 20 €",
+      "bien"
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Com han quedat // *altres clients*",
+   "nota": "Fotos reals de la teva feina, no d'un banc d'imatges.",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "Feines recents",
+    "etiquetas": [
+     "Color",
+     "Tall",
+     "Metxes"
+    ],
+    "pie": "Fotos del saló, no de catàleg"
+   }
+  },
+  {
+   "titulo": "Què diuen // *de tu*",
+   "nota": "I que vegi que contestes, també a les regulars.",
+   "maqueta": {
+    "tipo": "resenas",
+    "respuesta_titulo": "Resposta del propietari",
+    "resenas": [
+     {
+      "nombre": "Laura M.",
+      "estrellas": 5,
+      "texto": "Molt contenta amb el color, repetiré segur."
+     },
+     {
+      "nombre": "Jordi P.",
+      "estrellas": 4,
+      "texto": "Bon tracte. Vaig haver d'esperar una mica.",
+      "respuesta": "Gràcies, Jordi. Ja hem canviat el sistema de cites."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Com demanar hora // *sense trucar*",
+   "nota": "Un botó de WhatsApp, a un toc.",
+   "maqueta": {
+    "tipo": "movil_boton",
+    "titular": "Perruqueria Fulanito",
+    "texto": "Tall, color i pentinats a Girona.",
+    "boton": "Demana hora per WhatsApp"
+   }
+  }
+ ],
+ "cierre": "Les cinc caben a la teva web i a la teva fitxa de Google",
+ "guardar": "Desa-te'l i busca't a Google",
+ "cta": "Escriu-me per WhatsApp",
+ "guion": [
+  "Això és el que mira un client abans de trucar-te.",
+  "Primer, si ets obert ara. Si no troba l'horari, truca al següent.",
+  "Després, quant li costarà. Amb un «des de» ja no fa por preguntar.",
+  "Com han quedat altres clients. Fotos reals de la teva feina, no de catàleg.",
+  "Què diuen de tu. I que vegi que contestes les ressenyes.",
+  "I com demanar hora sense trucar: un botó de WhatsApp.",
+  "Les cinc coses caben a la teva web i a la teva fitxa de Google. Escriu-me per WhatsApp."
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "id": "23_busca_es",
+ "idioma": "es",
+ "negocio": "Peluquería Fulanito",
+ "dominio": "peluqueriafulanito.com",
+ "pastilla": "5 cosas",
+ "portada": "Lo que mira un cliente *antes de llamarte*",
+ "desliza": "Desliza →",
+ "de": "de 5",
+ "laminas": [
+  {
+   "titulo": "Si estás // *abierto ahora*",
+   "nota": "Si no lo encuentra, llama al siguiente.",
+   "maqueta": {
+    "tipo": "ficha",
+    "valoracion": "4,7",
+    "filas": [
+     [
+      "Horario",
+      "No disponible",
+      true
+     ],
+     [
+      "Dirección",
+      "Carrer Major, 12",
+      false
+     ],
+     [
+      "Teléfono",
+      "972 00 00 00",
+      false
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Cuánto le va // *a costar*",
+   "nota": "Con un «desde» ya no da miedo preguntar.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Precios",
+    "filas": [
+     [
+      "Corte",
+      "desde 18 €",
+      "bien"
+     ],
+     [
+      "Color",
+      "desde 35 €",
+      "bien"
+     ],
+     [
+      "Mechas",
+      "Consultar",
+      "mal"
+     ],
+     [
+      "Peinado",
+      "desde 20 €",
+      "bien"
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Cómo han quedado // *otros clientes*",
+   "nota": "Fotos reales de tu trabajo, no de un banco de imágenes.",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "Trabajos recientes",
+    "etiquetas": [
+     "Color",
+     "Corte",
+     "Mechas"
+    ],
+    "pie": "Fotos del salón, no de catálogo"
+   }
+  },
+  {
+   "titulo": "Qué dicen // *de ti*",
+   "nota": "Y que vea que contestas, también a las regulares.",
+   "maqueta": {
+    "tipo": "resenas",
+    "respuesta_titulo": "Respuesta del propietario",
+    "resenas": [
+     {
+      "nombre": "Laura M.",
+      "estrellas": 5,
+      "texto": "Muy contenta con el color, repetiré seguro."
+     },
+     {
+      "nombre": "Jordi P.",
+      "estrellas": 4,
+      "texto": "Buen trato. Tuve que esperar un poco.",
+      "respuesta": "Gracias, Jordi. Ya hemos cambiado el sistema de citas."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Cómo pedir hora // *sin llamar*",
+   "nota": "Un botón de WhatsApp, a un toque.",
+   "maqueta": {
+    "tipo": "movil_boton",
+    "titular": "Peluquería Fulanito",
+    "texto": "Corte, color y peinados en Girona.",
+    "boton": "Pide hora por WhatsApp"
+   }
+  }
+ ],
+ "cierre": "Las cinco caben en tu web y en tu ficha de Google",
+ "guardar": "Guárdatelo y búscate en Google",
+ "cta": "Escríbeme por WhatsApp",
+ "guion": [
+  "Esto es lo que mira un cliente antes de llamarte.",
+  "Primero, si estás abierto ahora. Si no encuentra el horario, llama al siguiente.",
+  "Después, cuánto le va a costar. Con un «desde» ya no da miedo preguntar.",
+  "Cómo han quedado otros clientes. Fotos reales de tu trabajo, no de catálogo.",
+  "Qué dicen de ti. Y que vea que contestas a las reseñas.",
+  "Y cómo pedir hora sin llamar: un botón de WhatsApp.",
+  "Las cinco caben en tu web y en tu ficha de Google. Escríbeme por WhatsApp."
+ ]
+}
