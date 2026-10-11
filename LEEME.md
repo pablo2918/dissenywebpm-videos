@@ -11,6 +11,11 @@ salida/<tema>/
 ├── es/gancho.png                pantalla de gancho (solo para el vídeo)
 ├── es/video.mp4                 vídeo con voz (Reels, TikTok, Shorts)
 └── ca/ ...                      lo mismo en catalán
+salida/formatos/<formato>/<NN_nombre>/
+├── PUBLICAR.md                  texto para pegar al subirlo
+├── es/video.mp4                 vídeo en castellano
+└── ca/video.mp4                 vídeo en catalán
+planes/plan_<formato>.py         los textos de los formatos animados
 herramientas/                    los programas
 ```
 
@@ -20,6 +25,22 @@ herramientas/                    los programas
 
 Dibuja las láminas y el gancho, genera la voz (Azure), monta el vídeo y deja
 hojas de revisión en `.tmp/revision/` que hay que **mirar** antes de entregar.
+
+## Formatos animados (30 vídeos, los dos idiomas)
+
+    python3 herramientas/formato.py mito          (los 5)
+    python3 herramientas/formato.py mito 2 --idi es
+
+| Formato | Voz | Qué es |
+|---|---|---|
+| `busqueda` · La búsqueda en directo | sí | Un móvil escribe la búsqueda, salen las fichas y la voz señala qué falla |
+| `mito` · Mito o verdad | no (música de la app) | Una frase, 4 s para pensar, la respuesta y 3 tarjetas |
+| `plantilla` · Plantilla para copiar | sí, sin subtítulos | Un texto listo para copiar; se marca lo que se va leyendo |
+| `bienmal` · Así no / así sí | no (música de la app) | 3 parejas: arriba lo que falla, abajo cómo debería ser |
+| `montaje` · Una web montándose sola | sí | La web se construye en un móvil, pieza a pieza |
+| `pregunta` · Pregunta de cliente | sí | La pregunta en grande y la respuesta con tarjetas |
+
+Hojas de revisión en `.tmp/revision/formatos/`.
 
 ## Temas hechos
 

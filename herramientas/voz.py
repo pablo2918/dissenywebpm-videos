@@ -29,6 +29,7 @@ import os
 import re
 import subprocess
 import sys
+import time
 import urllib.error
 import urllib.request
 import wave
@@ -85,13 +86,23 @@ def pide_audio(frase, idioma, voz):
     req = urllib.request.Request(
         f"https://{region}.tts.speech.microsoft.com/cognitiveservices/v1",
         data=ssml.encode("utf-8"), headers=cab, method="POST")
-    try:
-        with urllib.request.urlopen(req, timeout=60) as r:
-            datos = r.read()
-    except urllib.error.HTTPError as e:
-        pista = {401: "clave incorrecta o no configurada",
-                 429: "demasiadas peticiones o cupo gratis agotado"}.get(e.code, "")
-        sys.exit(f"Azure ha respondido {e.code} {pista}".strip())
+    for intento in range(6):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                datos = r.read()
+            break
+        except urllib.error.HTTPError as e:
+            # 429 (cupo por minuto) y errores del servidor: esperar y repetir
+            if e.code in (429, 500, 502, 503, 504) and intento < 5:
+                time.sleep(5 * 2 ** intento)
+                continue
+            pista = {401: "clave incorrecta o no configurada",
+                     429: "demasiadas peticiones o cupo gratis agotado"}.get(e.code, "")
+            sys.exit(f"Azure ha respondido {e.code} {pista}".strip())
+        except (urllib.error.URLError, TimeoutError):
+            if intento == 5:
+                raise
+            time.sleep(5 * 2 ** intento)
     with wave.open(io.BytesIO(datos)) as w:
         return np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16)
 

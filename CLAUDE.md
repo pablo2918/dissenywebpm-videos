@@ -41,8 +41,7 @@ aparcado: va contra su modelo.
 Hechos aquí: 03 señales · 09 así trabajo · 12 clínica · 13 reformas · 14 casa
 rural · 15 gimnasio · 17 asesoría · 18 estética · 23 lo que mira un cliente ·
 28 «Bienvenidos» · 29 web en el móvil · 30 taller · 31 tienda de barrio.
-Preparados SIN generar (ver `planes/PLAN_30.md`): 32–61, 30 temas listos para
-`hacer.py`. Con esto, la lista de ideas de `ideas_carruseles.md` está agotada. Descartadas:
+Hechos también 32–61 (ver `planes/PLAN_30.md`, orden de publicación). Con esto, la lista de ideas de `ideas_carruseles.md` está agotada. Descartadas:
 21 (va contra su modelo) y 24 (se pisa con su 01). Temas nuevos: proponer antes.
 Ojo: 23 se parece a 08/01 y 29 a 10 → publicarlos separados en el tiempo.
 
@@ -76,6 +75,13 @@ Azure: la clave la inyecta el entorno de la nube (secreto de red con la
 cabecera `Ocp-Apim-Subscription-Key` para swedencentral.tts.speech.microsoft.com).
 El script nunca la ve. En local se lee de `AZURE_SPEECH_KEY` en `.env`
 (que no se sube nunca).
+
+## Formatos animados (`herramientas/formato.py <formato>`)
+Textos en `planes/plan_<formato>.py`, dibujo en `herramientas/f_<formato>.py`,
+motor común en `herramientas/anima.py`. Formatos: busqueda, mito, plantilla,
+bienmal, montaje, pregunta (5 vídeos cada uno, es y ca, hechos). Mito y
+bienmal van sin voz (Pablo pone música desde la app). Pendientes porque Pablo
+aún no tiene material: «respuesta a un comentario» y «tus webs reales».
 
 ## Redes
 Carrusel (sin voz, música desde la app) para Instagram/Facebook; vídeo con
