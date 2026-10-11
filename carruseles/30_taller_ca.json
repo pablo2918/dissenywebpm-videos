@@ -1,0 +1,153 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "id": "30_taller_ca",
+ "idioma": "ca",
+ "negocio": "Taller Fulanito",
+ "dominio": "tallerfulanito.com",
+ "pastilla": "5 coses",
+ "portada": "Així et busca // *qui té una avaria*",
+ "desliza": "Llisca →",
+ "gancho": {
+  "pastilla": "Taller mecànic",
+  "texto": "Cotxe espatllat, // *mòbil a la mà*",
+  "maqueta": {
+   "tipo": "ficha",
+   "k": 1.3,
+   "valoracion": "4,6",
+   "filas": [
+    [
+     "Telèfon",
+     "No hi és",
+     true
+    ],
+    [
+     "Horari",
+     "Obert · tanca a les 19:00",
+     false
+    ],
+    [
+     "Adreça",
+     "Carrer Major, 12",
+     false
+    ]
+   ]
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Un telèfon // *que es pugui prémer*",
+   "nota": "Amb el cotxe aturat, ningú copia números.",
+   "maqueta": {
+    "tipo": "movil",
+    "variante": "telefono",
+    "texto": "Mecànica i pneumàtics",
+    "telefono": "Tel. 972 00 00 00",
+    "etiqueta": "No és un enllaç"
+   }
+  },
+  {
+   "titulo": "Si obres // *avui*",
+   "nota": "Que sàpiga si hi pot anar ara mateix.",
+   "maqueta": {
+    "tipo": "ficha",
+    "valoracion": "4,6",
+    "filas": [
+     [
+      "Horari d'avui",
+      "No indicat",
+      true
+     ],
+     [
+      "Adreça",
+      "Carrer Major, 12",
+      false
+     ],
+     [
+      "Telèfon",
+      "972 00 00 00",
+      false
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Quines feines // *fas*",
+   "nota": "Dir el que no fas estalvia trucades.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Què fem",
+    "casillas": true,
+    "filas": [
+     [
+      "Mecànica general",
+      "",
+      "ok"
+     ],
+     [
+      "Pneumàtics",
+      "",
+      "ok"
+     ],
+     [
+      "Diagnosi",
+      "",
+      "ok"
+     ],
+     [
+      "Xapa i pintura",
+      "No en fem",
+      "mal"
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Fotos // *del taller*",
+   "nota": "Veure el taller per dins dona confiança.",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "El nostre taller",
+    "etiquetas": [
+     "Taller",
+     "Equip",
+     "Elevador"
+    ],
+    "pie": "Fotos del taller, no de catàleg"
+   }
+  },
+  {
+   "titulo": "Pressupost // *per WhatsApp*",
+   "nota": "Una foto i un missatge, i ja tens cita.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, em fa aquest soroll en frenar. M'ho podeu mirar?"
+     },
+     {
+      "de": "cliente",
+      "fotos": true
+     },
+     {
+      "de": "negocio",
+      "texto": "Hola, porta'l demà a les 9 i ho mirem."
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Et faig la demo de la web del teu taller, gratis en 48 h",
+ "guardar": "Desa-te'l i busca't a Google",
+ "cta": "Escriu-me per WhatsApp",
+ "guion": [
+  "Cotxe espatllat i el mòbil a la mà. Així et busca el teu client. Això és el que ha de trobar.",
+  "Un telèfon que es pugui prémer. Amb el cotxe aturat, ningú copia números.",
+  "Si obres avui, i a quina hora tanques.",
+  "Quines feines fas, i quines no.",
+  "Fotos del teu taller per dins.",
+  "I pressupost per WhatsApp, amb una foto.",
+  "Et faig la demo de la web del teu taller gratis en 48 hores. Escriu-me per WhatsApp."
+ ]
+}

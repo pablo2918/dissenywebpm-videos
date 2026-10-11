@@ -174,7 +174,7 @@ def main():
     wav = base.with_suffix(".wav")
     tramos, palabras = datos["tramos"], datos["palabras"]
     carpeta = Path(a.carpeta)
-    gancho = RAIZ / "salida" / "ganchos" / f"{carpeta.name}.png"
+    gancho = carpeta.parent / "gancho.png"
     if a.laminas:
         nombres = a.laminas.split(",")
     elif gancho.exists():

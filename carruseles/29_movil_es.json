@@ -10,7 +10,7 @@
  "de": "de 5",
  "gancho": {
   "pastilla": "Haz la prueba",
-  "texto": "Coge el móvil y abre *tu web. Ahora.*",
+  "texto": "Coge el móvil y abre // *tu web. Ahora.*",
   "maqueta": {
    "tipo": "movil",
    "variante": "zoom",

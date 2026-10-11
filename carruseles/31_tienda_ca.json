@@ -1,0 +1,143 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "id": "31_tienda_ca",
+ "idioma": "ca",
+ "negocio": "Ferreteria Fulanito",
+ "dominio": "ferreteriafulanito.com",
+ "pastilla": "Comerç de barri",
+ "portada": "La teva botiga tanca. // *La teva web, no.*",
+ "desliza": "Llisca →",
+ "gancho": {
+  "pastilla": "Comerç de barri",
+  "texto": "La teva botiga tanca a les 8. // *La teva web, no.*",
+  "maqueta": {
+   "tipo": "web",
+   "k": 1.3,
+   "titulo": "Ferreteria de barri a Salt",
+   "subtitulo": "Eines, pintura i claus al moment.",
+   "menu": [
+    "Productes",
+    "On som",
+    "Contacte"
+   ],
+   "foto": 5,
+   "boton": "Pregunta per WhatsApp",
+   "senala": "boton"
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Què vens, // *a la vista*",
+   "nota": "Que sàpiga si tens el que busca abans de venir.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Què hi trobaràs",
+    "casillas": true,
+    "filas": [
+     [
+      "Eines",
+      "",
+      "ok"
+     ],
+     [
+      "Pintura",
+      "",
+      "ok"
+     ],
+     [
+      "Còpia de claus",
+      "",
+      "ok"
+     ],
+     [
+      "Lampisteria",
+      "",
+      "ok"
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Si ho tens // *a la botiga*",
+   "nota": "Una pregunta per WhatsApp pot ser una visita demà.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, teniu tacs per a paret de pladur?"
+     },
+     {
+      "de": "negocio",
+      "texto": "Sí! En tenim de diverses mides. Et guardo una capsa per demà."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Com // *arribar-hi*",
+   "nota": "I si hi ha on aparcar, digues-ho.",
+   "maqueta": {
+    "tipo": "zonas",
+    "titulo": "On som",
+    "zonas": [
+     "Carrer Major, 12",
+     "Salt",
+     "Pàrquing al costat"
+    ]
+   }
+  },
+  {
+   "titulo": "Fotos // *de la botiga*",
+   "nota": "Que la reconegui quan arribi.",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "La botiga",
+    "etiquetas": [
+     "Entrada",
+     "Passadissos",
+     "Taulell"
+    ],
+    "pie": "Fotos de la teva botiga, no de catàleg"
+   }
+  },
+  {
+   "titulo": "El teu horari, // *sempre al dia*",
+   "nota": "L'actualitzo jo cada vegada que canviï.",
+   "maqueta": {
+    "tipo": "ficha",
+    "valoracion": "4,8",
+    "filas": [
+     [
+      "Avui",
+      "9:00–13:30 i 16:30–20:00",
+      false
+     ],
+     [
+      "Festius",
+      "Sense actualitzar",
+      true
+     ],
+     [
+      "Telèfon",
+      "972 00 00 00",
+      false
+     ]
+    ]
+   }
+  }
+ ],
+ "cierre": "Et faig la demo de la web de la teva botiga, gratis en 48 h",
+ "guardar": "Desa-te'l i mira-ho amb calma",
+ "cta": "Escriu-me per WhatsApp",
+ "guion": [
+  "La teva botiga tanca a les vuit. La teva web, no. Això és el que ha de fer mentre tu descanses.",
+  "Ensenyar què vens, perquè sàpiga si ho tens.",
+  "Deixar que et pregunti per WhatsApp. Demà el tens a la botiga.",
+  "Dir com arribar-hi, i si hi ha on aparcar.",
+  "Fotos de la teva botiga, perquè la reconegui.",
+  "I el teu horari, sempre al dia. Això ho actualitzo jo.",
+  "Et faig la demo de la web de la teva botiga gratis en 48 hores. Escriu-me per WhatsApp."
+ ]
+}

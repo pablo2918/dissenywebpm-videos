@@ -1,4 +1,4 @@
-Això és el que mira un client abans de trucar-te.
+Abans de trucar-te, el teu client mira cinc coses. Si li'n falta una, truca al següent.
 
 Primer, si ets obert ara. Si no troba l'horari, truca al següent.
 

@@ -24,15 +24,29 @@ proponer un tema, comprobar que el consejo lo cumple la propia oferta.
   palabras sueltas colgando.
 - CTA: «Escríbeme por WhatsApp» / «Escriu-me per WhatsApp».
 
+## Temas que Pablo YA tiene hechos (no repetir)
+Del chat anterior, hechos y publicados por él con sus propias herramientas:
+01 Maps (no sales en Google Maps) · 02 SEO web (no sales arriba) · 04 antes
+de darte un precio · 05 carta en PDF · 06 así te pierde un cliente · 07
+Instagram no es tu web · 08 por qué no te piden hora · 10 se nota que tu web es
+vieja · 20 pregunta esto antes de pagar · 22 web hecha con prisa · 25 demo en
+48 h · 26 tarjeta NFC · 27 publicar en Maps. El 19 (¿de quién es tu web?) está
+aparcado: va contra su modelo.
+Hechos aquí: 13 reformas · 23 lo que mira un cliente · 28 «Bienvenidos» ·
+29 web en el móvil · 30 taller · 31 tienda de barrio.
+Ojo: 23 se parece a 08/01 y 29 a 10 → publicarlos separados en el tiempo.
+
 ## Herramientas (python3; Pillow, numpy)
-1. `herramientas/carrusel.py carruseles/<id>.json` → 7 láminas 1440x1800 en
-   `salida/carruseles/<id>/`. `*resaltado*`, `//` salto de línea. Maquetas:
-   ficha, lista, galeria, resenas, movil_boton, antes_despues, zonas, pasos, chat.
-2. `herramientas/voz.py guiones/<id>.txt --idioma es|ca --salida .tmp/<id>`
-   → voz Azure (es: Tristan HD, ca: Enric; velocidad +20 %, elegidas por Pablo).
-   Un tramo por lámina, separados por línea en blanco.
-3. `herramientas/voz_video.py .tmp/<id> --carpeta salida/carruseles/<id> --salida salida/<id>_voz.mp4`
-   → 1080x1920, subtítulos = guion tal cual, volumen -16 LUFS.
+**Un tema entero, los dos idiomas:** `python3 herramientas/hacer.py <tema>`
+(necesita `carruseles/<tema>_es.json` y `_ca.json` con `guion` de 7 tramos:
+gancho, 5 puntos y cierre). Deja todo en `salida/<tema>/<idioma>/` y hojas
+de revisión en `.tmp/revision/` — MIRARLAS siempre antes de entregar.
+Por partes: `carrusel.py` (láminas + gancho), `voz.py` (voz Azure: es Tristan
+HD, ca Enric, +20 %, elegidas por Pablo; el tramo entero de una vez),
+`voz_video.py` (vídeo 1080x1920, subtítulos = guion tal cual, -16 LUFS).
+Maquetas: ficha, lista, galeria, resenas, movil_boton, antes_despues, zonas,
+pasos, chat, web, movil (variantes zoom/telefono/blanco/juntos/formulario).
+Hacer los temas de 2 en 2 (4 vídeos) para poder revisarlo todo a ojo.
 
 ### Gancho (los 3 primeros segundos)
 Cada carrusel nuevo lleva en su JSON un bloque `gancho` (pastilla, texto con

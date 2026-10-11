@@ -5,7 +5,8 @@ Mismo estilo que los carruseles de Disseny Web PM: 1080x1350 logicos (4:5),
 dibujado al doble y guardado a 1440x1800 (lo maximo que sirve Instagram).
 
 Uso:  python3 herramientas/carrusel.py carruseles/23_busca_es.json
-Deja: salida/carruseles/<id>/1_portada.png ... 7_cierre.png
+Deja: salida/<tema>/<idioma>/carrusel/1_portada.png ... 7_cierre.png
+      y salida/<tema>/<idioma>/gancho.png (pantalla de gancho del video)
 
 En los textos: *entre asteriscos* = resaltador amarillo; // = salto de linea.
 Las maquetas son ilustraciones de un negocio ficticio, sin marcas de nadie.
@@ -111,7 +112,9 @@ def trocea(texto):
     return out
 
 
-def lineas_titulo(palabras, font, ancho, d, mayus):
+def lineas_titulo(palabras, font, ancho, d, mayus, forzadas=None):
+    """Reparte el titular en lineas. En `forzadas` anota que lineas empiezan
+    por un // (salto puesto a proposito)."""
     lineas, cur = [], []
     for w, res, salto in palabras:
         w2 = w.upper() if mayus else w
@@ -119,6 +122,8 @@ def lineas_titulo(palabras, font, ancho, d, mayus):
         if cur and (salto or d.tl(prueba, font) > ancho):
             lineas.append(cur)
             cur = []
+            if salto and forzadas is not None:
+                forzadas.add(len(lineas))
         cur.append((w2, res))
     if cur:
         lineas.append(cur)
@@ -129,11 +134,14 @@ def ajusta_titulo(texto, peso, maximo, minimo, ancho, alto_max, max_lineas, d, m
     pal = trocea(texto)
     for tam in range(maximo, minimo - 1, -2):
         font = f(peso, tam)
-        lin = lineas_titulo(pal, font, ancho, d, mayus)
+        forzadas = set()
+        lin = lineas_titulo(pal, font, ancho, d, mayus, forzadas)
         anchos_ok = all(d.tl(w, font) <= ancho for w, _, _ in
                         [(x.upper() if mayus else x, 0, 0) for x, _, _ in pal])
         alto = len(lin) * tam * interlinea
-        huerfana = any(len(l) == 1 and len(l[0][0]) <= 4 for l in lin[1:])
+        # palabra corta colgando sola (salvo que el salto sea a proposito)
+        huerfana = any(len(l) == 1 and len(l[0][0]) <= 4 and i not in forzadas
+                       for i, l in enumerate(lin) if i)
         if len(lin) <= max_lineas and alto <= alto_max and anchos_ok and not huerfana:
             return font, lin, tam
     font = f(peso, minimo)
@@ -723,13 +731,15 @@ def con_escala(base, box, k, fn, m, ctx):
     """Dibuja una maqueta como si la caja midiera box/k y la amplia (k>1) o
     reduce (k<1) entera: textos, fotos y margenes mantienen su proporcion."""
     global S
-    x0, y0, x1, y1 = box
+    # margen alrededor para que los cercos amarillos no se corten
+    pad = 18
+    x0, y0, x1, y1 = box[0] - pad, box[1] - pad, box[2] + pad, box[3] + pad
     bw, bh = x1 - x0, y1 - y0
     sub = Image.new("RGB", (int(bw * S), int(bh * S)), BLANCO)
     s0 = S
     S = s0 * k
     try:
-        fn(sub, D(sub), (0, 0, bw / k, bh / k), m, ctx)
+        fn(sub, D(sub), (pad / k, pad / k, (bw - pad) / k, (bh - pad) / k), m, ctx)
     finally:
         S = s0
     base.paste(sub, (int(x0 * S), int(y0 * S)))
@@ -845,16 +855,17 @@ def gancho(c):
 def main():
     ruta = Path(sys.argv[1])
     c = json.loads(ruta.read_text(encoding="utf-8"))
-    dest = RAIZ / "salida" / "carruseles" / c["id"]
+    tema, idioma = c["id"].rsplit("_", 1)
+    base = RAIZ / "salida" / tema / idioma
+    dest = base / "carrusel"
     guarda(portada(c), dest / "1_portada.png")
     for i, lam in enumerate(c["laminas"], 1):
         guarda(contenido(c, i, lam), dest / f"{i + 1}_{i:02d}.png")
     guarda(cierre(c), dest / "7_cierre.png")
     if c.get("gancho"):
         im, tam = gancho(c)
-        # solo para el video: va aparte para no subirla por error al carrusel
-        g = RAIZ / "salida" / "ganchos" / f"{c['id']}.png"
-        g.parent.mkdir(parents=True, exist_ok=True)
+        # solo para el video: va fuera de carrusel/ para no subirla por error
+        g = base / "gancho.png"
         im.resize(tam, Image.LANCZOS).save(g, optimize=True)
     print(f"-> {dest}")
 

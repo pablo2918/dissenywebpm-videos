@@ -1,0 +1,153 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "id": "30_taller_es",
+ "idioma": "es",
+ "negocio": "Taller Fulanito",
+ "dominio": "tallerfulanito.com",
+ "pastilla": "5 cosas",
+ "portada": "Así te busca // *quien tiene una avería*",
+ "desliza": "Desliza →",
+ "gancho": {
+  "pastilla": "Taller mecánico",
+  "texto": "Coche roto, // *móvil en la mano*",
+  "maqueta": {
+   "tipo": "ficha",
+   "k": 1.3,
+   "valoracion": "4,6",
+   "filas": [
+    [
+     "Teléfono",
+     "No aparece",
+     true
+    ],
+    [
+     "Horario",
+     "Abierto · cierra a las 19:00",
+     false
+    ],
+    [
+     "Dirección",
+     "Carrer Major, 12",
+     false
+    ]
+   ]
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Un teléfono // *que se pulse*",
+   "nota": "Con el coche parado, nadie copia números.",
+   "maqueta": {
+    "tipo": "movil",
+    "variante": "telefono",
+    "texto": "Mecánica y neumáticos",
+    "telefono": "Tel. 972 00 00 00",
+    "etiqueta": "No es un enlace"
+   }
+  },
+  {
+   "titulo": "Si abres // *hoy*",
+   "nota": "Que sepa si puede ir ahora mismo.",
+   "maqueta": {
+    "tipo": "ficha",
+    "valoracion": "4,6",
+    "filas": [
+     [
+      "Horario de hoy",
+      "No indicado",
+      true
+     ],
+     [
+      "Dirección",
+      "Carrer Major, 12",
+      false
+     ],
+     [
+      "Teléfono",
+      "972 00 00 00",
+      false
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Qué trabajos // *haces*",
+   "nota": "Decir lo que no haces ahorra llamadas.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Qué hacemos",
+    "casillas": true,
+    "filas": [
+     [
+      "Mecánica general",
+      "",
+      "ok"
+     ],
+     [
+      "Neumáticos",
+      "",
+      "ok"
+     ],
+     [
+      "Diagnosis",
+      "",
+      "ok"
+     ],
+     [
+      "Chapa y pintura",
+      "No hacemos",
+      "mal"
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Fotos // *del taller*",
+   "nota": "Ver el taller por dentro da confianza.",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "Nuestro taller",
+    "etiquetas": [
+     "Taller",
+     "Equipo",
+     "Elevador"
+    ],
+    "pie": "Fotos del taller, no de catálogo"
+   }
+  },
+  {
+   "titulo": "Presupuesto // *por WhatsApp*",
+   "nota": "Una foto y un mensaje, y ya tienes cita.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, me hace este ruido al frenar. ¿Me lo podéis mirar?"
+     },
+     {
+      "de": "cliente",
+      "fotos": true
+     },
+     {
+      "de": "negocio",
+      "texto": "Hola, tráelo mañana a las 9 y lo miramos."
+     }
+    ]
+   }
+  }
+ ],
+ "cierre": "Te hago la demo de la web de tu taller, gratis en 48 h",
+ "guardar": "Guárdatelo y búscate en Google",
+ "cta": "Escríbeme por WhatsApp",
+ "guion": [
+  "Coche roto y el móvil en la mano. Así te busca tu cliente. Esto es lo que tiene que encontrar.",
+  "Un teléfono que se pulse. Con el coche parado, nadie copia números.",
+  "Si abres hoy, y a qué hora cierras.",
+  "Qué trabajos haces, y cuáles no.",
+  "Fotos de tu taller por dentro.",
+  "Y presupuesto por WhatsApp, con una foto.",
+  "Te hago la demo de la web de tu taller gratis en 48 horas. Escríbeme por WhatsApp."
+ ]
+}

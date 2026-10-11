@@ -1,4 +1,4 @@
-Esto es lo que mira un cliente antes de llamarte.
+Antes de llamarte, tu cliente mira cinco cosas. Si le falta una, llama al siguiente.
 
 Primero, si estás abierto ahora. Si no encuentra el horario, llama al siguiente.
 

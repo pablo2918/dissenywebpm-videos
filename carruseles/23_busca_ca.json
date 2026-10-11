@@ -114,12 +114,38 @@
  "guardar": "Desa-te'l i busca't a Google",
  "cta": "Escriu-me per WhatsApp",
  "guion": [
-  "Això és el que mira un client abans de trucar-te.",
+  "Abans de trucar-te, el teu client mira cinc coses. Si li'n falta una, truca al següent.",
   "Primer, si ets obert ara. Si no troba l'horari, truca al següent.",
   "Després, quant li costarà. Amb un «des de» ja no fa por preguntar.",
   "Com han quedat altres clients. Fotos reals de la teva feina, no de catàleg.",
   "Què diuen de tu. I que vegi que contestes les ressenyes.",
   "I com demanar hora sense trucar: un botó de WhatsApp.",
   "Les cinc coses caben a la teva web i a la teva fitxa de Google. Escriu-me per WhatsApp."
- ]
+ ],
+ "gancho": {
+  "pastilla": "Abans de trucar-te",
+  "texto": "El teu client mira *5 coses* abans de trucar-te",
+  "maqueta": {
+   "tipo": "ficha",
+   "valoracion": "4,7",
+   "filas": [
+    [
+     "Horari",
+     "No disponible",
+     true
+    ],
+    [
+     "Adreça",
+     "Carrer Major, 12",
+     false
+    ],
+    [
+     "Telèfon",
+     "972 00 00 00",
+     false
+    ]
+   ],
+   "k": 1.3
+  }
+ }
 }

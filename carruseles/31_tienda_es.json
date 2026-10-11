@@ -1,0 +1,143 @@
+{
+ "etiqueta": "Disseny Web PM · Girona",
+ "de": "de 5",
+ "id": "31_tienda_es",
+ "idioma": "es",
+ "negocio": "Ferretería Fulanito",
+ "dominio": "ferreteriafulanito.com",
+ "pastilla": "Comercio de barrio",
+ "portada": "Tu tienda cierra. // *Tu web, no.*",
+ "desliza": "Desliza →",
+ "gancho": {
+  "pastilla": "Comercio de barrio",
+  "texto": "Tu tienda cierra a las 8. // *Tu web, no.*",
+  "maqueta": {
+   "tipo": "web",
+   "k": 1.3,
+   "titulo": "Ferretería de barrio en Salt",
+   "subtitulo": "Herramientas, pintura y llaves al momento.",
+   "menu": [
+    "Productos",
+    "Dónde estamos",
+    "Contacto"
+   ],
+   "foto": 5,
+   "boton": "Pregunta por WhatsApp",
+   "senala": "boton"
+  }
+ },
+ "laminas": [
+  {
+   "titulo": "Qué vendes, // *a la vista*",
+   "nota": "Que sepa si tienes lo que busca antes de venir.",
+   "maqueta": {
+    "tipo": "lista",
+    "titulo": "Qué encontrarás",
+    "casillas": true,
+    "filas": [
+     [
+      "Herramientas",
+      "",
+      "ok"
+     ],
+     [
+      "Pintura",
+      "",
+      "ok"
+     ],
+     [
+      "Copia de llaves",
+      "",
+      "ok"
+     ],
+     [
+      "Fontanería",
+      "",
+      "ok"
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Si lo tienes // *en tienda*",
+   "nota": "Una pregunta por WhatsApp puede ser una visita mañana.",
+   "maqueta": {
+    "tipo": "chat",
+    "globos": [
+     {
+      "de": "cliente",
+      "texto": "Hola, ¿tenéis tacos para pared de pladur?"
+     },
+     {
+      "de": "negocio",
+      "texto": "¡Sí! Tenemos de varias medidas. Te guardo una caja para mañana."
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Cómo // *llegar*",
+   "nota": "Y si hay dónde aparcar, dilo.",
+   "maqueta": {
+    "tipo": "zonas",
+    "titulo": "Dónde estamos",
+    "zonas": [
+     "Carrer Major, 12",
+     "Salt",
+     "Parking al lado"
+    ]
+   }
+  },
+  {
+   "titulo": "Fotos // *de la tienda*",
+   "nota": "Que la reconozca cuando llegue.",
+   "maqueta": {
+    "tipo": "galeria",
+    "titulo": "La tienda",
+    "etiquetas": [
+     "Entrada",
+     "Pasillos",
+     "Mostrador"
+    ],
+    "pie": "Fotos de tu tienda, no de catálogo"
+   }
+  },
+  {
+   "titulo": "Tu horario, // *siempre al día*",
+   "nota": "Lo actualizo yo cada vez que cambie.",
+   "maqueta": {
+    "tipo": "ficha",
+    "valoracion": "4,8",
+    "filas": [
+     [
+      "Hoy",
+      "9:00–13:30 y 16:30–20:00",
+      false
+     ],
+     [
+      "Festivos",
+      "Sin actualizar",
+      true
+     ],
+     [
+      "Teléfono",
+      "972 00 00 00",
+      false
+     ]
+    ]
+   }
+  }
+ ],
+ "cierre": "Te hago la demo de la web de tu tienda, gratis en 48 h",
+ "guardar": "Guárdatelo y míralo con calma",
+ "cta": "Escríbeme por WhatsApp",
+ "guion": [
+  "Tu tienda cierra a las ocho. Tu web, no. Esto es lo que tiene que hacer mientras tú descansas.",
+  "Enseñar qué vendes, para que sepa si lo tienes.",
+  "Dejar que te pregunte por WhatsApp. Mañana lo tienes en la tienda.",
+  "Decir cómo llegar, y si hay dónde aparcar.",
+  "Fotos de tu tienda, para que la reconozca.",
+  "Y tu horario, siempre al día. Eso lo actualizo yo.",
+  "Te hago la demo de la web de tu tienda gratis en 48 horas. Escríbeme por WhatsApp."
+ ]
+}

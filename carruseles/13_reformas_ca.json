@@ -118,12 +118,23 @@
  "guardar": "Desa-te'l per quan renovis la web",
  "cta": "Escriu-me per WhatsApp",
  "guion": [
-  "Si fas reformes, ensenya aquestes cinc coses a la teva web.",
+  "Si fas reformes, això és el que el teu client vol veure abans de demanar-te pressupost.",
   "L'abans i el després. El que convenç és el canvi.",
   "Fins on et desplaces, perquè sàpiga si arribes a casa seva.",
   "Quines feines fas, i també quines no. T'estalvies visites.",
   "Com treballes, pas a pas, de la visita a l'entrega.",
   "I demanar pressupost per WhatsApp, amb fotos.",
   "Et faig una demo de la teva web gratis en 48 hores. Escriu-me per WhatsApp."
- ]
+ ],
+ "gancho": {
+  "pastilla": "Si fas reformes",
+  "texto": "Això és el que // *el teu client vol veure*",
+  "maqueta": {
+   "tipo": "antes_despues",
+   "antes": "Abans",
+   "despues": "Després",
+   "pie": "Reforma de bany a Salt",
+   "k": 1.25
+  }
+ }
 }
