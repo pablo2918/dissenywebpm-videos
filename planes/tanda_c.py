@@ -228,13 +228,13 @@ tema("58_oferta_es", "es", negocio="Centro de Estética Fulanita", dominio="este
   L("A tus clientes, // *por WhatsApp*", "Un mensaje corto a los de siempre.", chat(("negocio", "¡Hola! Este mes, −20 % en higiene facial. ¿Te guardo hora?"), ("cliente", "¡Sí! ¿El jueves por la tarde?"))),
   L("Con fecha // *de fin*", "Sin fecha, nadie tiene prisa.", lista("La oferta", [["Qué", "−20 % en higiene facial", "bien"], ["Hasta cuándo", "31 de mayo", "bien"], ["Cómo", "Reserva por WhatsApp", "bien"]])),
   L("Y cuando acabe, // *quítala*", "Una oferta caducada da imagen de abandono.", web("−20 % hasta el 31 de mayo", "Hoy es 14 de junio.", ["Servicios", "Precios", "Contacto"], foto=3, senala="titulo", mal="Caducada"))],
- cierre="Tus ofertas en la web las pongo y las quito yo. Escríbeme", guardar="Guárdatelo para tu próxima promoción",
+ cierre="¿Quieres tu oferta en tu web? Escríbeme", guardar="Guárdatelo para tu próxima promoción",
  guion=["Tienes una oferta. ¿Quién se entera? Si solo la pones en un cartel en la puerta, la ven cuatro.",
   "Ponla arriba en tu web.", "Publícala en tu ficha de Google.", "Mándala a tus clientes por WhatsApp.",
   "Siempre con fecha de fin.", "Y cuando acabe, quítala.",
-  "Si tienes la web conmigo, tus ofertas las pongo y las quito yo. Escríbeme por WhatsApp."],
+  "Si quieres tu oferta en tu web, escríbeme por WhatsApp."],
  hashtags="#promociones #ofertas #negociolocal #girona #marketinglocal",
- aviso="Centro de Estética Fulanita y la oferta son de ejemplo. **El cierre dice que tú pones y quitas las ofertas: comprueba que entra en el mantenimiento.**")
+ aviso="Centro de Estética Fulanita y la oferta son de ejemplo.")
 tema("58_oferta_ca", "ca", negocio="Centre d'Estètica Fulanita", dominio="esteticafulanita.com", pastilla="Promocions",
  portada="Tens una oferta? // *Que es vegi*",
  gancho={"pastilla": "Promocions", "texto": "Tens una oferta. // *Qui se n'assabenta?*",
@@ -245,13 +245,13 @@ tema("58_oferta_ca", "ca", negocio="Centre d'Estètica Fulanita", dominio="estet
   L("Als teus clients, // *per WhatsApp*", "Un missatge curt als de sempre.", chat(("negocio", "Hola! Aquest mes, −20 % en higiene facial. Et guardo hora?"), ("cliente", "Sí! Dijous a la tarda?"))),
   L("Amb data // *de fi*", "Sense data, ningú té pressa.", lista("L'oferta", [["Què", "−20 % en higiene facial", "bien"], ["Fins quan", "31 de maig", "bien"], ["Com", "Reserva per WhatsApp", "bien"]])),
   L("I quan acabi, // *treu-la*", "Una oferta caducada dona imatge d'abandonament.", web("−20 % fins al 31 de maig", "Avui és 14 de juny.", ["Serveis", "Preus", "Contacte"], foto=3, senala="titulo", mal="Caducada"))],
- cierre="Les ofertes de la web les poso i les trec jo. Escriu-me", guardar="Desa-te'l per a la propera promoció",
+ cierre="Vols la teva oferta a la web? Escriu-me", guardar="Desa-te'l per a la propera promoció",
  guion=["Tens una oferta. Qui se n'assabenta? Si només la poses en un cartell a la porta, la veuen quatre.",
   "Posa-la a dalt de la web.", "Publica-la a la teva fitxa de Google.", "Envia-la als teus clients per WhatsApp.",
   "Sempre amb data de fi.", "I quan acabi, treu-la.",
-  "Si tens la web amb mi, les ofertes les poso i les trec jo. Escriu-me per WhatsApp."],
+  "Si vols la teva oferta a la web, escriu-me per WhatsApp."],
  hashtags="#promocions #ofertes #comercelocal #girona #marketinglocal",
- aviso="Centre d'Estètica Fulanita i l'oferta són d'exemple. **El tancament diu que tu poses i treus les ofertes: comprova que entra al manteniment.**")
+ aviso="Centre d'Estètica Fulanita i l'oferta són d'exemple.")
 
 # ---------------------------------------------------------------- 59 preguntas frecuentes
 tema("59_preguntas_es", "es", negocio="Taller Fulanito", dominio="tallerfulanito.com", pastilla="Ahorra tiempo",
@@ -268,7 +268,7 @@ tema("59_preguntas_es", "es", negocio="Taller Fulanito", dominio="tallerfulanito
  guion=["¿Cuántas veces al día contestas lo mismo? Tu web puede contestar por ti.",
   "Apunta las preguntas durante una semana.", "Quédate con las cinco que más se repiten.", "Escribe respuestas cortas.",
   "Ponlas en tu web. Google también las lee.", "Y enlázalas en tu WhatsApp.",
-  "Mándame tus preguntas y las pongo en tu web. Escríbeme por WhatsApp."],
+  "Si quieres tus preguntas frecuentes en tu web, escríbeme por WhatsApp."],
  hashtags="#negociolocal #atencionalcliente #tallermecanico #girona #webparanegocios",
  aviso="Taller Fulanito, las preguntas y los recuentos son de ejemplo.")
 tema("59_preguntas_ca", "ca", negocio="Taller Fulanito", dominio="tallerfulanito.com", pastilla="Estalvia temps",
@@ -285,7 +285,7 @@ tema("59_preguntas_ca", "ca", negocio="Taller Fulanito", dominio="tallerfulanito
  guion=["Quantes vegades al dia contestes el mateix? La teva web pot contestar per tu.",
   "Apunta les preguntes durant una setmana.", "Queda't amb les cinc que més es repeteixen.", "Escriu respostes curtes.",
   "Posa-les a la teva web. Google també les llegeix.", "I enllaça-les al teu WhatsApp.",
-  "Envia'm les teves preguntes i les poso a la teva web. Escriu-me per WhatsApp."],
+  "Si vols les teves preguntes freqüents a la web, escriu-me per WhatsApp."],
  hashtags="#comercelocal #atencioalclient #tallermecanic #girona #webpernegocis",
  aviso="Taller Fulanito, les preguntes i els recomptes són d'exemple.")
 
@@ -333,16 +333,16 @@ tema("61_legal_es", "es", negocio="Tu negocio", dominio="tunegocio.com", pastill
  laminas=[
   L("Aviso // *legal*", "Quién está detrás de la web: nombre, NIF y contacto.", lista("Aviso legal", [["Titular", "Tu nombre o empresa", "bien"], ["NIF", "", "bien"], ["Contacto", "Email o dirección", "bien"]])),
   L("Política // *de privacidad*", "Qué haces con los datos de quien te escribe.", lista("Privacidad", [["Qué datos recoges", "", "ok"], ["Para qué los usas", "", "ok"], ["Cómo pedir que los borres", "", "ok"]], True)),
-  L("Cookies, // *si las usas*", "Si tu web las usa, hay que avisar y dejar elegir.", lista("Cookies", [["Aviso al entrar", "", "ok"], ["Aceptar o rechazar", "", "ok"], ["Rechazar, igual de fácil", "", "ok"]], True)),
+  L("Cookies, // *si las usas*", "Si no hacen falta, mejor sin ellas. Si las hay, avisar y dejar elegir.", lista("Cookies", [["Aviso al entrar", "", "ok"], ["Aceptar o rechazar", "", "ok"], ["Rechazar, igual de fácil", "", "ok"]], True)),
   L("Casilla // *en los formularios*", "Que acepte la política antes de enviar.", movil("formulario", titulo="Contacto", campos=["Nombre", "Teléfono", "Mensaje"], enviar="Enviar", etiqueta="Falta la casilla")),
   L("Todo, // *en el pie de página*", "Enlazado en todas las páginas, donde se busca.", web("Peluquería en Girona", "Aviso legal · Privacidad · Cookies", ["Servicios", "Precios", "Contacto"], foto=3, senala="subtitulo"))],
- cierre="Tu web, con los textos legales en su sitio. Escríbeme", guardar="Guárdatelo y revisa el pie de tu web",
+ cierre="Mis webs llevan aviso legal y privacidad incluidos", guardar="Guárdatelo y revisa el pie de tu web",
  guion=["Tu web también tiene papeles que cumplir. Esto es lo básico que debería tener.",
   "Un aviso legal: quién está detrás.", "Una política de privacidad: qué haces con los datos.",
   "Si usas cookies, un aviso que deje elegir.", "Una casilla de aceptación en los formularios.",
-  "Y todo enlazado en el pie de página.", "Si quieres tu web con todo en su sitio, escríbeme por WhatsApp."],
+  "Y todo enlazado en el pie de página.", "Mis webs llevan el aviso legal y la privacidad incluidos. Escríbeme por WhatsApp."],
  hashtags="#rgpd #avisolegal #webparanegocios #girona #autonomos",
- aviso="Es información general, no asesoramiento legal. **Antes de publicarlo, comprueba qué incluyes tú en tus webs (textos legales, aviso de cookies) y ajusta el cierre.**")
+ aviso="Es información general, no asesoramiento legal.")
 tema("61_legal_ca", "ca", negocio="El teu negoci", dominio="elteunegoci.com", pastilla="El que és legal",
  portada="El que la teva web // *ha de tenir per llei*",
  gancho={"pastilla": "El que és legal", "texto": "La teva web també té // *papers per complir*",
@@ -350,14 +350,14 @@ tema("61_legal_ca", "ca", negocio="El teu negoci", dominio="elteunegoci.com", pa
  laminas=[
   L("Avís // *legal*", "Qui hi ha darrere la web: nom, NIF i contacte.", lista("Avís legal", [["Titular", "El teu nom o empresa", "bien"], ["NIF", "", "bien"], ["Contacte", "Correu o adreça", "bien"]])),
   L("Política // *de privacitat*", "Què fas amb les dades de qui t'escriu.", lista("Privacitat", [["Quines dades reculls", "", "ok"], ["Per a què les fas servir", "", "ok"], ["Com demanar que s'esborrin", "", "ok"]], True)),
-  L("Galetes, // *si en fas servir*", "Si la teva web en fa servir, cal avisar i deixar triar.", lista("Galetes", [["Avís en entrar", "", "ok"], ["Acceptar o rebutjar", "", "ok"], ["Rebutjar, igual de fàcil", "", "ok"]], True)),
+  L("Galetes, // *si en fas servir*", "Si no calen, millor sense. Si n'hi ha, avisar i deixar triar.", lista("Galetes", [["Avís en entrar", "", "ok"], ["Acceptar o rebutjar", "", "ok"], ["Rebutjar, igual de fàcil", "", "ok"]], True)),
   L("Casella // *als formularis*", "Que accepti la política abans d'enviar.", movil("formulario", titulo="Contacte", campos=["Nom", "Telèfon", "Missatge"], enviar="Envia", etiqueta="Falta la casella")),
   L("Tot, // *al peu de pàgina*", "Enllaçat a totes les pàgines, on es busca.", web("Perruqueria a Girona", "Avís legal · Privacitat · Galetes", ["Serveis", "Preus", "Contacte"], foto=3, senala="subtitulo"))],
- cierre="La teva web, amb els textos legals al seu lloc. Escriu-me", guardar="Desa-te'l i revisa el peu de la teva web",
+ cierre="Les meves webs porten avís legal i privacitat inclosos", guardar="Desa-te'l i revisa el peu de la teva web",
  guion=["La teva web també té papers per complir. Això és el bàsic que hauria de tenir.",
   "Un avís legal: qui hi ha darrere.", "Una política de privacitat: què fas amb les dades.",
   "Si fas servir galetes, un avís que deixi triar.", "Una casella d'acceptació als formularis.",
-  "I tot enllaçat al peu de pàgina.", "Si vols la teva web amb tot al seu lloc, escriu-me per WhatsApp."],
+  "I tot enllaçat al peu de pàgina.", "Les meves webs porten l'avís legal i la privacitat inclosos. Escriu-me per WhatsApp."],
  hashtags="#rgpd #avislegal #webpernegocis #girona #autonoms",
- aviso="És informació general, no assessorament legal. **Abans de publicar-ho, comprova què inclous tu a les teves webs (textos legals, avís de galetes) i ajusta el tancament.**")
+ aviso="És informació general, no assessorament legal.")
 print("tanda C ok")

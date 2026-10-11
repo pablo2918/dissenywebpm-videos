@@ -52,16 +52,17 @@ Las láminas se dibujaron y se revisaron a ojo (octubre 2026).
 | 51 | vacaciones | Mediados de julio (o antes de Navidad cambiando fechas) |
 | 34 | academia | Finales de agosto |
 
-## Lo que Pablo tiene que confirmar antes de publicar
-(está en el «Aviso» de cada `PUBLICAR.md`)
+## Confirmado con Pablo (aplicado a los textos)
 
-- **32 turistas y 49 bilingüe:** ¿haces webs en varios idiomas?
-- **45 dominio:** ¿la renovación del dominio va incluida en la cuota?
-- **46 datos y 58 oferta:** dicen que tú actualizas web/ficha y pones/quitas ofertas: ¿entra en el mantenimiento?
-- **44 whatsapp:** el cierre ofrece dejarlo configurado: ¿lo quieres ofrecer?
-- **57 seguro:** ¿todas tus webs llevan https incluido? (en Cloudflare, sí por defecto)
-- **61 legal:** ¿incluyes aviso legal, privacidad y cookies? Ajustar el cierre.
-- **50 excusas y 55 web+ficha:** usan tus precios (420 € + 15 €/mes; pack 580 € + 22 €/mes). Revisar que siguen vigentes.
+- Webs en catalán y castellano, y en inglés si lo piden → 32 y 49 tal cual.
+- Dominio y alojamiento incluidos en la cuota → 45 tal cual.
+- Mantenimiento: **un cambio pequeño al mes** → quitado «lo actualizo yo» del 46,
+  «las pongo y las quito yo» del 58 y «las pongo en tu web» del 59. El 51 dice
+  solo «el aviso de vacaciones lo pongo yo» (un cambio).
+- Aviso legal y privacidad incluidos; cookies solo si hacen falta → 61 ajustado.
+- No configura WhatsApp Business a clientes → el cierre del 44 ya no lo ofrece.
+- Pendiente: **57** da por hecho que todas sus webs llevan https (en Cloudflare
+  viene de serie); confirmarlo antes de publicar.
 
 ## Comprobado contra lo que vendes
 Ningún tema dice que el cliente deba tocar la web, tener accesos técnicos ni

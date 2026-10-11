@@ -11,6 +11,12 @@ porqué con una comparación de la vida real, en castellano, sin florituras.
 - Pack digitalización 580 € + 22 €/mes: web + ficha de Google Maps + tarjeta NFC.
 - Pack SEO y Maps (mensual): **sin precio en el contenido**, presupuesto por WhatsApp.
 
+Confirmado por Pablo: webs en catalán y castellano (y en inglés si lo piden);
+dominio y alojamiento incluidos en la cuota; el mantenimiento es **un cambio
+pequeño al mes** (no prometer «lo actualizo yo cada vez» ni poner y quitar
+cosas a menudo); aviso legal y privacidad incluidos, cookies solo si hacen
+falta; **no** configura WhatsApp Business a clientes.
+
 **Nunca** sugerir que el cliente deba tener accesos técnicos/Cloudflare,
 editar la web él mismo o preocuparse por pagar el alojamiento. Antes de
 proponer un tema, comprobar que el consejo lo cumple la propia oferta.

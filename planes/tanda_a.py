@@ -18,7 +18,7 @@ tema("32_turistas_es", "es", negocio="Can Fulanito", dominio="canfulanito.com", 
   "Los alérgenos, claros.", "Reservar por escrito, sin tener que hablar por teléfono.", "Y cómo llegar desde el centro.",
   "Te hago la demo de la web de tu restaurante gratis en 48 horas. Escríbeme por WhatsApp."],
  hashtags="#restaurantes #turismo #girona #costabrava #webparanegocios",
- aviso="Can Fulanito, la carta y las conversaciones son de ejemplo. **Comprueba que ofreces webs en varios idiomas antes de publicarlo.**")
+ aviso="Can Fulanito, la carta y las conversaciones son de ejemplo.")
 tema("32_turistas_ca", "ca", negocio="Can Fulanito", dominio="canfulanito.com", pastilla="Restaurants",
  portada="La teva carta, // *en el seu idioma*",
  gancho={"pastilla": "Restaurants", "texto": "Un turista busca on menjar. // *T'entén?*",
@@ -35,7 +35,7 @@ tema("32_turistas_ca", "ca", negocio="Can Fulanito", dominio="canfulanito.com", 
   "Els al·lèrgens, clars.", "Reservar per escrit, sense haver de parlar per telèfon.", "I com arribar-hi des del centre.",
   "Et faig la demo de la web del teu restaurant gratis en 48 hores. Escriu-me per WhatsApp."],
  hashtags="#restaurants #turisme #girona #costabrava #webpernegocis",
- aviso="Can Fulanito, la carta i les converses són d'exemple. **Comprova que ofereixes webs en diversos idiomes abans de publicar-ho.**")
+ aviso="Can Fulanito, la carta i les converses són d'exemple.")
 
 # ---------------------------------------------------------------- 33 veterinario
 tema("33_veterinario_es", "es", negocio="Clínica Veterinaria Fulanito", dominio="vetfulanito.com", pastilla="Veterinarios",

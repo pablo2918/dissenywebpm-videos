@@ -91,7 +91,7 @@
   },
   {
    "titulo": "Galetes, // *si en fas servir*",
-   "nota": "Si la teva web en fa servir, cal avisar i deixar triar.",
+   "nota": "Si no calen, millor sense. Si n'hi ha, avisar i deixar triar.",
    "maqueta": {
     "tipo": "lista",
     "titulo": "Galetes",
@@ -148,7 +148,7 @@
    }
   }
  ],
- "cierre": "La teva web, amb els textos legals al seu lloc. Escriu-me",
+ "cierre": "Les meves webs porten avís legal i privacitat inclosos",
  "guardar": "Desa-te'l i revisa el peu de la teva web",
  "guion": [
   "La teva web també té papers per complir. Això és el bàsic que hauria de tenir.",
@@ -157,8 +157,8 @@
   "Si fas servir galetes, un avís que deixi triar.",
   "Una casella d'acceptació als formularis.",
   "I tot enllaçat al peu de pàgina.",
-  "Si vols la teva web amb tot al seu lloc, escriu-me per WhatsApp."
+  "Les meves webs porten l'avís legal i la privacitat inclosos. Escriu-me per WhatsApp."
  ],
  "hashtags": "#rgpd #avislegal #webpernegocis #girona #autonoms",
- "aviso": "És informació general, no assessorament legal. **Abans de publicar-ho, comprova què inclous tu a les teves webs (textos legals, avís de galetes) i ajusta el tancament.**"
+ "aviso": "És informació general, no assessorament legal."
 }

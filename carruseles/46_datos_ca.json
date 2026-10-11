@@ -145,25 +145,25 @@
    "nota": "La web és la bona. La resta, es copia d'allà.",
    "maqueta": {
     "tipo": "lista",
-    "titulo": "Ho actualitzo jo",
+    "titulo": "La font bona",
     "filas": [
      [
-      "Web",
-      "",
-      "ok"
+      "La teva web",
+      "Mana",
+      "bien"
      ],
      [
       "Fitxa de Google",
-      "",
-      "ok"
+      "Còpia de la web",
+      "bien"
      ],
      [
-      "I tu ho copies a les xarxes",
-      "",
-      "ok"
+      "Xarxes",
+      "Còpia de la web",
+      "bien"
      ]
     ],
-    "casillas": true
+    "casillas": false
    }
   }
  ],
@@ -179,5 +179,5 @@
   "Si vols, et reviso la web i la fitxa de Google. Escriu-me per WhatsApp."
  ],
  "hashtags": "#googlemaps #seolocal #comercelocal #girona #webpernegocis",
- "aviso": "Els horaris, telèfons i adreces són d'exemple. **La làmina 05 diu que tu actualitzes web i fitxa: comprova que encaixa amb el pla del client.**"
+ "aviso": "Els horaris, telèfons i adreces són d'exemple."
 }

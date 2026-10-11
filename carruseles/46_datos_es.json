@@ -145,25 +145,25 @@
    "nota": "La web es la buena. El resto, se copia de ahí.",
    "maqueta": {
     "tipo": "lista",
-    "titulo": "Lo actualizo yo",
+    "titulo": "La fuente buena",
     "filas": [
      [
-      "Web",
-      "",
-      "ok"
+      "Tu web",
+      "Manda",
+      "bien"
      ],
      [
       "Ficha de Google",
-      "",
-      "ok"
+      "Copia de la web",
+      "bien"
      ],
      [
-      "Y tú lo copias en redes",
-      "",
-      "ok"
+      "Redes",
+      "Copia de la web",
+      "bien"
      ]
     ],
-    "casillas": true
+    "casillas": false
    }
   }
  ],
@@ -179,5 +179,5 @@
   "Si quieres, te reviso tu web y tu ficha de Google. Escríbeme por WhatsApp."
  ],
  "hashtags": "#googlemaps #seolocal #negociolocal #girona #webparanegocios",
- "aviso": "Los horarios, teléfonos y direcciones son de ejemplo. **La lámina 05 dice que tú actualizas web y ficha: comprueba que encaja con el plan del cliente.**"
+ "aviso": "Los horarios, teléfonos y direcciones son de ejemplo."
 }

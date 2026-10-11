@@ -91,7 +91,7 @@
   },
   {
    "titulo": "Cookies, // *si las usas*",
-   "nota": "Si tu web las usa, hay que avisar y dejar elegir.",
+   "nota": "Si no hacen falta, mejor sin ellas. Si las hay, avisar y dejar elegir.",
    "maqueta": {
     "tipo": "lista",
     "titulo": "Cookies",
@@ -148,7 +148,7 @@
    }
   }
  ],
- "cierre": "Tu web, con los textos legales en su sitio. Escríbeme",
+ "cierre": "Mis webs llevan aviso legal y privacidad incluidos",
  "guardar": "Guárdatelo y revisa el pie de tu web",
  "guion": [
   "Tu web también tiene papeles que cumplir. Esto es lo básico que debería tener.",
@@ -157,8 +157,8 @@
   "Si usas cookies, un aviso que deje elegir.",
   "Una casilla de aceptación en los formularios.",
   "Y todo enlazado en el pie de página.",
-  "Si quieres tu web con todo en su sitio, escríbeme por WhatsApp."
+  "Mis webs llevan el aviso legal y la privacidad incluidos. Escríbeme por WhatsApp."
  ],
  "hashtags": "#rgpd #avisolegal #webparanegocios #girona #autonomos",
- "aviso": "Es información general, no asesoramiento legal. **Antes de publicarlo, comprueba qué incluyes tú en tus webs (textos legales, aviso de cookies) y ajusta el cierre.**"
+ "aviso": "Es información general, no asesoramiento legal."
 }

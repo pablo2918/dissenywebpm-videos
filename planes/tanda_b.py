@@ -88,11 +88,11 @@ tema("44_whatsapp_es", "es", negocio="Tu negocio", dominio="tunegocio.com", past
   L("El perfil, // *completo*", "Horario, dirección y web: que no tenga que preguntarlo.", lista("Perfil de empresa", [["Horario", "Lun–Sáb 9:00–20:00", "bien"], ["Dirección", "Carrer Major, 12", "bien"], ["Web", "Sin poner", "mal"]])),
   L("Respuestas // *rápidas*", "Lo que contestas diez veces al día, guardado.", lista("Respuestas rápidas", [["/horario", "Abrimos de 9 a 20 h", "bien"], ["/precios", "Te paso la lista", "bien"], ["/aparcar", "Hay parking al lado", "bien"]])),
   L("Etiquetas // *para no perder a nadie*", "Así ves de un vistazo quién espera respuesta.", lista("Etiquetas", [["Nuevo cliente", "3 chats", "bien"], ["Pendiente de pago", "1 chat", "bien"], ["Presupuesto enviado", "2 chats", "bien"]]))],
- cierre="¿Te lo dejo configurado con tu web? Escríbeme", guardar="Guárdatelo y configúralo hoy",
+ cierre="Y para que te escriban, una web con botón de WhatsApp", guardar="Guárdatelo y configúralo hoy",
  guion=["Te escriben a las once de la noche. ¿Qué les contesta tu WhatsApp? Si no contesta nada, piensan que no estás.",
   "Pon un mensaje de ausencia, para cuando estés cerrado.", "Un mensaje de bienvenida, para quien te escribe por primera vez.",
   "El perfil completo, con horario, dirección y web.", "Respuestas rápidas, para lo que contestas diez veces al día.",
-  "Y etiquetas, para no perder a nadie.", "Si quieres que tu web y tu WhatsApp vayan de la mano, escríbeme por WhatsApp."],
+  "Y etiquetas, para no perder a nadie.", "Y para que te escriban más, una web con botón de WhatsApp. Te hago la demo gratis: escríbeme."],
  hashtags="#whatsappbusiness #negociolocal #atencionalcliente #girona #pymes",
  aviso="Las conversaciones y las etiquetas son de ejemplo. Son funciones de la app gratuita WhatsApp Business.")
 tema("44_whatsapp_ca", "ca", negocio="El teu negoci", dominio="elteunegoci.com", pastilla="WhatsApp Business",
@@ -105,13 +105,13 @@ tema("44_whatsapp_ca", "ca", negocio="El teu negoci", dominio="elteunegoci.com",
   L("El perfil, // *complet*", "Horari, adreça i web: que no ho hagi de preguntar.", lista("Perfil d'empresa", [["Horari", "Dl–Ds 9:00–20:00", "bien"], ["Adreça", "Carrer Major, 12", "bien"], ["Web", "Sense posar", "mal"]])),
   L("Respostes // *ràpides*", "El que contestes deu vegades al dia, desat.", lista("Respostes ràpides", [["/horari", "Obrim de 9 a 20 h", "bien"], ["/preus", "Et passo la llista", "bien"], ["/aparcar", "Hi ha pàrquing al costat", "bien"]])),
   L("Etiquetes // *per no perdre ningú*", "Així veus d'un cop d'ull qui espera resposta.", lista("Etiquetes", [["Client nou", "3 xats", "bien"], ["Pendent de pagament", "1 xat", "bien"], ["Pressupost enviat", "2 xats", "bien"]]))],
- cierre="Te'l deixo configurat amb la teva web? Escriu-me", guardar="Desa-te'l i configura'l avui",
+ cierre="I perquè t'escriguin, una web amb botó de WhatsApp", guardar="Desa-te'l i configura'l avui",
  guion=["T'escriuen a les onze de la nit. Què els contesta el teu WhatsApp? Si no contesta res, pensen que no hi ets.",
   "Posa un missatge d'absència, per quan siguis tancat.", "Un missatge de benvinguda, per a qui t'escriu per primera vegada.",
   "El perfil complet, amb horari, adreça i web.", "Respostes ràpides, per al que contestes deu vegades al dia.",
-  "I etiquetes, per no perdre ningú.", "Si vols que la teva web i el teu WhatsApp vagin de la mà, escriu-me per WhatsApp."],
+  "I etiquetes, per no perdre ningú.", "I perquè t'escriguin més, una web amb botó de WhatsApp. Et faig la demo gratis: escriu-me."],
  hashtags="#whatsappbusiness #comercelocal #atencioalclient #girona #pimes",
- aviso="Les converses i les etiquetes són d'exemple. Són funcions de l'app gratuïta WhatsApp Business. **El tancament diu «te'l deixo configurat»: comprova que ho vols oferir.**")
+ aviso="Les converses i les etiquetes són d'exemple. Són funcions de l'app gratuïta WhatsApp Business.")
 
 # ---------------------------------------------------------------- 45 dominio
 tema("45_dominio_es", "es", negocio="Peluquería Fulanita", dominio="peluqueriafulanita.com", pastilla="Tu dominio",
@@ -130,7 +130,7 @@ tema("45_dominio_es", "es", negocio="Peluquería Fulanita", dominio="peluqueriaf
   "Punto com, punto es o punto cat: los tres sirven. Elige uno.", "Y a tu nombre. El dominio es tuyo, no de quien te hace la web.",
   "Conmigo, el dominio va a tu nombre y está incluido. Escríbeme por WhatsApp."],
  hashtags="#dominio #webparanegocios #diseñoweb #girona #negociolocal",
- aviso="Los dominios son de ejemplo. **Comprueba que la renovación del dominio está incluida en tu cuota, como dice la lámina 05.**")
+ aviso="Los dominios son de ejemplo.")
 tema("45_dominio_ca", "ca", negocio="Perruqueria Fulanita", dominio="perruqueriafulanita.com", pastilla="El teu domini",
  portada="Un bon domini // *es dicta en 3 segons*",
  gancho={"pastilla": "Fes la prova", "texto": "Dicta la teva web per telèfon. // *L'apunten bé?*",
@@ -147,7 +147,7 @@ tema("45_dominio_ca", "ca", negocio="Perruqueria Fulanita", dominio="perruqueria
   "Punt com, punt es o punt cat: els tres serveixen. Tria'n un.", "I al teu nom. El domini és teu, no de qui et fa la web.",
   "Amb mi, el domini va al teu nom i està inclòs. Escriu-me per WhatsApp."],
  hashtags="#domini #webpernegocis #dissenyweb #girona #comercelocal",
- aviso="Els dominis són d'exemple. **Comprova que la renovació del domini està inclosa a la quota, com diu la làmina 05.**")
+ aviso="Els dominis són d'exemple.")
 
 # ---------------------------------------------------------------- 46 datos que no coinciden
 tema("46_datos_es", "es", negocio="Taller Fulanito", dominio="tallerfulanito.com", pastilla="Haz la prueba",
@@ -159,14 +159,14 @@ tema("46_datos_es", "es", negocio="Taller Fulanito", dominio="tallerfulanito.com
   L("El mismo // *teléfono*", "Un número viejo en algún sitio es una llamada que no te llega.", lista("Teléfono", [["Web", "972 00 00 00", "bien"], ["Google Maps", "972 00 00 00", "bien"], ["Facebook", "Número antiguo", "mal"]])),
   L("La misma // *dirección*", "Escrita igual: Google se fija en estas cosas.", lista("Dirección", [["Web", "Carrer Major, 12", "bien"], ["Google Maps", "C/ Major 12", "bien"], ["Directorio", "Local antiguo", "mal"]])),
   L("Los festivos, // *avisados*", "El día que más se nota es cuando estás cerrado.", ficha([["Festivo 15 de agosto", "Sin indicar", True], ["Horario normal", "9:00–20:00", False], ["Teléfono", "972 00 00 00", False]], "4,6")),
-  L("Un sitio // *que manda*", "La web es la buena. El resto, se copia de ahí.", lista("Lo actualizo yo", [["Web", "", "ok"], ["Ficha de Google", "", "ok"], ["Y tú lo copias en redes", "", "ok"]], True))],
+  L("Un sitio // *que manda*", "La web es la buena. El resto, se copia de ahí.", lista("La fuente buena", [["Tu web", "Manda", "bien"], ["Ficha de Google", "Copia de la web", "bien"], ["Redes", "Copia de la web", "bien"]]))],
  cierre="Te reviso tu web y tu ficha de Google. Escríbeme", guardar="Guárdatelo y compáralo hoy",
  guion=["Tu web dice que abres a las nueve. Google dice a las diez. Y el cliente no sabe a quién creer.",
   "El horario, igual en todas partes.", "El mismo teléfono.", "La misma dirección, escrita igual.",
   "Los festivos, avisados.", "Y un sitio que manda: tu web. El resto se copia de ahí.",
   "Si quieres, te reviso tu web y tu ficha de Google. Escríbeme por WhatsApp."],
  hashtags="#googlemaps #seolocal #negociolocal #girona #webparanegocios",
- aviso="Los horarios, teléfonos y direcciones son de ejemplo. **La lámina 05 dice que tú actualizas web y ficha: comprueba que encaja con el plan del cliente.**")
+ aviso="Los horarios, teléfonos y direcciones son de ejemplo.")
 tema("46_datos_ca", "ca", negocio="Taller Fulanito", dominio="tallerfulanito.com", pastilla="Fes la prova",
  portada="La teva web diu una cosa. // *Google, una altra*",
  gancho={"pastilla": "Fes la prova", "texto": "La teva web diu les 9. // *Google, les 10.*",
@@ -176,14 +176,14 @@ tema("46_datos_ca", "ca", negocio="Taller Fulanito", dominio="tallerfulanito.com
   L("El mateix // *telèfon*", "Un número vell en algun lloc és una trucada que no t'arriba.", lista("Telèfon", [["Web", "972 00 00 00", "bien"], ["Google Maps", "972 00 00 00", "bien"], ["Facebook", "Número antic", "mal"]])),
   L("La mateixa // *adreça*", "Escrita igual: Google es fixa en aquestes coses.", lista("Adreça", [["Web", "Carrer Major, 12", "bien"], ["Google Maps", "C/ Major 12", "bien"], ["Directori", "Local antic", "mal"]])),
   L("Els festius, // *avisats*", "El dia que més es nota és quan estàs tancat.", ficha([["Festiu 15 d'agost", "Sense indicar", True], ["Horari normal", "9:00–20:00", False], ["Telèfon", "972 00 00 00", False]], "4,6")),
-  L("Un lloc // *que mana*", "La web és la bona. La resta, es copia d'allà.", lista("Ho actualitzo jo", [["Web", "", "ok"], ["Fitxa de Google", "", "ok"], ["I tu ho copies a les xarxes", "", "ok"]], True))],
+  L("Un lloc // *que mana*", "La web és la bona. La resta, es copia d'allà.", lista("La font bona", [["La teva web", "Mana", "bien"], ["Fitxa de Google", "Còpia de la web", "bien"], ["Xarxes", "Còpia de la web", "bien"]]))],
  cierre="Et reviso la web i la fitxa de Google. Escriu-me", guardar="Desa-te'l i compara-ho avui",
  guion=["La teva web diu que obres a les nou. Google diu a les deu. I el client no sap a qui creure.",
   "L'horari, igual a tot arreu.", "El mateix telèfon.", "La mateixa adreça, escrita igual.",
   "Els festius, avisats.", "I un lloc que mana: la teva web. La resta es copia d'allà.",
   "Si vols, et reviso la web i la fitxa de Google. Escriu-me per WhatsApp."],
  hashtags="#googlemaps #seolocal #comercelocal #girona #webpernegocis",
- aviso="Els horaris, telèfons i adreces són d'exemple. **La làmina 05 diu que tu actualitzes web i fitxa: comprova que encaixa amb el pla del client.**")
+ aviso="Els horaris, telèfons i adreces són d'exemple.")
 
 # ---------------------------------------------------------------- 47 fotos con el móvil
 tema("47_fotos_es", "es", negocio="Tu negocio", dominio="tunegocio.com", pastilla="Fotos con el móvil",
@@ -274,7 +274,7 @@ tema("49_bilingue_es", "es", negocio="Ferretería Fulanito", dominio="ferreteria
   "El botón de idioma, a la vista.", "La ficha de Google, coherente con tu web.", "Y contesta a cada uno en su idioma.",
   "Te hago la demo de tu web gratis en 48 horas. Escríbeme por WhatsApp."],
  hashtags="#girona #catala #seolocal #negociolocal #webparanegocios",
- aviso="Ferretería Fulanito y las búsquedas son de ejemplo. **Comprueba que ofreces la web en catalán y castellano antes de publicarlo.**")
+ aviso="Ferretería Fulanito y las búsquedas son de ejemplo.")
 tema("49_bilingue_ca", "ca", negocio="Ferreteria Fulanito", dominio="ferreteriafulanito.com", pastilla="Girona",
  portada="A Girona et busquen // *en català i en castellà*",
  gancho={"pastilla": "Girona", "texto": "«Ferreteria Girona» // *o «ferretería Girona»?*",
@@ -291,7 +291,7 @@ tema("49_bilingue_ca", "ca", negocio="Ferreteria Fulanito", dominio="ferreteriaf
   "El botó d'idioma, a la vista.", "La fitxa de Google, coherent amb la web.", "I contesta cadascú en el seu idioma.",
   "Et faig la demo de la teva web gratis en 48 hores. Escriu-me per WhatsApp."],
  hashtags="#girona #catala #seolocal #comercelocal #webpernegocis",
- aviso="Ferreteria Fulanito i les cerques són d'exemple. **Comprova que ofereixes la web en català i castellà abans de publicar-ho.**")
+ aviso="Ferreteria Fulanito i les cerques són d'exemple.")
 
 # ---------------------------------------------------------------- 50 excusas
 tema("50_excusas_es", "es", negocio="Tu negocio", dominio="tunegocio.com", pastilla="5 excusas",
@@ -344,11 +344,11 @@ tema("51_vacaciones_es", "es", negocio="Tu negocio", dominio="tunegocio.com", pa
   L("WhatsApp, // *en modo ausencia*", "Que sepan cuándo vas a contestar.", chat(("cliente", "Hola, ¿estáis abiertos?"), ("negocio", "¡Hola! Estamos de vacaciones hasta el 25 de agosto. Te contestamos a la vuelta."))),
   L("Una publicación // *antes de irte*", "En la ficha de Google y en tus redes.", lista("Avísalo en", [["Ficha de Google", "", "ok"], ["Instagram", "", "ok"], ["Un cartel en la puerta", "", "ok"]], True)),
   L("Y a la vuelta, // *quítalo todo*", "Un aviso viejo espanta más que no tener aviso.", ficha([["Horario hoy", "Cerrado por vacaciones", True], ["Fecha de hoy", "2 de septiembre", False], ["Teléfono", "972 00 00 00", False]]))],
- cierre="El aviso de la web lo cambio yo. Escríbeme", guardar="Guárdatelo para antes de cerrar",
+ cierre="El aviso de vacaciones en tu web lo pongo yo", guardar="Guárdatelo para antes de cerrar",
  guion=["Cierras en agosto. Google dice que estás abierto. Y alguien irá a tu puerta y la encontrará cerrada.",
   "Pon el horario especial en Google.", "Un aviso en la web, con la fecha de vuelta.", "El WhatsApp en modo ausencia.",
   "Una publicación antes de irte.", "Y a la vuelta, quítalo todo. Un aviso viejo espanta más que no tener aviso.",
-  "Si tienes la web conmigo, el aviso lo cambio yo. Escríbeme por WhatsApp."],
+  "Si tienes la web conmigo, el aviso de vacaciones lo pongo yo. Escríbeme por WhatsApp."],
  hashtags="#vacaciones #googlemaps #negociolocal #girona #consejos",
  aviso="Las fechas y los mensajes son de ejemplo. **Publícalo a mediados de julio, o antes de Navidad cambiando las fechas.**")
 tema("51_vacaciones_ca", "ca", negocio="El teu negoci", dominio="elteunegoci.com", pastilla="Vacances",
@@ -361,11 +361,11 @@ tema("51_vacaciones_ca", "ca", negocio="El teu negoci", dominio="elteunegoci.com
   L("WhatsApp, // *en mode absència*", "Que sàpiguen quan contestaràs.", chat(("cliente", "Hola, sou oberts?"), ("negocio", "Hola! Som de vacances fins al 25 d'agost. Et contestem a la tornada."))),
   L("Una publicació // *abans de marxar*", "A la fitxa de Google i a les xarxes.", lista("Avisa-ho a", [["Fitxa de Google", "", "ok"], ["Instagram", "", "ok"], ["Un cartell a la porta", "", "ok"]], True)),
   L("I a la tornada, // *treu-ho tot*", "Un avís vell espanta més que no tenir avís.", ficha([["Horari avui", "Tancat per vacances", True], ["Data d'avui", "2 de setembre", False], ["Telèfon", "972 00 00 00", False]]))],
- cierre="L'avís de la web el canvio jo. Escriu-me", guardar="Desa-te'l per abans de tancar",
+ cierre="L'avís de vacances a la teva web el poso jo", guardar="Desa-te'l per abans de tancar",
  guion=["Tanques a l'agost. Google diu que estàs obert. I algú anirà a la teva porta i la trobarà tancada.",
   "Posa l'horari especial a Google.", "Un avís a la web, amb la data de tornada.", "El WhatsApp en mode absència.",
   "Una publicació abans de marxar.", "I a la tornada, treu-ho tot. Un avís vell espanta més que no tenir avís.",
-  "Si tens la web amb mi, l'avís el canvio jo. Escriu-me per WhatsApp."],
+  "Si tens la web amb mi, l'avís de vacances el poso jo. Escriu-me per WhatsApp."],
  hashtags="#vacances #googlemaps #comercelocal #girona #consells",
  aviso="Les dates i els missatges són d'exemple. **Publica-ho a mitjan juliol, o abans de Nadal canviant les dates.**")
 print("tanda B ok")
