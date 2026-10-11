@@ -29,7 +29,7 @@ proponer un tema, comprobar que el consejo lo cumple la propia oferta.
    `salida/carruseles/<id>/`. `*resaltado*`, `//` salto de línea. Maquetas:
    ficha, lista, galeria, resenas, movil_boton, antes_despues, zonas, pasos, chat.
 2. `herramientas/voz.py guiones/<id>.txt --idioma es|ca --salida .tmp/<id>`
-   → voz Azure (es: Tristan HD, ca: Enric; velocidad +35 %, elegidas por Pablo).
+   → voz Azure (es: Tristan HD, ca: Enric; velocidad +20 %, elegidas por Pablo).
    Un tramo por lámina, separados por línea en blanco.
 3. `herramientas/voz_video.py .tmp/<id> --carpeta salida/carruseles/<id> --salida salida/<id>_voz.mp4`
    → 1080x1920, subtítulos = guion tal cual, volumen -16 LUFS.

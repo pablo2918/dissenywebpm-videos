@@ -41,9 +41,9 @@ VOCES = {"ca": "ca-ES-EnricNeural", "es": "es-ES-Tristan:DragonHDLatestNeural"}
 LOCALE = {"ca": "ca-ES", "es": "es-ES"}
 SR = 48000
 PAUSA_FRASE = 0.18        # silencio entre frases de un mismo tramo (s)
-PAUSA_TRAMO = 0.40        # silencio entre tramos (s)
-MARGEN = 0.06             # silencio que se deja al recortar cada frase (s)
-VELOCIDAD = "+35%"        # ritmo de la voz (1,35x, elegido por Pablo)
+PAUSA_TRAMO = 0.32        # silencio entre tramos (s)
+MARGEN = 0.09             # silencio que se deja al recortar cada frase (s)
+VELOCIDAD = "+20%"        # ritmo de la voz (1,2x, elegido por Pablo)
 
 
 def lee_env(raiz):
@@ -62,6 +62,15 @@ def lee_guion(ruta):
     if not tramos:
         sys.exit("El guion esta vacio.")
     return tramos
+
+
+def para_hablar(texto):
+    """Lo que se le manda a la voz. Mismas palabras y en el mismo orden que el
+    guion (los subtitulos siguen saliendo del guion tal cual); solo cambia la
+    puntuacion que hace titubear a la voz."""
+    t = re.sub(r"[«»\"“”]", "", texto)
+    t = re.sub(r":(\s)", r",\1", t)          # «Uno: tienes...» -> «Uno, tienes...»
+    return t
 
 
 def pide_audio(frase, idioma, voz):
@@ -148,14 +157,25 @@ def tiempos_frase(frase, pcm):
     if cur:
         trozos.append(cur)
     ps = pausas(pcm)
-    # Si hay tantas pausas como comas, cada trozo va entre sus pausas reales.
+    # Cada signo de puntuacion se ancla a la pausa real mas cercana al punto
+    # donde caeria si el habla fuera regular (por silabas). Si no hay pausas
+    # suficientes, se reparte todo por silabas.
     if len(trozos) > 1 and len(ps) >= len(trozos) - 1:
-        # Las pausas mas largas son las de las comas.
-        elegidas = sorted(sorted(ps, key=lambda x: x[2] - x[1])[-(len(trozos) - 1):])
+        total = sum(peso(p) for p in palabras)
+        acum, esperados = 0, []
+        for tr in trozos[:-1]:
+            acum += sum(peso(p) for p in tr)
+            esperados.append(MARGEN + (dur - 2 * MARGEN) * acum / total)
+        elegidas, libres = [], list(ps)
+        for e in esperados:
+            mejor = min(libres, key=lambda x: abs(x[0] - e))
+            elegidas.append(mejor)
+            libres.remove(mejor)
+        elegidas.sort()
         limites = [(MARGEN, None)]
-        for _, a, b in elegidas:
-            limites[-1] = (limites[-1][0], a)
-            limites.append((b, None))
+        for _, pa, pb in elegidas:
+            limites[-1] = (limites[-1][0], pa)
+            limites.append((pb, None))
         limites[-1] = (limites[-1][0], dur - MARGEN)
     else:
         trozos = [palabras]
@@ -187,19 +207,18 @@ def main():
             trozos_audio.append(np.zeros(int(PAUSA_TRAMO * SR), np.int16))
             t += PAUSA_TRAMO
         ini_tramos.append(t)
-        for j, frase in enumerate(tramo):
-            if j:
-                trozos_audio.append(np.zeros(int(PAUSA_FRASE * SR), np.int16))
-                t += PAUSA_FRASE
-            if a.simulado:
-                pcm = np.zeros(int(sum(peso(p) for p in frase.split()) / 4.2 * SR), np.int16)
-            else:
-                pcm = recorta(pide_audio(frase, a.idioma, voz))
-            for pal, (p0, p1) in zip(frase.split(), tiempos_frase(frase, pcm)):
-                palabras.append({"texto": pal, "tramo": i,
-                                 "inicio": round(t + p0, 3), "fin": round(t + p1, 3)})
-            trozos_audio.append(pcm)
-            t += len(pcm) / SR
+        # el tramo entero de una vez: la voz enlaza las frases con su entonacion
+        texto = " ".join(tramo)
+        hablado = para_hablar(texto)
+        if a.simulado:
+            pcm = np.zeros(int(sum(peso(p) for p in texto.split()) / 4.2 * SR), np.int16)
+        else:
+            pcm = recorta(pide_audio(hablado, a.idioma, voz))
+        for pal, (p0, p1) in zip(texto.split(), tiempos_frase(hablado, pcm)):
+            palabras.append({"texto": pal, "tramo": i,
+                             "inicio": round(t + p0, 3), "fin": round(t + p1, 3)})
+        trozos_audio.append(pcm)
+        t += len(pcm) / SR
 
     salida = Path(a.salida)
     salida.parent.mkdir(parents=True, exist_ok=True)
