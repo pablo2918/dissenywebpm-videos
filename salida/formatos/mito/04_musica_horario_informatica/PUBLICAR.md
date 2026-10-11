@@ -1,11 +1,11 @@
-# Mito o verdad · Una web bonita ya vende sola.
+# Mito o verdad · Música y animaciones hacen tu web más profesional.
 
 **Sin voz:** añade una música de la app (Instagram/TikTok) al subirlo.
-**Respuesta:** MITO.
+**Respuestas:** MITO · VERDAD · MITO.
 
 **Castellano** (vídeo: `es/video.mp4`)
 
-¿Mito o verdad? Dímelo en comentarios antes de ver la respuesta 👇
+¿Mito o verdad? Tres preguntas: dime en comentarios cuántas has acertado 👇
 
 ¿Quieres una web clara para tu negocio? Escríbeme por WhatsApp: 641 27 74 95
 
@@ -13,7 +13,7 @@
 
 **Català** (vídeo: `ca/video.mp4`)
 
-Mite o veritat? Digues-m'ho als comentaris abans de veure la resposta 👇
+Mite o veritat? Tres preguntes: digues-me als comentaris quantes n'has encertat 👇
 
 Vols una web clara per al teu negoci? Escriu-me per WhatsApp: 641 27 74 95
 

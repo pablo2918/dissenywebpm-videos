@@ -34,7 +34,7 @@ hojas de revisión en `.tmp/revision/` que hay que **mirar** antes de entregar.
 | Formato | Voz | Qué es |
 |---|---|---|
 | `busqueda` · La búsqueda en directo | sí | Un móvil escribe la búsqueda, salen las fichas y la voz señala qué falla |
-| `mito` · Mito o verdad | no (música de la app) | Una frase, 4 s para pensar, la respuesta y 3 tarjetas |
+| `mito` · Mito o verdad | no (música de la app) | 3 preguntas por vídeo: la frase, 3 s para pensar, la respuesta y una línea con el porqué |
 | `plantilla` · Plantilla para copiar | sí, sin subtítulos | Un texto listo para copiar; se marca lo que se va leyendo |
 | `bienmal` · Así no / así sí | no (música de la app) | 3 parejas: arriba lo que falla, abajo cómo debería ser |
 | `montaje` · Una web montándose sola | sí | La web se construye en un móvil, pieza a pieza |
