@@ -1,6 +1,6 @@
 # Mito o verdad · Música y animaciones hacen tu web más profesional.
 
-**Sin voz:** añade una música de la app (Instagram/TikTok) al subirlo.
+**Sin voz**, con efectos (tic-tac y sonido de acierto o de mito). Si le pones música de la app, déjala baja para que se oigan.
 **Respuestas:** MITO · VERDAD · MITO.
 
 **Castellano** (vídeo: `es/video.mp4`)

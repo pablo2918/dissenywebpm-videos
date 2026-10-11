@@ -1,6 +1,6 @@
 # Mito o verdad · Mejor una página clara que diez vacías.
 
-**Sin voz:** añade una música de la app (Instagram/TikTok) al subirlo.
+**Sin voz**, con efectos (tic-tac y sonido de acierto o de mito). Si le pones música de la app, déjala baja para que se oigan.
 **Respuestas:** VERDAD · MITO · VERDAD.
 
 **Castellano** (vídeo: `es/video.mp4`)

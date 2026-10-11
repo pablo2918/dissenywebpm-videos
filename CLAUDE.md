@@ -80,7 +80,9 @@ El script nunca la ve. En local se lee de `AZURE_SPEECH_KEY` en `.env`
 Textos en `planes/plan_<formato>.py`, dibujo en `herramientas/f_<formato>.py`,
 motor común en `herramientas/anima.py`. Formatos: busqueda, mito, plantilla,
 bienmal, montaje, pregunta (5 vídeos cada uno, es y ca, hechos). Mito y
-bienmal van sin voz (Pablo pone música desde la app). Pendientes porque Pablo
+bienmal van sin voz. Mito lleva efectos propios (`herramientas/sonidos.py`,
+sintetizados, sin derechos): tic-tac de tensión, «ding» si es verdad y
+«moc-moc» si es mito; el 01 de mito Pablo ya lo publicó sin efectos. Pendientes porque Pablo
 aún no tiene material: «respuesta a un comentario» y «tus webs reales».
 
 ## Redes

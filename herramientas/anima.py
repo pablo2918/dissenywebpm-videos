@@ -254,9 +254,10 @@ class Subtitulos:
 
 # ---------------------------------------------------------------- salida
 
-def graba(fotograma, dur, salida, wav=None, revision=None, marcas=None):
+def graba(fotograma, dur, salida, wav=None, revision=None, marcas=None, normaliza=True):
     """Pinta `dur` segundos llamando a fotograma(t) y los codifica.
-    `revision`: ruta de la hoja de contacto (8 fotogramas en `marcas`)."""
+    `revision`: ruta de la hoja de contacto (8 fotogramas en `marcas`).
+    `normaliza`: igualar el volumen a -16 LUFS (voz); los efectos sueltos no."""
     salida = Path(salida)
     salida.parent.mkdir(parents=True, exist_ok=True)
     n = int(round(dur * FPS))
@@ -264,7 +265,7 @@ def graba(fotograma, dur, salida, wav=None, revision=None, marcas=None):
            "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-"]
     if wav:
         cmd += ["-i", str(wav), "-filter_complex",
-                f"[1:a]loudnorm=I=-16:TP=-1.5:LRA=11,aresample=48000,apad,atrim=0:{n / FPS:.3f}[a]",
+                f"[1:a]{'loudnorm=I=-16:TP=-1.5:LRA=11,' if normaliza else ''}aresample=48000,apad,atrim=0:{n / FPS:.3f}[a]",
                 "-map", "0:v", "-map", "[a]"]
     else:
         # sin voz: pista de audio muda (la musica se pone desde la app)

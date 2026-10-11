@@ -1,8 +1,9 @@
-"""Formato «Mito o verdad» (sin voz), 3 preguntas por video.
+"""Formato «Mito o verdad» (sin voz, con efectos: tic-tac de tension mientras\nse piensa y un sonido distinto para VERDAD y para MITO), 3 preguntas por video.
 Ver planes/plan_mito.py."""
 from PIL import Image, ImageDraw
 
 import anima as A
+import sonidos as S
 from plan_mito import PIE
 
 UI = {"es": {"pregunta": "¿MITO O VERDAD?", "mito": "MITO", "verdad": "VERDAD",
@@ -141,12 +142,19 @@ def hacer(v, idi, salida, rev, tmp):
 
     marcas = [0.0, T_RESP + 0.4, T_PORQUE + 1.0, DUR_P + 2.0, DUR_P + T_PORQUE + 1.0,
               2 * DUR_P + T_RESP + 0.4, 2 * DUR_P + T_PORQUE + 1.5, dur - 0.5]
-    A.graba(fotograma, dur, salida, None, rev, marcas)
+    efectos = []
+    for i, p in enumerate(ps):
+        o = i * DUR_P
+        efectos.append((o + T_BOT, S.tictac(T_RESP - T_BOT)))
+        efectos.append((o + T_RESP, S.acierto() if p["verdad"] else S.fallo()))
+    tmp.mkdir(parents=True, exist_ok=True)
+    wav = S.mezcla(dur, efectos, tmp / "efectos.wav")
+    A.graba(fotograma, dur, salida, wav, rev, marcas, normaliza=False)
 
 
 def publicar(v, ruta):
     resp = " · ".join(("VERDAD" if vv else "MITO") for vv, _ in v["preguntas"])
     A.publicar(ruta, f"Mito o verdad · {v['preguntas'][0][1]['es'][0]}",
                {i: PIE[i] for i in ("es", "ca")},
-               nota="**Sin voz:** añade una música de la app (Instagram/TikTok) al subirlo.\n"
+               nota="**Sin voz**, con efectos (tic-tac y sonido de acierto o de mito). Si le pones música de la app, déjala baja para que se oigan.\n"
                     f"**Respuestas:** {resp}.")
