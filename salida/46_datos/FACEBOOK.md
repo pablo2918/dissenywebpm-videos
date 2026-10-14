@@ -12,7 +12,7 @@ Tu web dice las 9. Google, las 10.
 4️⃣ Los festivos, avisados. El día que más se nota es cuando estás cerrado.
 5️⃣ Un sitio que manda. La web es la buena. El resto, se copia de ahí.
 
-Te reviso tu web y tu ficha de Google. Escríbeme. 👉 Escríbeme por WhatsApp: 641 27 74 95
+Te reviso tu web y tu ficha de Google. Escríbeme. 👉 WhatsApp: 641 27 74 95
 📌 Guárdatelo y compáralo hoy
 
 #googlemaps #seolocal #negociolocal #webparanegocios
@@ -27,7 +27,7 @@ La teva web diu les 9. Google, les 10.
 4️⃣ Els festius, avisats. El dia que més es nota és quan estàs tancat.
 5️⃣ Un lloc que mana. La web és la bona. La resta, es copia d'allà.
 
-Et reviso la web i la fitxa de Google. Escriu-me. 👉 Escriu-me per WhatsApp: 641 27 74 95
+Et reviso la web i la fitxa de Google. Escriu-me. 👉 WhatsApp: 641 27 74 95
 📌 Desa-te'l i compara-ho avui
 
 #googlemaps #seolocal #comercelocal #webpernegocis

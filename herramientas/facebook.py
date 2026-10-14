@@ -92,7 +92,10 @@ def texto(c, tema):
     idi = c["idioma"]
     g = limpio(c["gancho"]["texto"])
     puntos = "\n".join(f"{i + 1}️⃣ {limpio(l["titulo"])}. {l["nota"]}" for i, l in enumerate(c["laminas"]))
-    return (f"{g}\n\n{puntos}\n\n{c['cierre']}. 👉 {TXT[idi]['cta']}: {C.TELEFONO}\n"
+    # si el cierre ya invita a escribir, no repetir «Escríbeme por WhatsApp»
+    ya = any(w in c["cierre"].lower() for w in ("whatsapp", "escr"))
+    cta = f"WhatsApp: {C.TELEFONO}" if ya else f"{TXT[idi]['cta']}: {C.TELEFONO}"
+    return (f"{g}\n\n{puntos}\n\n{c['cierre']}. 👉 {cta}\n"
             f"📌 {c['guardar']}\n\n{hashtags(tema, idi)}").strip()
 
 

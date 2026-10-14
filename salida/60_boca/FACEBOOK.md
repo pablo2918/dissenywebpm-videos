@@ -12,7 +12,7 @@ Te han recomendado. Ahora te buscan en Google.
 4️⃣ Que se vean tus trabajos. Fotos de trabajos reales, no de catálogo.
 5️⃣ Y que sea fácil escribirte. Si es difícil, llama al siguiente que encuentre.
 
-Que te encuentren cuando te recomienden. Escríbeme. 👉 Escríbeme por WhatsApp: 641 27 74 95
+Que te encuentren cuando te recomienden. Escríbeme. 👉 WhatsApp: 641 27 74 95
 📌 Guárdatelo y búscate como te buscan
 
 #bocaaboca #fontanero #oficios #webparanegocios
@@ -27,7 +27,7 @@ T'han recomanat. Ara et busquen a Google.
 4️⃣ Que es vegin les teves feines. Fotos de feines reals, no de catàleg.
 5️⃣ I que sigui fàcil escriure't. Si és difícil, truca al següent que trobi.
 
-Que et trobin quan et recomanin. Escriu-me. 👉 Escriu-me per WhatsApp: 641 27 74 95
+Que et trobin quan et recomanin. Escriu-me. 👉 WhatsApp: 641 27 74 95
 📌 Desa-te'l i busca't com et busquen
 
 #bocaorella #lampista #oficis #webpernegocis

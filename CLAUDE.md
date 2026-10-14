@@ -124,6 +124,6 @@ Carrusel (sin voz, música desde la app) SOLO para Instagram. Facebook
 (corregido 14-10-2026): en una página, varias fotos salen como mosaico
 recortado → ahí va UNA imagen-resumen (`salida/<tema>/<idi>/facebook.png`) con
 el texto de `salida/<tema>/FACEBOOK.md` (los dos los hace
-`python3 herramientas/facebook.py <tema>`), y los vídeos como Reel. Vídeo con
+`python3 herramientas/facebook.py <tema>`), y los vídeos como Reel. Para dárselo a Pablo ORDENADO (01, 02… imagen + texto .txt por idioma, temporada aparte): `python3 herramientas/paquete_facebook.py <carpeta>` y un ZIP por idioma. Vídeo con
 voz para Reels (Instagram y Facebook), TikTok y YouTube Shorts. Mismo tema: días distintos. Medir
 WhatsApps, no likes.

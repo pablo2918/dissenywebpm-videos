@@ -12,7 +12,7 @@ Abre tu web. ¿Pone «No seguro»?
 4️⃣ Cómo se arregla. Con un certificado. Es una cosa técnica, no la tienes que hacer tú.
 5️⃣ Conmigo, incluido. Todas mis webs llevan el candado, sin pagar aparte.
 
-Web segura, con el candado incluido. Escríbeme. 👉 Escríbeme por WhatsApp: 641 27 74 95
+Web segura, con el candado incluido. Escríbeme. 👉 WhatsApp: 641 27 74 95
 📌 Guárdatelo y mira tu web
 
 #seguridadweb #https #webparanegocios #negociolocal
@@ -27,7 +27,7 @@ Obre la teva web. Posa «No segur»?
 4️⃣ Com s'arregla. Amb un certificat. És una cosa tècnica, no l'has de fer tu.
 5️⃣ Amb mi, inclòs. Totes les meves webs porten el cadenat, sense pagar a part.
 
-Web segura, amb el cadenat inclòs. Escriu-me. 👉 Escriu-me per WhatsApp: 641 27 74 95
+Web segura, amb el cadenat inclòs. Escriu-me. 👉 WhatsApp: 641 27 74 95
 📌 Desa-te'l i mira la teva web
 
 #seguretatweb #https #webpernegocis #comercelocal

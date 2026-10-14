@@ -12,7 +12,7 @@ Coge el móvil y busca lo que haces + tu pueblo
 4️⃣ Mira el mapa. Busca en Google Maps sin poner tu nombre.
 5️⃣ Y pregunta a tus clientes. «¿Cómo nos has encontrado?» Apunta las respuestas.
 
-Si no sales, te digo por qué. Escríbeme. 👉 Escríbeme por WhatsApp: 641 27 74 95
+Si no sales, te digo por qué. Escríbeme. 👉 WhatsApp: 641 27 74 95
 📌 Guárdatelo y haz la prueba hoy
 
 #seolocal #google #negociolocal #webparanegocios
@@ -27,7 +27,7 @@ Agafa el mòbil i busca el que fas + el teu poble
 4️⃣ Mira el mapa. Busca a Google Maps sense posar el teu nom.
 5️⃣ I pregunta als teus clients. «Com ens has trobat?» Apunta les respostes.
 
-Si no surts, et dic per què. Escriu-me. 👉 Escriu-me per WhatsApp: 641 27 74 95
+Si no surts, et dic per què. Escriu-me. 👉 WhatsApp: 641 27 74 95
 📌 Desa-te'l i fes la prova avui
 
 #seolocal #google #comercelocal #webpernegocis

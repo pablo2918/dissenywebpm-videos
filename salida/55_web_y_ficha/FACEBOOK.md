@@ -12,7 +12,7 @@ Publica **una sola imagen** (`<idioma>/facebook.png`) con este texto. El vídeo 
 4️⃣ En la web mandas tú. Qué dices, cómo lo dices y qué enseñas primero.
 5️⃣ Y se ayudan entre ellas. La ficha lleva a la web. La web refuerza la ficha.
 
-Web + ficha de Google en un solo pack. Escríbeme. 👉 Escríbeme por WhatsApp: 641 27 74 95
+Web + ficha de Google en un solo pack. Escríbeme. 👉 WhatsApp: 641 27 74 95
 📌 Guárdatelo y revisa las dos
 
 #googlemaps #seolocal #webparanegocios #negociolocal
@@ -27,7 +27,7 @@ Web o fitxa de Google? Les dues.
 4️⃣ A la web manes tu. Què dius, com ho dius i què ensenyes primer.
 5️⃣ I s'ajuden entre elles. La fitxa porta a la web. La web reforça la fitxa.
 
-Web + fitxa de Google en un sol pack. Escriu-me. 👉 Escriu-me per WhatsApp: 641 27 74 95
+Web + fitxa de Google en un sol pack. Escriu-me. 👉 WhatsApp: 641 27 74 95
 📌 Desa-te'l i revisa les dues
 
 #googlemaps #seolocal #webpernegocis #comercelocal

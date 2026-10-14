@@ -12,7 +12,7 @@ Te escriben a las 11 de la noche. ¿Qué contestas?
 4️⃣ Respuestas rápidas. Lo que contestas diez veces al día, guardado.
 5️⃣ Etiquetas para no perder a nadie. Así ves de un vistazo quién espera respuesta.
 
-Y para que te escriban, una web con botón de WhatsApp. 👉 Escríbeme por WhatsApp: 641 27 74 95
+Y para que te escriban, una web con botón de WhatsApp. 👉 WhatsApp: 641 27 74 95
 📌 Guárdatelo y configúralo hoy
 
 #whatsappbusiness #negociolocal #atencionalcliente #pymes
@@ -27,7 +27,7 @@ T'escriuen a les 11 de la nit. Què contestes?
 4️⃣ Respostes ràpides. El que contestes deu vegades al dia, desat.
 5️⃣ Etiquetes per no perdre ningú. Així veus d'un cop d'ull qui espera resposta.
 
-I perquè t'escriguin, una web amb botó de WhatsApp. 👉 Escriu-me per WhatsApp: 641 27 74 95
+I perquè t'escriguin, una web amb botó de WhatsApp. 👉 WhatsApp: 641 27 74 95
 📌 Desa-te'l i configura'l avui
 
 #whatsappbusiness #comercelocal #atencioalclient #pimes

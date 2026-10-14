@@ -12,7 +12,7 @@ Te han puesto una estrella. No contestes todavía.
 4️⃣ Invítale a hablar en privado. La discusión, fuera de Google.
 5️⃣ Nunca discutas en público. Aunque tengas razón, quien lee solo ve una pelea.
 
-Tu ficha de Google, cuidada. Te lo explico por WhatsApp. 👉 Escríbeme por WhatsApp: 641 27 74 95
+Tu ficha de Google, cuidada. Te lo explico por WhatsApp. 👉 WhatsApp: 641 27 74 95
 📌 Guárdatelo para el día que te toque
 
 #googlemaps #reseñas #negociolocal #atencionalcliente
@@ -27,7 +27,7 @@ T'han posat una estrella. No contestis encara.
 4️⃣ Convida'l a parlar en privat. La discussió, fora de Google.
 5️⃣ Mai discuteixis en públic. Encara que tinguis raó, qui ho llegeix només veu una baralla.
 
-La teva fitxa de Google, cuidada. T'ho explico per WhatsApp. 👉 Escriu-me per WhatsApp: 641 27 74 95
+La teva fitxa de Google, cuidada. T'ho explico per WhatsApp. 👉 WhatsApp: 641 27 74 95
 📌 Desa-te'l per al dia que et toqui
 
 #googlemaps #ressenyes #comercelocal #atencioalclient

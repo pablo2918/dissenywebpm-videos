@@ -12,7 +12,7 @@ Tienes web nueva. Nadie lo sabe.
 4️⃣ En el local, con un QR. En el mostrador, en el espejo, en el ticket.
 5️⃣ Y díselo a tus clientes. Un mensaje a los de siempre. Lo compartirán.
 
-Te hago la web y te digo dónde ponerla. Escríbeme. 👉 Escríbeme por WhatsApp: 641 27 74 95
+Te hago la web y te digo dónde ponerla. Escríbeme. 👉 WhatsApp: 641 27 74 95
 📌 Guárdatelo para el día que estrenes web
 
 #webnueva #negociolocal #instagramtips #webparanegocios
@@ -27,7 +27,7 @@ Tens web nova. Ningú ho sap.
 4️⃣ Al local, amb un QR. Al taulell, al mirall, al tiquet.
 5️⃣ I digues-ho als teus clients. Un missatge als de sempre. La compartiran.
 
-Et faig la web i et dic on posar-la. Escriu-me. 👉 Escriu-me per WhatsApp: 641 27 74 95
+Et faig la web i et dic on posar-la. Escriu-me. 👉 WhatsApp: 641 27 74 95
 📌 Desa-te'l per al dia que estrenis web
 
 #webnova #comercelocal #instagram #webpernegocis

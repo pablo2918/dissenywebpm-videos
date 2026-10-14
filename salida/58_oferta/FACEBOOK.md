@@ -12,7 +12,7 @@ Tienes una oferta. ¿Quién se entera?
 4️⃣ Con fecha de fin. Sin fecha, nadie tiene prisa.
 5️⃣ Y cuando acabe, quítala. Una oferta caducada da imagen de abandono.
 
-¿Quieres tu oferta en tu web? Escríbeme. 👉 Escríbeme por WhatsApp: 641 27 74 95
+¿Quieres tu oferta en tu web? Escríbeme. 👉 WhatsApp: 641 27 74 95
 📌 Guárdatelo para tu próxima promoción
 
 #promociones #ofertas #negociolocal #marketinglocal
@@ -27,7 +27,7 @@ Tens una oferta. Qui se n'assabenta?
 4️⃣ Amb data de fi. Sense data, ningú té pressa.
 5️⃣ I quan acabi, treu-la. Una oferta caducada dona imatge d'abandonament.
 
-Vols la teva oferta a la web? Escriu-me. 👉 Escriu-me per WhatsApp: 641 27 74 95
+Vols la teva oferta a la web? Escriu-me. 👉 WhatsApp: 641 27 74 95
 📌 Desa-te'l per a la propera promoció
 
 #promocions #ofertes #comercelocal #marketinglocal

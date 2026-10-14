@@ -12,7 +12,7 @@ En diciembre ya es tarde
 4️⃣ Fotos de temporada. Tu local decorado dice «estamos abiertos y con ganas».
 5️⃣ Avísalo con tiempo. En la web, en Google y a tus clientes.
 
-Te preparo la web para Navidad. Escríbeme. 👉 Escríbeme por WhatsApp: 641 27 74 95
+Te preparo la web para Navidad. Escríbeme. 👉 WhatsApp: 641 27 74 95
 📌 Guárdatelo para noviembre
 
 #navidad #comerciolocal #negociolocal #compraenelbarrio
@@ -27,7 +27,7 @@ Al desembre ja és tard
 4️⃣ Fotos de temporada. El teu local decorat diu «som oberts i amb ganes».
 5️⃣ Avisa-ho amb temps. A la web, a Google i als teus clients.
 
-Et preparo la web per Nadal. Escriu-me. 👉 Escriu-me per WhatsApp: 641 27 74 95
+Et preparo la web per Nadal. Escriu-me. 👉 WhatsApp: 641 27 74 95
 📌 Desa-te'l per al novembre
 
 #nadal #comercelocal #compraalbarri #botigues
