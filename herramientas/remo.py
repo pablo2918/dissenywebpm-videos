@@ -58,6 +58,38 @@ def voz_propia(audio, escenas, idi, tmp):
     return {"wav": str(wav), "palabras": pal, "tramos": tramos, "duracion": dur}
 
 
+def mete_pausas(vz, pausas, destino):
+    """Silencio de `seg` segundos justo despues de la frase k (p. ej. la cuenta
+    atras del mito). Mueve los tiempos de todo lo que va detras."""
+    import wave
+    import numpy as np
+    with wave.open(vz["wav"]) as w:
+        sr, ch, sw = w.getframerate(), w.getnchannels(), w.getsampwidth()
+        pcm = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).reshape(-1, ch)
+    trozos, desde, extra = [], 0, 0.0
+    for k, seg in sorted(pausas):
+        corte = vz["tramos"][k]["fin"] + 0.12
+        i = int(round(corte * sr))
+        trozos += [pcm[desde:i], np.zeros((int(seg * sr), ch), np.int16)]
+        desde = i
+        for p in vz["palabras"]:
+            if p["tramo"] > k:
+                p["inicio"] += seg
+                p["fin"] += seg
+        for j, tr in enumerate(vz["tramos"]):
+            if j > k:
+                tr["inicio"] += seg
+                tr["fin"] += seg
+        extra += seg
+    trozos.append(pcm[desde:])
+    with wave.open(str(destino), "wb") as w:
+        w.setnchannels(ch)
+        w.setsampwidth(sw)
+        w.setframerate(sr)
+        w.writeframes(np.concatenate(trozos).tobytes())
+    vz["duracion"] += extra
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("guion")
@@ -88,7 +120,11 @@ def main():
 
     pub = REMO / "public" / nombre
     pub.mkdir(parents=True, exist_ok=True)
-    shutil.copy(vz["wav"], pub / "voz.wav")
+    pausas = [(k, e["pausa"]) for k, e in enumerate(con_voz) if e.get("pausa")]
+    if pausas:
+        mete_pausas(vz, pausas, pub / "voz.wav")
+    else:
+        shutil.copy(vz["wav"], pub / "voz.wav")
     # cada escena va desde que empieza su frase hasta que empieza la siguiente
     k = 0
     for e in escenas:

@@ -38,11 +38,18 @@ Pablo quiere vídeos con más gancho, más naturales y de tipos distintos.
        deja bajar subtítulos y storyboard).
 2. [~] Motor nuevo con Remotion en `remotion/` (proyecto creado, renderiza
        en la nube con el Chromium de /opt/pw-browsers, ver remotion.config.ts).
-3. [~] 3 vídeos piloto (solo castellano, voz Azure provisional):
-       - [x] Piloto 1 «antes/después» (`remotion/guiones/antes_despues.json`,
-             composición `AntesDespues`) → `salida/remotion/antes_despues/es/`.
-       - [ ] Piloto 2 «pregunta de cliente» (Google Maps).
-       - [ ] Piloto 3 «mito o verdad 2.0» con «¿Cuánto sabes de SEO?».
+3. [x] 3 vídeos piloto (solo castellano, voz Azure provisional), en
+       `salida/remotion/<id>/` con PUBLICAR.md y es/guion_voz.txt:
+       - Piloto 1 «antes/después» (`antes_despues`, composición `AntesDespues`):
+         panadería inventada de Valladolid, web vieja vs nueva grabadas de verdad.
+       - Piloto 2 «pregunta de cliente» (`pregunta_maps`, `Pregunta`): rótulo
+         rojo con la pregunta arriba; Maps animado; relevancia/distancia/prominencia.
+       - Piloto 3 «mito o verdad 2.0» (`mito_seo`, `Mito`): gancho «¿Cuánto
+         sabes de SEO?», marcador de 3, tic-tac (pausa de 3,2 s en la voz con
+         `"pausa"` en la escena), sello y explicación.
+4. [ ] ESPERANDO A PABLO: que diga qué piloto le gusta más y qué cambiaría.
+       Después: versión en catalán (copiar el guion con `"idioma": "ca"`),
+       más vídeos del formato elegido, y su voz (VoiceStudio → `--audio`).
 
 ### Cómo funciona el motor nuevo (Remotion)
 - Guion: `remotion/guiones/<id>.json` (escenas con `tipo`, `voz`, `rotulos`
@@ -73,6 +80,7 @@ genérico, mito con «¿Cuánto sabes de SEO?» y marcador de aciertos, formatos
 barrido, «POV: eres un cliente…». Ciudades de toda España.
 
 ## Diario (lo último arriba)
+- **14-10-2026** · Pilotos 2 y 3 hechos y revisados. Entregados los 3 a Pablo.
 - **14-10-2026** · Piloto 1 (antes/después, panadería inventada de
   Valladolid) hecho y revisado. Render: ~3 min por vídeo de 37 s en la nube.
 - **14-10-2026** · Estudio hecho (`estudio/ESTUDIO.md`). Proyecto Remotion

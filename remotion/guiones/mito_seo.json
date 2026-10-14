@@ -1,0 +1,73 @@
+{
+ "id": "mito_seo",
+ "idioma": "es",
+ "composicion": "Mito",
+ "aviso": "Preguntas ya comprobadas en los mitos 10, 7 y 12 (normas de Google). Respuestas: MITO · VERDAD · MITO.",
+ "escenas": [
+  {
+   "tipo": "gancho",
+   "voz": "¿Cuánto sabes de SEO? Tres frases. Tú dices si es mito o verdad.",
+   "titulo": "¿Cuánto sabes de *SEO*?"
+  },
+  {
+   "tipo": "pregunta",
+   "n": 1,
+   "verdad": false,
+   "ilus": "repetir",
+   "pausa": 3.2,
+   "voz": "Una. Repetir mucho «fontanero en Sevilla» en tu web te sube en Google.",
+   "frase": "Repetir mucho *«fontanero en Sevilla»* en tu web te sube en Google"
+  },
+  {
+   "tipo": "respuesta",
+   "n": 1,
+   "verdad": false,
+   "voz": "Mito. Google lo detecta y te puede bajar.",
+   "porque": "Google lo detecta y te puede bajar.",
+   "pausa": 0.9
+  },
+  {
+   "tipo": "pregunta",
+   "n": 2,
+   "verdad": true,
+   "ilus": "movil",
+   "pausa": 3.2,
+   "voz": "Dos. Google mira primero cómo se ve tu web en el móvil.",
+   "frase": "Google mira primero cómo se ve tu web *en el móvil*"
+  },
+  {
+   "tipo": "respuesta",
+   "n": 2,
+   "verdad": true,
+   "voz": "Verdad. Usa la versión de móvil para colocarte.",
+   "porque": "Usa la versión de móvil para colocarte.",
+   "pausa": 0.9
+  },
+  {
+   "tipo": "pregunta",
+   "n": 3,
+   "verdad": false,
+   "ilus": "blog",
+   "pausa": 3.2,
+   "voz": "Tres. Para salir en Google, tu web necesita un blog.",
+   "frase": "Para salir en Google, tu web *necesita un blog*"
+  },
+  {
+   "tipo": "respuesta",
+   "n": 3,
+   "verdad": false,
+   "voz": "Mito. Una web de negocio local puede salir bien sin blog.",
+   "porque": "Una web de negocio local puede salir bien sin blog.",
+   "pausa": 0.9
+  },
+  {
+   "tipo": "resultado",
+   "voz": "¿Cuántas has acertado? Dímelo en los comentarios."
+  },
+  {
+   "tipo": "cta",
+   "voz": "Y si quieres que tu web salga en Google, escríbeme por WhatsApp.",
+   "frase": "¿Tu web sale en *Google*?"
+  }
+ ]
+}
