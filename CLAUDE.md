@@ -2,7 +2,7 @@
 
 Pablo Rubiales — Disseny Web PM (webs a código y SEO local, Girona).
 Teléfono 641 27 74 95 · dissenywebpm.com. Público: restaurantes, peluquerías,
-oficios. Idiomas: castellano y catalán. Pablo no es técnico: explícale el
+oficios de toda España (trabaja a distancia; no solo Girona). Idiomas: castellano y catalán. Pablo no es técnico: explícale el
 porqué con una comparación de la vida real, en castellano, sin florituras.
 
 ## Qué vende (manda sobre el contenido)
@@ -86,6 +86,20 @@ bienmal van sin voz. Mito lleva efectos propios (`herramientas/sonidos.py`,
 sintetizados, sin derechos): tic-tac de tensión, «ding» si es verdad y
 «moc-moc» si es mito; el 01 de mito Pablo ya lo publicó sin efectos. Pendientes porque Pablo
 aún no tiene material: «respuesta a un comentario» y «tus webs reales».
+
+## Vídeo de archivo (pruebas aprobadas por Pablo, 14-10-2026)
+`herramientas/f_archivo.py` + `planes/plan_archivo.py` (`formato.py archivo`):
+estilos «completo» (vídeo a pantalla completa), «mito» (mito o verdad con
+fondo de vídeo) y «partido» (vídeo arriba, tarjetas abajo). Clips de Mixkit
+(`herramientas/mixkit.py`, sin clave; solo «Stock Video Free License»,
+elegidos a ojo). Pexels no da claves nuevas: no pedirla. A Pablo le gustan
+los tres. PENDIENTE de sus comentarios (no hecho aún, esperar a que lo pida):
+- Mito o verdad: añadir una frase inicial de gancho, p. ej. «¿Cuánto sabes de
+  SEO?» o «¿Cuánto sabes de posicionar negocios?».
+- Algunos clips de archivo quedan genéricos o «cutres»: combinarlos con
+  maquetas propias (fichas de Google Maps, webs en el móvil) para que se vea
+  de qué se habla.
+Público: Pablo hace webs a toda España, no solo Girona (ver más abajo).
 
 ## Redes
 Carrusel (sin voz, música desde la app) para Instagram/Facebook; vídeo con
