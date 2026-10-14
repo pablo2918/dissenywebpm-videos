@@ -9,88 +9,88 @@
    "voz": "¿Cuánto sabes de SEO? Tres frases. Tú dices si es mito o verdad.",
    "titulo": "¿Cuánto sabes de *SEO*?",
    "inicio": 0.0,
-   "finVoz": 4.07,
+   "finVoz": 3.67,
    "palabras": [
     {
      "texto": "¿Cuánto",
      "tramo": 0,
      "inicio": 0.09,
-     "fin": 0.357
+     "fin": 0.353
     },
     {
      "texto": "sabes",
      "tramo": 0,
-     "inicio": 0.357,
-     "fin": 0.623
+     "inicio": 0.353,
+     "fin": 0.617
     },
     {
      "texto": "de",
      "tramo": 0,
-     "inicio": 0.623,
-     "fin": 0.757
+     "inicio": 0.617,
+     "fin": 0.748
     },
     {
      "texto": "SEO?",
      "tramo": 0,
-     "inicio": 0.757,
-     "fin": 0.89
+     "inicio": 0.748,
+     "fin": 0.88
     },
     {
      "texto": "Tres",
      "tramo": 0,
-     "inicio": 1.51,
-     "fin": 1.67
+     "inicio": 1.53,
+     "fin": 1.703
     },
     {
      "texto": "frases.",
      "tramo": 0,
-     "inicio": 1.67,
-     "fin": 1.99
+     "inicio": 1.703,
+     "fin": 2.05
     },
     {
      "texto": "Tú",
      "tramo": 0,
      "inicio": 2.52,
-     "fin": 2.675
+     "fin": 2.635
     },
     {
      "texto": "dices",
      "tramo": 0,
-     "inicio": 2.675,
-     "fin": 2.985
+     "inicio": 2.635,
+     "fin": 2.865
     },
     {
      "texto": "si",
      "tramo": 0,
-     "inicio": 2.985,
-     "fin": 3.14
+     "inicio": 2.865,
+     "fin": 2.98
     },
     {
      "texto": "es",
      "tramo": 0,
-     "inicio": 3.14,
-     "fin": 3.295
+     "inicio": 2.98,
+     "fin": 3.095
     },
     {
      "texto": "mito",
      "tramo": 0,
-     "inicio": 3.295,
-     "fin": 3.605
+     "inicio": 3.095,
+     "fin": 3.325
     },
     {
      "texto": "o",
      "tramo": 0,
-     "inicio": 3.605,
-     "fin": 3.76
+     "inicio": 3.325,
+     "fin": 3.44
     },
     {
      "texto": "verdad.",
      "tramo": 0,
-     "inicio": 3.76,
-     "fin": 4.07
+     "inicio": 3.44,
+     "fin": 3.67
     }
    ],
-   "fin": 4.48
+   "fin": 4.08
   },
   {
    "tipo": "pregunta",
@@ -100,89 +100,89 @@
    "pausa": 3.2,
    "voz": "Una. Repetir mucho «fontanero en Sevilla» en tu web te sube en Google.",
    "frase": "Repetir mucho *«fontanero en Sevilla»* en tu web te sube en Google",
-   "inicio": 4.48,
-   "finVoz": 8.07,
+   "inicio": 4.08,
+   "finVoz": 7.61,
    "palabras": [
     {
      "texto": "Una.",
      "tramo": 1,
-     "inicio": 4.57,
-     "fin": 4.69
+     "inicio": 4.17,
+     "fin": 4.31
     },
     {
      "texto": "Repetir",
      "tramo": 1,
-     "inicio": 5.34,
-     "fin": 5.712
+     "inicio": 4.89,
+     "fin": 5.261
     },
     {
      "texto": "mucho",
      "tramo": 1,
-     "inicio": 5.712,
-     "fin": 5.96
+     "inicio": 5.261,
+     "fin": 5.508
     },
     {
      "texto": "«fontanero",
      "tramo": 1,
-     "inicio": 5.96,
-     "fin": 6.457
+     "inicio": 5.508,
+     "fin": 6.003
     },
     {
      "texto": "en",
      "tramo": 1,
-     "inicio": 6.457,
-     "fin": 6.581
+     "inicio": 6.003,
+     "fin": 6.126
     },
     {
      "texto": "Sevilla»",
      "tramo": 1,
-     "inicio": 6.581,
-     "fin": 6.953
+     "inicio": 6.126,
+     "fin": 6.497
     },
     {
      "texto": "en",
      "tramo": 1,
-     "inicio": 6.953,
-     "fin": 7.077
+     "inicio": 6.497,
+     "fin": 6.621
     },
     {
      "texto": "tu",
      "tramo": 1,
-     "inicio": 7.077,
-     "fin": 7.201
+     "inicio": 6.621,
+     "fin": 6.745
     },
     {
      "texto": "web",
      "tramo": 1,
-     "inicio": 7.201,
-     "fin": 7.325
+     "inicio": 6.745,
+     "fin": 6.868
     },
     {
      "texto": "te",
      "tramo": 1,
-     "inicio": 7.325,
-     "fin": 7.45
+     "inicio": 6.868,
+     "fin": 6.992
     },
     {
      "texto": "sube",
      "tramo": 1,
-     "inicio": 7.45,
-     "fin": 7.698
+     "inicio": 6.992,
+     "fin": 7.239
     },
     {
      "texto": "en",
      "tramo": 1,
-     "inicio": 7.698,
-     "fin": 7.822
+     "inicio": 7.239,
+     "fin": 7.363
     },
     {
      "texto": "Google.",
      "tramo": 1,
-     "inicio": 7.822,
-     "fin": 8.07
+     "inicio": 7.363,
+     "fin": 7.61
     }
    ],
-   "fin": 11.68
+   "fin": 11.219999999999999
   },
   {
    "tipo": "respuesta",
@@ -191,59 +191,59 @@
    "voz": "Mito. Google lo detecta y te puede bajar.",
    "porque": "Google lo detecta y te puede bajar.",
    "pausa": 0.9,
-   "inicio": 11.68,
-   "finVoz": 14.36,
+   "inicio": 11.219999999999999,
+   "finVoz": 13.989999999999998,
    "palabras": [
     {
      "texto": "Mito.",
      "tramo": 2,
-     "inicio": 11.77,
-     "fin": 12.05
+     "inicio": 11.309999999999999,
+     "fin": 11.59
     },
     {
      "texto": "Google",
      "tramo": 2,
-     "inicio": 12.469999999999999,
-     "fin": 12.785
+     "inicio": 12.260000000000002,
+     "fin": 12.548000000000002
     },
     {
      "texto": "lo",
      "tramo": 2,
-     "inicio": 12.785,
-     "fin": 12.942
+     "inicio": 12.548000000000002,
+     "fin": 12.692
     },
     {
      "texto": "detecta",
      "tramo": 2,
-     "inicio": 12.942,
-     "fin": 13.415
+     "inicio": 12.692,
+     "fin": 13.125
     },
     {
      "texto": "y",
      "tramo": 2,
-     "inicio": 13.415,
-     "fin": 13.573
+     "inicio": 13.125,
+     "fin": 13.269000000000002
     },
     {
      "texto": "te",
      "tramo": 2,
-     "inicio": 13.573,
-     "fin": 13.73
+     "inicio": 13.269000000000002,
+     "fin": 13.413
     },
     {
      "texto": "puede",
      "tramo": 2,
-     "inicio": 13.73,
-     "fin": 14.045000000000002
+     "inicio": 13.413,
+     "fin": 13.702000000000002
     },
     {
      "texto": "bajar.",
      "tramo": 2,
-     "inicio": 14.045000000000002,
-     "fin": 14.36
+     "inicio": 13.702000000000002,
+     "fin": 13.989999999999998
     }
    ],
-   "fin": 15.67
+   "fin": 15.299999999999999
   },
   {
    "tipo": "pregunta",
@@ -253,83 +253,83 @@
    "pausa": 3.2,
    "voz": "Dos. Google mira primero cómo se ve tu web en el móvil.",
    "frase": "Google mira primero cómo se ve tu web *en el móvil*",
-   "inicio": 15.67,
-   "finVoz": 19.38,
+   "inicio": 15.299999999999999,
+   "finVoz": 19.389999999999997,
    "palabras": [
     {
      "texto": "Dos.",
      "tramo": 3,
-     "inicio": 15.76,
-     "fin": 15.930000000000001
+     "inicio": 15.389999999999999,
+     "fin": 15.6
     },
     {
      "texto": "Google",
      "tramo": 3,
-     "inicio": 16.58,
-     "fin": 16.909
+     "inicio": 16.36,
+     "fin": 16.715999999999998
     },
     {
      "texto": "mira",
      "tramo": 3,
-     "inicio": 16.909,
-     "fin": 17.238999999999997
+     "inicio": 16.715999999999998,
+     "fin": 17.073
     },
     {
      "texto": "primero",
      "tramo": 3,
-     "inicio": 17.238999999999997,
-     "fin": 17.732999999999997
+     "inicio": 17.073,
+     "fin": 17.607999999999997
     },
     {
      "texto": "cómo",
      "tramo": 3,
-     "inicio": 17.732999999999997,
-     "fin": 18.061999999999998
+     "inicio": 17.607999999999997,
+     "fin": 17.964
     },
     {
      "texto": "se",
      "tramo": 3,
-     "inicio": 18.061999999999998,
-     "fin": 18.227
+     "inicio": 17.964,
+     "fin": 18.142
     },
     {
      "texto": "ve",
      "tramo": 3,
-     "inicio": 18.227,
-     "fin": 18.392
+     "inicio": 18.142,
+     "fin": 18.320999999999998
     },
     {
      "texto": "tu",
      "tramo": 3,
-     "inicio": 18.392,
-     "fin": 18.555999999999997
+     "inicio": 18.320999999999998,
+     "fin": 18.499
     },
     {
      "texto": "web",
      "tramo": 3,
-     "inicio": 18.555999999999997,
-     "fin": 18.721
+     "inicio": 18.499,
+     "fin": 18.677
     },
     {
      "texto": "en",
      "tramo": 3,
-     "inicio": 18.721,
-     "fin": 18.886
+     "inicio": 18.677,
+     "fin": 18.855
     },
     {
      "texto": "el",
      "tramo": 3,
-     "inicio": 18.886,
-     "fin": 19.051
+     "inicio": 18.855,
+     "fin": 19.034
     },
     {
      "texto": "móvil.",
      "tramo": 3,
-     "inicio": 19.051,
-     "fin": 19.38
+     "inicio": 19.034,
+     "fin": 19.389999999999997
     }
    ],
-   "fin": 22.99
+   "fin": 22.999999999999996
   },
   {
    "tipo": "respuesta",
@@ -338,59 +338,59 @@
    "voz": "Verdad. Usa la versión de móvil para colocarte.",
    "porque": "Usa la versión de móvil para colocarte.",
    "pausa": 0.9,
-   "inicio": 22.99,
-   "finVoz": 25.689999999999998,
+   "inicio": 22.999999999999996,
+   "finVoz": 25.83,
    "palabras": [
     {
      "texto": "Verdad.",
      "tramo": 4,
-     "inicio": 23.08,
-     "fin": 23.31
+     "inicio": 23.089999999999996,
+     "fin": 23.339999999999996
     },
     {
      "texto": "Usa",
      "tramo": 4,
-     "inicio": 23.97,
-     "fin": 24.215999999999998
+     "inicio": 24.109999999999996,
+     "fin": 24.355999999999998
     },
     {
      "texto": "la",
      "tramo": 4,
-     "inicio": 24.215999999999998,
-     "fin": 24.339
+     "inicio": 24.355999999999998,
+     "fin": 24.478999999999996
     },
     {
      "texto": "versión",
      "tramo": 4,
-     "inicio": 24.339,
-     "fin": 24.583999999999996
+     "inicio": 24.478999999999996,
+     "fin": 24.723999999999997
     },
     {
      "texto": "de",
      "tramo": 4,
-     "inicio": 24.583999999999996,
-     "fin": 24.706999999999997
+     "inicio": 24.723999999999997,
+     "fin": 24.846999999999998
     },
     {
      "texto": "móvil",
      "tramo": 4,
-     "inicio": 24.706999999999997,
-     "fin": 24.952999999999996
+     "inicio": 24.846999999999998,
+     "fin": 25.092999999999996
     },
     {
      "texto": "para",
      "tramo": 4,
-     "inicio": 24.952999999999996,
-     "fin": 25.198999999999998
+     "inicio": 25.092999999999996,
+     "fin": 25.339
     },
     {
      "texto": "colocarte.",
      "tramo": 4,
-     "inicio": 25.198999999999998,
-     "fin": 25.689999999999998
+     "inicio": 25.339,
+     "fin": 25.83
     }
    ],
-   "fin": 26.999999999999996
+   "fin": 27.139999999999997
   },
   {
    "tipo": "pregunta",
@@ -400,71 +400,71 @@
    "pausa": 3.2,
    "voz": "Tres. Para salir en Google, tu web necesita un blog.",
    "frase": "Para salir en Google, tu web *necesita un blog*",
-   "inicio": 26.999999999999996,
-   "finVoz": 30.119999999999997,
+   "inicio": 27.139999999999997,
+   "finVoz": 30.099999999999994,
    "palabras": [
     {
      "texto": "Tres.",
      "tramo": 5,
-     "inicio": 27.089999999999996,
-     "fin": 27.289999999999996
+     "inicio": 27.229999999999997,
+     "fin": 27.429999999999996
     },
     {
      "texto": "Para",
      "tramo": 5,
-     "inicio": 27.909999999999997,
-     "fin": 28.138999999999996
+     "inicio": 28.089999999999996,
+     "fin": 28.312999999999995
     },
     {
      "texto": "salir",
      "tramo": 5,
-     "inicio": 28.138999999999996,
-     "fin": 28.366999999999997
+     "inicio": 28.312999999999995,
+     "fin": 28.535999999999994
     },
     {
      "texto": "en",
      "tramo": 5,
-     "inicio": 28.366999999999997,
-     "fin": 28.480999999999995
+     "inicio": 28.535999999999994,
+     "fin": 28.646999999999995
     },
     {
      "texto": "Google,",
      "tramo": 5,
-     "inicio": 28.480999999999995,
-     "fin": 28.709999999999997
+     "inicio": 28.646999999999995,
+     "fin": 28.869999999999997
     },
     {
      "texto": "tu",
      "tramo": 5,
-     "inicio": 28.939999999999994,
-     "fin": 29.086999999999996
+     "inicio": 29.099999999999994,
+     "fin": 29.224999999999994
     },
     {
      "texto": "web",
      "tramo": 5,
-     "inicio": 29.086999999999996,
-     "fin": 29.234999999999996
+     "inicio": 29.224999999999994,
+     "fin": 29.349999999999994
     },
     {
      "texto": "necesita",
      "tramo": 5,
-     "inicio": 29.234999999999996,
-     "fin": 29.824999999999996
+     "inicio": 29.349999999999994,
+     "fin": 29.849999999999994
     },
     {
      "texto": "un",
      "tramo": 5,
-     "inicio": 29.824999999999996,
-     "fin": 29.972999999999995
+     "inicio": 29.849999999999994,
+     "fin": 29.974999999999994
     },
     {
      "texto": "blog.",
      "tramo": 5,
-     "inicio": 29.972999999999995,
-     "fin": 30.119999999999997
+     "inicio": 29.974999999999994,
+     "fin": 30.099999999999994
     }
    ],
-   "fin": 33.73
+   "fin": 33.709999999999994
   },
   {
    "tipo": "respuesta",
@@ -473,213 +473,213 @@
    "voz": "Mito. Una web de negocio local puede salir bien sin blog.",
    "porque": "Una web de negocio local puede salir bien sin blog.",
    "pausa": 0.9,
-   "inicio": 33.73,
-   "finVoz": 36.95,
+   "inicio": 33.709999999999994,
+   "finVoz": 36.75,
    "palabras": [
     {
      "texto": "Mito.",
      "tramo": 6,
-     "inicio": 33.82,
-     "fin": 34.089999999999996
+     "inicio": 33.8,
+     "fin": 34.04
     },
     {
      "texto": "Una",
      "tramo": 6,
-     "inicio": 34.629999999999995,
-     "fin": 34.919999999999995
+     "inicio": 34.73,
+     "fin": 34.982
     },
     {
      "texto": "web",
      "tramo": 6,
-     "inicio": 34.919999999999995,
-     "fin": 35.065
+     "inicio": 34.982,
+     "fin": 35.108999999999995
     },
     {
      "texto": "de",
      "tramo": 6,
-     "inicio": 35.065,
-     "fin": 35.21
+     "inicio": 35.108999999999995,
+     "fin": 35.235
     },
     {
      "texto": "negocio",
      "tramo": 6,
-     "inicio": 35.21,
-     "fin": 35.645
+     "inicio": 35.235,
+     "fin": 35.614
     },
     {
      "texto": "local",
      "tramo": 6,
-     "inicio": 35.645,
-     "fin": 35.935
+     "inicio": 35.614,
+     "fin": 35.866
     },
     {
      "texto": "puede",
      "tramo": 6,
-     "inicio": 35.935,
-     "fin": 36.225
+     "inicio": 35.866,
+     "fin": 36.119
     },
     {
      "texto": "salir",
      "tramo": 6,
-     "inicio": 36.225,
-     "fin": 36.515
+     "inicio": 36.119,
+     "fin": 36.371
     },
     {
      "texto": "bien",
      "tramo": 6,
-     "inicio": 36.515,
-     "fin": 36.660000000000004
+     "inicio": 36.371,
+     "fin": 36.498
     },
     {
      "texto": "sin",
      "tramo": 6,
-     "inicio": 36.660000000000004,
-     "fin": 36.805
+     "inicio": 36.498,
+     "fin": 36.624
     },
     {
      "texto": "blog.",
      "tramo": 6,
-     "inicio": 36.805,
-     "fin": 36.95
+     "inicio": 36.624,
+     "fin": 36.75
     }
    ],
-   "fin": 38.26
+   "fin": 38.06
   },
   {
    "tipo": "resultado",
    "voz": "¿Cuántas has acertado? Dímelo en los comentarios.",
-   "inicio": 38.26,
-   "finVoz": 40.720000000000006,
+   "inicio": 38.06,
+   "finVoz": 40.690000000000005,
    "palabras": [
     {
      "texto": "¿Cuántas",
      "tramo": 7,
-     "inicio": 38.35,
-     "fin": 38.583999999999996
+     "inicio": 38.15,
+     "fin": 38.387
     },
     {
      "texto": "has",
      "tramo": 7,
-     "inicio": 38.583999999999996,
-     "fin": 38.701
+     "inicio": 38.387,
+     "fin": 38.506
     },
     {
      "texto": "acertado?",
      "tramo": 7,
-     "inicio": 38.701,
-     "fin": 39.17
+     "inicio": 38.506,
+     "fin": 38.98
     },
     {
      "texto": "Dímelo",
      "tramo": 7,
-     "inicio": 39.61,
-     "fin": 39.98
+     "inicio": 39.53,
+     "fin": 39.917
     },
     {
      "texto": "en",
      "tramo": 7,
-     "inicio": 39.98,
-     "fin": 40.103
+     "inicio": 39.917,
+     "fin": 40.046
     },
     {
      "texto": "los",
      "tramo": 7,
-     "inicio": 40.103,
-     "fin": 40.227000000000004
+     "inicio": 40.046,
+     "fin": 40.174
     },
     {
      "texto": "comentarios.",
      "tramo": 7,
-     "inicio": 40.227000000000004,
-     "fin": 40.720000000000006
+     "inicio": 40.174,
+     "fin": 40.690000000000005
     }
    ],
-   "fin": 41.13
+   "fin": 41.1
   },
   {
    "tipo": "cta",
    "voz": "Y si quieres que tu web salga en Google, escríbeme por WhatsApp.",
    "frase": "¿Tu web sale en *Google*?",
-   "inicio": 41.13,
-   "finVoz": 43.71,
+   "inicio": 41.1,
+   "finVoz": 43.93,
    "palabras": [
     {
      "texto": "Y",
      "tramo": 8,
-     "inicio": 41.220000000000006,
-     "fin": 41.332
+     "inicio": 41.190000000000005,
+     "fin": 41.307
     },
     {
      "texto": "si",
      "tramo": 8,
-     "inicio": 41.332,
-     "fin": 41.443000000000005
+     "inicio": 41.307,
+     "fin": 41.425000000000004
     },
     {
      "texto": "quieres",
      "tramo": 8,
-     "inicio": 41.443000000000005,
-     "fin": 41.667
+     "inicio": 41.425000000000004,
+     "fin": 41.660000000000004
     },
     {
      "texto": "que",
      "tramo": 8,
-     "inicio": 41.667,
-     "fin": 41.778000000000006
+     "inicio": 41.660000000000004,
+     "fin": 41.777
     },
     {
      "texto": "tu",
      "tramo": 8,
-     "inicio": 41.778000000000006,
-     "fin": 41.89
+     "inicio": 41.777,
+     "fin": 41.895
     },
     {
      "texto": "web",
      "tramo": 8,
-     "inicio": 41.89,
-     "fin": 42.002
+     "inicio": 41.895,
+     "fin": 42.012
     },
     {
      "texto": "salga",
      "tramo": 8,
-     "inicio": 42.002,
-     "fin": 42.225
+     "inicio": 42.012,
+     "fin": 42.247
     },
     {
      "texto": "en",
      "tramo": 8,
-     "inicio": 42.225,
-     "fin": 42.337
+     "inicio": 42.247,
+     "fin": 42.365
     },
     {
      "texto": "Google,",
      "tramo": 8,
-     "inicio": 42.337,
-     "fin": 42.56
+     "inicio": 42.365,
+     "fin": 42.6
     },
     {
      "texto": "escríbeme",
      "tramo": 8,
-     "inicio": 42.78,
-     "fin": 43.311
+     "inicio": 42.900000000000006,
+     "fin": 43.489000000000004
     },
     {
      "texto": "por",
      "tramo": 8,
-     "inicio": 43.311,
-     "fin": 43.444
+     "inicio": 43.489000000000004,
+     "fin": 43.636
     },
     {
      "texto": "WhatsApp.",
      "tramo": 8,
-     "inicio": 43.444,
-     "fin": 43.71
+     "inicio": 43.636,
+     "fin": 43.93
     }
    ],
-   "fin": 44.2
+   "fin": 44.42
   }
  ],
  "carpeta": "mito_seo_es",
- "duracion": 47.0,
+ "duracion": 47.22,
  "audio": "mito_seo_es/voz.wav"
 }

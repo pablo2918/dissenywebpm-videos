@@ -1,7 +1,6 @@
 import React from "react";
 import { Easing, interpolate, Sequence, useCurrentFrame, useVideoConfig } from "remotion";
-import { Audio } from "@remotion/media";
-import { staticFile } from "remotion";
+import { Sfx } from "./Sfx";
 import { AMARILLO, AZUL, BLANCO, COLORES, FUENTE } from "./marca";
 
 /** Rotulo grande arriba (la palabra clave que se esta diciendo), con «pop». */
@@ -37,7 +36,7 @@ export const Rotulos: React.FC<{ lista: { t: number; texto: string; color?: stri
         return (
           <Sequence key={i} from={Math.round(r.t * fps)} durationInFrames={Math.max(1, Math.round((fin - r.t) * fps))} layout="none">
             <Rotulo texto={r.texto} color={r.color} y={y} giro={i % 2 ? 3 : -3} />
-            <Audio src={staticFile("sfx/pop.wav")} volume={0.55} />
+            <Sfx nombre="pop" volumen={0.55} />
           </Sequence>
         );
       })}

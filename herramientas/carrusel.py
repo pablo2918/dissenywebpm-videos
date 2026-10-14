@@ -237,7 +237,45 @@ PALETAS = [((255, 214, 170), (240, 140, 90)), ((190, 220, 255), (90, 140, 220)),
            ((235, 225, 255), (130, 100, 210)), ((255, 236, 170), (220, 160, 40))]
 
 
+# Fotos reales por tema (fotos/<sector>/, ver herramientas/banco_fotos.py).
+# Si un tema no tiene sector o no hay fotos, se dibuja la ilustracion de siempre.
+SECTOR = {
+    "09_proceso": "oficina", "12_clinica": "dentista", "13_reformas": "reformas", "14_rural": "rural", "15_gimnasio": "gimnasio",
+    "17_asesoria": "oficina", "18_estetica": "estetica", "23_busca": "peluqueria", "28_bienvenidos": "restaurante",
+    "29_movil": "fisio", "30_taller": "taller", "31_tienda": "ferreteria", "32_turistas": "restaurante",
+    "33_veterinario": "veterinario", "34_academia": "academia", "35_inmobiliaria": "inmobiliaria",
+    "36_fotografo": "fotografo", "37_autoescuela": "autoescuela", "38_floristeria": "floristeria",
+    "39_psicologo": "psicologo", "40_pasteleria": "pasteleria", "41_abogado": "abogado", "42_canina": "perros",
+    "43_resena_mala": "restaurante", "45_dominio": "peluqueria", "46_datos": "taller", "48_web_nueva": "peluqueria",
+    "49_bilingue": "ferreteria", "53_mayores": "farmacia", "54_presupuesto": "reformas", "55_web_y_ficha": "peluqueria",
+    "58_oferta": "estetica", "59_preguntas": "taller", "60_boca": "fontaneria",
+}
+BANCO = []
+
+
+def usa_banco(tema):
+    """Carga las fotos del sector del tema (o del cafe/tienda generico)."""
+    BANCO.clear()
+    carpeta = RAIZ / "fotos" / SECTOR.get(tema, "cafe")
+    BANCO.extend(sorted(carpeta.glob("*.jpg")) if carpeta.exists() else [])
+
+
 def foto(w, h, i, r=14):
+    """Hueco de foto: una foto real del sector del tema, recortada al hueco."""
+    if BANCO:
+        W2, H2 = int(w * S), int(h * S)
+        src = Image.open(BANCO[i % len(BANCO)]).convert("RGB")
+        k = max(W2 / src.width, H2 / src.height)
+        src = src.resize((max(W2, int(src.width * k + 0.5)), max(H2, int(src.height * k + 0.5))), Image.LANCZOS)
+        x, y = (src.width - W2) // 2, (src.height - H2) // 2
+        im = src.crop((x, y, x + W2, y + H2))
+        m = Image.new("L", (W2, H2), 0)
+        ImageDraw.Draw(m).rounded_rectangle([0, 0, W2 - 1, H2 - 1], radius=int(r * S), fill=255)
+        return im, m
+    return foto_dibujada(w, h, i, r)
+
+
+def foto_dibujada(w, h, i, r=14):
     """Hueco de foto ilustrado: degradado y formas. Nunca un gris plano."""
     a, b = PALETAS[i % len(PALETAS)]
     W2, H2 = int(w * S), int(h * S)
@@ -471,14 +509,42 @@ def m_movil_boton(base, d, box, m, ctx):
     senala(d, caja, 30)
 
 
+def empeora(im, txt):
+    """La misma foto, «antes»: segun lo que diga la etiqueta (flash, sucio,
+    filtro...) o, si no, apagada y en gris."""
+    from PIL import ImageEnhance
+    t = txt.lower()
+    if "flash" in t:
+        # flash: centro quemado y fondo negro
+        im = ImageEnhance.Contrast(ImageEnhance.Brightness(im).enhance(1.9)).enhance(1.6)
+        w, h = im.size
+        luz = Image.new("L", im.size, 0)
+        ImageDraw.Draw(luz).ellipse((w * 0.25, h * 0.2, w * 0.75, h * 0.7), fill=200)
+        luz = luz.filter(ImageFilter.GaussianBlur(w * 0.12))
+        im = Image.composite(Image.new("RGB", im.size, (255, 255, 250)), im, luz)
+        borde = Image.new("L", im.size, 255)
+        ImageDraw.Draw(borde).ellipse((-w * 0.1, -h * 0.1, w * 1.1, h * 1.1), fill=0)
+        return Image.composite(Image.new("RGB", im.size, (10, 10, 10)), im, borde.filter(ImageFilter.GaussianBlur(w * 0.08)))
+    if "limpi" in t:
+        return im.filter(ImageFilter.GaussianBlur(5 * S))
+    if "filtro" in t:
+        im = ImageEnhance.Color(im).enhance(2.3)
+        return Image.blend(im, Image.new("RGB", im.size, (255, 140, 40)), 0.25)
+    if "recog" in t:
+        return ImageEnhance.Brightness(ImageEnhance.Color(im).enhance(0.6)).enhance(0.75)
+    # por defecto: vieja y apagada (gris amarillento, oscura, sin contraste)
+    im = Image.blend(im.convert("L").convert("RGB"), Image.new("RGB", im.size, (150, 125, 85)), 0.3)
+    return ImageEnhance.Contrast(ImageEnhance.Brightness(im).enhance(0.72)).enhance(0.75)
+
+
 def m_antes_despues(base, d, box, m, ctx):
     x0, y0, x1, y1 = box
     mid = (x0 + x1) / 2
     h = y1 - y0 - 70
-    im1, msk = foto(mid - x0 - 6, h, 0, 18)
-    gris = im1.convert("L").convert("RGB")
-    base.paste(gris, (int(x0 * S), int(y0 * S)), msk)
-    pega_foto(base, (mid + 6, y0), x1 - mid - 6, h, 2, 18)
+    i = m.get("foto", 2)
+    im1, msk = foto(mid - x0 - 6, h, i, 18)
+    base.paste(empeora(im1, m["antes"]), (int(x0 * S), int(y0 * S)), msk)
+    pega_foto(base, (mid + 6, y0), x1 - mid - 6, h, i, 18)
     for x, txt, fondo, color in ((x0, m["antes"], AZUL, BLANCO), (mid + 6, m["despues"], AMARILLO, AZUL)):
         ft = f("Bold", 24)
         tw = d.tl(txt, ft)
@@ -770,21 +836,52 @@ def dibuja_maqueta(base, box, m, ctx, entero=False):
 
 # ---------------------------------------------------------------- laminas
 
+def etiqueta(c):
+    # Pablo trabaja en toda Espana: fuera el «· Girona» de las etiquetas viejas
+    return re.sub(r"\s*·\s*Girona\s*$", "", c["etiqueta"]).upper()
+
+
 def portada(c):
+    """Portada: pastilla, titulo grande y, debajo, el problema dibujado (la
+    maqueta del gancho) asomando por abajo, girada, con una flecha de deslizar."""
     im = lienzo(AZUL)
     d = D(im)
     ft = f("SemiBold", 26)
-    d.text((MARGEN, 150), c["etiqueta"].upper(), ft, GRIS_CLARO, anchor="lm")
-    font, lin, tam = ajusta_titulo(c["portada"], "Black", 132, 70, W - 2 * MARGEN, 700, 5, d, interlinea=1.04)
-    alto = len(lin) * tam * 1.04
+    d.text((MARGEN, 130), etiqueta(c), ft, GRIS_CLARO, anchor="lm")
     fp = f("ExtraBold", 34)
     pw = d.tl(c["pastilla"].upper(), fp) + 64
-    bloque = 70 + 50 + alto
-    y = (H - bloque) / 2 + 10
+    y = 200
     d.rect((MARGEN, y, MARGEN + pw, y + 70), fill=AMARILLO, r=35)
     d.text((MARGEN + 32, y + 36), c["pastilla"].upper(), fp, AZUL, anchor="lm")
-    escribe_titulo(d, MARGEN, y + 120, font, lin, tam, BLANCO, interlinea=1.04)
-    d.text((MARGEN, 1222), c["desliza"], f("SemiBold", 40), GRIS_CLARO, anchor="lm")
+    font, lin, tam = ajusta_titulo(c["portada"], "Black", 120, 64, W - 2 * MARGEN, 400, 4, d, interlinea=1.04)
+    y_fin = escribe_titulo(d, MARGEN, y + 112, font, lin, tam, BLANCO, interlinea=1.04)
+    m = (c.get("gancho") or {}).get("maqueta")
+    if m:
+        # la tarjeta mide siempre lo mismo y se corta por abajo: «hay mas, desliza»
+        movil = m["tipo"] == "movil"
+        cw, ch = (840, 900) if m["tipo"] in ("movil", "chat", "ficha") else (840, 620)
+        sub = Image.new("RGB", (int(cw * S), int(ch * S)), BLANCO)
+        dibuja_maqueta(sub, (40, 40, cw - 40, ch - 40), m, c, entero=movil)
+        msk = Image.new("L", sub.size, 0)
+        ImageDraw.Draw(msk).rounded_rectangle([0, 0, sub.width - 1, sub.height - 1], radius=int(30 * S), fill=255)
+        sub = sub.convert("RGBA")
+        sub.putalpha(msk)
+        sub = sub.rotate(-3, resample=Image.BICUBIC, expand=True)
+        top = max(y_fin + 70, 640)
+        x = (W - cw) / 2 + 20
+        sombra = Image.new("L", im.size, 0)
+        sombra.paste(sub.getchannel("A").point(lambda a: a * 0.55), (int(x * S), int((top + 24) * S)))
+        sombra = sombra.filter(ImageFilter.GaussianBlur(26 * S))
+        im.paste(Image.new("RGB", im.size, (0, 0, 0)), (0, 0), sombra)
+        im.paste(sub, (int(x * S), int(top * S)), sub)
+        d = D(im)
+    # flecha de deslizar
+    cx, cy, r = W - MARGEN - 46, H - 120, 58
+    d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=AMARILLO)
+    d.line((cx - 22, cy, cx + 20, cy), AZUL, 9)
+    d.line((cx + 2, cy - 20, cx + 22, cy, cx + 2, cy + 20), AZUL, 9)
+    if not m:
+        d.text((MARGEN, H - 120), c["desliza"], f("SemiBold", 40), GRIS_CLARO, anchor="lm")
     return im
 
 
@@ -803,14 +900,14 @@ def contenido(c, n, lam):
     m = lam["maqueta"]
     dibuja_maqueta(im, (caja[0] + 46, caja[1] + 46, caja[2] - 46, caja[3] - 46), m, c)
     d = D(im)
-    fnota = f("Bold", 30)
+    fnota = f("Bold", 38)
     lineas = equilibra(lam["nota"], fnota, W - 2 * 100 - 64, d)
-    alto = 40 + 40 * len(lineas)
-    d.rect((100, 1098, W - 100, 1098 + alto), fill=AMARILLO, r=24)
-    ly = 1098 + 20 + 20
+    alto = 44 + 50 * len(lineas)
+    d.rect((100, 1096, W - 100, 1096 + alto), fill=AMARILLO, r=26)
+    ly = 1096 + 22 + 25
     for l in lineas:
         d.text((132, ly), l, fnota, AZUL, anchor="lm")
-        ly += 40
+        ly += 50
     return im
 
 
@@ -868,6 +965,7 @@ def main():
     ruta = Path(sys.argv[1])
     c = json.loads(ruta.read_text(encoding="utf-8"))
     tema, idioma = c["id"].rsplit("_", 1)
+    usa_banco(tema)
     base = RAIZ / "salida" / tema / idioma
     dest = base / "carrusel"
     guarda(portada(c), dest / "1_portada.png")

@@ -10,76 +10,76 @@
    "tipo": "gancho",
    "voz": "¿Por qué mi competencia sale antes que yo en Google Maps?",
    "inicio": 0.0,
-   "finVoz": 2.48,
+   "finVoz": 2.45,
    "palabras": [
     {
      "texto": "¿Por",
      "tramo": 0,
      "inicio": 0.09,
-     "fin": 0.231
+     "fin": 0.229
     },
     {
      "texto": "qué",
      "tramo": 0,
-     "inicio": 0.231,
-     "fin": 0.371
+     "inicio": 0.229,
+     "fin": 0.368
     },
     {
      "texto": "mi",
      "tramo": 0,
-     "inicio": 0.371,
-     "fin": 0.512
+     "inicio": 0.368,
+     "fin": 0.506
     },
     {
      "texto": "competencia",
      "tramo": 0,
-     "inicio": 0.512,
-     "fin": 1.074
+     "inicio": 0.506,
+     "fin": 1.062
     },
     {
      "texto": "sale",
      "tramo": 0,
-     "inicio": 1.074,
-     "fin": 1.355
+     "inicio": 1.062,
+     "fin": 1.339
     },
     {
      "texto": "antes",
      "tramo": 0,
-     "inicio": 1.355,
-     "fin": 1.636
+     "inicio": 1.339,
+     "fin": 1.617
     },
     {
      "texto": "que",
      "tramo": 0,
-     "inicio": 1.636,
-     "fin": 1.777
+     "inicio": 1.617,
+     "fin": 1.756
     },
     {
      "texto": "yo",
      "tramo": 0,
-     "inicio": 1.777,
-     "fin": 1.918
+     "inicio": 1.756,
+     "fin": 1.895
     },
     {
      "texto": "en",
      "tramo": 0,
-     "inicio": 1.918,
-     "fin": 2.058
+     "inicio": 1.895,
+     "fin": 2.034
     },
     {
      "texto": "Google",
      "tramo": 0,
-     "inicio": 2.058,
-     "fin": 2.339
+     "inicio": 2.034,
+     "fin": 2.311
     },
     {
      "texto": "Maps?",
      "tramo": 0,
-     "inicio": 2.339,
-     "fin": 2.48
+     "inicio": 2.311,
+     "fin": 2.45
     }
    ],
-   "fin": 2.89
+   "fin": 2.86
   },
   {
    "tipo": "tres",
@@ -90,71 +90,71 @@
      "texto": "3 COSAS"
     }
    ],
-   "inicio": 2.89,
-   "finVoz": 5.89,
+   "inicio": 2.86,
+   "finVoz": 5.924,
    "palabras": [
     {
      "texto": "Google",
      "tramo": 1,
-     "inicio": 2.98,
-     "fin": 3.333
+     "inicio": 2.95,
+     "fin": 3.303
     },
     {
      "texto": "lo",
      "tramo": 1,
-     "inicio": 3.333,
-     "fin": 3.51
+     "inicio": 3.303,
+     "fin": 3.48
     },
     {
      "texto": "dice",
      "tramo": 1,
-     "inicio": 3.51,
-     "fin": 3.863
+     "inicio": 3.48,
+     "fin": 3.833
     },
     {
      "texto": "en",
      "tramo": 1,
-     "inicio": 3.863,
-     "fin": 4.04
+     "inicio": 3.833,
+     "fin": 4.01
     },
     {
      "texto": "su",
      "tramo": 1,
-     "inicio": 4.04,
-     "fin": 4.217
+     "inicio": 4.01,
+     "fin": 4.187
     },
     {
      "texto": "propia",
      "tramo": 1,
-     "inicio": 4.217,
-     "fin": 4.57
+     "inicio": 4.187,
+     "fin": 4.54
     },
     {
      "texto": "ayuda:",
      "tramo": 1,
-     "inicio": 4.57,
-     "fin": 5.1
+     "inicio": 4.54,
+     "fin": 5.07
     },
     {
      "texto": "mira",
      "tramo": 1,
-     "inicio": 5.46,
-     "fin": 5.632
+     "inicio": 5.45,
+     "fin": 5.64
     },
     {
      "texto": "tres",
      "tramo": 1,
-     "inicio": 5.632,
-     "fin": 5.718
+     "inicio": 5.64,
+     "fin": 5.734
     },
     {
      "texto": "cosas.",
      "tramo": 1,
-     "inicio": 5.718,
-     "fin": 5.89
+     "inicio": 5.734,
+     "fin": 5.924
     }
    ],
-   "fin": 6.3
+   "fin": 6.334
   },
   {
    "tipo": "relevancia",
@@ -169,101 +169,101 @@
      "texto": "LA CATEGORÍA"
     }
    ],
-   "inicio": 6.3,
-   "finVoz": 11.27,
+   "inicio": 6.334,
+   "finVoz": 10.664,
    "palabras": [
     {
      "texto": "Una,",
      "tramo": 2,
-     "inicio": 6.39,
-     "fin": 6.55
+     "inicio": 6.424,
+     "fin": 6.634
     },
     {
      "texto": "relevancia:",
      "tramo": 2,
-     "inicio": 6.76,
-     "fin": 7.39
+     "inicio": 6.784,
+     "fin": 8.604
     },
     {
      "texto": "que",
      "tramo": 2,
-     "inicio": 7.67,
-     "fin": 7.815
+     "inicio": 8.704,
+     "fin": 8.752
     },
     {
      "texto": "tu",
      "tramo": 2,
-     "inicio": 7.815,
-     "fin": 7.959
+     "inicio": 8.752,
+     "fin": 8.8
     },
     {
      "texto": "ficha",
      "tramo": 2,
-     "inicio": 7.959,
-     "fin": 8.249
+     "inicio": 8.8,
+     "fin": 8.896
     },
     {
      "texto": "diga",
      "tramo": 2,
-     "inicio": 8.249,
-     "fin": 8.538
+     "inicio": 8.896,
+     "fin": 8.992
     },
     {
      "texto": "exactamente",
      "tramo": 2,
-     "inicio": 8.538,
-     "fin": 9.261
+     "inicio": 8.992,
+     "fin": 9.232
     },
     {
      "texto": "lo",
      "tramo": 2,
-     "inicio": 9.261,
-     "fin": 9.406
+     "inicio": 9.232,
+     "fin": 9.28
     },
     {
      "texto": "que",
      "tramo": 2,
-     "inicio": 9.406,
-     "fin": 9.551
+     "inicio": 9.28,
+     "fin": 9.328
     },
     {
      "texto": "haces,",
      "tramo": 2,
-     "inicio": 9.551,
-     "fin": 9.84
+     "inicio": 9.328,
+     "fin": 9.424
     },
     {
      "texto": "con",
      "tramo": 2,
-     "inicio": 10.12,
-     "fin": 10.248
+     "inicio": 9.574,
+     "fin": 9.695
     },
     {
      "texto": "la",
      "tramo": 2,
-     "inicio": 10.248,
-     "fin": 10.376
+     "inicio": 9.695,
+     "fin": 9.816
     },
     {
      "texto": "categoría",
      "tramo": 2,
-     "inicio": 10.376,
-     "fin": 10.887
+     "inicio": 9.816,
+     "fin": 10.3
     },
     {
      "texto": "bien",
      "tramo": 2,
-     "inicio": 10.887,
-     "fin": 11.014
+     "inicio": 10.3,
+     "fin": 10.422
     },
     {
      "texto": "puesta.",
      "tramo": 2,
-     "inicio": 11.014,
-     "fin": 11.27
+     "inicio": 10.422,
+     "fin": 10.664
     }
    ],
-   "fin": 11.68
+   "fin": 11.074
   },
   {
    "tipo": "distancia",
@@ -279,83 +279,83 @@
      "color": "rojo"
     }
    ],
-   "inicio": 11.68,
-   "finVoz": 16.72,
+   "inicio": 11.074,
+   "finVoz": 15.374,
    "palabras": [
     {
      "texto": "Dos,",
      "tramo": 3,
-     "inicio": 11.77,
-     "fin": 12.09
+     "inicio": 11.164,
+     "fin": 11.454
     },
     {
      "texto": "distancia:",
      "tramo": 3,
-     "inicio": 12.69,
-     "fin": 12.93
+     "inicio": 11.824,
+     "fin": 12.494
     },
     {
      "texto": "dónde",
      "tramo": 3,
-     "inicio": 13.02,
-     "fin": 13.62
+     "inicio": 12.724,
+     "fin": 13.01
     },
     {
      "texto": "está",
      "tramo": 3,
-     "inicio": 13.62,
-     "fin": 13.92
+     "inicio": 13.01,
+     "fin": 13.152
     },
     {
      "texto": "el",
      "tramo": 3,
-     "inicio": 13.92,
-     "fin": 14.22
+     "inicio": 13.152,
+     "fin": 13.295
     },
     {
      "texto": "que",
      "tramo": 3,
-     "inicio": 14.22,
-     "fin": 14.52
+     "inicio": 13.295,
+     "fin": 13.438
     },
     {
      "texto": "busca.",
      "tramo": 3,
-     "inicio": 14.52,
-     "fin": 15.12
+     "inicio": 13.438,
+     "fin": 13.724
     },
     {
      "texto": "Eso",
      "tramo": 3,
-     "inicio": 15.92,
-     "fin": 16.12
+     "inicio": 14.394,
+     "fin": 14.639
     },
     {
      "texto": "no",
      "tramo": 3,
-     "inicio": 16.12,
-     "fin": 16.22
+     "inicio": 14.639,
+     "fin": 14.761
     },
     {
      "texto": "lo",
      "tramo": 3,
-     "inicio": 16.22,
-     "fin": 16.32
+     "inicio": 14.761,
+     "fin": 14.884
     },
     {
      "texto": "puedes",
      "tramo": 3,
-     "inicio": 16.32,
-     "fin": 16.52
+     "inicio": 14.884,
+     "fin": 15.129
     },
     {
      "texto": "cambiar.",
      "tramo": 3,
-     "inicio": 16.52,
-     "fin": 16.72
+     "inicio": 15.129,
+     "fin": 15.374
     }
    ],
-   "fin": 17.13
+   "fin": 15.784
   },
   {
    "tipo": "prominencia",
@@ -379,113 +379,113 @@
      "color": "verde"
     }
    ],
-   "inicio": 17.13,
-   "finVoz": 22.94,
+   "inicio": 15.784,
+   "finVoz": 21.954,
    "palabras": [
     {
      "texto": "Tres,",
      "tramo": 4,
-     "inicio": 17.22,
-     "fin": 17.4
+     "inicio": 15.874,
+     "fin": 16.104
     },
     {
      "texto": "prominencia:",
      "tramo": 4,
-     "inicio": 17.78,
-     "fin": 18.34
+     "inicio": 16.444,
+     "fin": 17.034
     },
     {
      "texto": "cuánto",
      "tramo": 4,
-     "inicio": 18.81,
-     "fin": 19.05
+     "inicio": 17.594,
+     "fin": 17.871
     },
     {
      "texto": "se",
      "tramo": 4,
-     "inicio": 19.05,
-     "fin": 19.17
+     "inicio": 17.871,
+     "fin": 18.01
     },
     {
      "texto": "habla",
      "tramo": 4,
-     "inicio": 19.17,
-     "fin": 19.41
+     "inicio": 18.01,
+     "fin": 18.287
     },
     {
      "texto": "de",
      "tramo": 4,
-     "inicio": 19.41,
-     "fin": 19.53
+     "inicio": 18.287,
+     "fin": 18.426
     },
     {
      "texto": "ti.",
      "tramo": 4,
-     "inicio": 19.53,
-     "fin": 19.65
+     "inicio": 18.426,
+     "fin": 18.564
     },
     {
      "texto": "Reseñas,",
      "tramo": 4,
-     "inicio": 20.2,
-     "fin": 20.8
+     "inicio": 19.164,
+     "fin": 19.734
     },
     {
      "texto": "fotos,",
      "tramo": 4,
-     "inicio": 21.01,
-     "fin": 21.31
+     "inicio": 19.934,
+     "fin": 20.264
     },
     {
      "texto": "y",
      "tramo": 4,
-     "inicio": 21.42,
-     "fin": 21.558
+     "inicio": 20.504,
+     "fin": 20.636
     },
     {
      "texto": "una",
      "tramo": 4,
-     "inicio": 21.558,
-     "fin": 21.835
+     "inicio": 20.636,
+     "fin": 20.9
     },
     {
      "texto": "web",
      "tramo": 4,
-     "inicio": 21.835,
-     "fin": 21.973
+     "inicio": 20.9,
+     "fin": 21.032
     },
     {
      "texto": "que",
      "tramo": 4,
-     "inicio": 21.973,
-     "fin": 22.111
+     "inicio": 21.032,
+     "fin": 21.163
     },
     {
      "texto": "cuente",
      "tramo": 4,
-     "inicio": 22.111,
-     "fin": 22.387
+     "inicio": 21.163,
+     "fin": 21.427
     },
     {
      "texto": "lo",
      "tramo": 4,
-     "inicio": 22.387,
-     "fin": 22.525
+     "inicio": 21.427,
+     "fin": 21.559
     },
     {
      "texto": "que",
      "tramo": 4,
-     "inicio": 22.525,
-     "fin": 22.664
+     "inicio": 21.559,
+     "fin": 21.691
     },
     {
      "texto": "haces.",
      "tramo": 4,
-     "inicio": 22.664,
-     "fin": 22.94
+     "inicio": 21.691,
+     "fin": 21.954
     }
    ],
-   "fin": 23.35
+   "fin": 22.364
   },
   {
    "tipo": "resumen",
@@ -497,210 +497,210 @@
      "color": "verde"
     }
    ],
-   "inicio": 23.35,
-   "finVoz": 27.9,
+   "inicio": 22.364,
+   "finVoz": 26.954,
    "palabras": [
     {
      "texto": "Si",
      "tramo": 5,
-     "inicio": 23.44,
-     "fin": 23.554
+     "inicio": 22.454,
+     "fin": 22.564
     },
     {
      "texto": "tu",
      "tramo": 5,
-     "inicio": 23.554,
-     "fin": 23.669
+     "inicio": 22.564,
+     "fin": 22.674
     },
     {
      "texto": "competencia",
      "tramo": 5,
-     "inicio": 23.669,
-     "fin": 24.127
+     "inicio": 22.674,
+     "fin": 23.114
     },
     {
      "texto": "te",
      "tramo": 5,
-     "inicio": 24.127,
-     "fin": 24.241
+     "inicio": 23.114,
+     "fin": 23.224
     },
     {
      "texto": "gana,",
      "tramo": 5,
-     "inicio": 24.241,
-     "fin": 24.47
+     "inicio": 23.224,
+     "fin": 23.444
     },
     {
      "texto": "casi",
      "tramo": 5,
-     "inicio": 24.78,
-     "fin": 25.026
+     "inicio": 23.754,
+     "fin": 23.997
     },
     {
      "texto": "siempre",
      "tramo": 5,
-     "inicio": 25.026,
-     "fin": 25.272
+     "inicio": 23.997,
+     "fin": 24.24
     },
     {
      "texto": "es",
      "tramo": 5,
-     "inicio": 25.272,
-     "fin": 25.395
+     "inicio": 24.24,
+     "fin": 24.362
     },
     {
      "texto": "en",
      "tramo": 5,
-     "inicio": 25.395,
-     "fin": 25.518
+     "inicio": 24.362,
+     "fin": 24.484
     },
     {
      "texto": "la",
      "tramo": 5,
-     "inicio": 25.518,
-     "fin": 25.641
+     "inicio": 24.484,
+     "fin": 24.605
     },
     {
      "texto": "una",
      "tramo": 5,
-     "inicio": 25.641,
-     "fin": 25.888
+     "inicio": 24.605,
+     "fin": 24.848
     },
     {
      "texto": "o",
      "tramo": 5,
-     "inicio": 25.888,
-     "fin": 26.011
+     "inicio": 24.848,
+     "fin": 24.97
     },
     {
      "texto": "en",
      "tramo": 5,
-     "inicio": 26.011,
-     "fin": 26.134
+     "inicio": 24.97,
+     "fin": 25.091
     },
     {
      "texto": "la",
      "tramo": 5,
-     "inicio": 26.134,
-     "fin": 26.257
+     "inicio": 25.091,
+     "fin": 25.213
     },
     {
      "texto": "tres.",
      "tramo": 5,
-     "inicio": 26.257,
-     "fin": 26.38
+     "inicio": 25.213,
+     "fin": 25.334
     },
     {
      "texto": "Y",
      "tramo": 5,
-     "inicio": 26.9,
-     "fin": 27.0
+     "inicio": 25.854,
+     "fin": 25.964
     },
     {
      "texto": "esas",
      "tramo": 5,
-     "inicio": 27.0,
-     "fin": 27.2
+     "inicio": 25.964,
+     "fin": 26.184
     },
     {
      "texto": "sí",
      "tramo": 5,
-     "inicio": 27.2,
-     "fin": 27.3
+     "inicio": 26.184,
+     "fin": 26.294
     },
     {
      "texto": "se",
      "tramo": 5,
-     "inicio": 27.3,
-     "fin": 27.4
+     "inicio": 26.294,
+     "fin": 26.404
     },
     {
      "texto": "pueden",
      "tramo": 5,
-     "inicio": 27.4,
-     "fin": 27.6
+     "inicio": 26.404,
+     "fin": 26.624
     },
     {
      "texto": "trabajar.",
      "tramo": 5,
-     "inicio": 27.6,
-     "fin": 27.9
+     "inicio": 26.624,
+     "fin": 26.954
     }
    ],
-   "fin": 28.31
+   "fin": 27.364
   },
   {
    "tipo": "cta",
    "voz": "Escríbeme por WhatsApp y miramos tu ficha, estés donde estés.",
    "frase": "¿Te gana tu *competencia*?",
-   "inicio": 28.31,
-   "finVoz": 31.51,
+   "inicio": 27.364,
+   "finVoz": 30.714,
    "palabras": [
     {
      "texto": "Escríbeme",
      "tramo": 6,
-     "inicio": 28.4,
-     "fin": 28.977
+     "inicio": 27.454,
+     "fin": 28.071
     },
     {
      "texto": "por",
      "tramo": 6,
-     "inicio": 28.977,
-     "fin": 29.121
+     "inicio": 28.071,
+     "fin": 28.226
     },
     {
      "texto": "WhatsApp",
      "tramo": 6,
-     "inicio": 29.121,
-     "fin": 29.41
+     "inicio": 28.226,
+     "fin": 28.534
     },
     {
      "texto": "y",
      "tramo": 6,
-     "inicio": 29.41,
-     "fin": 29.554
+     "inicio": 28.534,
+     "fin": 28.689
     },
     {
      "texto": "miramos",
      "tramo": 6,
-     "inicio": 29.554,
-     "fin": 29.987
+     "inicio": 28.689,
+     "fin": 29.151
     },
     {
      "texto": "tu",
      "tramo": 6,
-     "inicio": 29.987,
-     "fin": 30.131
+     "inicio": 29.151,
+     "fin": 29.306
     },
     {
      "texto": "ficha,",
      "tramo": 6,
-     "inicio": 30.131,
-     "fin": 30.42
+     "inicio": 29.306,
+     "fin": 29.614
     },
     {
      "texto": "estés",
      "tramo": 6,
-     "inicio": 30.7,
-     "fin": 30.97
+     "inicio": 29.944,
+     "fin": 30.201
     },
     {
      "texto": "donde",
      "tramo": 6,
-     "inicio": 30.97,
-     "fin": 31.24
+     "inicio": 30.201,
+     "fin": 30.458
     },
     {
      "texto": "estés.",
      "tramo": 6,
-     "inicio": 31.24,
-     "fin": 31.51
+     "inicio": 30.458,
+     "fin": 30.714
     }
    ],
-   "fin": 32.0
+   "fin": 31.203999999999997
   }
  ],
  "carpeta": "pregunta_maps_es",
- "duracion": 34.8,
+ "duracion": 34.004,
  "audio": "pregunta_maps_es/voz.wav"
 }

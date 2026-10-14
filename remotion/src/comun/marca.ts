@@ -24,3 +24,7 @@ const pesos: [string, string][] = [["Black", "900"], ["ExtraBold", "800"], ["Bol
 export const fuentesListas = Promise.all(
   pesos.map(([n, w]) => loadFont({ family: FUENTE, url: staticFile(`marca/Montserrat-${n}.otf`), weight: w })),
 );
+
+// Volumen de todos los efectos de sonido (1 = como los pilotos del 14-10).
+// Pablo pidió bajarlos un 15 % → 0.85. Cambiar solo aquí.
+export const VOLUMEN_EFECTOS = 0.85;

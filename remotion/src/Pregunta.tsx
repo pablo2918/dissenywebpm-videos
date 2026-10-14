@@ -1,6 +1,7 @@
 import React from "react";
 import { AbsoluteFill, Easing, interpolate, Sequence, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { Audio } from "@remotion/media";
+import { Sfx } from "./comun/Sfx";
 import { Fondo } from "./comun/Fondo";
 import { Subtitulos } from "./comun/Subtitulos";
 import { Rotulos } from "./comun/Rotulo";
@@ -111,7 +112,7 @@ const Tres: React.FC<{ desde: number; marcas?: (number | null)[] }> = ({ desde, 
                     <Sello bien x={0} y={0} />
                   </div>
                 </div>
-                <Audio src={staticFile("sfx/acierto.wav")} volume={0.35} />
+                <Sfx nombre="acierto" volumen={0.35} />
               </Sequence>
             ) : null}
             {apagado ? <div style={{ position: "absolute", right: 46, fontFamily: FUENTE, fontWeight: 800, fontSize: 34, color: "#8a93ad" }}>no se toca</div> : null}
@@ -217,7 +218,7 @@ export const Pregunta: React.FC<Datos> = (d) => {
         return (
           <Sequence key={i} from={fr(e.inicio)} durationInFrames={Math.max(1, fr(e.fin) - fr(e.inicio))} name={`${i} ${e.tipo}`}>
             {i === 0 ? cuerpo : <Entrada>{cuerpo}</Entrada>}
-            {i > 0 ? <Audio src={staticFile("sfx/whoosh.wav")} volume={0.35} /> : null}
+            {i > 0 ? <Sfx nombre="whoosh" volumen={0.35} /> : null}
           </Sequence>
         );
       })}
@@ -230,7 +231,7 @@ export const Pregunta: React.FC<Datos> = (d) => {
           <Entrada>
             <Final frase={String(cta.frase)} idioma={d.idioma} />
           </Entrada>
-          <Audio src={staticFile("sfx/whoosh.wav")} volume={0.35} />
+          <Sfx nombre="whoosh" volumen={0.35} />
         </Sequence>
       ) : null}
       {d.escenas.map((e, i) =>

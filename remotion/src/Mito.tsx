@@ -1,6 +1,7 @@
 import React from "react";
 import { AbsoluteFill, Easing, interpolate, Sequence, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { Audio } from "@remotion/media";
+import { Sfx } from "./comun/Sfx";
 import { Fondo } from "./comun/Fondo";
 import { Subtitulos } from "./comun/Subtitulos";
 import { Final } from "./comun/Final";
@@ -124,7 +125,7 @@ const PreguntaV: React.FC<{ e: Escena }> = ({ e }) => {
         </>
       ) : null}
       <Sequence from={Math.round(finVoz * fps)} layout="none">
-        <Audio src={staticFile("sfx/tictac.wav")} volume={0.7} />
+        <Sfx nombre="tictac" volumen={0.7} />
       </Sequence>
     </AbsoluteFill>
   );
@@ -158,7 +159,7 @@ const RespuestaV: React.FC<{ e: Escena; p: Escena }> = ({ e, p }) => {
         <Boton txt="MITO" color={ROJO} lleno={!verdad} k={!verdad ? st * 0.95 : 0.9} />
         <Boton txt="VERDAD" color={VERDE} lleno={verdad} k={verdad ? st * 0.95 : 0.9} />
       </div>
-      <Audio src={staticFile(verdad ? "sfx/acierto.wav" : "sfx/fallo.wav")} volume={0.6} />
+      <Sfx nombre={verdad ? "acierto" : "fallo"} volumen={0.6} />
     </AbsoluteFill>
   );
 };
@@ -215,7 +216,7 @@ export const Mito: React.FC<Datos> = (d) => {
         return (
           <Sequence key={i} from={fr(e.inicio)} durationInFrames={Math.max(1, fr(e.fin) - fr(e.inicio))} name={`${i} ${e.tipo}`}>
             {i === 0 || e.tipo === "respuesta" ? cuerpo : <Entrada>{cuerpo}</Entrada>}
-            {i > 0 && e.tipo !== "respuesta" ? <Audio src={staticFile("sfx/whoosh.wav")} volume={0.35} /> : null}
+            {i > 0 && e.tipo !== "respuesta" ? <Sfx nombre="whoosh" volumen={0.35} /> : null}
           </Sequence>
         );
       })}
@@ -227,7 +228,7 @@ export const Mito: React.FC<Datos> = (d) => {
           <Entrada>
             <Final frase={String(cta.frase)} idioma={d.idioma} />
           </Entrada>
-          <Audio src={staticFile("sfx/whoosh.wav")} volume={0.35} />
+          <Sfx nombre="whoosh" volumen={0.35} />
         </Sequence>
       ) : null}
       {/* el texto ya esta en pantalla en casi todo; subtitulos solo en el resultado */}

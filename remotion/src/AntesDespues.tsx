@@ -1,6 +1,7 @@
 import React from "react";
 import { AbsoluteFill, Easing, interpolate, Sequence, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { Audio } from "@remotion/media";
+import { Sfx } from "./comun/Sfx";
 import { Fondo } from "./comun/Fondo";
 import { Subtitulos } from "./comun/Subtitulos";
 import { Rotulos } from "./comun/Rotulo";
@@ -55,7 +56,7 @@ const Gancho: React.FC<{ e: Escena }> = ({ e }) => {
           <div style={{ position: "absolute", left: 40, right: 40, top: 150 }}>
             <Titulo texto={String(e.titulo)} tam={112} />
           </div>
-          <Audio src={staticFile("sfx/pop.wav")} volume={0.55} />
+          <Sfx nombre="pop" volumen={0.55} />
         </Sequence>
       )}
       {num("1", 85, 0.05)}
@@ -102,7 +103,7 @@ const Nueva: React.FC<{ e: Escena }> = ({ e }) => {
         </Movil>
         <Sequence from={Math.round((tToque - 0.15) * fps)} layout="none">
           <Toque x={wa.x} y={wa.y} />
-          <Audio src={staticFile("sfx/clic.wav")} volume={0.8} />
+          <Sfx nombre="clic" volumen={0.8} />
         </Sequence>
       </Camara>
     </>
@@ -141,11 +142,11 @@ const Compara: React.FC<{ e: Escena }> = ({ e }) => {
       <Movil src={NUEVA.src} anchoCss={NUEVA.css} ancho={430} style={{ left: 565, top: 400, rotate: "2deg", scale: `${1 + 0.05 * interpolate(f / fps, [tSi, tSi + 0.3], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}` }} />
       <Sequence from={Math.round(tSi * fps)} layout="none">
         <Sello bien x={780} y={840} />
-        <Audio src={staticFile("sfx/acierto.wav")} volume={0.5} />
+        <Sfx nombre="acierto" volumen={0.5} />
       </Sequence>
       <Sequence from={Math.round(tNo * fps)} layout="none">
         <Sello bien={false} x={300} y={840} />
-        <Audio src={staticFile("sfx/fallo.wav")} volume={0.6} />
+        <Sfx nombre="fallo" volumen={0.6} />
       </Sequence>
     </AbsoluteFill>
   );
@@ -172,7 +173,7 @@ export const AntesDespues: React.FC<Datos> = (d) => {
         return (
           <Sequence key={i} from={fr(e.inicio)} durationInFrames={dur} name={`${i} ${e.tipo}`}>
             {i === 0 ? cuerpo : <Entrada>{cuerpo}</Entrada>}
-            {i > 0 ? <Audio src={staticFile("sfx/whoosh.wav")} volume={0.35} /> : null}
+            {i > 0 ? <Sfx nombre="whoosh" volumen={0.35} /> : null}
           </Sequence>
         );
       })}
@@ -181,7 +182,7 @@ export const AntesDespues: React.FC<Datos> = (d) => {
           <Entrada>
             <Final frase={String(cta.frase)} idioma={d.idioma} />
           </Entrada>
-          <Audio src={staticFile("sfx/whoosh.wav")} volume={0.35} />
+          <Sfx nombre="whoosh" volumen={0.35} />
         </Sequence>
       ) : null}
       {/* rotulos de palabra clave (los de cada escena + los del cierre) */}

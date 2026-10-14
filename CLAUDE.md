@@ -59,6 +59,21 @@ Maquetas: ficha, lista, galeria, resenas, movil_boton, antes_despues, zonas,
 pasos, chat, web, movil (variantes zoom/telefono/blanco/juntos/formulario).
 Hacer los temas de 2 en 2 (4 vídeos) para poder revisarlo todo a ojo.
 
+### Carruseles mejorados (14-10-2026, pedido por Pablo)
+- Portada: título + la maqueta del gancho asomando por abajo (girada,
+  cortada) + flecha amarilla de deslizar. Etiqueta sin «· Girona».
+- Fotos REALES en todas las maquetas: banco `fotos/<sector>/` (fotogramas de
+  Mixkit con licencia gratuita, elegidos a ojo; origen en `fotos/FUENTES.md`;
+  herramienta `herramientas/banco_fotos.py`). Tema→sector en `SECTOR` de
+  `carrusel.py`; temas genéricos usan `cafe`. Si falta sector, sale la
+  ilustración de antes.
+- Antes/después = la MISMA foto: «antes» estropeada según la etiqueta (flash,
+  sin limpiar, filtro, sin recoger; si no, vieja y apagada).
+- Nota amarilla de cada lámina más grande (38 px).
+- Regenerar solo las láminas: `python3 herramientas/carrusel.py carruseles/<tema>_<idi>.json`
+  (no toca la voz). Los vídeos viejos de estos temas NO se han rehecho:
+  se rehacen cuando Pablo tenga su voz.
+
 ### Gancho (los 3 primeros segundos)
 Cada carrusel nuevo lleva en su JSON un bloque `gancho` (pastilla, texto con
 `*resaltado*`, maqueta). `carrusel.py` lo dibuja a pantalla completa en

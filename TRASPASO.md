@@ -47,9 +47,17 @@ Pablo quiere vídeos con más gancho, más naturales y de tipos distintos.
        - Piloto 3 «mito o verdad 2.0» (`mito_seo`, `Mito`): gancho «¿Cuánto
          sabes de SEO?», marcador de 3, tic-tac (pausa de 3,2 s en la voz con
          `"pausa"` en la escena), sello y explicación.
-4. [ ] ESPERANDO A PABLO: que diga qué piloto le gusta más y qué cambiaría.
-       Después: versión en catalán (copiar el guion con `"idioma": "ca"`),
-       más vídeos del formato elegido, y su voz (VoiceStudio → `--audio`).
+4. [x] Pablo (14-10): le encantaron los 3, sobre todo el antes/después de la
+       panadería («una barbaridad»). Pidió bajar un 15 % los efectos: hecho
+       con `VOLUMEN_EFECTOS = 0.85` en `remotion/src/comun/marca.ts` (todos los
+       efectos pasan por `<Sfx>` de `comun/Sfx.tsx`); los 3 pilotos rehechos.
+5. [x] Carruseles mejorados (los 86, es y ca): ver «Carruseles mejorados» en
+       CLAUDE.md (portada con maqueta, fotos reales por sector, antes/después
+       con la misma foto, nota más grande, sin «Girona»).
+6. [ ] SIGUIENTE (cuando Pablo tenga su voz con VoiceStudio): rehacer los
+       vídeos con su voz y hacer más vídeos (sobre todo del estilo
+       antes/después con webs grabadas de verdad) y la versión en catalán
+       (copiar el guion con `"idioma": "ca"`). Voz: VoiceStudio → `--audio`.
 
 ### Cómo funciona el motor nuevo (Remotion)
 - Guion: `remotion/guiones/<id>.json` (escenas con `tipo`, `voz`, `rotulos`
@@ -80,6 +88,9 @@ genérico, mito con «¿Cuánto sabes de SEO?» y marcador de aciertos, formatos
 barrido, «POV: eres un cliente…». Ciudades de toda España.
 
 ## Diario (lo último arriba)
+- **14-10-2026** · Efectos −15 % y pilotos rehechos. Carruseles: banco de
+  fotos reales (24 sectores, 124 fotos), portada nueva, antes/después con la
+  misma foto; los 86 regenerados y revisados uno a uno.
 - **14-10-2026** · Pilotos 2 y 3 hechos y revisados. Entregados los 3 a Pablo.
 - **14-10-2026** · Piloto 1 (antes/después, panadería inventada de
   Valladolid) hecho y revisado. Render: ~3 min por vídeo de 37 s en la nube.
