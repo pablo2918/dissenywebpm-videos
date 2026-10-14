@@ -33,11 +33,11 @@
 
 ## Plan en marcha: vídeos con más gancho (pedido 14-10-2026)
 Pablo quiere vídeos con más gancho, más naturales y de tipos distintos.
-1. [ ] Estudiar 15–20 vídeos que funcionan (diseño web, SEO local, agencias;
-       español y fuera) con watch-video → `estudio/ESTUDIO.md`
-       (ganchos de los 2 primeros segundos, ritmo de cortes, texto en
-       pantalla, cierre).
-2. [ ] Montar motor nuevo con Remotion (carpeta `remotion/`).
+1. [x] Estudio de vídeos que funcionan → **`estudio/ESTUDIO.md`** (leerlo:
+       conclusiones y cómo repetir el estudio; desde la nube YouTube solo
+       deja bajar subtítulos y storyboard).
+2. [~] Motor nuevo con Remotion en `remotion/` (proyecto creado, renderiza
+       en la nube con el Chromium de /opt/pw-browsers, ver remotion.config.ts).
 3. [ ] 3 vídeos piloto en estilos distintos para comparar con los actuales.
 Ideas a aplicar: gancho en el segundo 0 (frase en pantalla + voz), cambio
 visual cada 1,5–3 s, efectos de sonido (whoosh, pop, clic), imagen real
@@ -47,5 +47,7 @@ genérico, mito con «¿Cuánto sabes de SEO?» y marcador de aciertos, formatos
 barrido, «POV: eres un cliente…». Ciudades de toda España.
 
 ## Diario (lo último arriba)
+- **14-10-2026** · Estudio hecho (`estudio/ESTUDIO.md`). Proyecto Remotion
+  creado en `remotion/` (render probado). Siguiente: 3 pilotos.
 - **14-10-2026** · Creado este archivo. Pablo instaló Remotion, watch-video y
   video-shotcraft. Empezando el paso 1 (estudio de vídeos).
