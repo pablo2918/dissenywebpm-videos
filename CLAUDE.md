@@ -99,7 +99,8 @@ los tres. PENDIENTE de sus comentarios (no hecho aún, esperar a que lo pida):
 - Algunos clips de archivo quedan genéricos o «cutres»: combinarlos con
   maquetas propias (fichas de Google Maps, webs en el móvil) para que se vea
   de qué se habla.
-Público: Pablo hace webs a toda España, no solo Girona (ver más abajo).
+Público: Pablo hace webs a toda España, no solo Girona: en el contenido
+nuevo, ejemplos de ciudades variadas y decir que trabaja a distancia.
 
 ## Redes
 Carrusel (sin voz, música desde la app) para Instagram/Facebook; vídeo con
