@@ -14,9 +14,15 @@ from PIL import Image, ImageDraw
 
 import anima as A
 import f_mito
+import mixkit
 import pexels
 
 C = A.C
+
+
+def fuente(q):
+    """Un numero = clip de Mixkit (sin clave); un texto = busqueda en Pexels."""
+    return mixkit.clip(q) if isinstance(q, int) else pexels.clips(q)[0]
 
 
 class Clip:
@@ -69,7 +75,7 @@ def completo(v, idi, salida, rev, tmp):
     c = v[idi]
     textos = [x[0] for x in c["tramos"]]
     vz = A.voz(salida.parent.name + "_" + v["id"], idi, textos, tmp)
-    rutas = [pexels.clips(x[1])[0] for x in c["tramos"]]
+    rutas = [fuente(x[1]) for x in c["tramos"]]
     clips = [Clip(r, A.W, A.H, oscuro=0.25) for r in rutas]
     ini = [x["inicio"] for x in vz["tramos"]]
     subs = A.Subtitulos(vz["palabras"], quitar=(0,))
@@ -106,7 +112,7 @@ def completo(v, idi, salida, rev, tmp):
 def mito(v, idi, salida, rev, tmp):
     import plan_mito
     base = plan_mito.VIDEOS[v["mito"] - 1]
-    rutas = [pexels.clips(q)[0] for q in v["buscar"]]
+    rutas = [fuente(q) for q in v["buscar"]]
     clips = [Clip(r, A.W, A.H, oscuro=0.55, desenfoque=14) for r in rutas]
     tinte = Image.new("RGBA", (A.W, A.H), (9, 15, 32, 110))
 
@@ -147,7 +153,7 @@ def partido(v, idi, salida, rev, tmp):
     tramos = [c["gancho"][0]] + [p[1] for p in c["puntos"]] + [c["cierre"][0]]
     consultas = [c["gancho"][1]] + [p[2] for p in c["puntos"]] + [c["cierre"][1]]
     vz = A.voz(salida.parent.name + "_" + v["id"], idi, tramos, tmp)
-    rutas = [pexels.clips(q)[0] for q in consultas]
+    rutas = [fuente(q) for q in consultas]
     clips = [Clip(r, A.W, ALTO_V) for r in rutas]
     ini = [x["inicio"] for x in vz["tramos"]]
     subs = A.Subtitulos(vz["palabras"], quitar=(0,))
@@ -186,9 +192,9 @@ def partido(v, idi, salida, rev, tmp):
 
 def hacer(v, idi, salida, rev, tmp):
     ids = {"completo": completo, "mito": mito, "partido": partido}[v["estilo"]](v, idi, salida, rev, tmp)
-    (salida.parent / "clips_pexels.txt").write_text(
-        "Vídeos de Pexels (licencia gratuita, uso comercial, sin atribución obligatoria):\n"
-        + "\n".join(f"https://www.pexels.com/video/{i}/" for i in ids) + "\n", encoding="utf-8")
+    (salida.parent / "clips_archivo.txt").write_text(
+        "Vídeos de archivo usados (Mixkit, Stock Video Free License: uso comercial, sin atribución):\n"
+        + "\n".join(f"https://assets.mixkit.co/videos/{i}/{i}-1080.mp4" for i in ids) + "\n", encoding="utf-8")
 
 
 def publicar(v, ruta):
