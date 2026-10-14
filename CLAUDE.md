@@ -1,5 +1,7 @@
 # Disseny Web PM · carruseles y vídeos con voz (nube)
 
+**Estado y trabajo en curso: ver `TRASPASO.md` (actualizarlo siempre al avanzar).**
+
 Pablo Rubiales — Disseny Web PM (webs a código y SEO local, Girona).
 Teléfono 641 27 74 95 · dissenywebpm.com. Público: restaurantes, peluquerías,
 oficios de toda España (trabaja a distancia; no solo Girona). Idiomas: castellano y catalán. Pablo no es técnico: explícale el
