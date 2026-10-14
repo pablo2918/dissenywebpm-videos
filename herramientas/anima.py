@@ -222,7 +222,7 @@ class Subtitulos:
             self.subs.append((b[0]["inicio"], fin, " ".join(p["texto"] for p in b),
                               [p["inicio"] for p in b]))
 
-    def pinta(self, im, t, zona=SUB):
+    def pinta(self, im, t, zona=SUB, tam_max=None):
         s = next((s for s in self.subs if s[0] <= t < s[1]), None)
         if not s:
             return
@@ -230,7 +230,7 @@ class Subtitulos:
         top, bot, lado = zona
         d = ImageDraw.Draw(im)
         ancho = W - 2 * lado
-        for tam in range(VV.TAM_SUB, VV.TAM_MIN - 1, -2):
+        for tam in range(tam_max or VV.TAM_SUB, VV.TAM_MIN - 1, -2):
             f = F("Black", tam)
             lin = VV.reparte(s[2], f, ancho, d)
             paso = int(tam * 1.18)

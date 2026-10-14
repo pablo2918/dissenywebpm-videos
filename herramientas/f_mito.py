@@ -67,7 +67,9 @@ def porque(txt, color):
     return A.sprite(w, h, dib)
 
 
-def hacer(v, idi, salida, rev, tmp):
+def hacer(v, idi, salida, rev, tmp, fondos=None):
+    """`fondos`: opcional, una funcion fondo(i, t) -> imagen 1080x1920 para la
+    pregunta i (p. ej. video de archivo); si no, fondo azul liso."""
     u = UI[idi]
     n = len(v["preguntas"])
     bot = {"m": (boton(u["mito"], A.ROJO, False), boton(u["mito"], A.ROJO, True)),
@@ -90,8 +92,8 @@ def hacer(v, idi, salida, rev, tmp):
     fondo = Image.new("RGB", (A.W, A.H), A.AZUL)
 
     def fotograma(t):
-        im = fondo.copy()
         i = min(n - 1, int(t // DUR_P))
+        im = fondos(i, t - i * DUR_P) if fondos else fondo.copy()
         p, tl = ps[i], t - i * DUR_P
         # entra desde la derecha (salvo la primera: ya esta en el fotograma 0) y sale por la izquierda
         ent = 1 if i == 0 else A.eo(A.tramo(tl, 0, SALE))
