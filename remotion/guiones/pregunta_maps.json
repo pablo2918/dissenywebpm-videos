@@ -1,0 +1,23 @@
+{
+ "id": "pregunta_maps",
+ "idioma": "es",
+ "composicion": "Pregunta",
+ "pregunta": "¿Por qué mi competencia sale antes que yo en Google Maps?",
+ "busqueda": "peluquería sevilla",
+ "aviso": "Los negocios de la lista de Maps son inventados (ejemplo). Fuente de los 3 factores: ayuda oficial de Google, «Consejos para mejorar tu posicionamiento local» (relevancia, distancia y prominencia).",
+ "escenas": [
+  {"tipo": "gancho", "voz": "¿Por qué mi competencia sale antes que yo en Google Maps?"},
+  {"tipo": "tres", "voz": "Google lo dice en su propia ayuda: mira tres cosas.",
+   "rotulos": [{"en": "tres", "texto": "3 COSAS"}]},
+  {"tipo": "relevancia", "voz": "Una, relevancia: que tu ficha diga exactamente lo que haces, con la categoría bien puesta.",
+   "rotulos": [{"en": "relevancia", "texto": "1 · RELEVANCIA"}, {"en": "categoría", "texto": "LA CATEGORÍA"}]},
+  {"tipo": "distancia", "voz": "Dos, distancia: dónde está el que busca. Eso no lo puedes cambiar.",
+   "rotulos": [{"en": "distancia", "texto": "2 · DISTANCIA"}, {"en": "Eso", "texto": "NO SE TOCA", "color": "rojo"}]},
+  {"tipo": "prominencia", "voz": "Tres, prominencia: cuánto se habla de ti. Reseñas, fotos, y una web que cuente lo que haces.",
+   "rotulos": [{"en": "prominencia", "texto": "3 · PROMINENCIA"}, {"en": "Reseñas", "texto": "RESEÑAS"}, {"en": "fotos", "texto": "FOTOS"}, {"en": "web", "texto": "UNA WEB", "color": "verde"}]},
+  {"tipo": "resumen", "voz": "Si tu competencia te gana, casi siempre es en la una o en la tres. Y esas sí se pueden trabajar.",
+   "rotulos": [{"en": "sí", "texto": "SÍ SE TRABAJA", "color": "verde"}]},
+  {"tipo": "cta", "voz": "Escríbeme por WhatsApp y miramos tu ficha, estés donde estés.",
+   "frase": "¿Te gana tu *competencia*?"}
+ ]
+}

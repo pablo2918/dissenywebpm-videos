@@ -1,0 +1,706 @@
+{
+ "id": "pregunta_maps",
+ "idioma": "es",
+ "composicion": "Pregunta",
+ "pregunta": "¿Por qué mi competencia sale antes que yo en Google Maps?",
+ "busqueda": "peluquería sevilla",
+ "aviso": "Los negocios de la lista de Maps son inventados (ejemplo). Fuente de los 3 factores: ayuda oficial de Google, «Consejos para mejorar tu posicionamiento local» (relevancia, distancia y prominencia).",
+ "escenas": [
+  {
+   "tipo": "gancho",
+   "voz": "¿Por qué mi competencia sale antes que yo en Google Maps?",
+   "inicio": 0.0,
+   "finVoz": 2.48,
+   "palabras": [
+    {
+     "texto": "¿Por",
+     "tramo": 0,
+     "inicio": 0.09,
+     "fin": 0.231
+    },
+    {
+     "texto": "qué",
+     "tramo": 0,
+     "inicio": 0.231,
+     "fin": 0.371
+    },
+    {
+     "texto": "mi",
+     "tramo": 0,
+     "inicio": 0.371,
+     "fin": 0.512
+    },
+    {
+     "texto": "competencia",
+     "tramo": 0,
+     "inicio": 0.512,
+     "fin": 1.074
+    },
+    {
+     "texto": "sale",
+     "tramo": 0,
+     "inicio": 1.074,
+     "fin": 1.355
+    },
+    {
+     "texto": "antes",
+     "tramo": 0,
+     "inicio": 1.355,
+     "fin": 1.636
+    },
+    {
+     "texto": "que",
+     "tramo": 0,
+     "inicio": 1.636,
+     "fin": 1.777
+    },
+    {
+     "texto": "yo",
+     "tramo": 0,
+     "inicio": 1.777,
+     "fin": 1.918
+    },
+    {
+     "texto": "en",
+     "tramo": 0,
+     "inicio": 1.918,
+     "fin": 2.058
+    },
+    {
+     "texto": "Google",
+     "tramo": 0,
+     "inicio": 2.058,
+     "fin": 2.339
+    },
+    {
+     "texto": "Maps?",
+     "tramo": 0,
+     "inicio": 2.339,
+     "fin": 2.48
+    }
+   ],
+   "fin": 2.89
+  },
+  {
+   "tipo": "tres",
+   "voz": "Google lo dice en su propia ayuda: mira tres cosas.",
+   "rotulos": [
+    {
+     "en": "tres",
+     "texto": "3 COSAS"
+    }
+   ],
+   "inicio": 2.89,
+   "finVoz": 5.89,
+   "palabras": [
+    {
+     "texto": "Google",
+     "tramo": 1,
+     "inicio": 2.98,
+     "fin": 3.333
+    },
+    {
+     "texto": "lo",
+     "tramo": 1,
+     "inicio": 3.333,
+     "fin": 3.51
+    },
+    {
+     "texto": "dice",
+     "tramo": 1,
+     "inicio": 3.51,
+     "fin": 3.863
+    },
+    {
+     "texto": "en",
+     "tramo": 1,
+     "inicio": 3.863,
+     "fin": 4.04
+    },
+    {
+     "texto": "su",
+     "tramo": 1,
+     "inicio": 4.04,
+     "fin": 4.217
+    },
+    {
+     "texto": "propia",
+     "tramo": 1,
+     "inicio": 4.217,
+     "fin": 4.57
+    },
+    {
+     "texto": "ayuda:",
+     "tramo": 1,
+     "inicio": 4.57,
+     "fin": 5.1
+    },
+    {
+     "texto": "mira",
+     "tramo": 1,
+     "inicio": 5.46,
+     "fin": 5.632
+    },
+    {
+     "texto": "tres",
+     "tramo": 1,
+     "inicio": 5.632,
+     "fin": 5.718
+    },
+    {
+     "texto": "cosas.",
+     "tramo": 1,
+     "inicio": 5.718,
+     "fin": 5.89
+    }
+   ],
+   "fin": 6.3
+  },
+  {
+   "tipo": "relevancia",
+   "voz": "Una, relevancia: que tu ficha diga exactamente lo que haces, con la categoría bien puesta.",
+   "rotulos": [
+    {
+     "en": "relevancia",
+     "texto": "1 · RELEVANCIA"
+    },
+    {
+     "en": "categoría",
+     "texto": "LA CATEGORÍA"
+    }
+   ],
+   "inicio": 6.3,
+   "finVoz": 11.27,
+   "palabras": [
+    {
+     "texto": "Una,",
+     "tramo": 2,
+     "inicio": 6.39,
+     "fin": 6.55
+    },
+    {
+     "texto": "relevancia:",
+     "tramo": 2,
+     "inicio": 6.76,
+     "fin": 7.39
+    },
+    {
+     "texto": "que",
+     "tramo": 2,
+     "inicio": 7.67,
+     "fin": 7.815
+    },
+    {
+     "texto": "tu",
+     "tramo": 2,
+     "inicio": 7.815,
+     "fin": 7.959
+    },
+    {
+     "texto": "ficha",
+     "tramo": 2,
+     "inicio": 7.959,
+     "fin": 8.249
+    },
+    {
+     "texto": "diga",
+     "tramo": 2,
+     "inicio": 8.249,
+     "fin": 8.538
+    },
+    {
+     "texto": "exactamente",
+     "tramo": 2,
+     "inicio": 8.538,
+     "fin": 9.261
+    },
+    {
+     "texto": "lo",
+     "tramo": 2,
+     "inicio": 9.261,
+     "fin": 9.406
+    },
+    {
+     "texto": "que",
+     "tramo": 2,
+     "inicio": 9.406,
+     "fin": 9.551
+    },
+    {
+     "texto": "haces,",
+     "tramo": 2,
+     "inicio": 9.551,
+     "fin": 9.84
+    },
+    {
+     "texto": "con",
+     "tramo": 2,
+     "inicio": 10.12,
+     "fin": 10.248
+    },
+    {
+     "texto": "la",
+     "tramo": 2,
+     "inicio": 10.248,
+     "fin": 10.376
+    },
+    {
+     "texto": "categoría",
+     "tramo": 2,
+     "inicio": 10.376,
+     "fin": 10.887
+    },
+    {
+     "texto": "bien",
+     "tramo": 2,
+     "inicio": 10.887,
+     "fin": 11.014
+    },
+    {
+     "texto": "puesta.",
+     "tramo": 2,
+     "inicio": 11.014,
+     "fin": 11.27
+    }
+   ],
+   "fin": 11.68
+  },
+  {
+   "tipo": "distancia",
+   "voz": "Dos, distancia: dónde está el que busca. Eso no lo puedes cambiar.",
+   "rotulos": [
+    {
+     "en": "distancia",
+     "texto": "2 · DISTANCIA"
+    },
+    {
+     "en": "Eso",
+     "texto": "NO SE TOCA",
+     "color": "rojo"
+    }
+   ],
+   "inicio": 11.68,
+   "finVoz": 16.72,
+   "palabras": [
+    {
+     "texto": "Dos,",
+     "tramo": 3,
+     "inicio": 11.77,
+     "fin": 12.09
+    },
+    {
+     "texto": "distancia:",
+     "tramo": 3,
+     "inicio": 12.69,
+     "fin": 12.93
+    },
+    {
+     "texto": "dónde",
+     "tramo": 3,
+     "inicio": 13.02,
+     "fin": 13.62
+    },
+    {
+     "texto": "está",
+     "tramo": 3,
+     "inicio": 13.62,
+     "fin": 13.92
+    },
+    {
+     "texto": "el",
+     "tramo": 3,
+     "inicio": 13.92,
+     "fin": 14.22
+    },
+    {
+     "texto": "que",
+     "tramo": 3,
+     "inicio": 14.22,
+     "fin": 14.52
+    },
+    {
+     "texto": "busca.",
+     "tramo": 3,
+     "inicio": 14.52,
+     "fin": 15.12
+    },
+    {
+     "texto": "Eso",
+     "tramo": 3,
+     "inicio": 15.92,
+     "fin": 16.12
+    },
+    {
+     "texto": "no",
+     "tramo": 3,
+     "inicio": 16.12,
+     "fin": 16.22
+    },
+    {
+     "texto": "lo",
+     "tramo": 3,
+     "inicio": 16.22,
+     "fin": 16.32
+    },
+    {
+     "texto": "puedes",
+     "tramo": 3,
+     "inicio": 16.32,
+     "fin": 16.52
+    },
+    {
+     "texto": "cambiar.",
+     "tramo": 3,
+     "inicio": 16.52,
+     "fin": 16.72
+    }
+   ],
+   "fin": 17.13
+  },
+  {
+   "tipo": "prominencia",
+   "voz": "Tres, prominencia: cuánto se habla de ti. Reseñas, fotos, y una web que cuente lo que haces.",
+   "rotulos": [
+    {
+     "en": "prominencia",
+     "texto": "3 · PROMINENCIA"
+    },
+    {
+     "en": "Reseñas",
+     "texto": "RESEÑAS"
+    },
+    {
+     "en": "fotos",
+     "texto": "FOTOS"
+    },
+    {
+     "en": "web",
+     "texto": "UNA WEB",
+     "color": "verde"
+    }
+   ],
+   "inicio": 17.13,
+   "finVoz": 22.94,
+   "palabras": [
+    {
+     "texto": "Tres,",
+     "tramo": 4,
+     "inicio": 17.22,
+     "fin": 17.4
+    },
+    {
+     "texto": "prominencia:",
+     "tramo": 4,
+     "inicio": 17.78,
+     "fin": 18.34
+    },
+    {
+     "texto": "cuánto",
+     "tramo": 4,
+     "inicio": 18.81,
+     "fin": 19.05
+    },
+    {
+     "texto": "se",
+     "tramo": 4,
+     "inicio": 19.05,
+     "fin": 19.17
+    },
+    {
+     "texto": "habla",
+     "tramo": 4,
+     "inicio": 19.17,
+     "fin": 19.41
+    },
+    {
+     "texto": "de",
+     "tramo": 4,
+     "inicio": 19.41,
+     "fin": 19.53
+    },
+    {
+     "texto": "ti.",
+     "tramo": 4,
+     "inicio": 19.53,
+     "fin": 19.65
+    },
+    {
+     "texto": "Reseñas,",
+     "tramo": 4,
+     "inicio": 20.2,
+     "fin": 20.8
+    },
+    {
+     "texto": "fotos,",
+     "tramo": 4,
+     "inicio": 21.01,
+     "fin": 21.31
+    },
+    {
+     "texto": "y",
+     "tramo": 4,
+     "inicio": 21.42,
+     "fin": 21.558
+    },
+    {
+     "texto": "una",
+     "tramo": 4,
+     "inicio": 21.558,
+     "fin": 21.835
+    },
+    {
+     "texto": "web",
+     "tramo": 4,
+     "inicio": 21.835,
+     "fin": 21.973
+    },
+    {
+     "texto": "que",
+     "tramo": 4,
+     "inicio": 21.973,
+     "fin": 22.111
+    },
+    {
+     "texto": "cuente",
+     "tramo": 4,
+     "inicio": 22.111,
+     "fin": 22.387
+    },
+    {
+     "texto": "lo",
+     "tramo": 4,
+     "inicio": 22.387,
+     "fin": 22.525
+    },
+    {
+     "texto": "que",
+     "tramo": 4,
+     "inicio": 22.525,
+     "fin": 22.664
+    },
+    {
+     "texto": "haces.",
+     "tramo": 4,
+     "inicio": 22.664,
+     "fin": 22.94
+    }
+   ],
+   "fin": 23.35
+  },
+  {
+   "tipo": "resumen",
+   "voz": "Si tu competencia te gana, casi siempre es en la una o en la tres. Y esas sí se pueden trabajar.",
+   "rotulos": [
+    {
+     "en": "sí",
+     "texto": "SÍ SE TRABAJA",
+     "color": "verde"
+    }
+   ],
+   "inicio": 23.35,
+   "finVoz": 27.9,
+   "palabras": [
+    {
+     "texto": "Si",
+     "tramo": 5,
+     "inicio": 23.44,
+     "fin": 23.554
+    },
+    {
+     "texto": "tu",
+     "tramo": 5,
+     "inicio": 23.554,
+     "fin": 23.669
+    },
+    {
+     "texto": "competencia",
+     "tramo": 5,
+     "inicio": 23.669,
+     "fin": 24.127
+    },
+    {
+     "texto": "te",
+     "tramo": 5,
+     "inicio": 24.127,
+     "fin": 24.241
+    },
+    {
+     "texto": "gana,",
+     "tramo": 5,
+     "inicio": 24.241,
+     "fin": 24.47
+    },
+    {
+     "texto": "casi",
+     "tramo": 5,
+     "inicio": 24.78,
+     "fin": 25.026
+    },
+    {
+     "texto": "siempre",
+     "tramo": 5,
+     "inicio": 25.026,
+     "fin": 25.272
+    },
+    {
+     "texto": "es",
+     "tramo": 5,
+     "inicio": 25.272,
+     "fin": 25.395
+    },
+    {
+     "texto": "en",
+     "tramo": 5,
+     "inicio": 25.395,
+     "fin": 25.518
+    },
+    {
+     "texto": "la",
+     "tramo": 5,
+     "inicio": 25.518,
+     "fin": 25.641
+    },
+    {
+     "texto": "una",
+     "tramo": 5,
+     "inicio": 25.641,
+     "fin": 25.888
+    },
+    {
+     "texto": "o",
+     "tramo": 5,
+     "inicio": 25.888,
+     "fin": 26.011
+    },
+    {
+     "texto": "en",
+     "tramo": 5,
+     "inicio": 26.011,
+     "fin": 26.134
+    },
+    {
+     "texto": "la",
+     "tramo": 5,
+     "inicio": 26.134,
+     "fin": 26.257
+    },
+    {
+     "texto": "tres.",
+     "tramo": 5,
+     "inicio": 26.257,
+     "fin": 26.38
+    },
+    {
+     "texto": "Y",
+     "tramo": 5,
+     "inicio": 26.9,
+     "fin": 27.0
+    },
+    {
+     "texto": "esas",
+     "tramo": 5,
+     "inicio": 27.0,
+     "fin": 27.2
+    },
+    {
+     "texto": "sí",
+     "tramo": 5,
+     "inicio": 27.2,
+     "fin": 27.3
+    },
+    {
+     "texto": "se",
+     "tramo": 5,
+     "inicio": 27.3,
+     "fin": 27.4
+    },
+    {
+     "texto": "pueden",
+     "tramo": 5,
+     "inicio": 27.4,
+     "fin": 27.6
+    },
+    {
+     "texto": "trabajar.",
+     "tramo": 5,
+     "inicio": 27.6,
+     "fin": 27.9
+    }
+   ],
+   "fin": 28.31
+  },
+  {
+   "tipo": "cta",
+   "voz": "Escríbeme por WhatsApp y miramos tu ficha, estés donde estés.",
+   "frase": "¿Te gana tu *competencia*?",
+   "inicio": 28.31,
+   "finVoz": 31.51,
+   "palabras": [
+    {
+     "texto": "Escríbeme",
+     "tramo": 6,
+     "inicio": 28.4,
+     "fin": 28.977
+    },
+    {
+     "texto": "por",
+     "tramo": 6,
+     "inicio": 28.977,
+     "fin": 29.121
+    },
+    {
+     "texto": "WhatsApp",
+     "tramo": 6,
+     "inicio": 29.121,
+     "fin": 29.41
+    },
+    {
+     "texto": "y",
+     "tramo": 6,
+     "inicio": 29.41,
+     "fin": 29.554
+    },
+    {
+     "texto": "miramos",
+     "tramo": 6,
+     "inicio": 29.554,
+     "fin": 29.987
+    },
+    {
+     "texto": "tu",
+     "tramo": 6,
+     "inicio": 29.987,
+     "fin": 30.131
+    },
+    {
+     "texto": "ficha,",
+     "tramo": 6,
+     "inicio": 30.131,
+     "fin": 30.42
+    },
+    {
+     "texto": "estés",
+     "tramo": 6,
+     "inicio": 30.7,
+     "fin": 30.97
+    },
+    {
+     "texto": "donde",
+     "tramo": 6,
+     "inicio": 30.97,
+     "fin": 31.24
+    },
+    {
+     "texto": "estés.",
+     "tramo": 6,
+     "inicio": 31.24,
+     "fin": 31.51
+    }
+   ],
+   "fin": 32.0
+  }
+ ],
+ "carpeta": "pregunta_maps_es",
+ "duracion": 34.8,
+ "audio": "pregunta_maps_es/voz.wav"
+}
