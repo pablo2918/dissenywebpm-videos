@@ -88,6 +88,8 @@ genérico, mito con «¿Cuánto sabes de SEO?» y marcador de aciertos, formatos
 barrido, «POV: eres un cliente…». Ciudades de toda España.
 
 ## Diario (lo último arriba)
+- **14-10-2026** · Facebook corregido: imagen-resumen + texto por tema
+  (`herramientas/facebook.py`, 43 temas es/ca); carrusel solo para Instagram.
 - **14-10-2026** · Efectos −15 % y pilotos rehechos. Carruseles: banco de
   fotos reales (24 sectores, 124 fotos), portada nueva, antes/después con la
   misma foto; los 86 regenerados y revisados uno a uno.

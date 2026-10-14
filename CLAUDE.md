@@ -120,6 +120,10 @@ Público: Pablo hace webs a toda España, no solo Girona: en el contenido
 nuevo, ejemplos de ciudades variadas y decir que trabaja a distancia.
 
 ## Redes
-Carrusel (sin voz, música desde la app) para Instagram/Facebook; vídeo con
-voz para Reels, TikTok y YouTube Shorts. Mismo tema: días distintos. Medir
+Carrusel (sin voz, música desde la app) SOLO para Instagram. Facebook
+(corregido 14-10-2026): en una página, varias fotos salen como mosaico
+recortado → ahí va UNA imagen-resumen (`salida/<tema>/<idi>/facebook.png`) con
+el texto de `salida/<tema>/FACEBOOK.md` (los dos los hace
+`python3 herramientas/facebook.py <tema>`), y los vídeos como Reel. Vídeo con
+voz para Reels (Instagram y Facebook), TikTok y YouTube Shorts. Mismo tema: días distintos. Medir
 WhatsApps, no likes.
