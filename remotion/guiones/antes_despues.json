@@ -1,0 +1,22 @@
+{
+ "id": "antes_despues",
+ "idioma": "es",
+ "composicion": "AntesDespues",
+ "aviso": "Negocio inventado (Horno La Espiga, Valladolid): las dos webs son ejemplos hechos para el vídeo.",
+ "escenas": [
+  {"tipo": "gancho", "voz": "Buscas una panadería en Valladolid y te salen estas dos webs. ¿A cuál le escribes?",
+   "titulo": "¿A cuál le *escribes*?"},
+  {"tipo": "vieja", "voz": "La uno: letra diminuta, un «Bienvenidos a nuestra página web»… y ni rastro del teléfono.",
+   "rotulos": [{"en": "diminuta", "texto": "LETRA DIMINUTA"}, {"en": "Bienvenidos", "texto": "«BIENVENIDOS»"}, {"en": "rastro", "texto": "¿Y EL TELÉFONO?", "color": "rojo"}]},
+  {"tipo": "vieja_pie", "voz": "Para encargar algo, te manda a buscar la página de contacto.",
+   "rotulos": [{"en": "buscar", "texto": "BÚSCALO TÚ", "color": "rojo"}]},
+  {"tipo": "nueva", "voz": "La dos: qué hacen y dónde, arriba del todo. Y un botón para encargar por WhatsApp de un toque.",
+   "rotulos": [{"en": "arriba", "texto": "QUÉ Y DÓNDE"}, {"en": "toque", "texto": "UN TOQUE", "color": "verde"}],
+   "toque": "toque"},
+  {"tipo": "nueva_scroll", "voz": "Horario, encargos y fotos de verdad. Todo se lee en el móvil sin hacer zoom.",
+   "rotulos": [{"en": "Horario", "texto": "HORARIO"}, {"en": "fotos", "texto": "FOTOS REALES"}, {"en": "zoom", "texto": "SIN ZOOM", "color": "verde"}]},
+  {"tipo": "compara", "voz": "Mismo pan. Pero a una le escribes… y a la otra no."},
+  {"tipo": "cta", "voz": "¿Tu web se parece a la uno? Escríbeme por WhatsApp y te hago una demo gratis en 48 horas, estés donde estés.",
+   "frase": "¿Tu web se parece a la *1*?"}
+ ]
+}

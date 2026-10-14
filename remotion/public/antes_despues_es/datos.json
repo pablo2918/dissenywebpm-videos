@@ -1,0 +1,779 @@
+{
+ "id": "antes_despues",
+ "idioma": "es",
+ "composicion": "AntesDespues",
+ "aviso": "Negocio inventado (Horno La Espiga, Valladolid): las dos webs son ejemplos hechos para el vídeo.",
+ "escenas": [
+  {
+   "tipo": "gancho",
+   "voz": "Buscas una panadería en Valladolid y te salen estas dos webs. ¿A cuál le escribes?",
+   "titulo": "¿A cuál le *escribes*?",
+   "inicio": 0.0,
+   "finVoz": 4.07,
+   "palabras": [
+    {
+     "texto": "Buscas",
+     "tramo": 0,
+     "inicio": 0.09,
+     "fin": 0.345
+    },
+    {
+     "texto": "una",
+     "tramo": 0,
+     "inicio": 0.345,
+     "fin": 0.6
+    },
+    {
+     "texto": "panadería",
+     "tramo": 0,
+     "inicio": 0.6,
+     "fin": 1.111
+    },
+    {
+     "texto": "en",
+     "tramo": 0,
+     "inicio": 1.111,
+     "fin": 1.239
+    },
+    {
+     "texto": "Valladolid",
+     "tramo": 0,
+     "inicio": 1.239,
+     "fin": 1.749
+    },
+    {
+     "texto": "y",
+     "tramo": 0,
+     "inicio": 1.749,
+     "fin": 1.877
+    },
+    {
+     "texto": "te",
+     "tramo": 0,
+     "inicio": 1.877,
+     "fin": 2.004
+    },
+    {
+     "texto": "salen",
+     "tramo": 0,
+     "inicio": 2.004,
+     "fin": 2.26
+    },
+    {
+     "texto": "estas",
+     "tramo": 0,
+     "inicio": 2.26,
+     "fin": 2.515
+    },
+    {
+     "texto": "dos",
+     "tramo": 0,
+     "inicio": 2.515,
+     "fin": 2.642
+    },
+    {
+     "texto": "webs.",
+     "tramo": 0,
+     "inicio": 2.642,
+     "fin": 2.77
+    },
+    {
+     "texto": "¿A",
+     "tramo": 0,
+     "inicio": 3.37,
+     "fin": 3.487
+    },
+    {
+     "texto": "cuál",
+     "tramo": 0,
+     "inicio": 3.487,
+     "fin": 3.603
+    },
+    {
+     "texto": "le",
+     "tramo": 0,
+     "inicio": 3.603,
+     "fin": 3.72
+    },
+    {
+     "texto": "escribes?",
+     "tramo": 0,
+     "inicio": 3.72,
+     "fin": 4.07
+    }
+   ],
+   "fin": 4.48
+  },
+  {
+   "tipo": "vieja",
+   "voz": "La uno: letra diminuta, un «Bienvenidos a nuestra página web»… y ni rastro del teléfono.",
+   "rotulos": [
+    {
+     "en": "diminuta",
+     "texto": "LETRA DIMINUTA"
+    },
+    {
+     "en": "Bienvenidos",
+     "texto": "«BIENVENIDOS»"
+    },
+    {
+     "en": "rastro",
+     "texto": "¿Y EL TELÉFONO?",
+     "color": "rojo"
+    }
+   ],
+   "inicio": 4.48,
+   "finVoz": 9.91,
+   "palabras": [
+    {
+     "texto": "La",
+     "tramo": 1,
+     "inicio": 4.57,
+     "fin": 4.687
+    },
+    {
+     "texto": "uno:",
+     "tramo": 1,
+     "inicio": 4.687,
+     "fin": 4.92
+    },
+    {
+     "texto": "letra",
+     "tramo": 1,
+     "inicio": 5.17,
+     "fin": 5.43
+    },
+    {
+     "texto": "diminuta,",
+     "tramo": 1,
+     "inicio": 5.43,
+     "fin": 5.95
+    },
+    {
+     "texto": "un",
+     "tramo": 1,
+     "inicio": 6.35,
+     "fin": 6.528
+    },
+    {
+     "texto": "«Bienvenidos",
+     "tramo": 1,
+     "inicio": 6.528,
+     "fin": 7.24
+    },
+    {
+     "texto": "a",
+     "tramo": 1,
+     "inicio": 7.24,
+     "fin": 7.418
+    },
+    {
+     "texto": "nuestra",
+     "tramo": 1,
+     "inicio": 7.418,
+     "fin": 7.774
+    },
+    {
+     "texto": "página",
+     "tramo": 1,
+     "inicio": 7.774,
+     "fin": 8.13
+    },
+    {
+     "texto": "web»…",
+     "tramo": 1,
+     "inicio": 8.13,
+     "fin": 8.308
+    },
+    {
+     "texto": "y",
+     "tramo": 1,
+     "inicio": 8.308,
+     "fin": 8.486
+    },
+    {
+     "texto": "ni",
+     "tramo": 1,
+     "inicio": 8.486,
+     "fin": 8.664
+    },
+    {
+     "texto": "rastro",
+     "tramo": 1,
+     "inicio": 8.664,
+     "fin": 9.02
+    },
+    {
+     "texto": "del",
+     "tramo": 1,
+     "inicio": 9.02,
+     "fin": 9.198
+    },
+    {
+     "texto": "teléfono.",
+     "tramo": 1,
+     "inicio": 9.198,
+     "fin": 9.91
+    }
+   ],
+   "fin": 10.32
+  },
+  {
+   "tipo": "vieja_pie",
+   "voz": "Para encargar algo, te manda a buscar la página de contacto.",
+   "rotulos": [
+    {
+     "en": "buscar",
+     "texto": "BÚSCALO TÚ",
+     "color": "rojo"
+    }
+   ],
+   "inicio": 10.32,
+   "finVoz": 13.15,
+   "palabras": [
+    {
+     "texto": "Para",
+     "tramo": 2,
+     "inicio": 10.41,
+     "fin": 10.596
+    },
+    {
+     "texto": "encargar",
+     "tramo": 2,
+     "inicio": 10.596,
+     "fin": 10.874
+    },
+    {
+     "texto": "algo,",
+     "tramo": 2,
+     "inicio": 10.874,
+     "fin": 11.06
+    },
+    {
+     "texto": "te",
+     "tramo": 2,
+     "inicio": 11.39,
+     "fin": 11.525
+    },
+    {
+     "texto": "manda",
+     "tramo": 2,
+     "inicio": 11.525,
+     "fin": 11.796
+    },
+    {
+     "texto": "a",
+     "tramo": 2,
+     "inicio": 11.796,
+     "fin": 11.932
+    },
+    {
+     "texto": "buscar",
+     "tramo": 2,
+     "inicio": 11.932,
+     "fin": 12.202
+    },
+    {
+     "texto": "la",
+     "tramo": 2,
+     "inicio": 12.202,
+     "fin": 12.338
+    },
+    {
+     "texto": "página",
+     "tramo": 2,
+     "inicio": 12.338,
+     "fin": 12.608
+    },
+    {
+     "texto": "de",
+     "tramo": 2,
+     "inicio": 12.608,
+     "fin": 12.744
+    },
+    {
+     "texto": "contacto.",
+     "tramo": 2,
+     "inicio": 12.744,
+     "fin": 13.15
+    }
+   ],
+   "fin": 13.56
+  },
+  {
+   "tipo": "nueva",
+   "voz": "La dos: qué hacen y dónde, arriba del todo. Y un botón para encargar por WhatsApp de un toque.",
+   "rotulos": [
+    {
+     "en": "arriba",
+     "texto": "QUÉ Y DÓNDE"
+    },
+    {
+     "en": "toque",
+     "texto": "UN TOQUE",
+     "color": "verde"
+    }
+   ],
+   "toque": "toque",
+   "inicio": 13.56,
+   "finVoz": 18.98,
+   "palabras": [
+    {
+     "texto": "La",
+     "tramo": 3,
+     "inicio": 13.65,
+     "fin": 13.805
+    },
+    {
+     "texto": "dos:",
+     "tramo": 3,
+     "inicio": 13.805,
+     "fin": 13.96
+    },
+    {
+     "texto": "qué",
+     "tramo": 3,
+     "inicio": 14.35,
+     "fin": 14.422
+    },
+    {
+     "texto": "hacen",
+     "tramo": 3,
+     "inicio": 14.422,
+     "fin": 14.565
+    },
+    {
+     "texto": "y",
+     "tramo": 3,
+     "inicio": 14.565,
+     "fin": 14.637
+    },
+    {
+     "texto": "dónde,",
+     "tramo": 3,
+     "inicio": 14.637,
+     "fin": 14.78
+    },
+    {
+     "texto": "arriba",
+     "tramo": 3,
+     "inicio": 15.07,
+     "fin": 15.24
+    },
+    {
+     "texto": "del",
+     "tramo": 3,
+     "inicio": 15.24,
+     "fin": 15.297
+    },
+    {
+     "texto": "todo.",
+     "tramo": 3,
+     "inicio": 15.297,
+     "fin": 15.41
+    },
+    {
+     "texto": "Y",
+     "tramo": 3,
+     "inicio": 15.75,
+     "fin": 15.952
+    },
+    {
+     "texto": "un",
+     "tramo": 3,
+     "inicio": 15.952,
+     "fin": 16.154
+    },
+    {
+     "texto": "botón",
+     "tramo": 3,
+     "inicio": 16.154,
+     "fin": 16.558
+    },
+    {
+     "texto": "para",
+     "tramo": 3,
+     "inicio": 16.558,
+     "fin": 16.961
+    },
+    {
+     "texto": "encargar",
+     "tramo": 3,
+     "inicio": 16.961,
+     "fin": 17.567
+    },
+    {
+     "texto": "por",
+     "tramo": 3,
+     "inicio": 17.567,
+     "fin": 17.769
+    },
+    {
+     "texto": "WhatsApp",
+     "tramo": 3,
+     "inicio": 17.769,
+     "fin": 18.172
+    },
+    {
+     "texto": "de",
+     "tramo": 3,
+     "inicio": 18.172,
+     "fin": 18.374
+    },
+    {
+     "texto": "un",
+     "tramo": 3,
+     "inicio": 18.374,
+     "fin": 18.576
+    },
+    {
+     "texto": "toque.",
+     "tramo": 3,
+     "inicio": 18.576,
+     "fin": 18.98
+    }
+   ],
+   "fin": 19.39
+  },
+  {
+   "tipo": "nueva_scroll",
+   "voz": "Horario, encargos y fotos de verdad. Todo se lee en el móvil sin hacer zoom.",
+   "rotulos": [
+    {
+     "en": "Horario",
+     "texto": "HORARIO"
+    },
+    {
+     "en": "fotos",
+     "texto": "FOTOS REALES"
+    },
+    {
+     "en": "zoom",
+     "texto": "SIN ZOOM",
+     "color": "verde"
+    }
+   ],
+   "inicio": 19.39,
+   "finVoz": 24.55,
+   "palabras": [
+    {
+     "texto": "Horario,",
+     "tramo": 4,
+     "inicio": 19.48,
+     "fin": 19.8
+    },
+    {
+     "texto": "encargos",
+     "tramo": 4,
+     "inicio": 20.15,
+     "fin": 20.607
+    },
+    {
+     "texto": "y",
+     "tramo": 4,
+     "inicio": 20.607,
+     "fin": 20.759
+    },
+    {
+     "texto": "fotos",
+     "tramo": 4,
+     "inicio": 20.759,
+     "fin": 21.063
+    },
+    {
+     "texto": "de",
+     "tramo": 4,
+     "inicio": 21.063,
+     "fin": 21.216
+    },
+    {
+     "texto": "verdad.",
+     "tramo": 4,
+     "inicio": 21.216,
+     "fin": 21.52
+    },
+    {
+     "texto": "Todo",
+     "tramo": 4,
+     "inicio": 21.87,
+     "fin": 22.317
+    },
+    {
+     "texto": "se",
+     "tramo": 4,
+     "inicio": 22.317,
+     "fin": 22.54
+    },
+    {
+     "texto": "lee",
+     "tramo": 4,
+     "inicio": 22.54,
+     "fin": 22.763
+    },
+    {
+     "texto": "en",
+     "tramo": 4,
+     "inicio": 22.763,
+     "fin": 22.987
+    },
+    {
+     "texto": "el",
+     "tramo": 4,
+     "inicio": 22.987,
+     "fin": 23.21
+    },
+    {
+     "texto": "móvil",
+     "tramo": 4,
+     "inicio": 23.21,
+     "fin": 23.657
+    },
+    {
+     "texto": "sin",
+     "tramo": 4,
+     "inicio": 23.657,
+     "fin": 23.88
+    },
+    {
+     "texto": "hacer",
+     "tramo": 4,
+     "inicio": 23.88,
+     "fin": 24.327
+    },
+    {
+     "texto": "zoom.",
+     "tramo": 4,
+     "inicio": 24.327,
+     "fin": 24.55
+    }
+   ],
+   "fin": 24.96
+  },
+  {
+   "tipo": "compara",
+   "voz": "Mismo pan. Pero a una le escribes… y a la otra no.",
+   "inicio": 24.96,
+   "finVoz": 28.26,
+   "palabras": [
+    {
+     "texto": "Mismo",
+     "tramo": 5,
+     "inicio": 25.05,
+     "fin": 25.337
+    },
+    {
+     "texto": "pan.",
+     "tramo": 5,
+     "inicio": 25.337,
+     "fin": 25.48
+    },
+    {
+     "texto": "Pero",
+     "tramo": 5,
+     "inicio": 26.05,
+     "fin": 26.345
+    },
+    {
+     "texto": "a",
+     "tramo": 5,
+     "inicio": 26.345,
+     "fin": 26.492
+    },
+    {
+     "texto": "una",
+     "tramo": 5,
+     "inicio": 26.492,
+     "fin": 26.787
+    },
+    {
+     "texto": "le",
+     "tramo": 5,
+     "inicio": 26.787,
+     "fin": 26.934
+    },
+    {
+     "texto": "escribes…",
+     "tramo": 5,
+     "inicio": 26.934,
+     "fin": 27.376
+    },
+    {
+     "texto": "y",
+     "tramo": 5,
+     "inicio": 27.376,
+     "fin": 27.523
+    },
+    {
+     "texto": "a",
+     "tramo": 5,
+     "inicio": 27.523,
+     "fin": 27.671
+    },
+    {
+     "texto": "la",
+     "tramo": 5,
+     "inicio": 27.671,
+     "fin": 27.818
+    },
+    {
+     "texto": "otra",
+     "tramo": 5,
+     "inicio": 27.818,
+     "fin": 28.113
+    },
+    {
+     "texto": "no.",
+     "tramo": 5,
+     "inicio": 28.113,
+     "fin": 28.26
+    }
+   ],
+   "fin": 28.67
+  },
+  {
+   "tipo": "cta",
+   "voz": "¿Tu web se parece a la uno? Escríbeme por WhatsApp y te hago una demo gratis en 48 horas, estés donde estés.",
+   "frase": "¿Tu web se parece a la *1*?",
+   "inicio": 28.67,
+   "finVoz": 34.25,
+   "palabras": [
+    {
+     "texto": "¿Tu",
+     "tramo": 6,
+     "inicio": 28.76,
+     "fin": 28.852
+    },
+    {
+     "texto": "web",
+     "tramo": 6,
+     "inicio": 28.852,
+     "fin": 28.944
+    },
+    {
+     "texto": "se",
+     "tramo": 6,
+     "inicio": 28.944,
+     "fin": 29.036
+    },
+    {
+     "texto": "parece",
+     "tramo": 6,
+     "inicio": 29.036,
+     "fin": 29.312
+    },
+    {
+     "texto": "a",
+     "tramo": 6,
+     "inicio": 29.312,
+     "fin": 29.404
+    },
+    {
+     "texto": "la",
+     "tramo": 6,
+     "inicio": 29.404,
+     "fin": 29.496
+    },
+    {
+     "texto": "uno?",
+     "tramo": 6,
+     "inicio": 29.496,
+     "fin": 29.68
+    },
+    {
+     "texto": "Escríbeme",
+     "tramo": 6,
+     "inicio": 30.13,
+     "fin": 30.7
+    },
+    {
+     "texto": "por",
+     "tramo": 6,
+     "inicio": 30.7,
+     "fin": 30.842
+    },
+    {
+     "texto": "WhatsApp",
+     "tramo": 6,
+     "inicio": 30.842,
+     "fin": 31.127
+    },
+    {
+     "texto": "y",
+     "tramo": 6,
+     "inicio": 31.127,
+     "fin": 31.269
+    },
+    {
+     "texto": "te",
+     "tramo": 6,
+     "inicio": 31.269,
+     "fin": 31.411
+    },
+    {
+     "texto": "hago",
+     "tramo": 6,
+     "inicio": 31.411,
+     "fin": 31.696
+    },
+    {
+     "texto": "una",
+     "tramo": 6,
+     "inicio": 31.696,
+     "fin": 31.981
+    },
+    {
+     "texto": "demo",
+     "tramo": 6,
+     "inicio": 31.981,
+     "fin": 32.266
+    },
+    {
+     "texto": "gratis",
+     "tramo": 6,
+     "inicio": 32.266,
+     "fin": 32.55
+    },
+    {
+     "texto": "en",
+     "tramo": 6,
+     "inicio": 32.55,
+     "fin": 32.693
+    },
+    {
+     "texto": "48",
+     "tramo": 6,
+     "inicio": 32.693,
+     "fin": 32.835
+    },
+    {
+     "texto": "horas,",
+     "tramo": 6,
+     "inicio": 32.835,
+     "fin": 33.12
+    },
+    {
+     "texto": "estés",
+     "tramo": 6,
+     "inicio": 33.34,
+     "fin": 33.643
+    },
+    {
+     "texto": "donde",
+     "tramo": 6,
+     "inicio": 33.643,
+     "fin": 33.947
+    },
+    {
+     "texto": "estés.",
+     "tramo": 6,
+     "inicio": 33.947,
+     "fin": 34.25
+    }
+   ],
+   "fin": 34.74
+  }
+ ],
+ "carpeta": "antes_despues_es",
+ "duracion": 37.54,
+ "audio": "antes_despues_es/voz.wav"
+}

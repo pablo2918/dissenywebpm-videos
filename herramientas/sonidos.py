@@ -3,7 +3,11 @@
 tictac(dur)  reloj de cuenta atras con un latido grave de tension que crece
 acierto()    «ding-ding» que sube: es VERDAD
 fallo()      «moc-moc» grave que baja: es MITO
+whoosh()     barrido de aire para los cambios de plano
+pop()        «pop» corto cuando aparece un rotulo
+clic()       clic de dedo en un boton
 mezcla(dur, [(t, sonido), ...]) -> wav mono 48 kHz en un fichero
+guarda(sonido, ruta) -> wav suelto (para Remotion)
 """
 import wave
 
@@ -86,6 +90,52 @@ def fallo():
         i = int(t0 * SR)
         out[i:i + len(z)] += 0.35 * z
     return out
+
+
+def whoosh(dur=0.45):
+    """Ruido filtrado que sube y baja de tono: el «fsss» de una transicion."""
+    t = _t(dur)
+    rng = np.random.default_rng(7)
+    r = rng.standard_normal(len(t))
+    # filtro paso banda movil hecho a mano: mezcla de ruido suavizado a dos escalas
+    corte = 0.02 + 0.25 * np.sin(np.pi * t / dur) ** 2
+    y = np.zeros_like(r)
+    acc = 0.0
+    for i in range(len(r)):
+        acc += corte[i] * (r[i] - acc)
+        y[i] = acc
+    y -= np.convolve(y, np.ones(40) / 40, mode="same")
+    env = np.sin(np.pi * np.clip(t / dur, 0, 1)) ** 1.5
+    return y / (np.abs(y).max() or 1) * env * 0.8
+
+
+def pop():
+    """Burbuja: tono que sube muy rapido y se apaga."""
+    dur = 0.12
+    t = _t(dur)
+    f = 300 + 900 * (1 - np.exp(-t / 0.012))
+    s = np.sin(2 * np.pi * np.cumsum(f) / SR)
+    return s * _env(dur, 0.002, 0.03) * 0.8
+
+
+def clic():
+    """Clic seco de boton."""
+    dur = 0.05
+    t = _t(dur)
+    rng = np.random.default_rng(3)
+    s = rng.standard_normal(len(t)) * np.exp(-t / 0.0025) + 0.6 * np.sin(2 * np.pi * 3200 * t) * np.exp(-t / 0.006)
+    return s * 0.7
+
+
+def guarda(s, ruta):
+    """Un efecto suelto a wav (pico a -3 dB)."""
+    s = s / (np.abs(s).max() or 1) * 0.7
+    with wave.open(str(ruta), "wb") as w:
+        w.setnchannels(1)
+        w.setsampwidth(2)
+        w.setframerate(SR)
+        w.writeframes((s * 32767).astype(np.int16).tobytes())
+    return ruta
 
 
 def mezcla(dur, sonidos, ruta):

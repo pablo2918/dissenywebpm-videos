@@ -38,7 +38,33 @@ Pablo quiere vídeos con más gancho, más naturales y de tipos distintos.
        deja bajar subtítulos y storyboard).
 2. [~] Motor nuevo con Remotion en `remotion/` (proyecto creado, renderiza
        en la nube con el Chromium de /opt/pw-browsers, ver remotion.config.ts).
-3. [ ] 3 vídeos piloto en estilos distintos para comparar con los actuales.
+3. [~] 3 vídeos piloto (solo castellano, voz Azure provisional):
+       - [x] Piloto 1 «antes/después» (`remotion/guiones/antes_despues.json`,
+             composición `AntesDespues`) → `salida/remotion/antes_despues/es/`.
+       - [ ] Piloto 2 «pregunta de cliente» (Google Maps).
+       - [ ] Piloto 3 «mito o verdad 2.0» con «¿Cuánto sabes de SEO?».
+
+### Cómo funciona el motor nuevo (Remotion)
+- Guion: `remotion/guiones/<id>.json` (escenas con `tipo`, `voz`, `rotulos`
+  que saltan cuando se dice una palabra `en`).
+- `python3 herramientas/remo.py remotion/guiones/<id>.json` → voz → datos.json
+  en `remotion/public/<id>_<idioma>/` → render → `salida/remotion/<id>/<idioma>/`
+  (video.mp4 + guion_voz.txt). Con `--audio voz.wav` usa la voz de Pablo
+  (la transcribe con faster-whisper). Con `--solo-datos` no renderiza
+  (para mirar en `cd remotion && npx remotion studio`).
+- Piezas comunes en `remotion/src/comun/`: Subtitulos (1–3 palabras,
+  karaoke), Rotulo(s) (palabra clave arriba con «pop»), Movil (captura real
+  de una web con scroll y capa para marcar cosas), Camara (zoom entre
+  puntos), Fondo, Final (cierre con WhatsApp), Texto (*resaltado*).
+- Efectos de sonido propios en `remotion/public/sfx/` (los genera
+  `herramientas/sonidos.py`: whoosh, pop, clic, acierto, fallo, tictac).
+- Capturas de webs: `cd remotion && node scripts/captura_web.mjs <html|url>
+  <salida.png> 390 "selector1,selector2"` (también guarda la caja de cada
+  selector para marcarla en el vídeo). Webs de ejemplo en `webs_ejemplo/`.
+- Revisar SIEMPRE fotogramas antes de entregar (hoja en
+  `.tmp/revision/remotion/`). Lecciones: el fotograma 0 ya debe enseñar el
+  gancho (sin fundido de entrada); los subtítulos cortan antes de una
+  palabra que no cabe (máx. 15 letras por línea).
 Ideas a aplicar: gancho en el segundo 0 (frase en pantalla + voz), cambio
 visual cada 1,5–3 s, efectos de sonido (whoosh, pop, clic), imagen real
 (grabar dissenywebpm.com en un móvil con Playwright) en vez de archivo
@@ -47,6 +73,8 @@ genérico, mito con «¿Cuánto sabes de SEO?» y marcador de aciertos, formatos
 barrido, «POV: eres un cliente…». Ciudades de toda España.
 
 ## Diario (lo último arriba)
+- **14-10-2026** · Piloto 1 (antes/después, panadería inventada de
+  Valladolid) hecho y revisado. Render: ~3 min por vídeo de 37 s en la nube.
 - **14-10-2026** · Estudio hecho (`estudio/ESTUDIO.md`). Proyecto Remotion
   creado en `remotion/` (render probado). Siguiente: 3 pilotos.
 - **14-10-2026** · Creado este archivo. Pablo instaló Remotion, watch-video y

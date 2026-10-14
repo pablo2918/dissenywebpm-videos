@@ -1,0 +1,48 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+@font-face{font-family:M;src:url(../../../fuentes/Montserrat-ExtraBold.otf);font-weight:800}
+@font-face{font-family:M;src:url(../../../fuentes/Montserrat-Medium.otf);font-weight:500}
+@font-face{font-family:M;src:url(../../../fuentes/Montserrat-Black.otf);font-weight:900}
+*{box-sizing:border-box}body{margin:0;font-family:M,sans-serif;background:#fbf6ee;color:#2b1d12}
+nav{display:flex;justify-content:space-between;align-items:center;padding:16px 20px;background:#fbf6ee;position:sticky;top:0}
+.logo{font-weight:900;font-size:20px;letter-spacing:-.5px}.logo span{color:#c9701c}
+.tel{background:#2b1d12;color:#fff;border-radius:99px;padding:8px 14px;font-weight:800;font-size:13px}
+.hero{margin:0 14px;border-radius:26px;overflow:hidden;position:relative;height:440px;background:url(portada.jpg) center/cover}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 30%,rgba(25,14,5,.85))}
+.hero div{position:absolute;bottom:22px;left:20px;right:20px;z-index:1;color:#fff}
+.tag{display:inline-block;background:#f6c453;color:#2b1d12;font-weight:800;font-size:12px;padding:5px 11px;border-radius:99px;margin-bottom:10px}
+h1{font-size:34px;line-height:1.05;margin:0 0 8px;font-weight:900;letter-spacing:-1px}
+.hero p{margin:0;font-weight:500;font-size:15px;opacity:.9}
+.wa{display:flex;justify-content:center;align-items:center;gap:10px;margin:18px 14px;background:#25d366;color:#fff;font-weight:900;font-size:18px;padding:18px;border-radius:18px;box-shadow:0 8px 20px rgba(37,211,102,.35)}
+.wa i{width:26px;height:26px;border-radius:50%;background:#fff;display:inline-block;position:relative}
+.wa i:after{content:"";position:absolute;inset:6px;border-radius:50%;background:#25d366}
+.info{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 14px}
+.info div{background:#fff;border-radius:18px;padding:14px;font-size:13px;font-weight:500}
+.info b{display:block;font-weight:900;font-size:15px;margin-bottom:4px}
+h2{font-weight:900;font-size:24px;margin:28px 20px 12px;letter-spacing:-.5px}
+.prods{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 14px}
+.prods div{border-radius:18px;overflow:hidden;background:#fff}
+.prods img{width:100%;height:130px;object-fit:cover;display:block}
+.prods p{margin:10px 12px 12px;font-weight:800;font-size:14px}
+.prods small{display:block;font-weight:500;color:#8a7461;font-size:12px;margin-top:2px}
+.foto{margin:0 14px;border-radius:22px;height:220px;background:url(masa.jpg) center/cover}
+.txt{margin:12px 20px;font-size:15px;line-height:1.5;font-weight:500}
+.mapa{margin:0 14px 30px;border-radius:22px;height:170px;background:#e9e1d3;position:relative;overflow:hidden}
+.mapa:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(35deg,transparent 0 38px,#fff 38px 46px),repeating-linear-gradient(-55deg,transparent 0 60px,#fff 60px 66px)}
+.pin{position:absolute;left:50%;top:42%;width:34px;height:34px;background:#d63031;border-radius:50% 50% 50% 0;transform:translate(-50%,-50%) rotate(-45deg);box-shadow:0 4px 10px rgba(0,0,0,.3)}
+footer{background:#2b1d12;color:#e8d9c5;padding:24px 20px 40px;font-size:13px;font-weight:500}
+</style></head><body>
+<nav><div class="logo">Horno <span>La Espiga</span></div><div class="tel">Llamar</div></nav>
+<section class="hero"><div><span class="tag">Valladolid · Centro</span><h1>Pan de masa madre, recién hecho cada mañana</h1><p>Obrador artesano · Abierto hoy de 7:30 a 14:30</p></div></section>
+<a class="wa"><i></i>Encarga por WhatsApp</a>
+<div class="info"><div><b>Horario</b>L–S 7:30–14:30<br>Domingo 8:00–13:00</div><div><b>Encargos</b>Tartas y roscones con 24 h de antelación</div></div>
+<h2>Lo que más se lleva</h2>
+<div class="prods"><div><img src="pan.jpg"><p>Pan brioche<small>Hecho cada día</small></p></div><div><img src="vitrina.jpg"><p>Bollería<small>Mantequilla de verdad</small></p></div></div>
+<h2>Cómo trabajamos</h2>
+<div class="foto"></div>
+<p class="txt">Masa madre, harina de la zona y horas de reposo. Sin prisas: por eso sabe a pan.</p>
+<h2>Dónde estamos</h2>
+<div class="mapa"><div class="pin"></div></div>
+<a class="wa"><i></i>Encarga por WhatsApp</a>
+<footer><b style="font-size:16px">Horno La Espiga</b><br>Ejemplo de web · negocio ficticio<br>Aviso legal · Privacidad</footer>
+</body></html>

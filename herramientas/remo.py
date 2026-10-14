@@ -1,0 +1,131 @@
+#!/usr/bin/env python3
+"""Vídeos con el motor nuevo (Remotion). Un guion -> vídeo terminado.
+
+    python3 herramientas/remo.py <guion> [--audio voz_de_pablo.wav] [--solo-datos]
+
+<guion> es `remotion/guiones/<nombre>.json`:
+    {"id": "antes_despues", "idioma": "es", "composicion": "AntesDespues",
+     "escenas": [{"voz": "Frase que se dice", ...lo que dibuja esa escena}, ...],
+     ...}
+
+Pasos:
+1. Voz: sin --audio, la voz Azure provisional (voz.py). Con --audio (la voz
+   clonada de Pablo hecha con VoiceStudio), se transcribe con faster-whisper
+   para sacar el tiempo de cada palabra y se reparte por escenas.
+2. Deja en remotion/public/<id>_<idioma>/ el audio y datos.json (escenas con
+   inicio/fin, palabras con tiempos) para que Remotion lo anime.
+3. Renderiza con Remotion, iguala volumen a -16 LUFS y deja en
+   salida/remotion/<id>/<idioma>/: video.mp4, guion_voz.txt (el texto para
+   pasar a VoiceStudio) y hoja de revisión en .tmp/revision/remotion/.
+"""
+import argparse
+import json
+import shutil
+import subprocess
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import anima as A  # noqa: E402
+
+RAIZ = Path(__file__).resolve().parent.parent
+REMO = RAIZ / "remotion"
+
+
+def voz_propia(audio, escenas, idi, tmp):
+    """Transcribe la voz de Pablo y asigna cada palabra a su escena contando
+    palabras del guion (la IA de voz lee el texto tal cual)."""
+    from faster_whisper import WhisperModel
+    m = WhisperModel("small", device="cpu", compute_type="int8")
+    segs, _ = m.transcribe(str(audio), language=idi, word_timestamps=True)
+    oidas = [w for s in segs for w in s.words]
+    pal, k = [], 0
+    for i, e in enumerate(escenas):
+        for txt in e["voz"].split():
+            if k >= len(oidas):
+                break
+            w = oidas[k]
+            pal.append({"texto": txt, "tramo": i, "inicio": round(w.start, 3), "fin": round(w.end, 3)})
+            k += 1
+    wav = tmp / "voz.wav"
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(audio), "-ac", "1", "-ar", "48000", str(wav)], check=True)
+    dur = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                                         "-of", "csv=p=0", str(wav)]).decode())
+    tramos = []
+    for i in range(len(escenas)):
+        ps = [p for p in pal if p["tramo"] == i]
+        tramos.append({"inicio": ps[0]["inicio"] if ps else 0, "fin": ps[-1]["fin"] if ps else 0})
+    return {"wav": str(wav), "palabras": pal, "tramos": tramos, "duracion": dur}
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("guion")
+    ap.add_argument("--audio", help="voz de Pablo (wav/mp3) para este guion")
+    ap.add_argument("--solo-datos", action="store_true", help="no renderiza (para previsualizar en Studio)")
+    a = ap.parse_args()
+
+    g = json.loads(Path(a.guion).read_text(encoding="utf-8"))
+    idi = g.get("idioma", "es")
+    nombre = f"{g['id']}_{idi}"
+    tmp = RAIZ / ".tmp" / "remotion" / nombre
+    tmp.mkdir(parents=True, exist_ok=True)
+    salida = RAIZ / "salida" / "remotion" / g["id"] / idi
+    salida.mkdir(parents=True, exist_ok=True)
+    escenas = g["escenas"]
+    (salida / "guion_voz.txt").write_text(
+        "Texto para la voz (una escena por párrafo; léelo tal cual):\n\n"
+        + "\n\n".join(e["voz"] for e in escenas if e.get("voz")) + "\n", encoding="utf-8")
+
+    con_voz = [e for e in escenas if e.get("voz")]
+    if a.audio:
+        vz = voz_propia(Path(a.audio), con_voz, idi, tmp)
+    else:
+        vz = A.voz(nombre, idi, [e["voz"] for e in con_voz], tmp)
+        for i, tr in enumerate(vz["tramos"]):
+            ps = [p for p in vz["palabras"] if p["tramo"] == i]
+            tr["fin"] = ps[-1]["fin"] if ps else tr["inicio"]
+
+    pub = REMO / "public" / nombre
+    pub.mkdir(parents=True, exist_ok=True)
+    shutil.copy(vz["wav"], pub / "voz.wav")
+    # cada escena va desde que empieza su frase hasta que empieza la siguiente
+    k = 0
+    for e in escenas:
+        if e.get("voz"):
+            tr = vz["tramos"][k]
+            e["inicio"], e["finVoz"] = tr["inicio"], tr["fin"]
+            e["palabras"] = [p for p in vz["palabras"] if p["tramo"] == k]
+            k += 1
+    for i, e in enumerate(escenas):
+        e.setdefault("inicio", escenas[i - 1]["fin"] if i else 0)
+        sig = next((x for x in escenas[i + 1:] if "inicio" in x), None)
+        e["fin"] = sig["inicio"] if sig else vz["duracion"] + e.get("extra", 0.4)
+    datos = dict(g, carpeta=nombre, escenas=escenas, duracion=escenas[-1]["fin"] + g.get("cola", 2.8),
+                 audio=f"{nombre}/voz.wav")
+    (pub / "datos.json").write_text(json.dumps(datos, ensure_ascii=False, indent=1), encoding="utf-8")
+    print("datos:", pub / "datos.json", f"({datos['duracion']:.1f} s)")
+    if a.solo_datos:
+        return
+
+    crudo = tmp / "crudo.mp4"
+    subprocess.run(["npx", "remotion", "render", g["composicion"], str(crudo),
+                    f"--props={pub / 'datos.json'}", "--log=error"], check=True, cwd=REMO)
+    video = salida / "video.mp4"
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(crudo), "-c:v", "copy",
+                    "-af", "loudnorm=I=-16:TP=-1.5:LRA=11", "-ar", "48000", "-c:a", "aac", "-b:a", "192k",
+                    str(video)], check=True)
+    # hoja de revision: 12 fotogramas repartidos
+    rev = RAIZ / ".tmp" / "revision" / "remotion"
+    rev.mkdir(parents=True, exist_ok=True)
+    d = datos["duracion"]
+    n = 12
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(video), "-vf",
+                    f"fps={n / d:.4f},scale=270:-1,tile=6x2:padding=6:color=white", "-frames:v", "1",
+                    str(rev / f"{nombre}.jpg")], check=True)
+    print("vídeo:", video)
+    print("revisión:", rev / f"{nombre}.jpg")
+
+
+if __name__ == "__main__":
+    main()
