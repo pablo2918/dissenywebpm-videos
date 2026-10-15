@@ -32,29 +32,61 @@ RAIZ = Path(__file__).resolve().parent.parent
 REMO = RAIZ / "remotion"
 
 
+def _norma(w):
+    import unicodedata
+    w = unicodedata.normalize("NFD", w.lower())
+    return "".join(ch for ch in w if ch.isalnum())
+
+
 def voz_propia(audio, escenas, idi, tmp):
-    """Transcribe la voz de Pablo y asigna cada palabra a su escena contando
-    palabras del guion (la IA de voz lee el texto tal cual)."""
+    """Voz de Pablo (VoiceStudio): se transcribe con faster-whisper (tiempo de
+    cada palabra) y se alinea con el guion palabra a palabra. Si la IA dice
+    algo distinto («cuarenta y ocho» por «48»), esas palabras se reparten entre
+    las vecinas sin descuadrar el resto."""
+    import difflib
     from faster_whisper import WhisperModel
     m = WhisperModel("small", device="cpu", compute_type="int8")
-    segs, _ = m.transcribe(str(audio), language=idi, word_timestamps=True)
-    oidas = [w for s in segs for w in s.words]
-    pal, k = [], 0
-    for i, e in enumerate(escenas):
-        for txt in e["voz"].split():
-            if k >= len(oidas):
-                break
-            w = oidas[k]
-            pal.append({"texto": txt, "tramo": i, "inicio": round(w.start, 3), "fin": round(w.end, 3)})
-            k += 1
+    # se decodifica con ffmpeg (16 kHz mono) en vez de dejarselo a faster-whisper:
+    # asi no depende de la version de la libreria «av» y vale mp3, wav, m4a...
+    import numpy as np
+    crudo = subprocess.run(["ffmpeg", "-v", "error", "-i", str(audio), "-ac", "1", "-ar", "16000", "-f", "f32le", "-"],
+                           check=True, capture_output=True).stdout
+    segs, _ = m.transcribe(np.frombuffer(crudo, np.float32), language=idi, word_timestamps=True)
+    oidas = [w for s in segs for w in s.words if _norma(w.word)]
+    guion = [(i, t) for i, e in enumerate(escenas) for t in e["voz"].split() if _norma(t)]
+    sm = difflib.SequenceMatcher(None, [_norma(t) for _, t in guion], [_norma(w.word) for w in oidas], autojunk=False)
+    tiempos = [None] * len(guion)
+    for op, a0, a1, b0, b1 in sm.get_opcodes():
+        if op == "equal":
+            for k in range(a1 - a0):
+                w = oidas[b0 + k]
+                tiempos[a0 + k] = (w.start, w.end)
+        elif op == "replace" and b1 > b0:
+            # mismo trozo dicho de otra forma: se reparte su duracion
+            t0, t1 = oidas[b0].start, oidas[b1 - 1].end
+            n = a1 - a0
+            for k in range(n):
+                tiempos[a0 + k] = (t0 + (t1 - t0) * k / n, t0 + (t1 - t0) * (k + 1) / n)
+    # huecos (palabras del guion que no se oyeron): entre la anterior y la siguiente
+    for k in range(len(tiempos)):
+        if tiempos[k] is None:
+            prev = next((tiempos[j][1] for j in range(k - 1, -1, -1) if tiempos[j]), 0.0)
+            sig = next((tiempos[j][0] for j in range(k + 1, len(tiempos)) if tiempos[j]), prev + 0.3)
+            tiempos[k] = (prev, max(prev, sig))
+    pal = [{"texto": t, "tramo": i, "inicio": round(a, 3), "fin": round(b, 3)} for (i, t), (a, b) in zip(guion, tiempos)]
     wav = tmp / "voz.wav"
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(audio), "-ac", "1", "-ar", "48000", str(wav)], check=True)
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(audio), "-ac", "1", "-ar", "48000",
+                    "-sample_fmt", "s16", str(wav)], check=True)
     dur = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration",
                                          "-of", "csv=p=0", str(wav)]).decode())
     tramos = []
     for i in range(len(escenas)):
         ps = [p for p in pal if p["tramo"] == i]
         tramos.append({"inicio": ps[0]["inicio"] if ps else 0, "fin": ps[-1]["fin"] if ps else 0})
+    acierto = sum(b1 - b0 for op, a0, a1, b0, b1 in sm.get_opcodes() if op == "equal") / max(1, len(guion))
+    print(f"voz propia: {len(oidas)} palabras oídas, {acierto:.0%} coinciden con el guion")
+    if acierto < 0.6:
+        print("OJO: el audio no parece leer este guion (¿audio equivocado?). Revisar antes de seguir.")
     return {"wav": str(wav), "palabras": pal, "tramos": tramos, "duracion": dur}
 
 
@@ -145,7 +177,7 @@ def main():
         return
 
     crudo = tmp / "crudo.mp4"
-    subprocess.run(["npx", "remotion", "render", g["composicion"], str(crudo),
+    subprocess.run([shutil.which("npx") or "npx", "remotion", "render", g["composicion"], str(crudo),
                     f"--props={pub / 'datos.json'}", "--log=error"], check=True, cwd=REMO)
     video = salida / "video.mp4"
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(crudo), "-c:v", "copy",

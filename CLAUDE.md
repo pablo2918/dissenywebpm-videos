@@ -1,6 +1,7 @@
 # Disseny Web PM · carruseles y vídeos con voz (nube)
 
-**Estado y trabajo en curso: ver `TRASPASO.md` (actualizarlo siempre al avanzar).**
+**Estado, receta exacta de los vídeos y trabajo en curso: ver `TRASPASO.md` (actualizarlo siempre al avanzar).
+En un ordenador o chat nuevo, lo primero: `python herramientas/instalar.py` (lo instala todo y prueba).**
 
 Pablo Rubiales — Disseny Web PM (webs a código y SEO local, Girona).
 Teléfono 641 27 74 95 · dissenywebpm.com. Público: restaurantes, peluquerías,

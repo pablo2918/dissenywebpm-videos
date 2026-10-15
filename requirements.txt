@@ -1,0 +1,6 @@
+# Python del proyecto (lo instala herramientas/instalar.py)
+pillow
+numpy
+faster-whisper
+yt-dlp
+imagehash
